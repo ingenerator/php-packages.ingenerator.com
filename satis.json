@@ -1,0 +1,9 @@
+{
+  "name":      "inGenerator Forks and Extras",
+  "homepage" : "http://php-packages.ingenerator.com",
+  "repositories": [
+    {"type": "vcs", "url": "https://github.com/ingenerator/kohana-dependencies"},
+    {"type": "vcs", "url": "https://github.com/ingenerator/kohana-core"}
+  ],
+  "require-all" : true
+}
