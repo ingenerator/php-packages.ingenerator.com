@@ -4,7 +4,7 @@
   "repositories": [
     {"type": "vcs", "url": "https://github.com/ingenerator/kohana-core"},
     {"type": "vcs", "url":  "https://github.com/acoulton/coding-standards"},
-    {"type": "vcs", "url":  "https://github.com/acoulton/rpage"},
+    {"type": "vcs", "url":  "https://github.com/craig410/rpage"},
     {
       "type": "package",
       "package": {
