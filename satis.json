@@ -6,6 +6,7 @@
     {"type": "vcs", "url":  "https://github.com/acoulton/coding-standards"},
     {"type": "vcs", "url":  "https://github.com/craig410/rpage"},
     {"type": "vcs", "url":  "https://github.com/acoulton/kodoctrine"},
+    {"type": "vcs", "url":  "https://github.com/acoulton/doctrine1"},
     {
       "type": "package",
       "package": {
