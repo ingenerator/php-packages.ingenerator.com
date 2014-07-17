@@ -1,0 +1,14 @@
+{
+	"require":
+	{
+    },
+	"require-dev":
+	{
+        "composer/satis":              "*@dev",
+    },
+	"minimum-stability": "dev",
+	"config": {
+		"bin-dir": "bin",
+		"preferred-install": "dist"
+	}
+}
