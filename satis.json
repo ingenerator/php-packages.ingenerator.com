@@ -26,6 +26,22 @@
     {
       "type": "package",
       "package": {
+        "name":    "yapapaya/jquery-cloneya",
+        "version": "0.9.2",
+        "dist": {
+          "url":  "https://github.com/yapapaya/jquery-cloneya/archive/0.9.2.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/yapapaya/jquery-cloneya",
+          "type":      "git",
+          "reference": "0.9.2"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name":    "rubys/feedvalidator",
         "version": "1.0",
         "dist": {
