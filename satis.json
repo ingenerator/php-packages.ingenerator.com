@@ -12,6 +12,7 @@
     {"type": "vcs", "url":  "https://github.com/acoulton/pdfview"},
     {"type": "vcs", "url":  "https://github.com/acoulton/slowtask"},
     {"type": "vcs", "url":  "https://github.com/acoulton/doctrine_auth"},
+    {"type": "vcs", "url":  "https://github.com/acoulton/emailmerge"},
     {
       "type": "package",
       "package": {
