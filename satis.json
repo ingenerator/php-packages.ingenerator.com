@@ -8,6 +8,7 @@
     {"type": "vcs", "url":  "https://github.com/acoulton/kodoctrine"},
     {"type": "vcs", "url":  "https://github.com/acoulton/doctrine1"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/kohana-dependencies"},
+    {"type": "vcs", "url":  "https://github.com/shadowhand/uuid"},
     {
       "type": "package",
       "package": {
