@@ -55,7 +55,23 @@
         "source": {
           "url":       "https://github.com/yapapaya/jquery-cloneya",
           "type":      "git",
-          "reference": ""
+          "reference": "1.0.0"
+        }
+      }
+    }, 
+    {
+      "type": "package",
+      "package": {
+        "name":    "nervetattoo/jquery-autosave",
+        "version": "1.2.1",
+        "dist": {
+          "url":  "https://github.com/nervetattoo/jquery-autosave/archive/6ac81411d151b0addb62c03269da225d34c5e7ac.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/nervetattoo/jquery-autosave",
+          "type":      "git",
+          "reference": "6ac81411d151b0addb62c03269da225d34c5e7ac"
         }
       }
     },
