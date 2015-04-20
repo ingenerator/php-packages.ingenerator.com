@@ -94,6 +94,22 @@
     {
       "type": "package",
       "package": {
+        "name":    "blueimp/jquery-file-upload",
+        "version": "9.9.3",
+        "dist": {
+          "url":  "https://github.com/blueimp/jQuery-File-Upload/archive/9.9.3.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/blueimp/jQuery-File-Upload",
+          "type":      "git",
+          "reference": "37513c89da1c8abf41aa2ae496b1ea7f7ac0b907"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name":    "rubys/feedvalidator",
         "version": "1.0",
         "dist": {
