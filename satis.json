@@ -74,7 +74,23 @@
           "reference": "1.0.0"
         }
       }
-    }, 
+    },
+    {
+      "type": "package",
+      "package": {
+        "name":    "markgx/jquery-check-all",
+        "version": "0.4.0",
+        "dist": {
+          "url":  "https://github.com/markgx/jquery-check-all/archive/0.4.0.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/markgx/jquery-check-all",
+          "type":      "git",
+          "reference": "0.4.0"
+        }
+      }
+    },
     {
       "type": "package",
       "package": {
