@@ -225,7 +225,7 @@
         "name":    "hammerjs/jquery.hammer.js",
         "version": "2.0.0",
         "dist": {
-          "url":  "https://github.com/hammerjs/jquery.hammer.js/archive/v2.0.0.zip",
+          "url":  "https://github.com/hammerjs/jquery.hammer.js/archive/2.0.0.zip",
           "type": "zip"
         },
         "source": {
