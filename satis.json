@@ -202,6 +202,38 @@
           "reference": "2f1e18b44d8834b858eb76633efdff3aac579fc2"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name":    "hammerjs/hammer.js",
+        "version": "2.0.6",
+        "dist": {
+          "url":  "https://github.com/hammerjs/hammer.js/archive/v2.0.6.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/hammerjs/hammer.js",
+          "type":      "git",
+          "reference": "9663cafbb7a602594c189b121a23f78035601a0e"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name":    "hammerjs/jquery.hammer.js",
+        "version": "2.0.0",
+        "dist": {
+          "url":  "https://github.com/hammerjs/jquery.hammer.js/archive/v2.0.0.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/hammerjs/jquery.hammer.js",
+          "type":      "git",
+          "reference": "90c2f3bb41c75692d3f15548d59a7b7c22adb8a4"
+        }
+      }
     }
   ],
   "require-all" : true
