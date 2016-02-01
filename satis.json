@@ -250,6 +250,22 @@
           "reference": "14f272a58e3524623e330c736d3a9b88ab500cc2"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name":    "screenful.js",
+        "version": "3.0.0",
+        "dist": {
+          "url":  "https://github.com/sindresorhus/screenfull.js/archive/v3.0.0.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/sindresorhus/screenfull.js",
+          "type":      "git",
+          "reference": "e95bb01764de6f35f3f0084497bab3b0f1eac938"
+        }
+      }
     }
   ],
   "require-all" : true
