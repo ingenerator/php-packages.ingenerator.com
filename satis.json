@@ -234,6 +234,22 @@
           "reference": "90c2f3bb41c75692d3f15548d59a7b7c22adb8a4"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name":    "Dogfalo/materialize",
+        "version": "0.97.5",
+        "dist": {
+          "url":  "https://github.com/Dogfalo/materialize/releases/download/v0.97.5/materialize-v0.97.5.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/Dogfalo/materialize",
+          "type":      "git",
+          "reference": "14f272a58e3524623e330c736d3a9b88ab500cc2"
+        }
+      }
     }
   ],
   "require-all" : true
