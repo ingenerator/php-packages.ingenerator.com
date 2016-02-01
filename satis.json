@@ -254,7 +254,7 @@
     {
       "type": "package",
       "package": {
-        "name":    "screenful.js",
+        "name":    "sindresorhus/screenful.js",
         "version": "3.0.0",
         "dist": {
           "url":  "https://github.com/sindresorhus/screenfull.js/archive/v3.0.0.zip",
