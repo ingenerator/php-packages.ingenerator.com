@@ -266,6 +266,22 @@
           "reference": "e95bb01764de6f35f3f0084497bab3b0f1eac938"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name":    "foliotek/ajaxq.js",
+        "version": "0.0.7",
+        "dist": {
+          "url":  "https://github.com/Foliotek/AjaxQ/archive/v0.0.7.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/Foliotek/AjaxQ.git",
+          "type":      "git",
+          "reference": "a588770341ef3cb7e11959187c65d426978b3e19"
+        }
+      }
     }
   ],
   "require-all" : true
