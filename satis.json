@@ -282,6 +282,22 @@
           "reference": "a588770341ef3cb7e11959187c65d426978b3e19"
         }
       }
+    },
+    {
+      "type" : "package",
+      "package": {
+        "name":    "cubiq/add-to-homescreen.js",
+        "version": "3.2.2",
+        "dist": {
+          "url":  "https://github.com/cubiq/add-to-homescreen/archive/v3.2.2.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/cubiq/add-to-homescreen.git",
+          "type":      "git",
+          "reference": "6f562d2ebf8277aefd1e131c826a6d16f8ec2184"
+        }
+      }
     }
   ],
   "require-all" : true
