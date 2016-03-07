@@ -289,7 +289,7 @@
         "name":    "cubiq/add-to-homescreen.js",
         "version": "3.2.2",
         "dist": {
-          "url":  "https://github.com/cubiq/add-to-homescreen/archive/v3.2.2.zip",
+          "url":  "https://github.com/cubiq/add-to-homescreen/archive/3.2.2.zip",
           "type": "zip"
         },
         "source": {
