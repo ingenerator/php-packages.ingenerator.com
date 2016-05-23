@@ -298,6 +298,22 @@
           "reference": "6f562d2ebf8277aefd1e131c826a6d16f8ec2184"
         }
       }
+    },
+    {
+      "type" : "package",
+      "package": {
+        "name":    "nostalgiaz/bootstrap-switch",
+        "version": "3.3.2",
+        "dist": {
+          "url":  "https://github.com/nostalgiaz/bootstrap-switch/archive/v3.3.2.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/nostalgiaz/bootstrap-switch.git",
+          "type":      "git",
+          "reference": "ec69b5dd914dacb19cf1fa8e1be7eea6bcc7b083"
+        }
+      }
     }
   ],
   "require-all" : true
