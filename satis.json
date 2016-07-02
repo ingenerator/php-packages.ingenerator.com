@@ -314,6 +314,22 @@
           "reference": "ec69b5dd914dacb19cf1fa8e1be7eea6bcc7b083"
         }
       }
+    },
+    {
+      "type" : "package",
+      "package": {
+        "name":    "erusev/parsedown",
+        "version": "1.6.0",
+        "dist": {
+          "url":  "https://github.com/erusev/parsedown/archive/1.6.0.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/erusev/parsedown.git",
+          "type":      "git",
+          "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7"
+        }
+      }
     }
   ],
   "require-all" : true
