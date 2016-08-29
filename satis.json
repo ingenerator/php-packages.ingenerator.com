@@ -330,6 +330,22 @@
           "reference": "3ebbd730b5c2cf5ce78bc1bf64071407fc6674b7"
         }
       }
+    },
+    {
+      "type" : "package",
+      "package": {
+        "name":    "mohsen1/json-formatter-js",
+        "version": "1.1.0",
+        "dist": {
+          "url":  "https://github.com/mohsen1/json-formatter-js/archive/v1.1.0.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/mohsen1/json-formatter-js.git",
+          "type":      "git",
+          "reference": "bba6a71c2c35f2fef5f9f3664fddf27db3c0edde"
+        }
+      }
     }
   ],
   "require-all" : true
