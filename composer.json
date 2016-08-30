@@ -1,11 +1,18 @@
 {
 	"require":
 	{
+		"fitchlearning/satisfy": "dev-acoulton-master"
 	},
 	"require-dev":
 	{
         	"composer/satis":              "*@dev"
 	},
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/acoulton/satisfy"
+    }
+  ],
 	"minimum-stability" : "dev",
 	"config": {
 		"bin-dir": "bin",

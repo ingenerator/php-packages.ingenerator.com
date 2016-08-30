@@ -1,0 +1,48 @@
+{
+  "name":      "inGenerator Forks and Extras",
+  "homepage" : "http://php-packages.ingenerator.com",
+  "repositories": [
+    {"type": "vcs", "url":  "https://github.com/acoulton/coding-standards"},
+    {"type": "vcs", "url":  "https://github.com/craig410/rpage"},
+    {"type": "vcs", "url":  "https://github.com/acoulton/kodoctrine"},
+    {"type": "vcs", "url":  "https://github.com/acoulton/doctrine1"},
+    {"type": "vcs", "url":  "https://github.com/ingenerator/kohana-dependencies"},
+    {"type": "vcs", "url":  "https://github.com/acoulton/pdfview"},
+    {"type": "vcs", "url":  "https://github.com/acoulton/slowtask"},
+    {"type": "vcs", "url":  "https://github.com/acoulton/doctrine_auth"},
+    {"type": "vcs", "url":  "https://github.com/acoulton/emailmerge"},
+    {
+      "type": "package",
+      "package": {
+        "name":    "nervetattoo/jquery-autosave",
+        "version": "1.2.1",
+        "dist": {
+          "url":  "https://github.com/nervetattoo/jquery-autosave/archive/6ac81411d151b0addb62c03269da225d34c5e7ac.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/nervetattoo/jquery-autosave",
+          "type":      "git",
+          "reference": "6ac81411d151b0addb62c03269da225d34c5e7ac"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name":    "rubys/feedvalidator",
+        "version": "1.0",
+        "dist": {
+          "url":  "https://github.com/rubys/feedvalidator/archive/2f1e18b44d8834b858eb76633efdff3aac579fc2.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/rubys/feedvalidator",
+          "type":      "git",
+          "reference": "2f1e18b44d8834b858eb76633efdff3aac579fc2"
+        }
+      }
+    }
+  ],
+  "require-all" : true
+}

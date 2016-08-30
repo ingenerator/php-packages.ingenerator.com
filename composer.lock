@@ -4,9 +4,54 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "05f2fa9c4f9d57ffb30255faef0bedef",
-    "content-hash": "c30d1b351d9bb7525b9f4847676ff462",
-    "packages": [],
+    "hash": "1a55a2c7eaecb08f13a92ef5313791fb",
+    "content-hash": "7f860b235c842db3885934eaf3b4f0d1",
+    "packages": [
+        {
+            "name": "fitchlearning/satisfy",
+            "version": "dev-acoulton-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acoulton/satisfy.git",
+                "reference": "ed7c11c39a40fd5cc5cc85c14e68a89491efc93b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acoulton/satisfy/zipball/ed7c11c39a40fd5cc5cc85c14e68a89491efc93b",
+                "reference": "ed7c11c39a40fd5cc5cc85c14e68a89491efc93b",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/satisfy"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "FitchLearning\\Satisfy": "src/"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Richard George",
+                    "email": "Richard.George@fitchlearning.com"
+                }
+            ],
+            "description": "Satis repo builder for non-composer packages",
+            "homepage": "https://github.com/fitchlearning/satisfy",
+            "support": {
+                "source": "https://github.com/acoulton/satisfy/tree/acoulton-master"
+            },
+            "time": "2016-08-30 13:07:20"
+        }
+    ],
     "packages-dev": [
         {
             "name": "composer/ca-bundle",
@@ -910,6 +955,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "fitchlearning/satisfy": 20,
         "composer/satis": 20
     },
     "prefer-stable": false,
