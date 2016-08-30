@@ -127,22 +127,6 @@
       "type": "package",
       "package": {
         "name":    "yapapaya/jquery-cloneya",
-        "version": "1.0.0.1",
-        "dist": {
-          "url":  "https://github.com/yapapaya/jquery-cloneya/archive/84984ce399edab70f0985f7a10121472e3ed9495.zip",
-          "type": "zip"
-        },
-        "source": {
-          "url":       "https://github.com/yapapaya/jquery-cloneya",
-          "type":      "git",
-          "reference": "1.0.0.1"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name":    "yapapaya/jquery-cloneya",
         "version": "1.1.0",
         "dist": {
           "url":  "https://github.com/yapapaya/jquery-cloneya/archive/1.1.0.zip",
