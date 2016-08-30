@@ -142,6 +142,22 @@
     {
       "type": "package",
       "package": {
+        "name":    "yapapaya/jquery-cloneya",
+        "version": "1.1.0",
+        "dist": {
+          "url":  "https://github.com/yapapaya/jquery-cloneya/archive/1.1.0.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/yapapaya/jquery-cloneya",
+          "type":      "git",
+          "reference": "1.1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name":    "markgx/jquery-check-all",
         "version": "0.5.0",
         "dist": {
