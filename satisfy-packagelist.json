@@ -46,6 +46,10 @@
     "url": "https://github.com/nostalgiaz/bootstrap-switch",
     "minversion": "3.3.2"
   },
+  "rubaxa/sortable" : {
+    "url": "https://github.com/RubaXa/Sortable",
+    "minversion": "1.4.0"
+  },
   "sindresorhus/screenful.js": {
     "url": "https://github.com/sindresorhus/screenfull.js.git",
     "minversion": "3.0.0"
