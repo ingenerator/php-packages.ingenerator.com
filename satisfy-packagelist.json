@@ -34,6 +34,10 @@
     "url": "https://github.com/hammerjs/hammer.js.git",
     "minversion": "2.0.0"
   },
+  "makeusabrew/bootbox": {
+    "url": "https://github.com/makeusabrew/bootbox.git",
+    "minversion": "4.1.0",
+  },
   "markgx/jquery-check-all": {
     "url": "https://github.com/markgx/jquery-check-all.git",
     "minversion": "0.5.0"
