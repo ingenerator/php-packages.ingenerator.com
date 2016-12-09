@@ -36,7 +36,7 @@
   },
   "makeusabrew/bootbox": {
     "url": "https://github.com/makeusabrew/bootbox.git",
-    "minversion": "4.1.0",
+    "minversion": "4.1.0"
   },
   "markgx/jquery-check-all": {
     "url": "https://github.com/markgx/jquery-check-all.git",
