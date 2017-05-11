@@ -42,6 +42,22 @@
           "reference": "2f1e18b44d8834b858eb76633efdff3aac579fc2"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name":    "mailcheck/mailcheck",
+        "version": "1.1.2",
+        "dist": {
+          "url":  "https://github.com/mailcheck/mailcheck/archive/1.1.2.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url":       "https://github.com/mailcheck/mailcheck",
+          "type":      "git",
+          "reference": "95911d5e0c941577c05ba166a0ee7fc9a5040467"
+        }
+      }
     }
   ],
   "require-all" : true
