@@ -34,6 +34,10 @@
     "url": "https://github.com/hammerjs/hammer.js.git",
     "minversion": "2.0.0"
   },
+  "ingenerator/no-robloach-component-installer": {
+    "url": "https://github.com/ingenerator/no-robloach-component-installer",
+    "minversion": "1.0.0"
+  },
   "makeusabrew/bootbox": {
     "url": "https://github.com/makeusabrew/bootbox.git",
     "minversion": "4.1.0"
