@@ -11,6 +11,7 @@
     {"type": "vcs", "url":  "https://github.com/acoulton/slowtask"},
     {"type": "vcs", "url":  "https://github.com/acoulton/doctrine_auth"},
     {"type": "vcs", "url":  "https://github.com/acoulton/emailmerge"},
+    {"type": "vcs", "url":  "https://github.com/ingenerator/no-robloach-component-installer"},
     {
       "type": "package",
       "package": {
