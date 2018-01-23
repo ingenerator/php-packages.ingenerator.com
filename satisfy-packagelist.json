@@ -10,6 +10,10 @@
     "url": "https://github.com/blueimp/jQuery-File-Upload.git",
     "minversion": "9.9.3"
   },
+  "blueimp/gallery": {
+    "url": "https://github.com/blueimp/Gallery",
+    "minversion": "2.30.0"
+  },
   "cubiq/add-to-homescreen.js": {
     "url": "https://github.com/cubiq/add-to-homescreen.git",
     "minversion": "3.2.2"
