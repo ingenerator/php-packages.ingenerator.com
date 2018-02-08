@@ -38,6 +38,9 @@
     "url": "https://github.com/hammerjs/hammer.js.git",
     "minversion": "2.0.0"
   },
+  "ingenerator/phinx-wrapper": {
+    "url": "https://github.com/ingenerator/phinx-wrapper.git"
+  },
   "makeusabrew/bootbox": {
     "url": "https://github.com/makeusabrew/bootbox.git",
     "minversion": "4.1.0"
