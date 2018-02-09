@@ -13,6 +13,7 @@
     {"type": "vcs", "url":  "https://github.com/acoulton/emailmerge"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/phinx-wrapper.git"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/no-robloach-component-installer"},
+    {"type": "vcs", "url":  "https://github.com/ingenerator/php-utils"},
     {
       "type": "package",
       "package": {
