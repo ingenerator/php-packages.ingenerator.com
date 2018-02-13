@@ -18,6 +18,7 @@
     {"type": "vcs", "url":  "https://github.com/ingenerator/warden-validator-symfony"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/warden-persistence-doctrine"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/warden-ui-kohana"},
+    {"type": "vcs", "url":  "https://github.com/ingenerator/kohana-extras"},
     {
       "type": "package",
       "package": {
