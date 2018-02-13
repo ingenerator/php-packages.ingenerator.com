@@ -16,6 +16,7 @@
     {"type": "vcs", "url":  "https://github.com/ingenerator/php-utils"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/warden-core"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/warden-validator-symfony"},
+    {"type": "vcs", "url":  "https://github.com/ingenerator/warden-persistence-doctrine"},
     {
       "type": "package",
       "package": {
