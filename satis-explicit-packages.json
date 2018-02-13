@@ -15,6 +15,7 @@
     {"type": "vcs", "url":  "https://github.com/ingenerator/no-robloach-component-installer"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/php-utils"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/warden-core"},
+    {"type": "vcs", "url":  "https://github.com/ingenerator/warden-validator-symfony"},
     {
       "type": "package",
       "package": {
