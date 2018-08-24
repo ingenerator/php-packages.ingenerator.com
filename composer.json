@@ -13,9 +13,13 @@
       "url": "https://github.com/acoulton/satisfy"
     }
   ],
-	"minimum-stability" : "dev",
+	"minimum-stability" : "stable",
 	"config": {
 		"bin-dir": "bin",
-		"preferred-install": "dist"
+		"preferred-install": "dist",
+		"platform": {
+		  "php": "5.5.9",
+		  "ext-openssl": "0"
+		}
 	}
 }
