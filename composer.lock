@@ -623,7 +623,7 @@
         },
         {
             "name": "symfony/console",
-            "version": "v3.4.25",
+            "version": "v3.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
@@ -695,7 +695,7 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v3.4.25",
+            "version": "v3.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
@@ -751,7 +751,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.4.25",
+            "version": "v3.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -801,7 +801,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.25",
+            "version": "v3.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -967,7 +967,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v3.4.25",
+            "version": "v3.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
