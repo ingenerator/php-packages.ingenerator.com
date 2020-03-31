@@ -7,7 +7,7 @@ timeout: 420s
 steps:
   - id: 'fetch:composer-cache'
     name: gcr.io/cloud-builders/gsutil
-    args: ['-m', '-q', 'cp', '-r', 'gs://ingenerator-composer-cache/php-packages-ingenerator-com/cache', '/tmp', '||', 'true']
+    args: ['-m', '-q', 'cp', '-r', 'gs://ingenerator-composer-cache/php-packages-ingenerator-com/cache', '/tmp']
     volumes:
       - name: 'composer-cache'
         path: '/tmp'
