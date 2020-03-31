@@ -4,54 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ebde093179c4a4412eab7bbb0d86da2b",
+    "content-hash": "baa5ff676b62755ee220f8bd0fb99622",
     "packages": [
-        {
-            "name": "fitchlearning/satisfy",
-            "version": "dev-acoulton-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/acoulton/satisfy.git",
-                "reference": "ed7c11c39a40fd5cc5cc85c14e68a89491efc93b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/acoulton/satisfy/zipball/ed7c11c39a40fd5cc5cc85c14e68a89491efc93b",
-                "reference": "ed7c11c39a40fd5cc5cc85c14e68a89491efc93b",
-                "shasum": ""
-            },
-            "bin": [
-                "bin/satisfy"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "FitchLearning\\Satisfy": "src/"
-                }
-            },
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Richard George",
-                    "email": "Richard.George@fitchlearning.com"
-                }
-            ],
-            "description": "Satis repo builder for non-composer packages",
-            "homepage": "https://github.com/fitchlearning/satisfy",
-            "support": {
-                "source": "https://github.com/acoulton/satisfy/tree/acoulton-master"
-            },
-            "time": "2016-08-30T13:07:20+00:00"
-        }
-    ],
-    "packages-dev": [
         {
             "name": "composer/ca-bundle",
             "version": "1.2.6",
@@ -185,16 +139,6 @@
                 "autoload",
                 "dependency",
                 "package"
-            ],
-            "funding": [
-                {
-                    "url": "https://packagist.com",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
-                    "type": "tidelift"
-                }
             ],
             "time": "2020-03-13T19:34:27+00:00"
         },
@@ -422,13 +366,51 @@
                 "Xdebug",
                 "performance"
             ],
-            "funding": [
+            "time": "2020-03-01T12:26:26+00:00"
+        },
+        {
+            "name": "fitchlearning/satisfy",
+            "version": "dev-acoulton-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acoulton/satisfy.git",
+                "reference": "ed7c11c39a40fd5cc5cc85c14e68a89491efc93b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acoulton/satisfy/zipball/ed7c11c39a40fd5cc5cc85c14e68a89491efc93b",
+                "reference": "ed7c11c39a40fd5cc5cc85c14e68a89491efc93b",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/satisfy"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "FitchLearning\\Satisfy": "src/"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
                 {
-                    "url": "https://packagist.com",
-                    "type": "custom"
+                    "name": "Richard George",
+                    "email": "Richard.George@fitchlearning.com"
                 }
             ],
-            "time": "2020-03-01T12:26:26+00:00"
+            "description": "Satis repo builder for non-composer packages",
+            "homepage": "https://github.com/fitchlearning/satisfy",
+            "support": {
+                "source": "https://github.com/acoulton/satisfy/tree/acoulton-master"
+            },
+            "time": "2016-08-30T13:07:20+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -706,20 +688,6 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-03-27T17:07:22+00:00"
         },
         {
@@ -776,20 +744,6 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-03-23T10:22:40+00:00"
         },
         {
@@ -840,20 +794,6 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-03-16T08:31:04+00:00"
         },
         {
@@ -903,20 +843,6 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-02-14T07:34:21+00:00"
         },
         {
@@ -974,20 +900,6 @@
                 "ctype",
                 "polyfill",
                 "portable"
-            ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
             ],
             "time": "2020-02-27T09:26:54+00:00"
         },
@@ -1048,20 +960,6 @@
                 "portable",
                 "shim"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-03-09T19:04:49+00:00"
         },
         {
@@ -1111,20 +1009,6 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-03-20T06:07:50+00:00"
         },
         {
@@ -1192,11 +1076,12 @@
             "time": "2020-02-11T05:59:23+00:00"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "fitchlearning/satisfy": 20,
-        "composer/satis": 20
+        "composer/satis": 20,
+        "fitchlearning/satisfy": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
@@ -1205,6 +1090,5 @@
     "platform-overrides": {
         "php": "5.5.9",
         "ext-openssl": "0"
-    },
-    "plugin-api-version": "1.1.0"
+    }
 }

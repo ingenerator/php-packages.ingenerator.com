@@ -5,9 +5,6 @@ set -o errexit
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 OUTPUT_PATH="$1"
 
-echo "Install / update build dependencies"
-composer install
-
 echo "Compiling satis.json from dynamic package sources"
 "$DIR/bin/satisfy" \
   --repofile "$DIR/satis-explicit-packages.json" \
