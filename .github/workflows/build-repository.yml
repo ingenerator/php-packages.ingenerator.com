@@ -8,7 +8,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Cache composers
+        uses: actions/cache@v2
+        with:
+          path: |
+            _composer-cache
+          key: ${{ hashFiles('satis*.json') }}
+
       - name: Build satis repository
         uses: ingenerator/action-satis-builder@1.x
         with:
+          cacheDir:    '_composer-cache'
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to github pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir:  ./satis_output
+
