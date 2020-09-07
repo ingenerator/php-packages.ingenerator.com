@@ -21,6 +21,13 @@ jobs:
           cacheDir:    '_composer-cache'
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Store as build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: built-satis-repository
+          path: |
+            satis_output
+
       - name: Publish to github pages
         uses: peaceiris/actions-gh-pages@v3
         with:
