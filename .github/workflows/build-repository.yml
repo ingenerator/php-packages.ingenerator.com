@@ -42,6 +42,11 @@ jobs:
     timeout-minutes: 5
     runs-on: ubuntu-latest
     steps:
+      - name: Fetch artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: built-satis-repository
+
       - name: Publish to github pages
         uses: peaceiris/actions-gh-pages@v3
         with:
