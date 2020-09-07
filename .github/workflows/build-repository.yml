@@ -1,7 +1,7 @@
 on: [ push ]
 
 jobs:
-  build-and-publish-repository:
+  build-repository:
     runs-on: ubuntu-latest
     name: Build packages repository
     steps:
@@ -28,6 +28,12 @@ jobs:
           path: |
             satis_output
 
+  publish-to-github-pages:
+    needs:   build-repository
+    if:      github.ref == 'refs/heads/master'
+    name:    Publish package repo to Github Pages
+    runs-on: ubuntu-latest
+    steps:
       - name: Publish to github pages
         uses: peaceiris/actions-gh-pages@v3
         with:
