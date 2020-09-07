@@ -1,0 +1,14 @@
+on: [ push ]
+
+jobs:
+  build-and-publish-repository:
+    runs-on: ubuntu-latest
+    name: Build packages repository
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build satis repository
+        uses: ingenerator/action-satis-builder@1.x
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
