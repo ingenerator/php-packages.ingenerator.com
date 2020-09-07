@@ -46,6 +46,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: built-satis-repository
+          path: satis_output
 
       - name: Publish to github pages
         uses: peaceiris/actions-gh-pages@v3
