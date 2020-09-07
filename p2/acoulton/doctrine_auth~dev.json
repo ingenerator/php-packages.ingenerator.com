@@ -1,0 +1,143 @@
+{
+    "packages": {
+        "acoulton/doctrine_auth": [
+            {
+                "name": "acoulton/doctrine_auth",
+                "version": "3.0.x-dev",
+                "version_normalized": "3.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/acoulton/doctrine_auth.git",
+                    "reference": "ce526c96e151e91f9a0f1c9075a3be303a161c55"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/acoulton/doctrine_auth/zipball/ce526c96e151e91f9a0f1c9075a3be303a161c55",
+                    "reference": "ce526c96e151e91f9a0f1c9075a3be303a161c55",
+                    "shasum": ""
+                },
+                "require": {
+                    "kohana/core": "3.0.*",
+                    "php": ">=5.3.3"
+                },
+                "time": "2017-04-26T16:25:15+00:00",
+                "type": "kohana-module",
+                "license": [
+                    "BSD"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "http://www.ingenerator.com"
+                    }
+                ],
+                "description": "KO3 module providing an auth driver for the kodoctrine module",
+                "homepage": "https://github.com/acoulton/doctrine_auth",
+                "keywords": [
+                    "kohana"
+                ],
+                "support": {
+                    "issues": "https://github.com/acoulton/doctrine_auth/issues",
+                    "source": "https://github.com/acoulton/doctrine_auth"
+                }
+            },
+            {
+                "name": "acoulton/doctrine_auth",
+                "version": "3.2.x-dev",
+                "version_normalized": "3.2.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/acoulton/doctrine_auth.git",
+                    "reference": "f8b99f0fbff9b1b38eac635c327bead49179f087"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/acoulton/doctrine_auth/zipball/f8b99f0fbff9b1b38eac635c327bead49179f087",
+                    "reference": "f8b99f0fbff9b1b38eac635c327bead49179f087",
+                    "shasum": ""
+                },
+                "require": {
+                    "kohana/core": "3.2.*",
+                    "php": ">=5.3.3"
+                },
+                "time": "2017-03-06T18:15:12+00:00",
+                "type": "kohana-module",
+                "license": [
+                    "BSD"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "http://www.ingenerator.com"
+                    }
+                ],
+                "description": "KO3 module providing an auth driver for the kodoctrine module",
+                "homepage": "https://github.com/acoulton/doctrine_auth",
+                "keywords": [
+                    "kohana"
+                ],
+                "support": {
+                    "issues": "https://github.com/acoulton/doctrine_auth/issues",
+                    "source": "https://github.com/acoulton/doctrine_auth"
+                }
+            },
+            {
+                "name": "acoulton/doctrine_auth",
+                "version": "dev-3.3/develop",
+                "version_normalized": "dev-3.3/develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/acoulton/doctrine_auth.git",
+                    "reference": "13974ff84b198506bd8cf6857e18b92e627ab1fc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/acoulton/doctrine_auth/zipball/13974ff84b198506bd8cf6857e18b92e627ab1fc",
+                    "reference": "13974ff84b198506bd8cf6857e18b92e627ab1fc",
+                    "shasum": ""
+                },
+                "require": {
+                    "kohana/core": "3.3.*",
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "kohana/koharness": "*@dev",
+                    "kohana/unittest": "3.3.*@dev"
+                },
+                "time": "2020-02-08T00:46:51+00:00",
+                "type": "kohana-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-3.3/develop": "3.3.x-dev"
+                    },
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "license": [
+                    "BSD"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "http://www.ingenerator.com"
+                    }
+                ],
+                "description": "KO3 module providing an auth driver for the kodoctrine module",
+                "homepage": "https://github.com/acoulton/doctrine_auth",
+                "keywords": [
+                    "kohana"
+                ],
+                "support": {
+                    "issues": "https://github.com/acoulton/doctrine_auth/issues",
+                    "source": "https://github.com/acoulton/doctrine_auth"
+                }
+            }
+        ]
+    }
+}

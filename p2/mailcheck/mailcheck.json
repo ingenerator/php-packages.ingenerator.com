@@ -1,0 +1,21 @@
+{
+    "packages": {
+        "mailcheck/mailcheck": [
+            {
+                "name": "mailcheck/mailcheck",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mailcheck/mailcheck",
+                    "reference": "95911d5e0c941577c05ba166a0ee7fc9a5040467"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/mailcheck/mailcheck/archive/1.1.2.zip"
+                },
+                "type": "library"
+            }
+        ]
+    }
+}

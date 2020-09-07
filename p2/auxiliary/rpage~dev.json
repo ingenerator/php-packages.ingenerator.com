@@ -1,0 +1,144 @@
+{
+    "packages": {
+        "auxiliary/rpage": [
+            {
+                "name": "auxiliary/rpage",
+                "version": "1.0.x-dev",
+                "version_normalized": "1.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/craig410/rpage.git",
+                    "reference": "99c3d1d0bb832713349bb9c17199a390b67bf475"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/craig410/rpage/zipball/99c3d1d0bb832713349bb9c17199a390b67bf475",
+                    "reference": "99c3d1d0bb832713349bb9c17199a390b67bf475",
+                    "shasum": ""
+                },
+                "time": "2020-04-10T12:12:14+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "component": {
+                        "name": "rpage",
+                        "scripts": [
+                            "responsive-paginate.js"
+                        ]
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "auxiliary",
+                        "homepage": "https://github.com/auxiliary"
+                    }
+                ],
+                "description": "Highly responsive pagination for Bootstrap.",
+                "homepage": "http://auxiliary.github.io/rpage/",
+                "keywords": [
+                    "bootstrap",
+                    "css"
+                ],
+                "support": {
+                    "issues": "https://github.com/auxiliary/rpage/issues",
+                    "source": "https://github.com/craig410/rpage/tree/1.0"
+                }
+            },
+            {
+                "name": "auxiliary/rpage",
+                "version": "2.0.x-dev",
+                "version_normalized": "2.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/craig410/rpage.git",
+                    "reference": "1b438cf3128280211a671b27e01ffecf940c276d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/craig410/rpage/zipball/1b438cf3128280211a671b27e01ffecf940c276d",
+                    "reference": "1b438cf3128280211a671b27e01ffecf940c276d",
+                    "shasum": ""
+                },
+                "time": "2020-04-10T12:20:42+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    },
+                    "component": {
+                        "name": "rpage",
+                        "scripts": [
+                            "responsive-paginate.js"
+                        ]
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "auxiliary",
+                        "homepage": "https://github.com/auxiliary"
+                    }
+                ],
+                "description": "Highly responsive pagination for Bootstrap.",
+                "homepage": "http://auxiliary.github.io/rpage/",
+                "keywords": [
+                    "bootstrap",
+                    "css"
+                ],
+                "support": {
+                    "issues": "https://github.com/auxiliary/rpage/issues",
+                    "source": "https://github.com/craig410/rpage/tree/2.0"
+                }
+            },
+            {
+                "name": "auxiliary/rpage",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/craig410/rpage.git",
+                    "reference": "b7cb7642e7fc335f4d2ddf64a2b38958b02fbbf2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/craig410/rpage/zipball/b7cb7642e7fc335f4d2ddf64a2b38958b02fbbf2",
+                    "reference": "b7cb7642e7fc335f4d2ddf64a2b38958b02fbbf2",
+                    "shasum": ""
+                },
+                "time": "2014-05-28T08:42:29+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "auxiliary",
+                        "homepage": "https://github.com/auxiliary"
+                    }
+                ],
+                "description": "Highly responsive pagination for Bootstrap.",
+                "homepage": "http://auxiliary.github.io/rpage/",
+                "keywords": [
+                    "bootstrap",
+                    "css"
+                ],
+                "support": {
+                    "issues": "https://github.com/auxiliary/rpage/issues",
+                    "source": "https://github.com/craig410/rpage/tree/master"
+                }
+            }
+        ]
+    }
+}

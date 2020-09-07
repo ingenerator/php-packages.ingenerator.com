@@ -1,0 +1,55 @@
+{
+    "packages": {
+        "doctrine/doctrine1": [
+            {
+                "name": "doctrine/doctrine1",
+                "version": "dev-my-stable",
+                "version_normalized": "dev-my-stable",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/acoulton/doctrine1.git",
+                    "reference": "78742d84eeddaf936027625f8b613bc18bc7f43f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/acoulton/doctrine1/zipball/78742d84eeddaf936027625f8b613bc18bc7f43f",
+                    "reference": "78742d84eeddaf936027625f8b613bc18bc7f43f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pdo": "*",
+                    "php": ">=5.2.3"
+                },
+                "time": "2019-03-29T10:20:02+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Konsta Vesterinen",
+                        "email": "kvesteri@cc.hut.fi"
+                    },
+                    {
+                        "name": "Jonathan Wage",
+                        "email": "jonwage@gmail.com"
+                    }
+                ],
+                "description": "PHP5 Database ORM",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "database",
+                    "orm"
+                ],
+                "support": {
+                    "source": "https://github.com/acoulton/doctrine1/tree/my-stable"
+                }
+            }
+        ]
+    }
+}

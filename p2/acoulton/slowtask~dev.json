@@ -1,0 +1,61 @@
+{
+    "packages": {
+        "acoulton/slowtask": [
+            {
+                "name": "acoulton/slowtask",
+                "version": "dev-3.3/master",
+                "version_normalized": "dev-3.3/master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/acoulton/slowtask.git",
+                    "reference": "6cff47e0b4a3fa0dec471f40111a484f2a61980c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/acoulton/slowtask/zipball/6cff47e0b4a3fa0dec471f40111a484f2a61980c",
+                    "reference": "6cff47e0b4a3fa0dec471f40111a484f2a61980c",
+                    "shasum": ""
+                },
+                "require": {
+                    "kohana/core": "3.3.*",
+                    "php": ">=5.3.3"
+                },
+                "require-dev": {
+                    "kohana/koharness": "*@dev",
+                    "kohana/unittest": "3.3.*@dev"
+                },
+                "time": "2014-09-03T21:59:26+00:00",
+                "type": "kohana-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-3.3/master": "3.3.x-dev"
+                    },
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "license": [
+                    "BSD"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "http://www.ingenerator.com"
+                    }
+                ],
+                "description": "KO3 module providing a user interface for monitoring and interrupting slow-running tasks",
+                "homepage": "https://github.com/acoulton/slowtask",
+                "keywords": [
+                    "kohana"
+                ],
+                "support": {
+                    "issues": "https://github.com/acoulton/slowtask/issues",
+                    "source": "https://github.com/acoulton/slowtask"
+                }
+            }
+        ]
+    }
+}

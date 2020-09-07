@@ -1,0 +1,138 @@
+{
+    "packages": {
+        "acoulton/kodoctrine": [
+            {
+                "name": "acoulton/kodoctrine",
+                "version": "3.0.x-dev",
+                "version_normalized": "3.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/acoulton/kodoctrine.git",
+                    "reference": "fdf87f32c099de6e70cf2d6c4b4c3e89a9841af3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/acoulton/kodoctrine/zipball/fdf87f32c099de6e70cf2d6c4b4c3e89a9841af3",
+                    "reference": "fdf87f32c099de6e70cf2d6c4b4c3e89a9841af3",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine1": "1.2.*",
+                    "kohana/core": "3.0.*",
+                    "php": ">=5.3.3"
+                },
+                "time": "2017-04-26T16:12:25+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "homepage": "https://github.com/acoulton",
+                        "role": "developer"
+                    }
+                ],
+                "description": "[LEGACY] Integrates Doctrine 1.2 with Kohana 3.0",
+                "homepage": "https://github.com/acoulton/kodoctrine",
+                "keywords": [
+                    "doctrine",
+                    "kohana",
+                    "orm"
+                ],
+                "support": {
+                    "issues": "https://github.com/acoulton/kodoctrine/issues",
+                    "source": "https://github.com/acoulton/kodoctrine"
+                }
+            },
+            {
+                "name": "acoulton/kodoctrine",
+                "version": "3.2.x-dev",
+                "version_normalized": "3.2.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/acoulton/kodoctrine.git",
+                    "reference": "20b16c42ca5cddf512fca06f875f845ef3b00ccb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/acoulton/kodoctrine/zipball/20b16c42ca5cddf512fca06f875f845ef3b00ccb",
+                    "reference": "20b16c42ca5cddf512fca06f875f845ef3b00ccb",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine1": "1.2.*",
+                    "kohana/core": "3.2.*",
+                    "php": ">=5.3.3"
+                },
+                "time": "2017-03-06T19:15:45+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "homepage": "https://github.com/acoulton",
+                        "role": "developer"
+                    }
+                ],
+                "description": "[LEGACY] Integrates Doctrine 1.2 with Kohana 3.3",
+                "homepage": "https://github.com/acoulton/kodoctrine",
+                "keywords": [
+                    "doctrine",
+                    "kohana",
+                    "orm"
+                ],
+                "support": {
+                    "issues": "https://github.com/acoulton/kodoctrine/issues",
+                    "source": "https://github.com/acoulton/kodoctrine"
+                }
+            },
+            {
+                "name": "acoulton/kodoctrine",
+                "version": "dev-3.3/dev",
+                "version_normalized": "dev-3.3/dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/acoulton/kodoctrine.git",
+                    "reference": "6ac05b2dbfca2796571dbb1dbedeb469ede15a4d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/acoulton/kodoctrine/zipball/6ac05b2dbfca2796571dbb1dbedeb469ede15a4d",
+                    "reference": "6ac05b2dbfca2796571dbb1dbedeb469ede15a4d",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/doctrine1": "1.2.*",
+                    "kohana/core": "3.3.*",
+                    "php": ">=5.3.3"
+                },
+                "time": "2014-07-03T13:39:05+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "homepage": "https://github.com/acoulton",
+                        "role": "developer"
+                    }
+                ],
+                "description": "[LEGACY] Integrates Doctrine 1.2 with Kohana 3.3",
+                "homepage": "https://github.com/acoulton/kodoctrine",
+                "keywords": [
+                    "doctrine",
+                    "kohana",
+                    "orm"
+                ],
+                "support": {
+                    "issues": "https://github.com/acoulton/kodoctrine/issues",
+                    "source": "https://github.com/acoulton/kodoctrine"
+                }
+            }
+        ]
+    }
+}

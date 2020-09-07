@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "ingenerator/no-robloach-component-installer": [
+            {
+                "name": "ingenerator/no-robloach-component-installer",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/no-robloach-component-installer.git",
+                    "reference": "6a76524ca9b294df60fca5c08405332f2a87a77a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/no-robloach-component-installer/zipball/6a76524ca9b294df60fca5c08405332f2a87a77a",
+                    "reference": "6a76524ca9b294df60fca5c08405332f2a87a77a",
+                    "shasum": ""
+                },
+                "replace": {
+                    "robloach/component-installer": "*"
+                },
+                "time": "2017-11-29T13:32:54+00:00",
+                "type": "library",
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "homepage": "http://www.ingenerator.com"
+                    }
+                ],
+                "description": "Disables the robloach/component-installer to skip post-processing of asset packages",
+                "support": {
+                    "source": "https://github.com/ingenerator/no-robloach-component-installer/tree/v1.0.0",
+                    "issues": "https://github.com/ingenerator/no-robloach-component-installer/issues"
+                }
+            }
+        ]
+    }
+}
