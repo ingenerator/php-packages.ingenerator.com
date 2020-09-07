@@ -1,0 +1,51 @@
+on:
+  push:
+
+  schedule:
+    - cron: '0 8,10,13,16,19,21 * * *'
+
+  workflow_dispatch:
+
+jobs:
+  build-repository:
+    runs-on: ubuntu-latest
+    name: Build packages repository
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Cache composers
+        uses: actions/cache@v2
+        with:
+          path: |
+            _composer-cache
+          key: ${{ hashFiles('satis*.json') }}
+
+      - name: Build satis repository
+        uses: ingenerator/action-satis-builder@1.x
+        with:
+          cacheDir:    '_composer-cache'
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Store as build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: built-satis-repository
+          path: |
+            satis_output
+
+  publish-to-github-pages:
+    needs:   build-repository
+    if:      github.ref == 'refs/heads/master'
+    name:    Publish package repo to Github Pages
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish to github pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir:  ./satis_output
+          cname:        php-packages.ingenerator.com
+
