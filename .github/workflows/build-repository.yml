@@ -54,7 +54,7 @@ jobs:
         run: |
           # Publish as the author of the change to the repo if this was a `push`
           # Or as github actions if this was a dispatch or a scheduled action
-          if [ $GITHUB_EVENT_NAME === 'push' ]
+          if [ $GITHUB_EVENT_NAME == 'push' ]
           then
             echo "::set-output name=author::$GITHUB_ACTOR"
           else
