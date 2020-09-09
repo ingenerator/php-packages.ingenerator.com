@@ -48,10 +48,23 @@ jobs:
           name: built-satis-repository
           path: satis_output
 
+      - name: Calculate committer name
+        id:   committer_name
+        run: |
+          # Publish as the author of the change to the repo if this was a `push`
+          # Or as github actions if this was a dispatch or a scheduled action
+          if [ $GITHUB_EVENT_NAME === 'push' ]
+          then
+            echo "::set-output name=author::$GITHUB_ACTOR"
+          else
+            echo "::set-output name=author::github-actions[bot]"
+          fi
+
       - name: Publish to github pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir:  ./satis_output
           cname:        php-packages.ingenerator.com
-
+          user_name:    ${{steps.committer_name.outputs.author}}
+          user_email:   ${{steps.committer_name.outputs.author}}@users.noreply.github.com
