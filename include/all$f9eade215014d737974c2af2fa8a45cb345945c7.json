@@ -10056,12 +10056,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "8fb95897891c0859694d878626668b439957981a"
+                    "reference": "082639b4fd67052dc37a5c60425ab176d2785767"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/8fb95897891c0859694d878626668b439957981a",
-                    "reference": "8fb95897891c0859694d878626668b439957981a",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/082639b4fd67052dc37a5c60425ab176d2785767",
+                    "reference": "082639b4fd67052dc37a5c60425ab176d2785767",
                     "shasum": ""
                 },
                 "require": {
@@ -10081,7 +10081,7 @@
                 "suggest": {
                     "maximebf/debugbar": "^1.14 to use the debug bar in development environments"
                 },
-                "time": "2020-09-23T16:50:41+00:00",
+                "time": "2020-09-24T08:59:25+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
