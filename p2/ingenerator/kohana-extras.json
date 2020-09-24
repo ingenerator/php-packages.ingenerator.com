@@ -1143,6 +1143,69 @@
                     "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0-beta.1",
                     "issues": "https://github.com/ingenerator/kohana-extras/issues"
                 }
+            },
+            {
+                "name": "ingenerator/kohana-extras",
+                "version": "v2.0.0-beta.2",
+                "version_normalized": "2.0.0.0-beta2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
+                    "reference": "9a1a8b70ee26bc4bdfce10d81c928a269990e8ca"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/9a1a8b70ee26bc4bdfce10d81c928a269990e8ca",
+                    "reference": "9a1a8b70ee26bc4bdfce10d81c928a269990e8ca",
+                    "shasum": ""
+                },
+                "require": {
+                    "ingenerator/kohana-core": "^4.3",
+                    "ingenerator/kohana-dependencies": "^0.9.1",
+                    "ingenerator/php-utils": "^1.5",
+                    "php": "^7.2",
+                    "psr/log": "^1.0"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.0",
+                    "kohana/koharness": "*@dev",
+                    "mikey179/vfsstream": "^1.6",
+                    "phpunit/phpunit": "^7.0",
+                    "symfony/process": "^3.4"
+                },
+                "suggest": {
+                    "maximebf/debugbar": "^1.14 to use the debug bar in development environments"
+                },
+                "time": "2020-09-24T15:37:36+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\KohanaExtras\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "http://ingenerator.com"
+                    }
+                ],
+                "description": "Helper and wrapper classes for Kohana",
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0-beta.2",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             }
         ]
     }
