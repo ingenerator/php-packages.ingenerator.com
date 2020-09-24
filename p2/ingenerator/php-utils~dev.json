@@ -170,12 +170,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "27fd5aa0a03939db957109525ea9972dd25e35a0"
+                    "reference": "c614d8edc89dcab8240645f2a87ec983e6b6fcde"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/27fd5aa0a03939db957109525ea9972dd25e35a0",
-                    "reference": "27fd5aa0a03939db957109525ea9972dd25e35a0",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/c614d8edc89dcab8240645f2a87ec983e6b6fcde",
+                    "reference": "c614d8edc89dcab8240645f2a87ec983e6b6fcde",
                     "shasum": ""
                 },
                 "require": {
@@ -189,65 +189,7 @@
                     "mikey179/vfsstream": "^1.6",
                     "phpunit/phpunit": "^7.0"
                 },
-                "time": "2020-05-14T09:24:05+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\PHPUtils\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "test\\unit\\Ingenerator\\PHPUtils\\": "test"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com"
-                    }
-                ],
-                "description": "Simple, standalone utility classes for PHP applications",
-                "homepage": "https://github.com/ingenerator/php-utils",
-                "support": {
-                    "source": "https://github.com/ingenerator/php-utils",
-                    "issues": "https://github.com/ingenerator/php-utils/issues"
-                }
-            },
-            {
-                "name": "ingenerator/php-utils",
-                "version": "dev-1.x-device-id",
-                "version_normalized": "dev-1.x-device-id",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "cb9158a35007dbff361d8d45c9603c04da5f2c88"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/cb9158a35007dbff361d8d45c9603c04da5f2c88",
-                    "reference": "cb9158a35007dbff361d8d45c9603c04da5f2c88",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-json": "*",
-                    "ext-sodium": "^7.2",
-                    "php": "^7.2",
-                    "psr/log": "^1.1"
-                },
-                "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.0",
-                    "mikey179/vfsstream": "^1.6",
-                    "phpunit/phpunit": "^7.0"
-                },
-                "time": "2020-09-24T15:03:52+00:00",
+                "time": "2020-09-24T21:23:23+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
