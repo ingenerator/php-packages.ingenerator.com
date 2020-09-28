@@ -100,7 +100,7 @@
             {
                 "name": "rubaxa/sortable",
                 "version": "1.11.2-alpha0",
-                "version_normalized": "1.11.2.0-alpha",
+                "version_normalized": "1.11.2.0-alpha0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/RubaXa/Sortable",
