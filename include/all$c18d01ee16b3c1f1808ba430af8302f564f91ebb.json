@@ -11562,12 +11562,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "8a855524d5ed7adadc210414ac7e824b6a37a3b6"
+                    "reference": "c81c0c8baa9cc4464465f66168f8d5d4ca7a3715"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/8a855524d5ed7adadc210414ac7e824b6a37a3b6",
-                    "reference": "8a855524d5ed7adadc210414ac7e824b6a37a3b6",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/c81c0c8baa9cc4464465f66168f8d5d4ca7a3715",
+                    "reference": "c81c0c8baa9cc4464465f66168f8d5d4ca7a3715",
                     "shasum": ""
                 },
                 "require": {
@@ -11582,7 +11582,7 @@
                     "mikey179/vfsstream": "^1.6",
                     "phpunit/phpunit": "^7.0"
                 },
-                "time": "2020-09-29T15:38:46+00:00",
+                "time": "2020-09-29T16:39:08+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -11621,17 +11621,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "854c88eaf5dda02ae7f5e4f9380d5b79b5b52756"
+                    "reference": "5c497d3000410efa5dfeefe6c571a08f9fefa3fa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/854c88eaf5dda02ae7f5e4f9380d5b79b5b52756",
-                    "reference": "854c88eaf5dda02ae7f5e4f9380d5b79b5b52756",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/5c497d3000410efa5dfeefe6c571a08f9fefa3fa",
+                    "reference": "5c497d3000410efa5dfeefe6c571a08f9fefa3fa",
                     "shasum": ""
                 },
                 "require": {
                     "ext-json": "*",
-                    "ext-pdo": "^7",
                     "ext-sodium": "^7.2",
                     "php": "^7.2",
                     "psr/log": "^1.1"
@@ -11641,7 +11640,7 @@
                     "mikey179/vfsstream": "^1.6",
                     "phpunit/phpunit": "^8"
                 },
-                "time": "2020-09-29T16:12:20+00:00",
+                "time": "2020-09-29T17:01:00+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
