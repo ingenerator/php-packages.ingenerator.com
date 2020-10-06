@@ -375,12 +375,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "ef906e0599f2cb612f8241064b311d2864486bd5"
+                    "reference": "53208f22560997fb1e7fa55a317f000d2e8d7183"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/ef906e0599f2cb612f8241064b311d2864486bd5",
-                    "reference": "ef906e0599f2cb612f8241064b311d2864486bd5",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/53208f22560997fb1e7fa55a317f000d2e8d7183",
+                    "reference": "53208f22560997fb1e7fa55a317f000d2e8d7183",
                     "shasum": ""
                 },
                 "require": {
@@ -400,7 +400,7 @@
                 "suggest": {
                     "maximebf/debugbar": "^1.14 to use the debug bar in development environments"
                 },
-                "time": "2020-10-05T07:48:06+00:00",
+                "time": "2020-10-06T07:43:30+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -427,70 +427,7 @@
                 "description": "Helper and wrapper classes for Kohana",
                 "homepage": "http://github.com/ingenerator/kohana-extras",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0-beta.3",
-                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
-                }
-            },
-            {
-                "name": "ingenerator/kohana-extras",
-                "version": "dev-fix-debug-bar-fonts",
-                "version_normalized": "dev-fix-debug-bar-fonts",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "c196abc997026a21cbfc17cf5740607c130a1e2f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/c196abc997026a21cbfc17cf5740607c130a1e2f",
-                    "reference": "c196abc997026a21cbfc17cf5740607c130a1e2f",
-                    "shasum": ""
-                },
-                "require": {
-                    "ingenerator/kohana-core": "^4.3",
-                    "ingenerator/kohana-dependencies": "^0.9.1",
-                    "ingenerator/php-utils": "^1.5",
-                    "php": "^7.2",
-                    "psr/log": "^1.0"
-                },
-                "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.0",
-                    "kohana/koharness": "*@dev",
-                    "mikey179/vfsstream": "^1.6",
-                    "phpunit/phpunit": "^7.0",
-                    "symfony/process": "^3.4"
-                },
-                "suggest": {
-                    "maximebf/debugbar": "^1.14 to use the debug bar in development environments"
-                },
-                "time": "2020-10-05T17:31:29+00:00",
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\KohanaExtras\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "http://ingenerator.com"
-                    }
-                ],
-                "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-extras/tree/fix-debug-bar-fonts",
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0-beta.4",
                     "issues": "https://github.com/ingenerator/kohana-extras/issues"
                 }
             }
