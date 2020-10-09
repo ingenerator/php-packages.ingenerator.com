@@ -12,6 +12,7 @@
     {"type": "vcs", "url":  "https://github.com/acoulton/slowtask"},
     {"type": "vcs", "url":  "https://github.com/acoulton/doctrine_auth"},
     {"type": "vcs", "url":  "https://github.com/acoulton/emailmerge"},
+    {"type": "vcs", "url":  "https://github.com/ingenerator/chrome-mink-driver"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/content-snippets.git"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/form.git"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/phinx-wrapper.git"},
