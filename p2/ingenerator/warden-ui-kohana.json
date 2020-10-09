@@ -7,7 +7,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
                     "reference": "94914e5fadc14c33815588d46eeddb2f01ea929b"
                 },
                 "dist": {
@@ -59,11 +59,7 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.1.0",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
@@ -71,7 +67,7 @@
                 "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
                     "reference": "e696c7da66026482f159ab560070d05f90d8bde5"
                 },
                 "dist": {
@@ -123,11 +119,7 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.2.0",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
@@ -135,7 +127,7 @@
                 "version_normalized": "0.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
                     "reference": "369c59dcdd6a8d72562536c144f488848dfdfda0"
                 },
                 "dist": {
@@ -187,11 +179,7 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.2.1",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
@@ -199,7 +187,7 @@
                 "version_normalized": "0.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
                     "reference": "5a091797ef1e697958fb126da7f2f445bbc2b9f0"
                 },
                 "dist": {
@@ -252,11 +240,7 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.3.0",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
@@ -264,7 +248,7 @@
                 "version_normalized": "0.3.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
                     "reference": "c11678e1413a440941d71c62737dfeb524280d10"
                 },
                 "dist": {
@@ -317,11 +301,7 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.3.1",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
@@ -329,7 +309,7 @@
                 "version_normalized": "0.3.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
                     "reference": "79f4ad60327285419fed7056c6531027f686f4ec"
                 },
                 "dist": {
@@ -382,11 +362,7 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.3.2",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
@@ -394,7 +370,7 @@
                 "version_normalized": "0.3.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
                     "reference": "5d3adfd7baa95c0db7afa9f8c2400007aa662c09"
                 },
                 "dist": {
@@ -447,11 +423,7 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.3.3",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
@@ -459,7 +431,7 @@
                 "version_normalized": "0.3.4.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
                     "reference": "858735a18327a1f4d4a9b51aea5fa3627e38a40b"
                 },
                 "dist": {
@@ -512,11 +484,7 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.3.4",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
@@ -524,7 +492,7 @@
                 "version_normalized": "0.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
                     "reference": "5211cbaabb22ba8e26a9b768ba8c94d351bd84f5"
                 },
                 "dist": {
@@ -577,11 +545,7 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/0.4.0",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
@@ -589,7 +553,7 @@
                 "version_normalized": "0.4.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
                     "reference": "c73773fc031c217e6bef556969b6dea67a74a46c"
                 },
                 "dist": {
@@ -642,11 +606,7 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.4.1",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
@@ -654,7 +614,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
                     "reference": "bd4266ade5ee8927f1b7a54570afa0aefea9904a"
                 },
                 "dist": {
@@ -713,11 +673,7 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.0.0",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
@@ -725,7 +681,7 @@
                 "version_normalized": "1.1.0.0-beta1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
                     "reference": "28c5d9415f961e5a6d4b78189173d20062ee0ab9"
                 },
                 "dist": {
@@ -784,11 +740,7 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.1.0-beta.1",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
             }
         ]
     }

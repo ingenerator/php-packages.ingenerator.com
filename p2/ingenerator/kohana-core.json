@@ -7,7 +7,7 @@
                 "version_normalized": "3.0.12.1",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "25a53dc37c131e61f0ba29e648ed2347420d13ce"
                 },
                 "dist": {
@@ -59,11 +59,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v3.0.12.1",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -71,7 +67,7 @@
                 "version_normalized": "3.2.3.2",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "34c3893464fdbb89bccdbff3f71d5c591607e1da"
                 },
                 "dist": {
@@ -123,11 +119,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/3.2.3.2",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -135,7 +127,7 @@
                 "version_normalized": "3.3.6.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "bdbe81afb5a09cee4269d2e2210a0d293265231a"
                 },
                 "dist": {
@@ -199,7 +191,7 @@
                 "version_normalized": "4.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "29bca74a8efe142180b767d5bcf1bad011fae6d7"
                 },
                 "dist": {
@@ -251,11 +243,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.0.0",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -263,7 +251,7 @@
                 "version_normalized": "4.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "c1193285e6fb11a3da1c5e92da86575571bc88ee"
                 },
                 "dist": {
@@ -289,7 +277,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2018-03-13T17:30:15+00:00",
+                "time": "2018-03-13T17:28:21+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -315,11 +303,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.1.0",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -327,7 +311,7 @@
                 "version_normalized": "4.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "68b8a53c00d070bf406dc2190f77ddf395df67b3"
                 },
                 "dist": {
@@ -380,11 +364,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.2.0",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -392,7 +372,7 @@
                 "version_normalized": "4.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "89e0785b0419ca96ca058a50d8c9c9923e0137ec"
                 },
                 "dist": {
@@ -445,11 +425,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.2.1",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -457,7 +433,7 @@
                 "version_normalized": "4.2.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "79c7864dec4aec43cdcfb50d2e87d092040b02f0"
                 },
                 "dist": {
@@ -510,11 +486,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.2.2",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -522,7 +494,7 @@
                 "version_normalized": "4.2.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "2d7e95c5a673635f808084a00105f1ad56467f26"
                 },
                 "dist": {
@@ -576,11 +548,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.2.3",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -588,7 +556,7 @@
                 "version_normalized": "4.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "306815add34fe83e548751d5b1842957e8460913"
                 },
                 "dist": {
@@ -642,11 +610,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.3.0",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -654,7 +618,7 @@
                 "version_normalized": "4.3.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "f9777d41a395901e2caac56611409dfa40cb5dd4"
                 },
                 "dist": {
@@ -708,11 +672,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.3.1",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -720,7 +680,7 @@
                 "version_normalized": "4.3.2.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "dc7ad5a854bb8c71dcd96e7a88fba9f3c1f6cbe3"
                 },
                 "dist": {
@@ -774,11 +734,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.3.2",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -786,7 +742,7 @@
                 "version_normalized": "4.3.3.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "b5b6a72837edc3e19fc25f501db8db10a794212d"
                 },
                 "dist": {
@@ -840,11 +796,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.3.3",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -852,7 +804,7 @@
                 "version_normalized": "4.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "34bc8d33bc8ac5af83a63abddda932c09460270b"
                 },
                 "dist": {
@@ -880,7 +832,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2020-01-30T16:19:12+00:00",
+                "time": "2020-01-30T16:16:19+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -906,11 +858,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.4.0",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -918,7 +866,7 @@
                 "version_normalized": "4.5.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "f3b266191ac2f191cf164a4dfdd28985a9729fcd"
                 },
                 "dist": {
@@ -972,11 +920,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.5.0",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             },
             {
                 "name": "ingenerator/kohana-core",
@@ -984,7 +928,7 @@
                 "version_normalized": "4.6.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "url": "git@github.com:ingenerator/kohana-core.git",
                     "reference": "02ec178ad75e85521bdc1d8c11763a1001e699eb"
                 },
                 "dist": {
@@ -1038,11 +982,7 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.6.0",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
+                "homepage": "http://github.com/ingenerator/kohana-core"
             }
         ]
     }
