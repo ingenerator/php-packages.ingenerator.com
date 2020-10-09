@@ -7,7 +7,7 @@
                 "version_normalized": "0.1.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "d6e25b6c260039c8ac700db4d8a2954e8c28d9d4"
                 },
                 "dist": {
@@ -56,7 +56,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.1.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             {
                 "name": "ingenerator/kohana-extras",
@@ -64,7 +68,7 @@
                 "version_normalized": "0.2.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "e903d47463f21a971a1d18fec6485beb9dd9d3f3"
                 },
                 "dist": {
@@ -110,7 +114,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.2.3",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             {
                 "name": "ingenerator/kohana-extras",
@@ -118,7 +126,7 @@
                 "version_normalized": "0.3.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "1c20ab898392cf18dbab93d13d9258c4204d45ea"
                 },
                 "dist": {
@@ -168,7 +176,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.3.5",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             {
                 "name": "ingenerator/kohana-extras",
@@ -176,7 +188,7 @@
                 "version_normalized": "0.4.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "fa4edf21d9fe9cca218eb6c707cc3ee259f9a465"
                 },
                 "dist": {
@@ -226,7 +238,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.4.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             {
                 "name": "ingenerator/kohana-extras",
@@ -234,7 +250,7 @@
                 "version_normalized": "1.0.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "91c484e5e6b215f18de1e960824331bbe91676b0"
                 },
                 "dist": {
@@ -284,7 +300,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v1.1.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             {
                 "name": "ingenerator/kohana-extras",
@@ -292,7 +312,7 @@
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "2d40492d3793545d68510ff0d0de69b668c6ba4b"
                 },
                 "dist": {
@@ -342,7 +362,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v1.2.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             {
                 "name": "ingenerator/kohana-extras",
@@ -350,7 +374,7 @@
                 "version_normalized": "2.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "53208f22560997fb1e7fa55a317f000d2e8d7183"
                 },
                 "dist": {
@@ -401,7 +425,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0-beta.4",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             }
         ]
     }
