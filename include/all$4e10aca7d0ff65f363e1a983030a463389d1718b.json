@@ -4961,6 +4961,65 @@
                     "source": "https://github.com/ingenerator/chrome-mink-driver/tree/fix-change-events-on-input",
                     "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
                 }
+            },
+            "dev-test-using-github-actions": {
+                "name": "ingenerator/chrome-mink-driver",
+                "version": "dev-test-using-github-actions",
+                "version_normalized": "dev-test-using-github-actions",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
+                    "reference": "fc04eba345931003fbe0a8e55680a8c321929d99"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/fc04eba345931003fbe0a8e55680a8c321929d99",
+                    "reference": "fc04eba345931003fbe0a8e55680a8c321929d99",
+                    "shasum": ""
+                },
+                "require": {
+                    "behat/mink": "^1.7",
+                    "ext-curl": "*",
+                    "ext-json": "*",
+                    "textalk/websocket": "^1.2.0"
+                },
+                "replace": {
+                    "dmore/chrome-mink-driver": "*"
+                },
+                "require-dev": {
+                    "mink/driver-testsuite": "dev-master",
+                    "phpunit/phpunit": "^5.0.0"
+                },
+                "time": "2020-10-16T08:19:33+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DMore\\ChromeDriver\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DMore\\ChromeDriverTests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dorian More",
+                        "email": "doriancmore@gmail.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Mink driver for controlling chrome without selenium",
+                "support": {
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/test-using-github-actions",
+                    "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
+                }
             }
         },
         "ingenerator/content-snippets": {
