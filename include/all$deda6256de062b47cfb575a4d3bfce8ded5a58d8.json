@@ -10113,12 +10113,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "2d40492d3793545d68510ff0d0de69b668c6ba4b"
+                    "reference": "5a00c172afa8f73b0564b9c7fcd3956419d24692"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/2d40492d3793545d68510ff0d0de69b668c6ba4b",
-                    "reference": "2d40492d3793545d68510ff0d0de69b668c6ba4b",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/5a00c172afa8f73b0564b9c7fcd3956419d24692",
+                    "reference": "5a00c172afa8f73b0564b9c7fcd3956419d24692",
                     "shasum": ""
                 },
                 "require": {
@@ -10137,7 +10137,7 @@
                 "suggest": {
                     "maximebf/debugbar": "^1.14 to use the debug bar in development environments"
                 },
-                "time": "2020-02-18T11:57:49+00:00",
+                "time": "2020-10-28T15:53:08+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -10164,7 +10164,7 @@
                 "description": "Helper and wrapper classes for Kohana",
                 "homepage": "http://github.com/ingenerator/kohana-extras",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-extras/tree/v1.2.0",
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/1.x",
                     "issues": "https://github.com/ingenerator/kohana-extras/issues"
                 }
             },
@@ -10480,68 +10480,6 @@
                 "homepage": "http://github.com/ingenerator/kohana-extras",
                 "support": {
                     "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0-beta.4",
-                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
-                }
-            },
-            "dev-assure-php74-compat": {
-                "name": "ingenerator/kohana-extras",
-                "version": "dev-assure-php74-compat",
-                "version_normalized": "dev-assure-php74-compat",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "68381081f636255fd6a41d1eae9149ea23d0f1ab"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/68381081f636255fd6a41d1eae9149ea23d0f1ab",
-                    "reference": "68381081f636255fd6a41d1eae9149ea23d0f1ab",
-                    "shasum": ""
-                },
-                "require": {
-                    "ingenerator/kohana-core": "^4.3",
-                    "ingenerator/kohana-dependencies": "^0.9.1",
-                    "ingenerator/php-utils": "^1.0",
-                    "php": "^7.2",
-                    "psr/log": "^1.0"
-                },
-                "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.0",
-                    "kohana/koharness": "*@dev",
-                    "phpunit/phpunit": "^7.0",
-                    "symfony/process": "^3.4"
-                },
-                "suggest": {
-                    "maximebf/debugbar": "^1.14 to use the debug bar in development environments"
-                },
-                "time": "2020-10-22T15:10:34+00:00",
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\KohanaExtras\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "http://ingenerator.com"
-                    }
-                ],
-                "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-extras/tree/assure-php74-compat",
                     "issues": "https://github.com/ingenerator/kohana-extras/issues"
                 }
             }
