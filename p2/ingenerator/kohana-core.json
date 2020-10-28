@@ -1043,6 +1043,72 @@
                     "source": "https://github.com/ingenerator/kohana-core/tree/v4.6.0",
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
+            },
+            {
+                "name": "ingenerator/kohana-core",
+                "version": "v4.7.0",
+                "version_normalized": "4.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "reference": "90b845336971aa24d58a0adcc4d59e9cbf6d9bfb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/90b845336971aa24d58a0adcc4d59e9cbf6d9bfb",
+                    "reference": "90b845336971aa24d58a0adcc4d59e9cbf6d9bfb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.2"
+                },
+                "conflict": {
+                    "kohana/core": "*"
+                },
+                "replace": {
+                    "kohana/core": "3.3.*",
+                    "kohana/minion": "3.3.*",
+                    "kohana/unittest": "3.3.*"
+                },
+                "require-dev": {
+                    "kohana/koharness": "*@dev",
+                    "phpunit/phpunit": "^8.0"
+                },
+                "suggest": {
+                    "ext-curl": "*",
+                    "ext-http": "*"
+                },
+                "time": "2020-10-28T12:55:29+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "role": "hacker & axe-wielder"
+                    },
+                    {
+                        "name": "Kohana Team",
+                        "email": "team@kohanaframework.org",
+                        "homepage": "http://kohanaframework.org/team",
+                        "role": "developer"
+                    }
+                ],
+                "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.7.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             }
         ]
     }
