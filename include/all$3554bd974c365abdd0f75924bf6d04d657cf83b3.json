@@ -4910,12 +4910,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/chrome-mink-driver.git",
-                    "reference": "63c443cf3659219d170dc32b795b6ba9d56bc97e"
+                    "reference": "ceecb7c52e4520fcb7f827eb15775573e7afc510"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/63c443cf3659219d170dc32b795b6ba9d56bc97e",
-                    "reference": "63c443cf3659219d170dc32b795b6ba9d56bc97e",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/ceecb7c52e4520fcb7f827eb15775573e7afc510",
+                    "reference": "ceecb7c52e4520fcb7f827eb15775573e7afc510",
                     "shasum": ""
                 },
                 "require": {
@@ -4931,7 +4931,7 @@
                     "mink/driver-testsuite": "dev-master",
                     "phpunit/phpunit": "^5.0.0"
                 },
-                "time": "2020-10-28T13:05:42+00:00",
+                "time": "2020-10-29T11:24:36+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -4969,12 +4969,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/chrome-mink-driver.git",
-                    "reference": "a79d95129496488e8418ec9828c72d753326bcc0"
+                    "reference": "d49f95cb0f198609537198e0a03baf5f04262acf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/a79d95129496488e8418ec9828c72d753326bcc0",
-                    "reference": "a79d95129496488e8418ec9828c72d753326bcc0",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/d49f95cb0f198609537198e0a03baf5f04262acf",
+                    "reference": "d49f95cb0f198609537198e0a03baf5f04262acf",
                     "shasum": ""
                 },
                 "require": {
@@ -4990,7 +4990,7 @@
                     "mink/driver-testsuite": "dev-master",
                     "phpunit/phpunit": "^5.0.0"
                 },
-                "time": "2020-10-16T16:00:06+00:00",
+                "time": "2020-10-29T11:12:24+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -5017,7 +5017,7 @@
                 ],
                 "description": "Mink driver for controlling chrome without selenium",
                 "support": {
-                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/2.7.0.1",
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/ingenerator-main",
                     "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
                 }
             }
@@ -11896,6 +11896,124 @@
                     "phpunit/phpunit": "^8"
                 },
                 "time": "2020-10-09T14:01:30+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\PHPUtils\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\unit\\Ingenerator\\PHPUtils\\": "test"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Simple, standalone utility classes for PHP applications",
+                "homepage": "https://github.com/ingenerator/php-utils",
+                "support": {
+                    "source": "https://github.com/ingenerator/php-utils",
+                    "issues": "https://github.com/ingenerator/php-utils/issues"
+                }
+            },
+            "dev-build-composer-2": {
+                "name": "ingenerator/php-utils",
+                "version": "dev-build-composer-2",
+                "version_normalized": "dev-build-composer-2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/php-utils.git",
+                    "reference": "dcedcee6cce3b92750c9bb6358db395aaa751f92"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/dcedcee6cce3b92750c9bb6358db395aaa751f92",
+                    "reference": "dcedcee6cce3b92750c9bb6358db395aaa751f92",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-pdo": "^7",
+                    "ext-sodium": "^7.2",
+                    "php": "^7.2",
+                    "psr/log": "^1.1"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.0",
+                    "mikey179/vfsstream": "^1.6",
+                    "phpunit/phpunit": "^8"
+                },
+                "time": "2020-10-29T11:08:30+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\PHPUtils\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\unit\\Ingenerator\\PHPUtils\\": "test"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Simple, standalone utility classes for PHP applications",
+                "homepage": "https://github.com/ingenerator/php-utils",
+                "support": {
+                    "source": "https://github.com/ingenerator/php-utils",
+                    "issues": "https://github.com/ingenerator/php-utils/issues"
+                }
+            },
+            "dev-use-new-setcookie-sig": {
+                "name": "ingenerator/php-utils",
+                "version": "dev-use-new-setcookie-sig",
+                "version_normalized": "dev-use-new-setcookie-sig",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/php-utils.git",
+                    "reference": "b0639caa69a769eaea029811cabea8171ddd5b0a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/b0639caa69a769eaea029811cabea8171ddd5b0a",
+                    "reference": "b0639caa69a769eaea029811cabea8171ddd5b0a",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-pdo": "^7",
+                    "ext-sodium": "^7.2",
+                    "php": "^7.4",
+                    "psr/log": "^1.1"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.0",
+                    "mikey179/vfsstream": "^1.6",
+                    "phpunit/phpunit": "^8"
+                },
+                "time": "2020-10-29T11:34:43+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
