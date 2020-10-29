@@ -11875,27 +11875,27 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "4aa2f05c81c2fb3578909baa92fab879a5e5187e"
+                    "reference": "7fd17a33d21b4cf34e84b3cf705faf27ce37a769"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/4aa2f05c81c2fb3578909baa92fab879a5e5187e",
-                    "reference": "4aa2f05c81c2fb3578909baa92fab879a5e5187e",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/7fd17a33d21b4cf34e84b3cf705faf27ce37a769",
+                    "reference": "7fd17a33d21b4cf34e84b3cf705faf27ce37a769",
                     "shasum": ""
                 },
                 "require": {
                     "ext-json": "*",
                     "ext-pdo": "^7",
                     "ext-sodium": "^7.2",
-                    "php": "^7.2",
+                    "php": "^7.4",
                     "psr/log": "^1.1"
                 },
                 "require-dev": {
                     "johnkary/phpunit-speedtrap": "^3.0",
-                    "mikey179/vfsstream": "^1.6",
+                    "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^8"
                 },
-                "time": "2020-10-09T14:01:30+00:00",
+                "time": "2020-10-29T15:52:36+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -11955,65 +11955,6 @@
                     "phpunit/phpunit": "^8"
                 },
                 "time": "2020-10-29T11:08:30+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\PHPUtils\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "test\\unit\\Ingenerator\\PHPUtils\\": "test"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com"
-                    }
-                ],
-                "description": "Simple, standalone utility classes for PHP applications",
-                "homepage": "https://github.com/ingenerator/php-utils",
-                "support": {
-                    "source": "https://github.com/ingenerator/php-utils",
-                    "issues": "https://github.com/ingenerator/php-utils/issues"
-                }
-            },
-            "dev-use-new-setcookie-sig": {
-                "name": "ingenerator/php-utils",
-                "version": "dev-use-new-setcookie-sig",
-                "version_normalized": "dev-use-new-setcookie-sig",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "205323c1854da380d26abc86ee06d24adda50dfd"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/205323c1854da380d26abc86ee06d24adda50dfd",
-                    "reference": "205323c1854da380d26abc86ee06d24adda50dfd",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-json": "*",
-                    "ext-pdo": "^7",
-                    "ext-sodium": "^7.2",
-                    "php": "^7.4",
-                    "psr/log": "^1.1"
-                },
-                "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.0",
-                    "mikey179/vfsstream": "^1.6.8",
-                    "phpunit/phpunit": "^8"
-                },
-                "time": "2020-10-29T12:43:03+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -12815,6 +12756,64 @@
                 ],
                 "support": {
                     "source": "https://github.com/ingenerator/warden-core/tree/v1.0.0",
+                    "issues": "https://github.com/ingenerator/warden-core/issues"
+                }
+            },
+            "dev-switch-to-github-actions": {
+                "name": "ingenerator/warden-core",
+                "version": "dev-switch-to-github-actions",
+                "version_normalized": "dev-switch-to-github-actions",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-core.git",
+                    "reference": "6df1cc2e04d174fa7c4a9193f7e0beaf525cad8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/6df1cc2e04d174fa7c4a9193f7e0beaf525cad8f",
+                    "reference": "6df1cc2e04d174fa7c4a9193f7e0beaf525cad8f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.0"
+                },
+                "suggest": {
+                    "ingenerator/warden-validator-symfony": "Default entity / request validation implemenation using symfony validation"
+                },
+                "time": "2020-10-29T16:11:05+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\Core\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Framework-and-driver-independent authentication and authorization package",
+                "homepage": "http://github.com/ingenerator/warden-core",
+                "keywords": [
+                    "acl",
+                    "auth",
+                    "web"
+                ],
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-core/tree/switch-to-github-actions",
                     "issues": "https://github.com/ingenerator/warden-core/issues"
                 }
             }
@@ -14323,6 +14322,77 @@
                 "homepage": "http://github.com/ingenerator/warden-ui-kohana",
                 "support": {
                     "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.1.0-beta.1",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
+            },
+            "dev-run-tests-on-github-actions": {
+                "name": "ingenerator/warden-ui-kohana",
+                "version": "dev-run-tests-on-github-actions",
+                "version_normalized": "dev-run-tests-on-github-actions",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "reference": "0b7915bc16d6e4f7d992692d5b6a7d2fe496ea94"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/0b7915bc16d6e4f7d992692d5b6a7d2fe496ea94",
+                    "reference": "0b7915bc16d6e4f7d992692d5b6a7d2fe496ea94",
+                    "shasum": ""
+                },
+                "require": {
+                    "ingenerator/kohana-core": "^4.3",
+                    "ingenerator/kohana-extras": "^2.0",
+                    "ingenerator/kohana-view": "^4.3",
+                    "ingenerator/tokenista": "^1.2",
+                    "ingenerator/warden-core": "^1.0",
+                    "ingenerator/warden-persistence-doctrine": "^1.0",
+                    "ingenerator/warden-validator-symfony": "^1.0",
+                    "php": "^7.2",
+                    "swiftmailer/swiftmailer": "^5.4",
+                    "symfony/validator": "^3.0"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.0",
+                    "kohana/koharness": "*@dev",
+                    "phpunit/phpunit": "^7.0"
+                },
+                "suggest": {
+                    "zeelot/kohana-dependencies": "Dependency container for kohana"
+                },
+                "time": "2020-10-29T15:51:23+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\UI\\Kohana\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Front-end and kohana application integration for Warden",
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/run-tests-on-github-actions",
                     "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
                 }
             }
