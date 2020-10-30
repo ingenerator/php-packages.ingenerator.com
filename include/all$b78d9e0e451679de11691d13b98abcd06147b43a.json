@@ -14384,22 +14384,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "0b7915bc16d6e4f7d992692d5b6a7d2fe496ea94"
+                    "reference": "9be36b61f3b6c4a370eb2cb887b028f26c4cdeb0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/0b7915bc16d6e4f7d992692d5b6a7d2fe496ea94",
-                    "reference": "0b7915bc16d6e4f7d992692d5b6a7d2fe496ea94",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/9be36b61f3b6c4a370eb2cb887b028f26c4cdeb0",
+                    "reference": "9be36b61f3b6c4a370eb2cb887b028f26c4cdeb0",
                     "shasum": ""
                 },
                 "require": {
-                    "ingenerator/kohana-core": "^4.3",
+                    "ingenerator/kohana-core": "^4.7",
                     "ingenerator/kohana-extras": "^2.0",
-                    "ingenerator/kohana-view": "^4.3",
-                    "ingenerator/tokenista": "^1.2",
-                    "ingenerator/warden-core": "^1.0",
-                    "ingenerator/warden-persistence-doctrine": "^1.0",
-                    "ingenerator/warden-validator-symfony": "^1.0",
+                    "ingenerator/kohana-view": "^4.4",
+                    "ingenerator/tokenista": "^1.4",
+                    "ingenerator/warden-core": "^1.1",
+                    "ingenerator/warden-persistence-doctrine": "^1.1",
+                    "ingenerator/warden-validator-symfony": "^1.1",
                     "php": "^7.2",
                     "swiftmailer/swiftmailer": "^5.4",
                     "symfony/validator": "^3.0"
@@ -14407,12 +14407,12 @@
                 "require-dev": {
                     "johnkary/phpunit-speedtrap": "^3.0",
                     "kohana/koharness": "*@dev",
-                    "phpunit/phpunit": "^7.0"
+                    "phpunit/phpunit": "^9.0"
                 },
                 "suggest": {
                     "zeelot/kohana-dependencies": "Dependency container for kohana"
                 },
-                "time": "2020-10-29T15:51:23+00:00",
+                "time": "2020-10-29T22:42:58+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
