@@ -65,23 +65,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-auth.git",
-                    "reference": "e18d97aad8dc468a5aea9453bb3d1a34f8fdf312"
+                    "reference": "3cc228101f7717061a70a3a87fe1de7fed9c3985"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/e18d97aad8dc468a5aea9453bb3d1a34f8fdf312",
-                    "reference": "e18d97aad8dc468a5aea9453bb3d1a34f8fdf312",
+                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/3cc228101f7717061a70a3a87fe1de7fed9c3985",
+                    "reference": "3cc228101f7717061a70a3a87fe1de7fed9c3985",
                     "shasum": ""
                 },
                 "require": {
-                    "ingenerator/warden-core": "^1.0",
-                    "php": "^7.2",
+                    "ingenerator/warden-core": "^1.1",
+                    "php": "^7.4",
                     "psr/log": "^1.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^7.0"
+                    "phpunit/phpunit": "^9.0"
                 },
-                "time": "2019-04-04T07:20:29+00:00",
+                "time": "2020-10-30T12:37:05+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -111,7 +111,7 @@
                     "web"
                 ],
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-auth/tree/v1.0.0",
+                    "source": "https://github.com/ingenerator/warden-auth/tree/v1.1.0",
                     "issues": "https://github.com/ingenerator/warden-auth/issues"
                 }
             }
