@@ -15024,38 +15024,35 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "b97940f2371fd93d5c0d20e9627ddb158de5e26c"
+                    "reference": "37455c77243955b5e882442310417f63f13199d1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/b97940f2371fd93d5c0d20e9627ddb158de5e26c",
-                    "reference": "b97940f2371fd93d5c0d20e9627ddb158de5e26c",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/37455c77243955b5e882442310417f63f13199d1",
+                    "reference": "37455c77243955b5e882442310417f63f13199d1",
                     "shasum": ""
                 },
                 "require": {
-                    "composer/installers": "^1.9",
-                    "ext-json": "*",
-                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-core": "^4.3",
                     "ingenerator/kohana-extras": "^2.0",
-                    "ingenerator/kohana-view": "^4.4",
-                    "ingenerator/tokenista": "^1.4",
-                    "ingenerator/warden-core": "^1.1",
-                    "ingenerator/warden-persistence-doctrine": "^1.1",
-                    "ingenerator/warden-validator-symfony": "^1.1",
-                    "php": "^7.4",
-                    "swiftmailer/swiftmailer": "^6.2.3",
+                    "ingenerator/kohana-view": "^4.3",
+                    "ingenerator/tokenista": "^1.2",
+                    "ingenerator/warden-core": "^1.0",
+                    "ingenerator/warden-persistence-doctrine": "^1.0",
+                    "ingenerator/warden-validator-symfony": "^1.0",
+                    "php": "^7.2",
+                    "swiftmailer/swiftmailer": "^6.0",
                     "symfony/validator": "^3.0"
                 },
                 "require-dev": {
-                    "egulias/email-validator": "^2.1.16",
                     "johnkary/phpunit-speedtrap": "^3.0",
-                    "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^9.0"
+                    "kohana/koharness": "*@dev",
+                    "phpunit/phpunit": "^7.0"
                 },
                 "suggest": {
                     "zeelot/kohana-dependencies": "Dependency container for kohana"
                 },
-                "time": "2020-11-02T13:59:58+00:00",
+                "time": "2020-11-02T22:04:10+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -15087,7 +15084,7 @@
                 "description": "Front-end and kohana application integration for Warden",
                 "homepage": "http://github.com/ingenerator/warden-ui-kohana",
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.2.0",
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.1.0",
                     "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
                 }
             },
@@ -15229,7 +15226,7 @@
                 "description": "Front-end and kohana application integration for Warden",
                 "homepage": "http://github.com/ingenerator/warden-ui-kohana",
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/1.1.x",
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.1.0",
                     "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
                 }
             },
