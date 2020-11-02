@@ -433,7 +433,7 @@
                 "description": "Helper and wrapper classes for Kohana",
                 "homepage": "http://github.com/ingenerator/kohana-extras",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0-beta.5",
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0",
                     "issues": "https://github.com/ingenerator/kohana-extras/issues"
                 }
             }
