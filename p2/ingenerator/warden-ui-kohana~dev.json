@@ -337,16 +337,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "77d416ef8b5cc33860954c15ab33827c0fa5aef1"
+                    "reference": "8873f73a5589256bd067f6b2942b4d04dbddcca7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/77d416ef8b5cc33860954c15ab33827c0fa5aef1",
-                    "reference": "77d416ef8b5cc33860954c15ab33827c0fa5aef1",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/8873f73a5589256bd067f6b2942b4d04dbddcca7",
+                    "reference": "8873f73a5589256bd067f6b2942b4d04dbddcca7",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "^1.9",
+                    "ext-json": "*",
                     "ingenerator/kohana-core": "^4.7",
                     "ingenerator/kohana-extras": "^2.0",
                     "ingenerator/kohana-view": "^4.4",
@@ -354,8 +355,8 @@
                     "ingenerator/warden-core": "^1.1",
                     "ingenerator/warden-persistence-doctrine": "^1.1",
                     "ingenerator/warden-validator-symfony": "^1.1",
-                    "php": "^7.2",
-                    "swiftmailer/swiftmailer": "^5.4",
+                    "php": "^7.4",
+                    "swiftmailer/swiftmailer": "^6.2.3",
                     "symfony/validator": "^3.0"
                 },
                 "require-dev": {
@@ -366,7 +367,7 @@
                 "suggest": {
                     "zeelot/kohana-dependencies": "Dependency container for kohana"
                 },
-                "time": "2020-10-30T10:11:37+00:00",
+                "time": "2020-11-02T12:11:13+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {

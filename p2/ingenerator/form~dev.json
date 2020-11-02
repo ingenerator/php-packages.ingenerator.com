@@ -127,89 +127,29 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/form.git",
-                    "reference": "c3d6e62fad050f181c529377be74eec8ee2c4949"
+                    "reference": "a1b2c948dc13029a6e79539ad74783abdf6cc9dd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/form/zipball/c3d6e62fad050f181c529377be74eec8ee2c4949",
-                    "reference": "c3d6e62fad050f181c529377be74eec8ee2c4949",
-                    "shasum": ""
-                },
-                "require": {
-                    "ingenerator/kohana-core": "^4.3",
-                    "ingenerator/kohana-extras": "^1.0|^2.0",
-                    "ingenerator/php-utils": "^1.0",
-                    "php": "^7.2"
-                },
-                "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.0",
-                    "kohana/koharness": "*@dev",
-                    "phpunit/phpunit": "^7.0"
-                },
-                "suggest": {
-                    "ingenerator/showgroup": "javascript support to show/hide form sections based on values"
-                },
-                "time": "2020-05-14T13:37:27+00:00",
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\Form\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "http://ingenerator.com"
-                    }
-                ],
-                "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form",
-                "support": {
-                    "source": "https://github.com/ingenerator/form/tree/v1.1.0",
-                    "issues": "https://github.com/ingenerator/form/issues"
-                }
-            },
-            {
-                "name": "ingenerator/form",
-                "version": "dev-support-php74",
-                "version_normalized": "dev-support-php74",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/form.git",
-                    "reference": "ccd8c66bc93ee2076308a9b0a89aa6f2f26cbdab"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/form/zipball/ccd8c66bc93ee2076308a9b0a89aa6f2f26cbdab",
-                    "reference": "ccd8c66bc93ee2076308a9b0a89aa6f2f26cbdab",
+                    "url": "https://api.github.com/repos/ingenerator/form/zipball/a1b2c948dc13029a6e79539ad74783abdf6cc9dd",
+                    "reference": "a1b2c948dc13029a6e79539ad74783abdf6cc9dd",
                     "shasum": ""
                 },
                 "require": {
                     "ingenerator/kohana-core": "^4.7",
-                    "ingenerator/kohana-extras": "dev-support-php74@dev",
-                    "ingenerator/php-utils": "^1.5.0-beta.2",
+                    "ingenerator/kohana-extras": "^2.0",
+                    "ingenerator/php-utils": "^1.6",
                     "php": "^7.4"
                 },
                 "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.0",
+                    "johnkary/phpunit-speedtrap": "^3.2",
                     "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^8.0"
+                    "phpunit/phpunit": "^9.4"
                 },
                 "suggest": {
                     "ingenerator/showgroup": "javascript support to show/hide form sections based on values"
                 },
-                "time": "2020-10-30T13:37:21+00:00",
+                "time": "2020-11-02T11:40:17+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -236,7 +176,7 @@
                 "description": "Schema-based form rendering / interaction",
                 "homepage": "http://github.com/ingenerator/form",
                 "support": {
-                    "source": "https://github.com/ingenerator/form/tree/support-php74",
+                    "source": "https://github.com/ingenerator/form/tree/v1.2.0",
                     "issues": "https://github.com/ingenerator/form/issues"
                 }
             }
