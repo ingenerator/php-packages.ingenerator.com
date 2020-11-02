@@ -375,12 +375,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "7b01ca90eeb16800c55e725ba79f0c71ad496465"
+                    "reference": "339a39c63d1fab28f2d7e25ca76779ee74e527e5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/7b01ca90eeb16800c55e725ba79f0c71ad496465",
-                    "reference": "7b01ca90eeb16800c55e725ba79f0c71ad496465",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/339a39c63d1fab28f2d7e25ca76779ee74e527e5",
+                    "reference": "339a39c63d1fab28f2d7e25ca76779ee74e527e5",
                     "shasum": ""
                 },
                 "require": {
@@ -399,9 +399,10 @@
                     "symfony/process": "^3.4"
                 },
                 "suggest": {
-                    "maximebf/debugbar": "^1.14 to use the debug bar in development environments"
+                    "maximebf/debugbar": "^1.14 to use the debug bar in development environments",
+                    "swiftmailer/swiftmailer": "^6.2.3 to use the SwiftMailer dependency factory"
                 },
-                "time": "2020-11-02T15:03:05+00:00",
+                "time": "2020-11-02T17:07:36+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -433,7 +434,7 @@
                 "description": "Helper and wrapper classes for Kohana",
                 "homepage": "http://github.com/ingenerator/kohana-extras",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.1",
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.2",
                     "issues": "https://github.com/ingenerator/kohana-extras/issues"
                 }
             }

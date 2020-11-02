@@ -10891,19 +10891,19 @@
                     "issues": "https://github.com/ingenerator/kohana-extras/issues"
                 }
             },
-            "2.x-dev": {
+            "v2.0.2": {
                 "name": "ingenerator/kohana-extras",
-                "version": "2.x-dev",
-                "version_normalized": "2.9999999.9999999.9999999-dev",
+                "version": "v2.0.2",
+                "version_normalized": "2.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "7b01ca90eeb16800c55e725ba79f0c71ad496465"
+                    "reference": "339a39c63d1fab28f2d7e25ca76779ee74e527e5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/7b01ca90eeb16800c55e725ba79f0c71ad496465",
-                    "reference": "7b01ca90eeb16800c55e725ba79f0c71ad496465",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/339a39c63d1fab28f2d7e25ca76779ee74e527e5",
+                    "reference": "339a39c63d1fab28f2d7e25ca76779ee74e527e5",
                     "shasum": ""
                 },
                 "require": {
@@ -10922,9 +10922,10 @@
                     "symfony/process": "^3.4"
                 },
                 "suggest": {
-                    "maximebf/debugbar": "^1.14 to use the debug bar in development environments"
+                    "maximebf/debugbar": "^1.14 to use the debug bar in development environments",
+                    "swiftmailer/swiftmailer": "^6.2.3 to use the SwiftMailer dependency factory"
                 },
-                "time": "2020-11-02T15:03:05+00:00",
+                "time": "2020-11-02T17:07:36+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -10956,7 +10957,77 @@
                 "description": "Helper and wrapper classes for Kohana",
                 "homepage": "http://github.com/ingenerator/kohana-extras",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.1",
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.2",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
+            },
+            "2.x-dev": {
+                "name": "ingenerator/kohana-extras",
+                "version": "2.x-dev",
+                "version_normalized": "2.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
+                    "reference": "339a39c63d1fab28f2d7e25ca76779ee74e527e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/339a39c63d1fab28f2d7e25ca76779ee74e527e5",
+                    "reference": "339a39c63d1fab28f2d7e25ca76779ee74e527e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-dependencies": "^1.1",
+                    "ingenerator/php-utils": "^1.5",
+                    "php": "^7.4",
+                    "psr/log": "^1.0"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.0",
+                    "kohana/koharness": "*@dev",
+                    "mikey179/vfsstream": "^1.6.8",
+                    "phpspec/prophecy-phpunit": "^2.0",
+                    "phpunit/phpunit": "^9.0",
+                    "symfony/process": "^3.4"
+                },
+                "suggest": {
+                    "maximebf/debugbar": "^1.14 to use the debug bar in development environments",
+                    "swiftmailer/swiftmailer": "^6.2.3 to use the SwiftMailer dependency factory"
+                },
+                "time": "2020-11-02T17:07:36+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\KohanaExtras\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Helper and wrapper classes for Kohana",
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.2",
                     "issues": "https://github.com/ingenerator/kohana-extras/issues"
                 }
             }
