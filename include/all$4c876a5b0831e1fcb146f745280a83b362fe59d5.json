@@ -11105,6 +11105,64 @@
                 }
             }
         },
+        "ingenerator/oidc-token-verifier": {
+            "0.1.x-dev": {
+                "name": "ingenerator/oidc-token-verifier",
+                "version": "0.1.x-dev",
+                "version_normalized": "0.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/oidc-token-verifier.git",
+                    "reference": "a738d65603c03f6f594540e32e9cda470edb7bfd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/oidc-token-verifier/zipball/a738d65603c03f6f594540e32e9cda470edb7bfd",
+                    "reference": "a738d65603c03f6f594540e32e9cda470edb7bfd",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-openssl": "*",
+                    "firebase/php-jwt": "^5.2",
+                    "guzzlehttp/guzzle": "^6.5|^7.0",
+                    "php": "^7.2",
+                    "psr/cache": "^1.0",
+                    "psr/log": "^1.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^8.5"
+                },
+                "time": "2020-09-29T09:26:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\OIDCTokenVerifier\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\mock\\Ingenerator\\OIDCTokenVerifier\\": "test/mock",
+                        "test\\unit\\Ingenerator\\OIDCTokenVerifier\\": "test/unit"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com"
+                    }
+                ],
+                "description": "Lightweight library to verify OIDC tokens against a public discovery document / JWKS collection",
+                "homepage": "https://github.com/ingenerator/oidc-token-verifier",
+                "support": {
+                    "source": "https://github.com/ingenerator/oidc-token-verifier",
+                    "issues": "https://github.com/ingenerator/oidc-token-verifier/issues"
+                }
+            }
+        },
         "ingenerator/phinx-wrapper": {
             "v0.1.0": {
                 "name": "ingenerator/phinx-wrapper",
