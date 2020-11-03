@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/acoulton/doctrine1.git",
-                    "reference": "78742d84eeddaf936027625f8b613bc18bc7f43f"
+                    "reference": "37a680f008153dcb49bba8608684f8bc4d71b443"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/acoulton/doctrine1/zipball/78742d84eeddaf936027625f8b613bc18bc7f43f",
-                    "reference": "78742d84eeddaf936027625f8b613bc18bc7f43f",
+                    "url": "https://api.github.com/repos/acoulton/doctrine1/zipball/37a680f008153dcb49bba8608684f8bc4d71b443",
+                    "reference": "37a680f008153dcb49bba8608684f8bc4d71b443",
                     "shasum": ""
                 },
                 "require": {
                     "ext-pdo": "*",
                     "php": ">=5.2.3"
                 },
-                "time": "2019-03-29T10:20:02+00:00",
+                "time": "2020-11-03T01:14:06+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {

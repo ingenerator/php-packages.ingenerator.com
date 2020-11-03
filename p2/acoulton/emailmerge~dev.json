@@ -52,7 +52,8 @@
                 "support": {
                     "issues": "https://github.com/acoulton/emailmerge/issues",
                     "source": "https://github.com/acoulton/emailmerge"
-                }
+                },
+                "abandoned": true
             }
         ]
     }
