@@ -25,6 +25,7 @@
     {"type": "vcs", "url":  "https://github.com/ingenerator/warden-ui-kohana"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/kohana-core"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/kohana-extras"},
+    {"type": "vcs", "url":  "https://github.com/ingenerator/oidc-token-verifier"},
     {
       "type": "package",
       "package": {
