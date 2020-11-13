@@ -5031,12 +5031,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "a3b412df1e23d55db3059811f9b22345caa33122"
+                    "reference": "62213b1fe28777e9002e4721806a9087df4e29d5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/a3b412df1e23d55db3059811f9b22345caa33122",
-                    "reference": "a3b412df1e23d55db3059811f9b22345caa33122",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/62213b1fe28777e9002e4721806a9087df4e29d5",
+                    "reference": "62213b1fe28777e9002e4721806a9087df4e29d5",
                     "shasum": ""
                 },
                 "require": {
@@ -5053,7 +5053,7 @@
                     "guzzlehttp/psr7": "^1.7",
                     "phpunit/phpunit": "^9.4.2"
                 },
-                "time": "2020-11-12T16:49:39+00:00",
+                "time": "2020-11-12T23:05:37+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
