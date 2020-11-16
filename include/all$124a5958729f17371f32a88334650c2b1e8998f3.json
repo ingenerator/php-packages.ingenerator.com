@@ -5031,12 +5031,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "62213b1fe28777e9002e4721806a9087df4e29d5"
+                    "reference": "87b065b8c034cdfd9b615e9999dedaa9f3db57aa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/62213b1fe28777e9002e4721806a9087df4e29d5",
-                    "reference": "62213b1fe28777e9002e4721806a9087df4e29d5",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/87b065b8c034cdfd9b615e9999dedaa9f3db57aa",
+                    "reference": "87b065b8c034cdfd9b615e9999dedaa9f3db57aa",
                     "shasum": ""
                 },
                 "require": {
@@ -5053,7 +5053,7 @@
                     "guzzlehttp/psr7": "^1.7",
                     "phpunit/phpunit": "^9.4.2"
                 },
-                "time": "2020-11-12T23:05:37+00:00",
+                "time": "2020-11-16T11:46:51+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -11173,12 +11173,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/oidc-token-verifier.git",
-                    "reference": "a738d65603c03f6f594540e32e9cda470edb7bfd"
+                    "reference": "b218c429580c0151c4fe56f09461ced3c4b77107"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/oidc-token-verifier/zipball/a738d65603c03f6f594540e32e9cda470edb7bfd",
-                    "reference": "a738d65603c03f6f594540e32e9cda470edb7bfd",
+                    "url": "https://api.github.com/repos/ingenerator/oidc-token-verifier/zipball/b218c429580c0151c4fe56f09461ced3c4b77107",
+                    "reference": "b218c429580c0151c4fe56f09461ced3c4b77107",
                     "shasum": ""
                 },
                 "require": {
@@ -11193,7 +11193,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^8.5"
                 },
-                "time": "2020-09-29T09:26:41+00:00",
+                "time": "2020-11-16T11:55:25+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -12719,12 +12719,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "7fd17a33d21b4cf34e84b3cf705faf27ce37a769"
+                    "reference": "fd8af52e259178428dd797f7e3ad428d5fe2603f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/7fd17a33d21b4cf34e84b3cf705faf27ce37a769",
-                    "reference": "7fd17a33d21b4cf34e84b3cf705faf27ce37a769",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/fd8af52e259178428dd797f7e3ad428d5fe2603f",
+                    "reference": "fd8af52e259178428dd797f7e3ad428d5fe2603f",
                     "shasum": ""
                 },
                 "require": {
@@ -12739,7 +12739,7 @@
                     "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^8"
                 },
-                "time": "2020-10-29T15:52:36+00:00",
+                "time": "2020-11-16T12:56:12+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {

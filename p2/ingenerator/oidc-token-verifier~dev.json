@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/oidc-token-verifier.git",
-                    "reference": "a738d65603c03f6f594540e32e9cda470edb7bfd"
+                    "reference": "b218c429580c0151c4fe56f09461ced3c4b77107"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/oidc-token-verifier/zipball/a738d65603c03f6f594540e32e9cda470edb7bfd",
-                    "reference": "a738d65603c03f6f594540e32e9cda470edb7bfd",
+                    "url": "https://api.github.com/repos/ingenerator/oidc-token-verifier/zipball/b218c429580c0151c4fe56f09461ced3c4b77107",
+                    "reference": "b218c429580c0151c4fe56f09461ced3c4b77107",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^8.5"
                 },
-                "time": "2020-09-29T09:26:41+00:00",
+                "time": "2020-11-16T11:55:25+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
