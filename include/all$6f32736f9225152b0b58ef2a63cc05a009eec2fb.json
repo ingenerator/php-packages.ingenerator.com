@@ -5031,12 +5031,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "9a7c9eaa3bafa96a2a5808f838408bd8a4cb0090"
+                    "reference": "8e755476c36892da1f213f0fdd9ce47c012e10e2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/9a7c9eaa3bafa96a2a5808f838408bd8a4cb0090",
-                    "reference": "9a7c9eaa3bafa96a2a5808f838408bd8a4cb0090",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/8e755476c36892da1f213f0fdd9ce47c012e10e2",
+                    "reference": "8e755476c36892da1f213f0fdd9ce47c012e10e2",
                     "shasum": ""
                 },
                 "require": {
@@ -5053,7 +5053,7 @@
                     "guzzlehttp/psr7": "^1.7",
                     "phpunit/phpunit": "^9.4.2"
                 },
-                "time": "2020-11-30T16:34:27+00:00",
+                "time": "2020-12-04T13:29:48+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -11173,12 +11173,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/oidc-token-verifier.git",
-                    "reference": "c6e3e9d663ea2892ac632322eb35579dabde004a"
+                    "reference": "ddea409d5b088b22dba04a593106feccb0d9ac09"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/oidc-token-verifier/zipball/c6e3e9d663ea2892ac632322eb35579dabde004a",
-                    "reference": "c6e3e9d663ea2892ac632322eb35579dabde004a",
+                    "url": "https://api.github.com/repos/ingenerator/oidc-token-verifier/zipball/ddea409d5b088b22dba04a593106feccb0d9ac09",
+                    "reference": "ddea409d5b088b22dba04a593106feccb0d9ac09",
                     "shasum": ""
                 },
                 "require": {
@@ -11186,14 +11186,14 @@
                     "ext-openssl": "*",
                     "firebase/php-jwt": "^5.2",
                     "guzzlehttp/guzzle": "^6.5|^7.0",
-                    "php": "^7.2",
+                    "php": "^7.4",
                     "psr/cache": "^1.0",
                     "psr/log": "^1.1"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "^8.5"
                 },
-                "time": "2020-11-27T01:46:03+00:00",
+                "time": "2020-12-04T13:18:14+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
