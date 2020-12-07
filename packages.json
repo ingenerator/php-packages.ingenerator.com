@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$9caba9b1541a5f97d5f5afe0dc2f0048f90c1a06.json": {
-            "sha1": "9caba9b1541a5f97d5f5afe0dc2f0048f90c1a06"
+        "include/all$f4c73076962287bbd5d70350584de59c2baa9c1d.json": {
+            "sha1": "f4c73076962287bbd5d70350584de59c2baa9c1d"
         }
     },
     "metadata-url": "/p2/%package%.json",
@@ -51,7 +51,6 @@
         "sindresorhus/screenful.js",
         "stefanpenner/es6-promise",
         "tristen/tablesort",
-        "yapapaya/jquery-cloneya",
-        "zeelot/kohana-dependencies"
+        "yapapaya/jquery-cloneya"
     ]
 }
