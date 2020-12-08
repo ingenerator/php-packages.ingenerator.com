@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$e35eeb2283c1086add99d5dcad4a5e64f6d07927.json": {
-            "sha1": "e35eeb2283c1086add99d5dcad4a5e64f6d07927"
+        "include/all$71f69b2ae472cc7498a7f00b4b1b6246c0e35332.json": {
+            "sha1": "71f69b2ae472cc7498a7f00b4b1b6246c0e35332"
         }
     },
     "metadata-url": "/p2/%package%.json",
@@ -31,7 +31,6 @@
         "ingenerator/kohana-dependencies",
         "ingenerator/kohana-extras",
         "ingenerator/no-robloach-component-installer",
-        "ingenerator/oidc-token-verifier",
         "ingenerator/phinx-wrapper",
         "ingenerator/php-utils",
         "ingenerator/warden-auth",
