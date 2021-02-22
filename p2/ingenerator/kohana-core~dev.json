@@ -586,12 +586,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "02444740856dcb63d5179da33deece552e5bf2d2"
+                    "reference": "a3c56f548ffcc196b2646d9f461d53757a43121b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/02444740856dcb63d5179da33deece552e5bf2d2",
-                    "reference": "02444740856dcb63d5179da33deece552e5bf2d2",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/a3c56f548ffcc196b2646d9f461d53757a43121b",
+                    "reference": "a3c56f548ffcc196b2646d9f461d53757a43121b",
                     "shasum": ""
                 },
                 "require": {
@@ -613,7 +613,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2021-02-16T17:33:02+00:00",
+                "time": "2021-02-21T23:19:10+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -641,7 +641,7 @@
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
                 "homepage": "http://github.com/ingenerator/kohana-core",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/4.x",
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.2",
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             },
