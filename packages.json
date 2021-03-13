@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$774cad714555ba1d0e202689316c13c2c2f08d8c.json": {
-            "sha1": "774cad714555ba1d0e202689316c13c2c2f08d8c"
+        "include/all$fd0ac496cced06ee0eddcebe3c298d909c6c492e.json": {
+            "sha1": "fd0ac496cced06ee0eddcebe3c298d909c6c492e"
         }
     },
     "metadata-url": "/p2/%package%.json",
@@ -33,6 +33,7 @@
         "ingenerator/no-robloach-component-installer",
         "ingenerator/phinx-wrapper",
         "ingenerator/php-utils",
+        "ingenerator/swiftmailer-transport-ses",
         "ingenerator/warden-auth",
         "ingenerator/warden-core",
         "ingenerator/warden-persistence-doctrine",
