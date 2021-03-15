@@ -13423,19 +13423,19 @@
                     "issues": "https://github.com/ingenerator/php-utils/issues"
                 }
             },
-            "1.x-dev": {
+            "v1.8.0": {
                 "name": "ingenerator/php-utils",
-                "version": "1.x-dev",
-                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "version": "v1.8.0",
+                "version_normalized": "1.8.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "9c2cde830fe2d0b7b1bf9122c608bb129fd72f01"
+                    "reference": "eb52ba778e94567cc6971184b5c04d762d5a8ae7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/9c2cde830fe2d0b7b1bf9122c608bb129fd72f01",
-                    "reference": "9c2cde830fe2d0b7b1bf9122c608bb129fd72f01",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/eb52ba778e94567cc6971184b5c04d762d5a8ae7",
+                    "reference": "eb52ba778e94567cc6971184b5c04d762d5a8ae7",
                     "shasum": ""
                 },
                 "require": {
@@ -13450,7 +13450,66 @@
                     "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^8"
                 },
-                "time": "2021-02-28T23:33:40+00:00",
+                "time": "2021-03-15T11:58:56+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\PHPUtils\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\unit\\Ingenerator\\PHPUtils\\": "test"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Simple, standalone utility classes for PHP applications",
+                "homepage": "https://github.com/ingenerator/php-utils",
+                "support": {
+                    "source": "https://github.com/ingenerator/php-utils",
+                    "issues": "https://github.com/ingenerator/php-utils/issues"
+                }
+            },
+            "1.x-dev": {
+                "name": "ingenerator/php-utils",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/php-utils.git",
+                    "reference": "eb52ba778e94567cc6971184b5c04d762d5a8ae7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/eb52ba778e94567cc6971184b5c04d762d5a8ae7",
+                    "reference": "eb52ba778e94567cc6971184b5c04d762d5a8ae7",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-pdo": "^7",
+                    "ext-sodium": "^7.2",
+                    "php": "^7.4",
+                    "psr/log": "^1.1"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.0",
+                    "mikey179/vfsstream": "^1.6.8",
+                    "phpunit/phpunit": "^8"
+                },
+                "time": "2021-03-15T11:58:56+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
