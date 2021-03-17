@@ -11809,12 +11809,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "0b770edeedf5049746dbf7ff210f9fa037bdf965"
+                    "reference": "e7cc360293297072afb8dd4a32be29c57c80a528"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/0b770edeedf5049746dbf7ff210f9fa037bdf965",
-                    "reference": "0b770edeedf5049746dbf7ff210f9fa037bdf965",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/e7cc360293297072afb8dd4a32be29c57c80a528",
+                    "reference": "e7cc360293297072afb8dd4a32be29c57c80a528",
                     "shasum": ""
                 },
                 "require": {
@@ -11837,7 +11837,7 @@
                     "maximebf/debugbar": "^1.14 to use the debug bar in development environments",
                     "swiftmailer/swiftmailer": "^6.2.3 to use the SwiftMailer dependency factory"
                 },
-                "time": "2021-03-17T19:16:19+00:00",
+                "time": "2021-03-17T19:20:34+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
