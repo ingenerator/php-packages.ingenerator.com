@@ -13680,18 +13680,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/swiftmailer-transport-ses.git",
-                    "reference": "7c07809b78eb5d8dd9611adeb80b95a2c2d3acac"
+                    "reference": "6e3d72836cf05cd7083b9c412f6de54b44209a59"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/swiftmailer-transport-ses/zipball/7c07809b78eb5d8dd9611adeb80b95a2c2d3acac",
-                    "reference": "7c07809b78eb5d8dd9611adeb80b95a2c2d3acac",
+                    "url": "https://api.github.com/repos/ingenerator/swiftmailer-transport-ses/zipball/6e3d72836cf05cd7083b9c412f6de54b44209a59",
+                    "reference": "6e3d72836cf05cd7083b9c412f6de54b44209a59",
                     "shasum": ""
                 },
                 "require": {
                     "aws/aws-sdk-php": "^3.173",
                     "ingenerator/php-utils": "^1.9.0",
-                    "php": "^7.4|8.0.*",
+                    "php": "^7.4",
                     "psr/log": "^1.1",
                     "swiftmailer/swiftmailer": "^6.2.7"
                 },
@@ -13701,7 +13701,7 @@
                     "johnkary/phpunit-speedtrap": "^3.2",
                     "phpunit/phpunit": "^9.4"
                 },
-                "time": "2021-03-19T08:33:09+00:00",
+                "time": "2021-03-19T12:20:39+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
