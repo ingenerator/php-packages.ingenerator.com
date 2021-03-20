@@ -3,17 +3,17 @@
         "ingenerator/swiftmailer-transport-ses": [
             {
                 "name": "ingenerator/swiftmailer-transport-ses",
-                "version": "dev-ses-transport",
-                "version_normalized": "dev-ses-transport",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/swiftmailer-transport-ses.git",
-                    "reference": "6e3d72836cf05cd7083b9c412f6de54b44209a59"
+                    "reference": "2ff5a8a9d1f4f84bc9f48a2adf718d26d503342d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/swiftmailer-transport-ses/zipball/6e3d72836cf05cd7083b9c412f6de54b44209a59",
-                    "reference": "6e3d72836cf05cd7083b9c412f6de54b44209a59",
+                    "url": "https://api.github.com/repos/ingenerator/swiftmailer-transport-ses/zipball/2ff5a8a9d1f4f84bc9f48a2adf718d26d503342d",
+                    "reference": "2ff5a8a9d1f4f84bc9f48a2adf718d26d503342d",
                     "shasum": ""
                 },
                 "require": {
@@ -29,7 +29,7 @@
                     "johnkary/phpunit-speedtrap": "^3.2",
                     "phpunit/phpunit": "^9.4"
                 },
-                "time": "2021-03-19T12:20:39+00:00",
+                "time": "2021-03-20T08:34:02+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -60,7 +60,7 @@
                 "description": "AWS SES API transport for SwiftMailer",
                 "homepage": "http://github.com/ingenerator/swiftmailer-transport-ses",
                 "support": {
-                    "source": "https://github.com/ingenerator/swiftmailer-transport-ses/tree/ses-transport",
+                    "source": "https://github.com/ingenerator/swiftmailer-transport-ses/tree/v1.0.0",
                     "issues": "https://github.com/ingenerator/swiftmailer-transport-ses/issues"
                 }
             }
