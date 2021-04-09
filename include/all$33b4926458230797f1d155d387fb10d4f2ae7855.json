@@ -5272,19 +5272,19 @@
                     "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
                 }
             },
-            "0.2.x-dev": {
+            "v0.2.2": {
                 "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "0.2.x-dev",
-                "version_normalized": "0.2.9999999.9999999-dev",
+                "version": "v0.2.2",
+                "version_normalized": "0.2.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "8579125b1c0ae2cead43790ddd3ff0bba4387d81"
+                    "reference": "477ad69262372a6ff7c4f7e8b55ae12b97c5e1c6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/8579125b1c0ae2cead43790ddd3ff0bba4387d81",
-                    "reference": "8579125b1c0ae2cead43790ddd3ff0bba4387d81",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/477ad69262372a6ff7c4f7e8b55ae12b97c5e1c6",
+                    "reference": "477ad69262372a6ff7c4f7e8b55ae12b97c5e1c6",
                     "shasum": ""
                 },
                 "require": {
@@ -5301,7 +5301,7 @@
                     "guzzlehttp/psr7": "^1.7",
                     "phpunit/phpunit": "^9.4.2"
                 },
-                "time": "2021-01-18T13:44:14+00:00",
+                "time": "2021-04-09T20:57:25+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -5330,19 +5330,19 @@
                     "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
                 }
             },
-            "dev-0.2.x-mock-creator-date-assert": {
+            "0.2.x-dev": {
                 "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "dev-0.2.x-mock-creator-date-assert",
-                "version_normalized": "dev-0.2.x-mock-creator-date-assert",
+                "version": "0.2.x-dev",
+                "version_normalized": "0.2.9999999.9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "8a5aaf14fef900812de7dd21f15d98869a0d147e"
+                    "reference": "477ad69262372a6ff7c4f7e8b55ae12b97c5e1c6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/8a5aaf14fef900812de7dd21f15d98869a0d147e",
-                    "reference": "8a5aaf14fef900812de7dd21f15d98869a0d147e",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/477ad69262372a6ff7c4f7e8b55ae12b97c5e1c6",
+                    "reference": "477ad69262372a6ff7c4f7e8b55ae12b97c5e1c6",
                     "shasum": ""
                 },
                 "require": {
@@ -5359,7 +5359,7 @@
                     "guzzlehttp/psr7": "^1.7",
                     "phpunit/phpunit": "^9.4.2"
                 },
-                "time": "2021-04-09T19:06:56+00:00",
+                "time": "2021-04-09T20:57:25+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -12807,6 +12807,65 @@
                     "issues": "https://github.com/ingenerator/php-utils/issues"
                 }
             },
+            "v1.10.0": {
+                "name": "ingenerator/php-utils",
+                "version": "v1.10.0",
+                "version_normalized": "1.10.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/php-utils.git",
+                    "reference": "f997ccbc78573423d82fd9d485420ead5836abc1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/f997ccbc78573423d82fd9d485420ead5836abc1",
+                    "reference": "f997ccbc78573423d82fd9d485420ead5836abc1",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-pdo": "^7",
+                    "ext-sodium": "^7.2",
+                    "php": "^7.4",
+                    "psr/log": "^1.1"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.0",
+                    "mikey179/vfsstream": "^1.6.8",
+                    "phpunit/phpunit": "^8"
+                },
+                "time": "2021-04-09T20:56:01+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\PHPUtils\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\unit\\Ingenerator\\PHPUtils\\": "test"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Simple, standalone utility classes for PHP applications",
+                "homepage": "https://github.com/ingenerator/php-utils",
+                "support": {
+                    "source": "https://github.com/ingenerator/php-utils",
+                    "issues": "https://github.com/ingenerator/php-utils/issues"
+                }
+            },
             "v1.2.0": {
                 "name": "ingenerator/php-utils",
                 "version": "v1.2.0",
@@ -13620,12 +13679,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "ea2e1b1cdd855f3818951f1b13c767837f4866c8"
+                    "reference": "f997ccbc78573423d82fd9d485420ead5836abc1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/ea2e1b1cdd855f3818951f1b13c767837f4866c8",
-                    "reference": "ea2e1b1cdd855f3818951f1b13c767837f4866c8",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/f997ccbc78573423d82fd9d485420ead5836abc1",
+                    "reference": "f997ccbc78573423d82fd9d485420ead5836abc1",
                     "shasum": ""
                 },
                 "require": {
@@ -13640,66 +13699,7 @@
                     "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^8"
                 },
-                "time": "2021-03-16T17:49:25+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\PHPUtils\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "test\\unit\\Ingenerator\\PHPUtils\\": "test"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com"
-                    }
-                ],
-                "description": "Simple, standalone utility classes for PHP applications",
-                "homepage": "https://github.com/ingenerator/php-utils",
-                "support": {
-                    "source": "https://github.com/ingenerator/php-utils",
-                    "issues": "https://github.com/ingenerator/php-utils/issues"
-                }
-            },
-            "dev-1.x-feat-transaction-wrapper": {
-                "name": "ingenerator/php-utils",
-                "version": "dev-1.x-feat-transaction-wrapper",
-                "version_normalized": "dev-1.x-feat-transaction-wrapper",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "92724f2868a71d9b5a72780deff7bf8127908545"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/92724f2868a71d9b5a72780deff7bf8127908545",
-                    "reference": "92724f2868a71d9b5a72780deff7bf8127908545",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-json": "*",
-                    "ext-pdo": "^7",
-                    "ext-sodium": "^7.2",
-                    "php": "^7.4",
-                    "psr/log": "^1.1"
-                },
-                "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.0",
-                    "mikey179/vfsstream": "^1.6.8",
-                    "phpunit/phpunit": "^8"
-                },
-                "time": "2021-04-08T13:53:01+00:00",
+                "time": "2021-04-09T20:56:01+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {

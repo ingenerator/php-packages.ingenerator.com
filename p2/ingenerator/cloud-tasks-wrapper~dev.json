@@ -66,12 +66,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "8579125b1c0ae2cead43790ddd3ff0bba4387d81"
+                    "reference": "477ad69262372a6ff7c4f7e8b55ae12b97c5e1c6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/8579125b1c0ae2cead43790ddd3ff0bba4387d81",
-                    "reference": "8579125b1c0ae2cead43790ddd3ff0bba4387d81",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/477ad69262372a6ff7c4f7e8b55ae12b97c5e1c6",
+                    "reference": "477ad69262372a6ff7c4f7e8b55ae12b97c5e1c6",
                     "shasum": ""
                 },
                 "require": {
@@ -88,65 +88,7 @@
                     "guzzlehttp/psr7": "^1.7",
                     "phpunit/phpunit": "^9.4.2"
                 },
-                "time": "2021-01-18T13:44:14+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\CloudTasksWrapper\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "test\\mock\\Ingenerator\\CloudTasksWrapper\\": "test/mock",
-                        "test\\unit\\Ingenerator\\CloudTasksWrapper\\": "test/unit"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com"
-                    }
-                ],
-                "description": "Library for dispatching and processing Google Cloud Tasks from PHP",
-                "homepage": "https://github.com/ingenerator/cloud-tasks-wrapper",
-                "support": {
-                    "source": "https://github.com/ingenerator/cloud-tasks-wrapper",
-                    "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
-                }
-            },
-            {
-                "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "dev-0.2.x-mock-creator-date-assert",
-                "version_normalized": "dev-0.2.x-mock-creator-date-assert",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "8a5aaf14fef900812de7dd21f15d98869a0d147e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/8a5aaf14fef900812de7dd21f15d98869a0d147e",
-                    "reference": "8a5aaf14fef900812de7dd21f15d98869a0d147e",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-bcmath": "^7",
-                    "google/cloud-tasks": "^1.8",
-                    "google/protobuf": "^3.13.0.1",
-                    "ingenerator/oidc-token-verifier": "^0.1.1",
-                    "ingenerator/php-utils": "^1.7",
-                    "php": "^7.4",
-                    "psr/http-message": "^1.0",
-                    "symfony/polyfill-php80": "^1.20"
-                },
-                "require-dev": {
-                    "guzzlehttp/psr7": "^1.7",
-                    "phpunit/phpunit": "^9.4.2"
-                },
-                "time": "2021-04-09T19:06:56+00:00",
+                "time": "2021-04-09T20:57:25+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
