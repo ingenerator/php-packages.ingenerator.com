@@ -8780,23 +8780,23 @@
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             },
-            "4.x-dev": {
+            "v4.8.6": {
                 "name": "ingenerator/kohana-core",
-                "version": "4.x-dev",
-                "version_normalized": "4.9999999.9999999.9999999-dev",
+                "version": "v4.8.6",
+                "version_normalized": "4.8.6.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "a7a0bea56d3f49990549b42251a0a38468841155"
+                    "reference": "7faa7dadc857dd049049cf8c5d03999665facc5d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/a7a0bea56d3f49990549b42251a0a38468841155",
-                    "reference": "a7a0bea56d3f49990549b42251a0a38468841155",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/7faa7dadc857dd049049cf8c5d03999665facc5d",
+                    "reference": "7faa7dadc857dd049049cf8c5d03999665facc5d",
                     "shasum": ""
                 },
                 "require": {
-                    "php": "^7.4 || ^8.0"
+                    "php": "^7.4 || ~8.0.0"
                 },
                 "conflict": {
                     "kohana/core": "*"
@@ -8814,7 +8814,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2021-04-18T19:02:40+00:00",
+                "time": "2021-04-19T18:42:52+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -8842,7 +8842,73 @@
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
                 "homepage": "http://github.com/ingenerator/kohana-core",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.5",
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.6",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
+            },
+            "4.x-dev": {
+                "name": "ingenerator/kohana-core",
+                "version": "4.x-dev",
+                "version_normalized": "4.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "reference": "7faa7dadc857dd049049cf8c5d03999665facc5d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/7faa7dadc857dd049049cf8c5d03999665facc5d",
+                    "reference": "7faa7dadc857dd049049cf8c5d03999665facc5d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.4 || ~8.0.0"
+                },
+                "conflict": {
+                    "kohana/core": "*"
+                },
+                "replace": {
+                    "kohana/core": "3.3.*",
+                    "kohana/minion": "3.3.*",
+                    "kohana/unittest": "3.3.*"
+                },
+                "require-dev": {
+                    "kohana/koharness": "*@dev",
+                    "phpunit/phpunit": "^8.5"
+                },
+                "suggest": {
+                    "ext-curl": "*",
+                    "ext-http": "*"
+                },
+                "time": "2021-04-19T18:42:52+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "role": "hacker & axe-wielder"
+                    },
+                    {
+                        "name": "Kohana Team",
+                        "email": "team@kohanaframework.org",
+                        "homepage": "http://kohanaframework.org/team",
+                        "role": "developer"
+                    }
+                ],
+                "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.6",
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             }
@@ -9745,25 +9811,25 @@
                     "source": "https://github.com/ingenerator/kohana-dependencies"
                 }
             },
-            "1.x-dev": {
+            "v1.2.1": {
                 "name": "ingenerator/kohana-dependencies",
-                "version": "1.x-dev",
-                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "version": "v1.2.1",
+                "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-dependencies.git",
-                    "reference": "032255d9c59382e0f61b19965631ece8a24982b9"
+                    "reference": "6388c9aa079e48551a271e9987423fbab2f3ff0c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/032255d9c59382e0f61b19965631ece8a24982b9",
-                    "reference": "032255d9c59382e0f61b19965631ece8a24982b9",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/6388c9aa079e48551a271e9987423fbab2f3ff0c",
+                    "reference": "6388c9aa079e48551a271e9987423fbab2f3ff0c",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0",
                     "ingenerator/kohana-core": "^4.7",
-                    "php": "^7.4"
+                    "php": "^7.4 || ~8.0.0"
                 },
                 "replace": {
                     "zeelot/kohana-dependencies": "self.version"
@@ -9773,7 +9839,7 @@
                     "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-02-18T01:09:04+00:00",
+                "time": "2021-04-19T18:09:59+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -9816,25 +9882,25 @@
                     "source": "https://github.com/ingenerator/kohana-dependencies"
                 }
             },
-            "dev-remove-magic-getters": {
+            "1.x-dev": {
                 "name": "ingenerator/kohana-dependencies",
-                "version": "dev-remove-magic-getters",
-                "version_normalized": "dev-remove-magic-getters",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-dependencies.git",
-                    "reference": "d38e516de6136d6fa6ebe1abc4efafca006f1a3d"
+                    "reference": "6388c9aa079e48551a271e9987423fbab2f3ff0c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/d38e516de6136d6fa6ebe1abc4efafca006f1a3d",
-                    "reference": "d38e516de6136d6fa6ebe1abc4efafca006f1a3d",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/6388c9aa079e48551a271e9987423fbab2f3ff0c",
+                    "reference": "6388c9aa079e48551a271e9987423fbab2f3ff0c",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0",
                     "ingenerator/kohana-core": "^4.7",
-                    "php": "^7.4"
+                    "php": "^7.4 || ~8.0.0"
                 },
                 "replace": {
                     "zeelot/kohana-dependencies": "self.version"
@@ -9844,7 +9910,7 @@
                     "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-04-19T08:33:06+00:00",
+                "time": "2021-04-19T18:09:59+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -13069,6 +13135,65 @@
                     "issues": "https://github.com/ingenerator/php-utils/issues"
                 }
             },
+            "v1.11.0": {
+                "name": "ingenerator/php-utils",
+                "version": "v1.11.0",
+                "version_normalized": "1.11.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/php-utils.git",
+                    "reference": "9ecc644e6c1c77aa8ebd787414e64adc1eda3749"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/9ecc644e6c1c77aa8ebd787414e64adc1eda3749",
+                    "reference": "9ecc644e6c1c77aa8ebd787414e64adc1eda3749",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-pdo": "^7 || ~8.0.0",
+                    "ext-sodium": "^7.4 || ~8.0.0",
+                    "php": "^7.4 || ~8.0.0",
+                    "psr/log": "^1.1"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "mikey179/vfsstream": "^1.6.8",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2021-04-19T18:10:44+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\PHPUtils\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\unit\\Ingenerator\\PHPUtils\\": "test"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Simple, standalone utility classes for PHP applications",
+                "homepage": "https://github.com/ingenerator/php-utils",
+                "support": {
+                    "source": "https://github.com/ingenerator/php-utils",
+                    "issues": "https://github.com/ingenerator/php-utils/issues"
+                }
+            },
             "v1.2.0": {
                 "name": "ingenerator/php-utils",
                 "version": "v1.2.0",
@@ -13882,86 +14007,27 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "f997ccbc78573423d82fd9d485420ead5836abc1"
+                    "reference": "9ecc644e6c1c77aa8ebd787414e64adc1eda3749"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/f997ccbc78573423d82fd9d485420ead5836abc1",
-                    "reference": "f997ccbc78573423d82fd9d485420ead5836abc1",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/9ecc644e6c1c77aa8ebd787414e64adc1eda3749",
+                    "reference": "9ecc644e6c1c77aa8ebd787414e64adc1eda3749",
                     "shasum": ""
                 },
                 "require": {
                     "ext-json": "*",
-                    "ext-pdo": "^7",
-                    "ext-sodium": "^7.2",
-                    "php": "^7.4",
+                    "ext-pdo": "^7 || ~8.0.0",
+                    "ext-sodium": "^7.4 || ~8.0.0",
+                    "php": "^7.4 || ~8.0.0",
                     "psr/log": "^1.1"
                 },
                 "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.0",
+                    "johnkary/phpunit-speedtrap": "^3.3",
                     "mikey179/vfsstream": "^1.6.8",
-                    "phpunit/phpunit": "^8"
+                    "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-04-09T20:56:01+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\PHPUtils\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "test\\unit\\Ingenerator\\PHPUtils\\": "test"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com"
-                    }
-                ],
-                "description": "Simple, standalone utility classes for PHP applications",
-                "homepage": "https://github.com/ingenerator/php-utils",
-                "support": {
-                    "source": "https://github.com/ingenerator/php-utils",
-                    "issues": "https://github.com/ingenerator/php-utils/issues"
-                }
-            },
-            "dev-php8-compatibility": {
-                "name": "ingenerator/php-utils",
-                "version": "dev-php8-compatibility",
-                "version_normalized": "dev-php8-compatibility",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "e535ed5023c56ca73145dae1d0671622c926a052"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/e535ed5023c56ca73145dae1d0671622c926a052",
-                    "reference": "e535ed5023c56ca73145dae1d0671622c926a052",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-json": "*",
-                    "ext-pdo": "^7 || ^8.0",
-                    "ext-sodium": "^7.4 || ^8.0",
-                    "php": "^7.4 || ^8.0",
-                    "psr/log": "^1.1"
-                },
-                "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.0",
-                    "mikey179/vfsstream": "^1.6.8",
-                    "phpunit/phpunit": "^8"
-                },
-                "time": "2021-04-17T21:25:57+00:00",
+                "time": "2021-04-19T18:10:44+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
