@@ -9815,6 +9815,77 @@
                     "issues": "https://github.com/ingenerator/kohana-dependencies/issues",
                     "source": "https://github.com/ingenerator/kohana-dependencies"
                 }
+            },
+            "dev-remove-magic-getters": {
+                "name": "ingenerator/kohana-dependencies",
+                "version": "dev-remove-magic-getters",
+                "version_normalized": "dev-remove-magic-getters",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/kohana-dependencies.git",
+                    "reference": "d38e516de6136d6fa6ebe1abc4efafca006f1a3d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/d38e516de6136d6fa6ebe1abc4efafca006f1a3d",
+                    "reference": "d38e516de6136d6fa6ebe1abc4efafca006f1a3d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "ingenerator/kohana-core": "^4.7",
+                    "php": "^7.4"
+                },
+                "replace": {
+                    "zeelot/kohana-dependencies": "self.version"
+                },
+                "require-dev": {
+                    "kohana/koharness": "dev-master",
+                    "mikey179/vfsstream": "^1.6.8",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2021-04-19T08:33:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Dependency_": "classes/",
+                        "Kohana_Dependency_": "classes/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "http://www.ingenerator.com",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Lorenzo Pisani",
+                        "email": "zeelot3k@gmail.com",
+                        "homepage": "http://zeelot3k.com",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Jeremy Lindblom",
+                        "email": "jeremeamia@gmail.com",
+                        "homepage": "https://github.com/jeremeamia",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A Dependency Injection Container Module for Kohana 3.x",
+                "homepage": "https://github.com/ingenerator/kohana-dependencies",
+                "keywords": [
+                    "dependencies",
+                    "dependency",
+                    "kohana"
+                ],
+                "support": {
+                    "issues": "https://github.com/ingenerator/kohana-dependencies/issues",
+                    "source": "https://github.com/ingenerator/kohana-dependencies"
+                }
             }
         },
         "ingenerator/kohana-extras": {
