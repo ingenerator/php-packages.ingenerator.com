@@ -187,19 +187,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/form.git",
-                    "reference": "7b0206d2dec5b9c788710a2fc0a2f4eb3de2ec23"
+                    "reference": "49300e9f4b7f4d51bdd9d094b3616b40e8a3ba60"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/form/zipball/7b0206d2dec5b9c788710a2fc0a2f4eb3de2ec23",
-                    "reference": "7b0206d2dec5b9c788710a2fc0a2f4eb3de2ec23",
+                    "url": "https://api.github.com/repos/ingenerator/form/zipball/49300e9f4b7f4d51bdd9d094b3616b40e8a3ba60",
+                    "reference": "49300e9f4b7f4d51bdd9d094b3616b40e8a3ba60",
                     "shasum": ""
                 },
                 "require": {
                     "ingenerator/kohana-core": "^4.7",
                     "ingenerator/kohana-extras": "^2.0",
                     "ingenerator/php-utils": "^1.6",
-                    "php": "^7.4 || ^8.0"
+                    "php": "^7.4 || ~8.0.0"
                 },
                 "require-dev": {
                     "johnkary/phpunit-speedtrap": "^3.2",
@@ -209,7 +209,7 @@
                 "suggest": {
                     "ingenerator/showgroup": "javascript support to show/hide form sections based on values"
                 },
-                "time": "2021-04-19T19:48:10+00:00",
+                "time": "2021-04-20T06:44:31+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
