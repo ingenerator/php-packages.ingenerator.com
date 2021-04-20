@@ -446,18 +446,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "e305b4d1dd6044166bcb115af63dba987d164c5f"
+                    "reference": "dfa1eec82cc176550c978d76783366be5d779986"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/e305b4d1dd6044166bcb115af63dba987d164c5f",
-                    "reference": "e305b4d1dd6044166bcb115af63dba987d164c5f",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/dfa1eec82cc176550c978d76783366be5d779986",
+                    "reference": "dfa1eec82cc176550c978d76783366be5d779986",
                     "shasum": ""
                 },
                 "require": {
                     "ingenerator/kohana-core": "^4.7",
                     "ingenerator/kohana-dependencies": "^1.2",
-                    "ingenerator/php-utils": "^1.5",
+                    "ingenerator/php-utils": "^1.9.0",
                     "php": "^7.4 || ~8.0.0",
                     "psr/log": "^1.0"
                 },
@@ -470,10 +470,11 @@
                     "symfony/process": "^3.4"
                 },
                 "suggest": {
+                    "ingenerator/swiftmailer-transport-ses": "^1.0 to use custom SwiftMailer transports",
                     "maximebf/debugbar": "^1.14 to use the debug bar in development environments",
                     "swiftmailer/swiftmailer": "^6.2.3 to use the SwiftMailer dependency factory"
                 },
-                "time": "2021-04-20T07:47:57+00:00",
+                "time": "2021-04-20T08:11:01+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
