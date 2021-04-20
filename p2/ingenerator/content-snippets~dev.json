@@ -66,12 +66,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "8694d69c48466a9888798432ae428d9df3f10aaa"
+                    "reference": "3f8d9d257cea7b2b8a4ce573a59fc1b071432502"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/8694d69c48466a9888798432ae428d9df3f10aaa",
-                    "reference": "8694d69c48466a9888798432ae428d9df3f10aaa",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/3f8d9d257cea7b2b8a4ce573a59fc1b071432502",
+                    "reference": "3f8d9d257cea7b2b8a4ce573a59fc1b071432502",
                     "shasum": ""
                 },
                 "require": {
@@ -80,14 +80,14 @@
                     "ingenerator/kohana-core": "^4.7",
                     "ingenerator/kohana-extras": "^2.0",
                     "ingenerator/kohana-view": "^4.4",
-                    "php": "^7.4"
+                    "php": "^7.4 || ~8.0.0"
                 },
                 "require-dev": {
                     "johnkary/phpunit-speedtrap": "^3.0",
                     "kohana/koharness": "dev-master",
                     "phpunit/phpunit": "^9.4"
                 },
-                "time": "2020-11-02T15:16:33+00:00",
+                "time": "2021-04-20T19:11:22+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -114,7 +114,7 @@
                 "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
                 "homepage": "http://github.com/ingenerator/content-snippets",
                 "support": {
-                    "source": "https://github.com/ingenerator/content-snippets/tree/v1.2.0",
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v1.2.1",
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
             }
