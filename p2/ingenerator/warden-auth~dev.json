@@ -60,28 +60,28 @@
             },
             {
                 "name": "ingenerator/warden-auth",
-                "version": "1.0.x-dev",
-                "version_normalized": "1.0.9999999.9999999-dev",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-auth.git",
-                    "reference": "3cc228101f7717061a70a3a87fe1de7fed9c3985"
+                    "reference": "ef95fc2b9a2829d5a2e60fedb588624018deb1a2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/3cc228101f7717061a70a3a87fe1de7fed9c3985",
-                    "reference": "3cc228101f7717061a70a3a87fe1de7fed9c3985",
+                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/ef95fc2b9a2829d5a2e60fedb588624018deb1a2",
+                    "reference": "ef95fc2b9a2829d5a2e60fedb588624018deb1a2",
                     "shasum": ""
                 },
                 "require": {
                     "ingenerator/warden-core": "^1.1",
-                    "php": "^7.4",
+                    "php": "^7.4 || ~8.0.0",
                     "psr/log": "^1.0"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "^9.0"
                 },
-                "time": "2020-10-30T12:37:05+00:00",
+                "time": "2021-04-21T12:56:58+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -111,7 +111,7 @@
                     "web"
                 ],
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-auth/tree/v1.1.0",
+                    "source": "https://github.com/ingenerator/warden-auth/tree/v1.1.1",
                     "issues": "https://github.com/ingenerator/warden-auth/issues"
                 }
             }
