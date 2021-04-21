@@ -411,12 +411,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "a40cc3b94128636d52653e918265f25c6d97c1fc"
+                    "reference": "f6b7fc4afedf3317dc540db20d8bfdc137b0464d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/a40cc3b94128636d52653e918265f25c6d97c1fc",
-                    "reference": "a40cc3b94128636d52653e918265f25c6d97c1fc",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/f6b7fc4afedf3317dc540db20d8bfdc137b0464d",
+                    "reference": "f6b7fc4afedf3317dc540db20d8bfdc137b0464d",
                     "shasum": ""
                 },
                 "require": {
@@ -442,7 +442,7 @@
                 "suggest": {
                     "zeelot/kohana-dependencies": "Dependency container for kohana"
                 },
-                "time": "2021-04-21T13:00:32+00:00",
+                "time": "2021-04-21T13:22:28+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
