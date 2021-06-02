@@ -124,12 +124,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "e9ca1c6f096f2058e8f7d0ba353d2bf14bf6b062"
+                    "reference": "b91e28b6a1a5dde34e93d7fb3cfb1d5dfa41d858"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/e9ca1c6f096f2058e8f7d0ba353d2bf14bf6b062",
-                    "reference": "e9ca1c6f096f2058e8f7d0ba353d2bf14bf6b062",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/b91e28b6a1a5dde34e93d7fb3cfb1d5dfa41d858",
+                    "reference": "b91e28b6a1a5dde34e93d7fb3cfb1d5dfa41d858",
                     "shasum": ""
                 },
                 "require": {
@@ -146,7 +146,7 @@
                     "guzzlehttp/psr7": "^1.7",
                     "phpunit/phpunit": "^9.4.2"
                 },
-                "time": "2021-06-01T21:22:53+00:00",
+                "time": "2021-06-01T21:44:38+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
