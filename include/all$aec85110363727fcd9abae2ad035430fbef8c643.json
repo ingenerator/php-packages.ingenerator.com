@@ -5378,19 +5378,19 @@
                     "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
                 }
             },
-            "0.2.x-dev": {
+            "v0.2.3": {
                 "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "0.2.x-dev",
-                "version_normalized": "0.2.9999999.9999999-dev",
+                "version": "v0.2.3",
+                "version_normalized": "0.2.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "477ad69262372a6ff7c4f7e8b55ae12b97c5e1c6"
+                    "reference": "dcb5a7cd6a5324b1d8e59f1c0393408bba134334"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/477ad69262372a6ff7c4f7e8b55ae12b97c5e1c6",
-                    "reference": "477ad69262372a6ff7c4f7e8b55ae12b97c5e1c6",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/dcb5a7cd6a5324b1d8e59f1c0393408bba134334",
+                    "reference": "dcb5a7cd6a5324b1d8e59f1c0393408bba134334",
                     "shasum": ""
                 },
                 "require": {
@@ -5407,7 +5407,7 @@
                     "guzzlehttp/psr7": "^1.7",
                     "phpunit/phpunit": "^9.4.2"
                 },
-                "time": "2021-04-09T20:57:25+00:00",
+                "time": "2021-06-03T14:47:24+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -5436,19 +5436,19 @@
                     "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
                 }
             },
-            "dev-feat-0.2-stub-with-parsed-body": {
+            "0.2.x-dev": {
                 "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "dev-feat-0.2-stub-with-parsed-body",
-                "version_normalized": "dev-feat-0.2-stub-with-parsed-body",
+                "version": "0.2.x-dev",
+                "version_normalized": "0.2.9999999.9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "d4d45d6c9700b31b432c9a3233c10d08e1df9fe3"
+                    "reference": "dcb5a7cd6a5324b1d8e59f1c0393408bba134334"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/d4d45d6c9700b31b432c9a3233c10d08e1df9fe3",
-                    "reference": "d4d45d6c9700b31b432c9a3233c10d08e1df9fe3",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/dcb5a7cd6a5324b1d8e59f1c0393408bba134334",
+                    "reference": "dcb5a7cd6a5324b1d8e59f1c0393408bba134334",
                     "shasum": ""
                 },
                 "require": {
@@ -5465,7 +5465,7 @@
                     "guzzlehttp/psr7": "^1.7",
                     "phpunit/phpunit": "^9.4.2"
                 },
-                "time": "2021-06-02T12:29:45+00:00",
+                "time": "2021-06-03T14:47:24+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
