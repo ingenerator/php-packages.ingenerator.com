@@ -88,6 +88,7 @@
                     "phpunit/phpunit": "^9.4"
                 },
                 "time": "2021-04-20T19:11:22+00:00",
+                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "installer-paths": {

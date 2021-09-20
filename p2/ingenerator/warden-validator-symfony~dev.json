@@ -135,6 +135,7 @@
                     "doctrine/annotations": "To use the default annotation-based validation in warden-core"
                 },
                 "time": "2021-04-21T11:53:08+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {

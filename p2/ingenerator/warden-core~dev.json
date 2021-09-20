@@ -243,6 +243,7 @@
                     "ingenerator/warden-validator-symfony": "Default entity / request validation implemenation using symfony validation"
                 },
                 "time": "2021-05-06T15:09:09+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {

@@ -614,6 +614,7 @@
                     "ext-http": "*"
                 },
                 "time": "2021-04-19T18:42:52+00:00",
+                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "installer-paths": {

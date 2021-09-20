@@ -404,6 +404,7 @@
                     "swiftmailer/swiftmailer": "^6.2.3 to use the SwiftMailer dependency factory"
                 },
                 "time": "2021-04-20T15:31:39+00:00",
+                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "installer-paths": {

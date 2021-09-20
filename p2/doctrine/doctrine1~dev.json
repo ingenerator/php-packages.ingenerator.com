@@ -21,6 +21,7 @@
                     "php": ">=5.2.3"
                 },
                 "time": "2020-11-03T01:14:06+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-0": {

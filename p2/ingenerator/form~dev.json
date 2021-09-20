@@ -150,6 +150,7 @@
                     "ingenerator/showgroup": "javascript support to show/hide form sections based on values"
                 },
                 "time": "2021-04-20T18:57:33+00:00",
+                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "installer-paths": {

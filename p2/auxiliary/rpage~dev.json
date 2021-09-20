@@ -65,6 +65,7 @@
                     "shasum": ""
                 },
                 "time": "2020-04-10T12:20:42+00:00",
+                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -100,7 +101,7 @@
             {
                 "name": "auxiliary/rpage",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/craig410/rpage.git",

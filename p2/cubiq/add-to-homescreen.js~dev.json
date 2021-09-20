@@ -4,7 +4,7 @@
             {
                 "name": "cubiq/add-to-homescreen.js",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/cubiq/add-to-homescreen.git",

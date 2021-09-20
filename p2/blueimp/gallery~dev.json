@@ -3,8 +3,8 @@
         "blueimp/gallery": [
             {
                 "name": "blueimp/gallery",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "dev-gh-pages",
+                "version_normalized": "dev-gh-pages",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/blueimp/Gallery",
@@ -19,8 +19,8 @@
             },
             {
                 "name": "blueimp/gallery",
-                "version": "dev-gh-pages",
-                "version_normalized": "dev-gh-pages",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/blueimp/Gallery",
