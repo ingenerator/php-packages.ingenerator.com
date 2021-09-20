@@ -1,5 +1,5 @@
 {
-  "name":      "inGenerator Forks and Extras",
+  "name":      "ingenerator/forks_and_extras",
   "homepage" : "http://php-packages.ingenerator.com",
   "repositories": [
     { "packagist": false},
