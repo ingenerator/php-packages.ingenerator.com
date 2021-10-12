@@ -4999,19 +4999,19 @@
                     "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
                 }
             },
-            "dev-fix-php8-deprecation-error": {
+            "2.7.0.3": {
                 "name": "ingenerator/chrome-mink-driver",
-                "version": "dev-fix-php8-deprecation-error",
-                "version_normalized": "dev-fix-php8-deprecation-error",
+                "version": "2.7.0.3",
+                "version_normalized": "2.7.0.3",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/chrome-mink-driver.git",
-                    "reference": "2178044d0611a4903db7230639d0dc04ef77dc49"
+                    "reference": "cdd214953d74c00ae31296e471d83f2f7257553a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/2178044d0611a4903db7230639d0dc04ef77dc49",
-                    "reference": "2178044d0611a4903db7230639d0dc04ef77dc49",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/cdd214953d74c00ae31296e471d83f2f7257553a",
+                    "reference": "cdd214953d74c00ae31296e471d83f2f7257553a",
                     "shasum": ""
                 },
                 "require": {
@@ -5027,7 +5027,7 @@
                     "mink/driver-testsuite": "dev-master",
                     "phpunit/phpunit": "^5.0.0"
                 },
-                "time": "2021-09-07T09:54:25+00:00",
+                "time": "2021-10-12T07:29:25+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -5054,7 +5054,7 @@
                 ],
                 "description": "Mink driver for controlling chrome without selenium",
                 "support": {
-                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/fix-php8-deprecation-error",
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/2.7.0.3",
                     "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
                 }
             },
@@ -5065,12 +5065,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/chrome-mink-driver.git",
-                    "reference": "020c5d4ad54186792be6b71e7f6f04cd0c8f73b4"
+                    "reference": "cdd214953d74c00ae31296e471d83f2f7257553a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/020c5d4ad54186792be6b71e7f6f04cd0c8f73b4",
-                    "reference": "020c5d4ad54186792be6b71e7f6f04cd0c8f73b4",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/cdd214953d74c00ae31296e471d83f2f7257553a",
+                    "reference": "cdd214953d74c00ae31296e471d83f2f7257553a",
                     "shasum": ""
                 },
                 "require": {
@@ -5086,7 +5086,7 @@
                     "mink/driver-testsuite": "dev-master",
                     "phpunit/phpunit": "^5.0.0"
                 },
-                "time": "2020-10-29T13:43:28+00:00",
+                "time": "2021-10-12T07:29:25+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -5114,7 +5114,7 @@
                 ],
                 "description": "Mink driver for controlling chrome without selenium",
                 "support": {
-                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/2.7.0.2",
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/2.7.0.3",
                     "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
                 }
             }
