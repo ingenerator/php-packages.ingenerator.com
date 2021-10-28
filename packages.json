@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$ca5d3f7f2709a4faaa34c4f4b10518650ddc0a3e.json": {
-            "sha1": "ca5d3f7f2709a4faaa34c4f4b10518650ddc0a3e"
+        "include/all$025811d4abe8c60c2e7442c5ab3bb10f1ef0fb28.json": {
+            "sha1": "025811d4abe8c60c2e7442c5ab3bb10f1ef0fb28"
         }
     },
     "metadata-url": "/p2/%package%.json",
@@ -34,6 +34,7 @@
         "ingenerator/phinx-wrapper",
         "ingenerator/php-utils",
         "ingenerator/swiftmailer-transport-ses",
+        "ingenerator/tmp-mink-extension-php-8",
         "ingenerator/warden-auth",
         "ingenerator/warden-core",
         "ingenerator/warden-persistence-doctrine",

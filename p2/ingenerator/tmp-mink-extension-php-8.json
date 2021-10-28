@@ -1,0 +1,65 @@
+{
+    "packages": {
+        "ingenerator/tmp-mink-extension-php-8": [
+            {
+                "name": "ingenerator/tmp-mink-extension-php-8",
+                "version": "2.5.0.1",
+                "version_normalized": "2.5.0.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/moodlehq/MinkExtension",
+                    "reference": "586ffcc1dc08ed23fcbc89cb16cb6f72d40499f3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/moodlehq/MinkExtension/archive/586ffcc1dc08ed23fcbc89cb16cb6f72d40499f3.zip"
+                },
+                "require": {
+                    "behat/behat": "^3.0.5",
+                    "behat/mink": "^1.5",
+                    "php": ">=7.2",
+                    "symfony/config": "^3.4 || ^4.4 || ^5.0"
+                },
+                "replace": {
+                    "behat/mink-extension": "self.version"
+                },
+                "require-dev": {
+                    "behat/mink-goutte-driver": "^1.1",
+                    "phpspec/phpspec": "^6.0 || ^7.0"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Behat\\MinkExtension": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Konstantin Kudryashov",
+                        "email": "ever.zet@gmail.com"
+                    },
+                    {
+                        "name": "Christophe Coevoet",
+                        "email": "stof@notk.org"
+                    }
+                ],
+                "description": "Mink extension for Behat",
+                "homepage": "http://extensions.behat.org/mink",
+                "keywords": [
+                    "browser",
+                    "gui",
+                    "test",
+                    "web"
+                ]
+            }
+        ]
+    }
+}
