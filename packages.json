@@ -1,28 +1,19 @@
 {
     "packages": [],
     "includes": {
-        "include/all$971d164655dc84ab7bf9b8621035e3bc6cbb9be9.json": {
-            "sha1": "971d164655dc84ab7bf9b8621035e3bc6cbb9be9"
+        "include/all$ce6de3d46c9d93506b4f8390bb6e9da535a53dc3.json": {
+            "sha1": "ce6de3d46c9d93506b4f8390bb6e9da535a53dc3"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
-        "acoulton/doctrine_auth",
-        "acoulton/emailmerge",
         "acoulton/kodoctrine",
-        "acoulton/pdfview",
-        "acoulton/slowtask",
-        "appendto/jquery-mockjax",
         "auxiliary/rpage",
         "blueimp/gallery",
         "blueimp/jquery-file-upload",
-        "cubiq/add-to-homescreen.js",
         "dangrossman/bootstrap-daterangepicker",
         "derek-watson/jsuri",
         "doctrine/doctrine1",
-        "dogfalo/materialize",
-        "foliotek/ajaxq.js",
-        "hammerjs/hammer.js",
         "ingenerator/chrome-mink-driver",
         "ingenerator/cloud-tasks-wrapper",
         "ingenerator/content-snippets",
@@ -40,16 +31,12 @@
         "ingenerator/warden-persistence-doctrine",
         "ingenerator/warden-ui-kohana",
         "ingenerator/warden-validator-symfony",
-        "kohana/coding-standards",
         "mailcheck/mailcheck",
         "makeusabrew/bootbox",
         "markgx/jquery-check-all",
         "mohsen1/json-formatter-js",
-        "nervetattoo/jquery-autosave",
         "nostalgiaz/bootstrap-switch",
         "rubaxa/sortable",
-        "rubys/feedvalidator",
-        "sindresorhus/screenful.js",
         "stefanpenner/es6-promise",
         "tristen/tablesort",
         "yapapaya/jquery-cloneya"
