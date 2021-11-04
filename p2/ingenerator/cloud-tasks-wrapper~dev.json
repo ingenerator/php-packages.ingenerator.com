@@ -183,29 +183,29 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "41347a91dd1b2711d6f584e8913bef58ff2908d7"
+                    "reference": "e6ba531f7b297a717f4e907e7d8983d6c9636e9b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/41347a91dd1b2711d6f584e8913bef58ff2908d7",
-                    "reference": "41347a91dd1b2711d6f584e8913bef58ff2908d7",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/e6ba531f7b297a717f4e907e7d8983d6c9636e9b",
+                    "reference": "e6ba531f7b297a717f4e907e7d8983d6c9636e9b",
                     "shasum": ""
                 },
                 "require": {
                     "ext-bcmath": "^7",
                     "google/cloud-tasks": "^1.8",
                     "google/protobuf": "^3.13.0.1",
-                    "ingenerator/php-utils": "dev-datetime-additional-format@dev",
+                    "ingenerator/oidc-token-verifier": "^0.2",
+                    "ingenerator/php-utils": "^1.13",
                     "php": "^7.4 || ~8.0.0",
                     "psr/http-message": "^1.0",
                     "symfony/polyfill-php80": "^1.20"
                 },
                 "require-dev": {
                     "guzzlehttp/psr7": "^1.7",
-                    "ingenerator/oidc-token-verifier": "dev-support-php8@dev",
                     "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-11-01T19:40:10+00:00",
+                "time": "2021-11-04T07:57:17+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
