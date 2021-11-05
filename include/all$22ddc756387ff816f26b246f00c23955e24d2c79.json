@@ -3745,12 +3745,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "9ada66a0b6694b0f6c97f205876bfc29bf3eedbc"
+                    "reference": "320ad47ae48973c6c9d32020e11963213a3dfb1f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/9ada66a0b6694b0f6c97f205876bfc29bf3eedbc",
-                    "reference": "9ada66a0b6694b0f6c97f205876bfc29bf3eedbc",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/320ad47ae48973c6c9d32020e11963213a3dfb1f",
+                    "reference": "320ad47ae48973c6c9d32020e11963213a3dfb1f",
                     "shasum": ""
                 },
                 "require": {
@@ -3767,8 +3767,7 @@
                     "guzzlehttp/psr7": "^1.7",
                     "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-11-04T07:37:07+00:00",
-                "default-branch": true,
+                "time": "2021-11-05T15:11:54+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -3797,19 +3796,19 @@
                     "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
                 }
             },
-            "dev-json-body-middleware": {
+            "0.4.x-dev": {
                 "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "dev-json-body-middleware",
-                "version_normalized": "dev-json-body-middleware",
+                "version": "0.4.x-dev",
+                "version_normalized": "0.4.9999999.9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "634debe0d8ada7871404c02856e9cd4f5b9dd90b"
+                    "reference": "894e839c5aa774da6062b147b3ab9aa3d3d88cf0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/634debe0d8ada7871404c02856e9cd4f5b9dd90b",
-                    "reference": "634debe0d8ada7871404c02856e9cd4f5b9dd90b",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/894e839c5aa774da6062b147b3ab9aa3d3d88cf0",
+                    "reference": "894e839c5aa774da6062b147b3ab9aa3d3d88cf0",
                     "shasum": ""
                 },
                 "require": {
@@ -3826,7 +3825,8 @@
                     "guzzlehttp/psr7": "^1.7",
                     "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-11-05T10:33:19+00:00",
+                "time": "2021-11-05T15:20:53+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -3862,12 +3862,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "c9ed39f4803e434596f0768796d8687af5a77d95"
+                    "reference": "c63226d7ae83d0c40ac73f75e79e87fe74a3f5ae"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/c9ed39f4803e434596f0768796d8687af5a77d95",
-                    "reference": "c9ed39f4803e434596f0768796d8687af5a77d95",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/c63226d7ae83d0c40ac73f75e79e87fe74a3f5ae",
+                    "reference": "c63226d7ae83d0c40ac73f75e79e87fe74a3f5ae",
                     "shasum": ""
                 },
                 "require": {
@@ -3885,7 +3885,7 @@
                     "ingenerator/oidc-token-verifier": "^0.2",
                     "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-11-05T10:41:56+00:00",
+                "time": "2021-11-05T15:40:25+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
