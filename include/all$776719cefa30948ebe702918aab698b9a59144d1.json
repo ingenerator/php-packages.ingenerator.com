@@ -3855,19 +3855,19 @@
                     "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
                 }
             },
-            "0.4.x-dev": {
+            "v0.4.1": {
                 "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "0.4.x-dev",
-                "version_normalized": "0.4.9999999.9999999-dev",
+                "version": "v0.4.1",
+                "version_normalized": "0.4.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "9ff7ae16d654b827422fbe17e3d3129e0f4f10bb"
+                    "reference": "36eb95bcd4e13592fd9b97db269725bdc44fd4af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/9ff7ae16d654b827422fbe17e3d3129e0f4f10bb",
-                    "reference": "9ff7ae16d654b827422fbe17e3d3129e0f4f10bb",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/36eb95bcd4e13592fd9b97db269725bdc44fd4af",
+                    "reference": "36eb95bcd4e13592fd9b97db269725bdc44fd4af",
                     "shasum": ""
                 },
                 "require": {
@@ -3885,8 +3885,7 @@
                     "ingenerator/oidc-token-verifier": "^0.2",
                     "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-11-07T19:18:31+00:00",
-                "default-branch": true,
+                "time": "2021-11-18T12:19:58+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -3915,19 +3914,19 @@
                     "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
                 }
             },
-            "dev-helper-to-add-transaction-marker-headers": {
+            "0.4.x-dev": {
                 "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "dev-helper-to-add-transaction-marker-headers",
-                "version_normalized": "dev-helper-to-add-transaction-marker-headers",
+                "version": "0.4.x-dev",
+                "version_normalized": "0.4.9999999.9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "533af70cf09f2f66c037765bb131b8f378e1756c"
+                    "reference": "36eb95bcd4e13592fd9b97db269725bdc44fd4af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/533af70cf09f2f66c037765bb131b8f378e1756c",
-                    "reference": "533af70cf09f2f66c037765bb131b8f378e1756c",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/36eb95bcd4e13592fd9b97db269725bdc44fd4af",
+                    "reference": "36eb95bcd4e13592fd9b97db269725bdc44fd4af",
                     "shasum": ""
                 },
                 "require": {
@@ -3945,7 +3944,8 @@
                     "ingenerator/oidc-token-verifier": "^0.2",
                     "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-11-17T13:08:25+00:00",
+                "time": "2021-11-18T12:19:58+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
