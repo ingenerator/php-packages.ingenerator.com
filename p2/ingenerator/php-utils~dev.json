@@ -230,16 +230,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "82f635ca608f9c05b7e91a5347cae326a43e7383"
+                    "reference": "a6a896bb4f3b2d6e4d4cfba1d70a6b07976e4ee8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/82f635ca608f9c05b7e91a5347cae326a43e7383",
-                    "reference": "82f635ca608f9c05b7e91a5347cae326a43e7383",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/a6a896bb4f3b2d6e4d4cfba1d70a6b07976e4ee8",
+                    "reference": "a6a896bb4f3b2d6e4d4cfba1d70a6b07976e4ee8",
                     "shasum": ""
                 },
                 "require": {
                     "ext-json": "*",
+                    "ext-mbstring": "^7 || ~8.0.0",
                     "ext-pdo": "^7 || ~8.0.0",
                     "ext-sodium": "^7.4 || ~8.0.0",
                     "php": "^7.4 || ~8.0.0",
@@ -250,7 +251,7 @@
                     "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-11-18T16:22:15+00:00",
+                "time": "2021-11-19T09:42:53+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
