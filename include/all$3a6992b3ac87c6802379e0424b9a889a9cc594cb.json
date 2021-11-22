@@ -12197,6 +12197,66 @@
                     "issues": "https://github.com/ingenerator/php-utils/issues"
                 }
             },
+            "v1.14.1": {
+                "name": "ingenerator/php-utils",
+                "version": "v1.14.1",
+                "version_normalized": "1.14.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/php-utils.git",
+                    "reference": "ed107334ba0c0262af7caebd4beadbc991ab13a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/ed107334ba0c0262af7caebd4beadbc991ab13a8",
+                    "reference": "ed107334ba0c0262af7caebd4beadbc991ab13a8",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-mbstring": "^7 || ~8.0.0",
+                    "ext-pdo": "^7 || ~8.0.0",
+                    "ext-sodium": "^7.4 || ~8.0.0",
+                    "php": "^7.4 || ~8.0.0",
+                    "psr/log": "^1.1"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "mikey179/vfsstream": "^1.6.8",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2021-11-22T13:41:38+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\PHPUtils\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\unit\\Ingenerator\\PHPUtils\\": "test"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Simple, standalone utility classes for PHP applications",
+                "homepage": "https://github.com/ingenerator/php-utils",
+                "support": {
+                    "source": "https://github.com/ingenerator/php-utils",
+                    "issues": "https://github.com/ingenerator/php-utils/issues"
+                }
+            },
             "v1.2.0": {
                 "name": "ingenerator/php-utils",
                 "version": "v1.2.0",
@@ -13010,12 +13070,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "c98754043806f6953e5e58b1c1299859b7439116"
+                    "reference": "ed107334ba0c0262af7caebd4beadbc991ab13a8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/c98754043806f6953e5e58b1c1299859b7439116",
-                    "reference": "c98754043806f6953e5e58b1c1299859b7439116",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/ed107334ba0c0262af7caebd4beadbc991ab13a8",
+                    "reference": "ed107334ba0c0262af7caebd4beadbc991ab13a8",
                     "shasum": ""
                 },
                 "require": {
@@ -13031,68 +13091,8 @@
                     "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-11-19T14:41:21+00:00",
+                "time": "2021-11-22T13:41:38+00:00",
                 "default-branch": true,
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\PHPUtils\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "test\\unit\\Ingenerator\\PHPUtils\\": "test"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com"
-                    }
-                ],
-                "description": "Simple, standalone utility classes for PHP applications",
-                "homepage": "https://github.com/ingenerator/php-utils",
-                "support": {
-                    "source": "https://github.com/ingenerator/php-utils",
-                    "issues": "https://github.com/ingenerator/php-utils/issues"
-                }
-            },
-            "dev-1.x-bug-log-real-memory-usage": {
-                "name": "ingenerator/php-utils",
-                "version": "dev-1.x-bug-log-real-memory-usage",
-                "version_normalized": "dev-1.x-bug-log-real-memory-usage",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "b1004762e8afddbe33188657de74bbf3d87270c8"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/b1004762e8afddbe33188657de74bbf3d87270c8",
-                    "reference": "b1004762e8afddbe33188657de74bbf3d87270c8",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-json": "*",
-                    "ext-mbstring": "^7 || ~8.0.0",
-                    "ext-pdo": "^7 || ~8.0.0",
-                    "ext-sodium": "^7.4 || ~8.0.0",
-                    "php": "^7.4 || ~8.0.0",
-                    "psr/log": "^1.1"
-                },
-                "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.3",
-                    "mikey179/vfsstream": "^1.6.8",
-                    "phpunit/phpunit": "^9.5"
-                },
-                "time": "2021-11-22T09:35:14+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
