@@ -3154,19 +3154,19 @@
                     "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
                 }
             },
-            "dev-debug-non-array-connection-exception": {
+            "2.7.0.4": {
                 "name": "ingenerator/chrome-mink-driver",
-                "version": "dev-debug-non-array-connection-exception",
-                "version_normalized": "dev-debug-non-array-connection-exception",
+                "version": "2.7.0.4",
+                "version_normalized": "2.7.0.4",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/chrome-mink-driver.git",
-                    "reference": "d38e8dfaf40d971f0af2f5b7a99fdf301e4650ff"
+                    "reference": "0beece41845bca3fbd66ce3fe9b7cd45a42db2de"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/d38e8dfaf40d971f0af2f5b7a99fdf301e4650ff",
-                    "reference": "d38e8dfaf40d971f0af2f5b7a99fdf301e4650ff",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/0beece41845bca3fbd66ce3fe9b7cd45a42db2de",
+                    "reference": "0beece41845bca3fbd66ce3fe9b7cd45a42db2de",
                     "shasum": ""
                 },
                 "require": {
@@ -3182,7 +3182,7 @@
                     "mink/driver-testsuite": "dev-master",
                     "phpunit/phpunit": "^5.0.0"
                 },
-                "time": "2021-11-25T15:37:09+00:00",
+                "time": "2021-11-25T21:27:02+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -3209,7 +3209,7 @@
                 ],
                 "description": "Mink driver for controlling chrome without selenium",
                 "support": {
-                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/debug-non-array-connection-exception",
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/2.7.0.4",
                     "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
                 }
             },
@@ -3220,12 +3220,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/chrome-mink-driver.git",
-                    "reference": "cdd214953d74c00ae31296e471d83f2f7257553a"
+                    "reference": "0beece41845bca3fbd66ce3fe9b7cd45a42db2de"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/cdd214953d74c00ae31296e471d83f2f7257553a",
-                    "reference": "cdd214953d74c00ae31296e471d83f2f7257553a",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/0beece41845bca3fbd66ce3fe9b7cd45a42db2de",
+                    "reference": "0beece41845bca3fbd66ce3fe9b7cd45a42db2de",
                     "shasum": ""
                 },
                 "require": {
@@ -3241,7 +3241,7 @@
                     "mink/driver-testsuite": "dev-master",
                     "phpunit/phpunit": "^5.0.0"
                 },
-                "time": "2021-10-12T07:29:25+00:00",
+                "time": "2021-11-25T21:27:02+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -3269,7 +3269,7 @@
                 ],
                 "description": "Mink driver for controlling chrome without selenium",
                 "support": {
-                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/2.7.0.3",
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/2.7.0.4",
                     "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
                 }
             }
