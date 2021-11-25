@@ -3154,6 +3154,65 @@
                     "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
                 }
             },
+            "dev-debug-non-array-connection-exception": {
+                "name": "ingenerator/chrome-mink-driver",
+                "version": "dev-debug-non-array-connection-exception",
+                "version_normalized": "dev-debug-non-array-connection-exception",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
+                    "reference": "d38e8dfaf40d971f0af2f5b7a99fdf301e4650ff"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/d38e8dfaf40d971f0af2f5b7a99fdf301e4650ff",
+                    "reference": "d38e8dfaf40d971f0af2f5b7a99fdf301e4650ff",
+                    "shasum": ""
+                },
+                "require": {
+                    "behat/mink": "^1.7",
+                    "ext-curl": "*",
+                    "ext-json": "*",
+                    "textalk/websocket": "^1.2.0"
+                },
+                "replace": {
+                    "dmore/chrome-mink-driver": "*"
+                },
+                "require-dev": {
+                    "mink/driver-testsuite": "dev-master",
+                    "phpunit/phpunit": "^5.0.0"
+                },
+                "time": "2021-11-25T15:37:09+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DMore\\ChromeDriver\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DMore\\ChromeDriverTests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dorian More",
+                        "email": "doriancmore@gmail.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Mink driver for controlling chrome without selenium",
+                "support": {
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/debug-non-array-connection-exception",
+                    "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
+                }
+            },
             "dev-ingenerator-main": {
                 "name": "ingenerator/chrome-mink-driver",
                 "version": "dev-ingenerator-main",
