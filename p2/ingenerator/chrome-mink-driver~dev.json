@@ -3,6 +3,65 @@
         "ingenerator/chrome-mink-driver": [
             {
                 "name": "ingenerator/chrome-mink-driver",
+                "version": "dev-debug-websocket-calls",
+                "version_normalized": "dev-debug-websocket-calls",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
+                    "reference": "18a8c8d783ac9280629168f041646fee9c55af38"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/18a8c8d783ac9280629168f041646fee9c55af38",
+                    "reference": "18a8c8d783ac9280629168f041646fee9c55af38",
+                    "shasum": ""
+                },
+                "require": {
+                    "behat/mink": "^1.7",
+                    "ext-curl": "*",
+                    "ext-json": "*",
+                    "textalk/websocket": "^1.5.0"
+                },
+                "replace": {
+                    "dmore/chrome-mink-driver": "*"
+                },
+                "require-dev": {
+                    "mink/driver-testsuite": "dev-master",
+                    "phpunit/phpunit": "^5.0.0"
+                },
+                "time": "2021-11-29T12:57:47+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DMore\\ChromeDriver\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DMore\\ChromeDriverTests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dorian More",
+                        "email": "doriancmore@gmail.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Mink driver for controlling chrome without selenium",
+                "support": {
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/debug-websocket-calls",
+                    "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
+                }
+            },
+            {
+                "name": "ingenerator/chrome-mink-driver",
                 "version": "dev-ingenerator-main",
                 "version_normalized": "dev-ingenerator-main",
                 "source": {
