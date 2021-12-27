@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$24f8005f31e4daaee1bf2f745641a3732eb9c0de.json": {
-            "sha1": "24f8005f31e4daaee1bf2f745641a3732eb9c0de"
+        "include/all$86e80dde0dc482bc17304a36f1f4672e83dc06de.json": {
+            "sha1": "86e80dde0dc482bc17304a36f1f4672e83dc06de"
         }
     },
     "metadata-url": "/p2/%package%.json",
@@ -36,7 +36,6 @@
         "markgx/jquery-check-all",
         "mohsen1/json-formatter-js",
         "nostalgiaz/bootstrap-switch",
-        "rubaxa/sortable",
         "stefanpenner/es6-promise",
         "tristen/tablesort",
         "yapapaya/jquery-cloneya"
