@@ -5580,6 +5580,52 @@
                 }
             }
         },
+        "ingenerator/k8s-composer-installer": {
+            "0.1.x-dev": {
+                "name": "ingenerator/k8s-composer-installer",
+                "version": "0.1.x-dev",
+                "version_normalized": "0.1.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/k8s-composer-installer.git",
+                    "reference": "702cb81b32412055a719dd5634978fda676eaf05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/k8s-composer-installer/zipball/702cb81b32412055a719dd5634978fda676eaf05",
+                    "reference": "702cb81b32412055a719dd5634978fda676eaf05",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^2.0"
+                },
+                "require-dev": {
+                    "composer/composer": "^2.0"
+                },
+                "time": "2021-12-29T11:45:32+00:00",
+                "default-branch": true,
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Ingenerator\\K8s\\ComposerPlugin\\K8sBasesInstallerPlugin"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Ingenerator\\K8s\\ComposerPlugin": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Composer plugin to install k8s base manifests",
+                "support": {
+                    "source": "https://github.com/ingenerator/k8s-composer-installer/tree/0.1.x",
+                    "issues": "https://github.com/ingenerator/k8s-composer-installer/issues"
+                }
+            }
+        },
         "ingenerator/kohana-core": {
             "v3.0.12.1": {
                 "name": "ingenerator/kohana-core",
