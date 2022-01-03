@@ -5624,6 +5624,49 @@
                     "source": "https://github.com/ingenerator/k8s-composer-installer/tree/0.1.x",
                     "issues": "https://github.com/ingenerator/k8s-composer-installer/issues"
                 }
+            },
+            "dev-mrdepp-2022-01-03-09-01-21": {
+                "name": "ingenerator/k8s-composer-installer",
+                "version": "dev-mrdepp-2022-01-03-09-01-21",
+                "version_normalized": "dev-mrdepp-2022-01-03-09-01-21",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/k8s-composer-installer.git",
+                    "reference": "2b1ed663a7f94b9bf15406efa7e121cfc3d8ef02"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/k8s-composer-installer/zipball/2b1ed663a7f94b9bf15406efa7e121cfc3d8ef02",
+                    "reference": "2b1ed663a7f94b9bf15406efa7e121cfc3d8ef02",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^2.0"
+                },
+                "require-dev": {
+                    "composer/composer": "^2.0"
+                },
+                "time": "2022-01-03T09:01:21+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Ingenerator\\K8s\\ComposerPlugin\\K8sBasesInstallerPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\K8s\\ComposerPlugin\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Composer plugin to install k8s base manifests",
+                "support": {
+                    "source": "https://github.com/ingenerator/k8s-composer-installer/tree/mrdepp-2022-01-03-09-01-21",
+                    "issues": "https://github.com/ingenerator/k8s-composer-installer/issues"
+                }
             }
         },
         "ingenerator/kohana-core": {
