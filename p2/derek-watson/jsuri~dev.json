@@ -2,7 +2,7 @@
     "packages": {
         "derek-watson/jsuri": [
             {
-                "name": "derek-watson/jsURI",
+                "name": "derek-watson/jsuri",
                 "version": "dev-master",
                 "version_normalized": "dev-master",
                 "source": {
