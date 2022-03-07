@@ -52,12 +52,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/k8s-composer-installer.git",
-                    "reference": "3c8570d19dcfdf2e127ab206f378d57511f1d799"
+                    "reference": "10b3d47da8201d34dcd07ae8441c79ce4663b838"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/k8s-composer-installer/zipball/3c8570d19dcfdf2e127ab206f378d57511f1d799",
-                    "reference": "3c8570d19dcfdf2e127ab206f378d57511f1d799",
+                    "url": "https://api.github.com/repos/ingenerator/k8s-composer-installer/zipball/10b3d47da8201d34dcd07ae8441c79ce4663b838",
+                    "reference": "10b3d47da8201d34dcd07ae8441c79ce4663b838",
                     "shasum": ""
                 },
                 "require": {
@@ -66,7 +66,7 @@
                 "require-dev": {
                     "composer/composer": "^2.0"
                 },
-                "time": "2022-03-04T09:02:06+00:00",
+                "time": "2022-03-07T09:03:15+00:00",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "Ingenerator\\K8s\\ComposerPlugin\\K8sBasesInstallerPlugin"
