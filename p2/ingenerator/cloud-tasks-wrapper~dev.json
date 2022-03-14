@@ -182,16 +182,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "36eb95bcd4e13592fd9b97db269725bdc44fd4af"
+                    "reference": "442defa3ca4bc2af7d1bfff74c58ea19f6f2da43"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/36eb95bcd4e13592fd9b97db269725bdc44fd4af",
-                    "reference": "36eb95bcd4e13592fd9b97db269725bdc44fd4af",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/442defa3ca4bc2af7d1bfff74c58ea19f6f2da43",
+                    "reference": "442defa3ca4bc2af7d1bfff74c58ea19f6f2da43",
                     "shasum": ""
                 },
                 "require": {
-                    "ext-bcmath": "^7",
+                    "ext-bcmath": "^7 || ^8.0",
                     "google/cloud-tasks": "^1.8",
                     "google/protobuf": "^3.13.0.1",
                     "ingenerator/oidc-token-verifier": "^0.2",
@@ -205,7 +205,7 @@
                     "ingenerator/oidc-token-verifier": "^0.2",
                     "phpunit/phpunit": "^9.5"
                 },
-                "time": "2021-11-18T12:19:58+00:00",
+                "time": "2022-03-14T10:16:13+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
