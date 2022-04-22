@@ -47,6 +47,49 @@
             },
             {
                 "name": "ingenerator/k8s-composer-installer",
+                "version": "dev-dependabot/composer/composer/composer-2.2.12",
+                "version_normalized": "dev-dependabot/composer/composer/composer-2.2.12",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/k8s-composer-installer.git",
+                    "reference": "6addc39e976ebb18e500598c250259aa48ce2513"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/k8s-composer-installer/zipball/6addc39e976ebb18e500598c250259aa48ce2513",
+                    "reference": "6addc39e976ebb18e500598c250259aa48ce2513",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^2.0"
+                },
+                "require-dev": {
+                    "composer/composer": "^2.0"
+                },
+                "time": "2022-04-22T20:49:21+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Ingenerator\\K8s\\ComposerPlugin\\K8sBasesInstallerPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\K8s\\ComposerPlugin\\": "src/"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Composer plugin to install k8s base manifests",
+                "support": {
+                    "source": "https://github.com/ingenerator/k8s-composer-installer/tree/dependabot/composer/composer/composer-2.2.12",
+                    "issues": "https://github.com/ingenerator/k8s-composer-installer/issues"
+                }
+            },
+            {
+                "name": "ingenerator/k8s-composer-installer",
                 "version": "dev-mrdepp-2022-01-03-09-01-21",
                 "version_normalized": "dev-mrdepp-2022-01-03-09-01-21",
                 "source": {
