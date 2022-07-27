@@ -13610,6 +13610,66 @@
                     "source": "https://github.com/ingenerator/php-utils",
                     "issues": "https://github.com/ingenerator/php-utils/issues"
                 }
+            },
+            "dev-1.x-support-php-81": {
+                "name": "ingenerator/php-utils",
+                "version": "dev-1.x-support-php-81",
+                "version_normalized": "dev-1.x-support-php-81",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/php-utils.git",
+                    "reference": "7a72e5a06a61c32ef130295b71ac4c1cfc309a1c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/7a72e5a06a61c32ef130295b71ac4c1cfc309a1c",
+                    "reference": "7a72e5a06a61c32ef130295b71ac4c1cfc309a1c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ext-mbstring": "^7 || ~8.0.0 || ~8.1.0",
+                    "ext-pdo": "^7 || ~8.0.0 || ~8.1.1",
+                    "ext-sodium": "^7.4 || ~8.0.0 || ~8.1.0",
+                    "php": "^7.4 || ~8.0.0 || ~8.1.0",
+                    "psr/log": "^1.1"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "mikey179/vfsstream": "^1.6.8",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2022-07-27T15:10:43+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\PHPUtils\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\unit\\Ingenerator\\PHPUtils\\": "test"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Simple, standalone utility classes for PHP applications",
+                "homepage": "https://github.com/ingenerator/php-utils",
+                "support": {
+                    "source": "https://github.com/ingenerator/php-utils",
+                    "issues": "https://github.com/ingenerator/php-utils/issues"
+                }
             }
         },
         "ingenerator/swiftmailer-transport-ses": {
