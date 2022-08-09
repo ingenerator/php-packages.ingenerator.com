@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$423e1abcb148fac14460573f163587e05fbeced7.json": {
-            "sha1": "423e1abcb148fac14460573f163587e05fbeced7"
+        "include/all$d61500756e5896c71f0ea9310085f663a2351a17.json": {
+            "sha1": "d61500756e5896c71f0ea9310085f663a2351a17"
         }
     },
     "metadata-url": "/p2/%package%.json",
@@ -18,7 +18,6 @@
         "ingenerator/cloud-tasks-wrapper",
         "ingenerator/content-snippets",
         "ingenerator/form",
-        "ingenerator/k8s-composer-installer",
         "ingenerator/kohana-core",
         "ingenerator/kohana-dependencies",
         "ingenerator/kohana-extras",
