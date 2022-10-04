@@ -127,12 +127,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/chrome-mink-driver.git",
-                    "reference": "4b10385b49bb9ea0483d8400fc09c4798785e9a8"
+                    "reference": "f953f11f3cd2c86a7aac4e7b636d1329aa14432a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/4b10385b49bb9ea0483d8400fc09c4798785e9a8",
-                    "reference": "4b10385b49bb9ea0483d8400fc09c4798785e9a8",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/f953f11f3cd2c86a7aac4e7b636d1329aa14432a",
+                    "reference": "f953f11f3cd2c86a7aac4e7b636d1329aa14432a",
                     "shasum": ""
                 },
                 "require": {
@@ -148,7 +148,7 @@
                     "mink/driver-testsuite": "dev-master",
                     "phpunit/phpunit": "^5.0.0"
                 },
-                "time": "2022-09-15T14:01:13+00:00",
+                "time": "2022-10-04T10:28:21+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
