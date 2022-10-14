@@ -644,7 +644,7 @@
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
                 "homepage": "http://github.com/ingenerator/kohana-core",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/4.x",
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.9.0",
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             }
