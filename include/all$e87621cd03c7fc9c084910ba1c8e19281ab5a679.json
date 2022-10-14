@@ -7907,19 +7907,19 @@
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             },
-            "4.x-dev": {
+            "v4.8.6.1": {
                 "name": "ingenerator/kohana-core",
-                "version": "4.x-dev",
-                "version_normalized": "4.9999999.9999999.9999999-dev",
+                "version": "v4.8.6.1",
+                "version_normalized": "4.8.6.1",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "7faa7dadc857dd049049cf8c5d03999665facc5d"
+                    "reference": "2691672d7b8643f1b76742557d3d21a7c3c46ede"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/7faa7dadc857dd049049cf8c5d03999665facc5d",
-                    "reference": "7faa7dadc857dd049049cf8c5d03999665facc5d",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/2691672d7b8643f1b76742557d3d21a7c3c46ede",
+                    "reference": "2691672d7b8643f1b76742557d3d21a7c3c46ede",
                     "shasum": ""
                 },
                 "require": {
@@ -7941,7 +7941,73 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2021-04-19T18:42:52+00:00",
+                "time": "2022-10-14T11:07:16+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "role": "hacker & axe-wielder"
+                    },
+                    {
+                        "name": "Kohana Team",
+                        "email": "team@kohanaframework.org",
+                        "homepage": "http://kohanaframework.org/team",
+                        "role": "developer"
+                    }
+                ],
+                "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.6.1",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
+            },
+            "4.x-dev": {
+                "name": "ingenerator/kohana-core",
+                "version": "4.x-dev",
+                "version_normalized": "4.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "reference": "2691672d7b8643f1b76742557d3d21a7c3c46ede"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/2691672d7b8643f1b76742557d3d21a7c3c46ede",
+                    "reference": "2691672d7b8643f1b76742557d3d21a7c3c46ede",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.4 || ~8.0.0"
+                },
+                "conflict": {
+                    "kohana/core": "*"
+                },
+                "replace": {
+                    "kohana/core": "3.3.*",
+                    "kohana/minion": "3.3.*",
+                    "kohana/unittest": "3.3.*"
+                },
+                "require-dev": {
+                    "kohana/koharness": "*@dev",
+                    "phpunit/phpunit": "^8.5"
+                },
+                "suggest": {
+                    "ext-curl": "*",
+                    "ext-http": "*"
+                },
+                "time": "2022-10-14T11:07:16+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -7970,7 +8036,7 @@
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
                 "homepage": "http://github.com/ingenerator/kohana-core",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.6",
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.6.1",
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             },
@@ -7981,15 +8047,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "45de8e685b49be128dc8d254e3c0adc09ac97766"
+                    "reference": "fe86b8db453d555c3b2566e3d53232c961f75b49"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/45de8e685b49be128dc8d254e3c0adc09ac97766",
-                    "reference": "45de8e685b49be128dc8d254e3c0adc09ac97766",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/fe86b8db453d555c3b2566e3d53232c961f75b49",
+                    "reference": "fe86b8db453d555c3b2566e3d53232c961f75b49",
                     "shasum": ""
                 },
                 "require": {
+                    "ext-ctype": "*",
+                    "ext-mbstring": "*",
                     "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
                 },
                 "conflict": {
@@ -8008,7 +8076,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2022-10-14T07:27:17+00:00",
+                "time": "2022-10-14T13:06:28+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -8040,72 +8108,6 @@
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             },
-            "dev-reformat-test-code": {
-                "name": "ingenerator/kohana-core",
-                "version": "dev-reformat-test-code",
-                "version_normalized": "dev-reformat-test-code",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "1ac3f850caddd16cd90d0f612baebe15c97383f0"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/1ac3f850caddd16cd90d0f612baebe15c97383f0",
-                    "reference": "1ac3f850caddd16cd90d0f612baebe15c97383f0",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "^7.4 || ~8.0.0"
-                },
-                "conflict": {
-                    "kohana/core": "*"
-                },
-                "replace": {
-                    "kohana/core": "3.3.*",
-                    "kohana/minion": "3.3.*",
-                    "kohana/unittest": "3.3.*"
-                },
-                "require-dev": {
-                    "kohana/koharness": "*@dev",
-                    "phpunit/phpunit": "^8.5"
-                },
-                "suggest": {
-                    "ext-curl": "*",
-                    "ext-http": "*"
-                },
-                "time": "2022-10-14T05:40:05+00:00",
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "role": "hacker & axe-wielder"
-                    },
-                    {
-                        "name": "Kohana Team",
-                        "email": "team@kohanaframework.org",
-                        "homepage": "http://kohanaframework.org/team",
-                        "role": "developer"
-                    }
-                ],
-                "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/reformat-test-code",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
-            },
             "dev-support-php81": {
                 "name": "ingenerator/kohana-core",
                 "version": "dev-support-php81",
@@ -8113,15 +8115,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "691c68c5e7d43a5cd9b3c4b14a0580fcc8b31b9a"
+                    "reference": "7434d0e27d09e05d9a26e97a67f61f0a8a4b9077"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/691c68c5e7d43a5cd9b3c4b14a0580fcc8b31b9a",
-                    "reference": "691c68c5e7d43a5cd9b3c4b14a0580fcc8b31b9a",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/7434d0e27d09e05d9a26e97a67f61f0a8a4b9077",
+                    "reference": "7434d0e27d09e05d9a26e97a67f61f0a8a4b9077",
                     "shasum": ""
                 },
                 "require": {
+                    "ext-ctype": "*",
+                    "ext-mbstring": "*",
                     "php": "~8.0.0 || ~8.1.0"
                 },
                 "conflict": {
@@ -8140,7 +8144,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2022-10-14T07:26:18+00:00",
+                "time": "2022-10-14T12:23:36+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
