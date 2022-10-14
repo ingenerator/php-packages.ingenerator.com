@@ -7980,16 +7980,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "2691672d7b8643f1b76742557d3d21a7c3c46ede"
+                    "reference": "9f5d8e4df2d18576f95749f675e89ddeca07c0a1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/2691672d7b8643f1b76742557d3d21a7c3c46ede",
-                    "reference": "2691672d7b8643f1b76742557d3d21a7c3c46ede",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/9f5d8e4df2d18576f95749f675e89ddeca07c0a1",
+                    "reference": "9f5d8e4df2d18576f95749f675e89ddeca07c0a1",
                     "shasum": ""
                 },
                 "require": {
-                    "php": "^7.4 || ~8.0.0"
+                    "ext-ctype": "*",
+                    "ext-mbstring": "*",
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
                 },
                 "conflict": {
                     "kohana/core": "*"
@@ -8001,13 +8003,13 @@
                 },
                 "require-dev": {
                     "kohana/koharness": "*@dev",
-                    "phpunit/phpunit": "^8.5"
+                    "phpunit/phpunit": "^9.5.22"
                 },
                 "suggest": {
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2022-10-14T11:07:16+00:00",
+                "time": "2022-10-14T19:08:51+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -8036,143 +8038,7 @@
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
                 "homepage": "http://github.com/ingenerator/kohana-core",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.6.1",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
-            },
-            "dev-experimental-test-php82": {
-                "name": "ingenerator/kohana-core",
-                "version": "dev-experimental-test-php82",
-                "version_normalized": "dev-experimental-test-php82",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "fe86b8db453d555c3b2566e3d53232c961f75b49"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/fe86b8db453d555c3b2566e3d53232c961f75b49",
-                    "reference": "fe86b8db453d555c3b2566e3d53232c961f75b49",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ctype": "*",
-                    "ext-mbstring": "*",
-                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
-                },
-                "conflict": {
-                    "kohana/core": "*"
-                },
-                "replace": {
-                    "kohana/core": "3.3.*",
-                    "kohana/minion": "3.3.*",
-                    "kohana/unittest": "3.3.*"
-                },
-                "require-dev": {
-                    "kohana/koharness": "*@dev",
-                    "phpunit/phpunit": "^9.5.22"
-                },
-                "suggest": {
-                    "ext-curl": "*",
-                    "ext-http": "*"
-                },
-                "time": "2022-10-14T13:06:28+00:00",
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "role": "hacker & axe-wielder"
-                    },
-                    {
-                        "name": "Kohana Team",
-                        "email": "team@kohanaframework.org",
-                        "homepage": "http://kohanaframework.org/team",
-                        "role": "developer"
-                    }
-                ],
-                "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/experimental-test-php82",
-                    "issues": "https://github.com/ingenerator/kohana-core/issues"
-                }
-            },
-            "dev-support-php81": {
-                "name": "ingenerator/kohana-core",
-                "version": "dev-support-php81",
-                "version_normalized": "dev-support-php81",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "7434d0e27d09e05d9a26e97a67f61f0a8a4b9077"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/7434d0e27d09e05d9a26e97a67f61f0a8a4b9077",
-                    "reference": "7434d0e27d09e05d9a26e97a67f61f0a8a4b9077",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ctype": "*",
-                    "ext-mbstring": "*",
-                    "php": "~8.0.0 || ~8.1.0"
-                },
-                "conflict": {
-                    "kohana/core": "*"
-                },
-                "replace": {
-                    "kohana/core": "3.3.*",
-                    "kohana/minion": "3.3.*",
-                    "kohana/unittest": "3.3.*"
-                },
-                "require-dev": {
-                    "kohana/koharness": "*@dev",
-                    "phpunit/phpunit": "^9.5.22"
-                },
-                "suggest": {
-                    "ext-curl": "*",
-                    "ext-http": "*"
-                },
-                "time": "2022-10-14T12:23:36+00:00",
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "role": "hacker & axe-wielder"
-                    },
-                    {
-                        "name": "Kohana Team",
-                        "email": "team@kohanaframework.org",
-                        "homepage": "http://kohanaframework.org/team",
-                        "role": "developer"
-                    }
-                ],
-                "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core",
-                "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/support-php81",
+                    "source": "https://github.com/ingenerator/kohana-core/tree/4.x",
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             }
