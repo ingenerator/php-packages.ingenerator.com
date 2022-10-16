@@ -8,28 +8,28 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/swiftmailer-transport-ses.git",
-                    "reference": "ea50526580935372e89fe20684f517c47d1e9f9d"
+                    "reference": "3bc5bea80fdd3906252b71acd3cd1477eb12c21c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/swiftmailer-transport-ses/zipball/ea50526580935372e89fe20684f517c47d1e9f9d",
-                    "reference": "ea50526580935372e89fe20684f517c47d1e9f9d",
+                    "url": "https://api.github.com/repos/ingenerator/swiftmailer-transport-ses/zipball/3bc5bea80fdd3906252b71acd3cd1477eb12c21c",
+                    "reference": "3bc5bea80fdd3906252b71acd3cd1477eb12c21c",
                     "shasum": ""
                 },
                 "require": {
-                    "aws/aws-sdk-php": "^3.173",
+                    "aws/aws-sdk-php": "^3.238",
                     "ingenerator/php-utils": "^1.9.0",
-                    "php": "^7.4 || ~8.0.0",
+                    "php": "~8.0.0 || ~8.1.0",
                     "psr/log": "^1.1",
                     "swiftmailer/swiftmailer": "^6.2.7"
                 },
                 "require-dev": {
                     "egulias/email-validator": "^3.1",
                     "ingenerator/mailhook": "^1.0",
-                    "johnkary/phpunit-speedtrap": "^3.2",
-                    "phpunit/phpunit": "^9.4"
+                    "johnkary/phpunit-speedtrap": "^4.0",
+                    "phpunit/phpunit": "^9.5.5"
                 },
-                "time": "2021-12-14T07:18:46+00:00",
+                "time": "2022-10-16T18:49:25+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -59,9 +59,9 @@
                     }
                 ],
                 "description": "AWS SES API transport for SwiftMailer",
-                "homepage": "http://github.com/ingenerator/swiftmailer-transport-ses",
+                "homepage": "https://github.com/ingenerator/swiftmailer-transport-ses",
                 "support": {
-                    "source": "https://github.com/ingenerator/swiftmailer-transport-ses/tree/v1.0.2",
+                    "source": "https://github.com/ingenerator/swiftmailer-transport-ses/tree/v1.1.0",
                     "issues": "https://github.com/ingenerator/swiftmailer-transport-ses/issues"
                 }
             }

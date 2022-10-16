@@ -189,6 +189,69 @@
                     "source": "https://github.com/ingenerator/swiftmailer-transport-ses/tree/v1.0.2",
                     "issues": "https://github.com/ingenerator/swiftmailer-transport-ses/issues"
                 }
+            },
+            {
+                "name": "ingenerator/swiftmailer-transport-ses",
+                "version": "v1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/swiftmailer-transport-ses.git",
+                    "reference": "3bc5bea80fdd3906252b71acd3cd1477eb12c21c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/swiftmailer-transport-ses/zipball/3bc5bea80fdd3906252b71acd3cd1477eb12c21c",
+                    "reference": "3bc5bea80fdd3906252b71acd3cd1477eb12c21c",
+                    "shasum": ""
+                },
+                "require": {
+                    "aws/aws-sdk-php": "^3.238",
+                    "ingenerator/php-utils": "^1.9.0",
+                    "php": "~8.0.0 || ~8.1.0",
+                    "psr/log": "^1.1",
+                    "swiftmailer/swiftmailer": "^6.2.7"
+                },
+                "require-dev": {
+                    "egulias/email-validator": "^3.1",
+                    "ingenerator/mailhook": "^1.0",
+                    "johnkary/phpunit-speedtrap": "^4.0",
+                    "phpunit/phpunit": "^9.5.5"
+                },
+                "time": "2022-10-16T18:49:25+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\SwiftMailer\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\mock\\Ingenerator\\SwiftMailer\\": "test/mock/",
+                        "test\\unit\\Ingenerator\\SwiftMailer\\": "test/unit/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "AWS SES API transport for SwiftMailer",
+                "homepage": "https://github.com/ingenerator/swiftmailer-transport-ses",
+                "support": {
+                    "source": "https://github.com/ingenerator/swiftmailer-transport-ses/tree/v1.1.0",
+                    "issues": "https://github.com/ingenerator/swiftmailer-transport-ses/issues"
+                }
             }
         ]
     }
