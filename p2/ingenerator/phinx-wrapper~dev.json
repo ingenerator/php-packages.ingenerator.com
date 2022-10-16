@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/phinx-wrapper.git",
-                    "reference": "e1af39b37a84957566596eb8988f44f3b6fe973d"
+                    "reference": "536f86d52e21b1ca391d474f0904d6725a66e7e0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/phinx-wrapper/zipball/e1af39b37a84957566596eb8988f44f3b6fe973d",
-                    "reference": "e1af39b37a84957566596eb8988f44f3b6fe973d",
+                    "url": "https://api.github.com/repos/ingenerator/phinx-wrapper/zipball/536f86d52e21b1ca391d474f0904d6725a66e7e0",
+                    "reference": "536f86d52e21b1ca391d474f0904d6725a66e7e0",
                     "shasum": ""
                 },
                 "require": {
-                    "php": "^5.5 || ^7.0 || ~8.0.0",
+                    "php": "^5.5 || ^7.0 || ~8.0.0 || ~8.1.0 || ~8.2.0",
                     "robmorgan/phinx": "^0.9.2"
                 },
-                "time": "2021-04-21T20:17:38+00:00",
+                "time": "2022-10-16T09:27:20+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
