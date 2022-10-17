@@ -66,28 +66,28 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "3f8d9d257cea7b2b8a4ce573a59fc1b071432502"
+                    "reference": "ed45400ac919b56d8f16000fa5dc16045547a694"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/3f8d9d257cea7b2b8a4ce573a59fc1b071432502",
-                    "reference": "3f8d9d257cea7b2b8a4ce573a59fc1b071432502",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/ed45400ac919b56d8f16000fa5dc16045547a694",
+                    "reference": "ed45400ac919b56d8f16000fa5dc16045547a694",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "^1.9",
-                    "ezyang/htmlpurifier": "^4.13",
+                    "ezyang/htmlpurifier": "^4.15",
                     "ingenerator/kohana-core": "^4.7",
                     "ingenerator/kohana-extras": "^2.0",
                     "ingenerator/kohana-view": "^4.4",
-                    "php": "^7.4 || ~8.0.0"
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
                 },
                 "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.0",
+                    "johnkary/phpunit-speedtrap": "^3.3",
                     "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^9.4"
+                    "phpunit/phpunit": "^9.5.5"
                 },
-                "time": "2021-04-20T19:11:22+00:00",
+                "time": "2022-10-17T08:47:54+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -113,9 +113,9 @@
                     }
                 ],
                 "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
-                "homepage": "http://github.com/ingenerator/content-snippets",
+                "homepage": "https://github.com/ingenerator/content-snippets",
                 "support": {
-                    "source": "https://github.com/ingenerator/content-snippets/tree/v1.2.1",
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v1.3.0",
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
             }

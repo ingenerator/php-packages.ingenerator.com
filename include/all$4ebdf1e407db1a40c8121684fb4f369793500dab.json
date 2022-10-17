@@ -4299,6 +4299,128 @@
                     "phpunit/phpunit": "^9.5"
                 },
                 "time": "2022-03-14T10:16:13+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\CloudTasksWrapper\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\mock\\Ingenerator\\CloudTasksWrapper\\": "test/mock",
+                        "test\\unit\\Ingenerator\\CloudTasksWrapper\\": "test/unit"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com"
+                    }
+                ],
+                "description": "Library for dispatching and processing Google Cloud Tasks from PHP",
+                "homepage": "https://github.com/ingenerator/cloud-tasks-wrapper",
+                "support": {
+                    "source": "https://github.com/ingenerator/cloud-tasks-wrapper",
+                    "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
+                }
+            },
+            "v0.5.0": {
+                "name": "ingenerator/cloud-tasks-wrapper",
+                "version": "v0.5.0",
+                "version_normalized": "0.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
+                    "reference": "84483bb5043e92cf4c77558893dc803e03b61bbf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/84483bb5043e92cf4c77558893dc803e03b61bbf",
+                    "reference": "84483bb5043e92cf4c77558893dc803e03b61bbf",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-bcmath": "^8.0",
+                    "google/cloud-tasks": "^1.8",
+                    "google/protobuf": "^3.20.0",
+                    "ingenerator/oidc-token-verifier": "^0.3",
+                    "ingenerator/php-utils": "^1.13",
+                    "php": "~8.0.0 || ~8.1.0",
+                    "psr/http-message": "^1.0",
+                    "symfony/polyfill-php80": "^1.20"
+                },
+                "conflict": {
+                    "google/gax": "<1.16"
+                },
+                "require-dev": {
+                    "guzzlehttp/psr7": "^1.7",
+                    "phpunit/phpunit": "^9.5.5"
+                },
+                "time": "2022-10-17T09:36:16+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\CloudTasksWrapper\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\mock\\Ingenerator\\CloudTasksWrapper\\": "test/mock",
+                        "test\\unit\\Ingenerator\\CloudTasksWrapper\\": "test/unit"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com"
+                    }
+                ],
+                "description": "Library for dispatching and processing Google Cloud Tasks from PHP",
+                "homepage": "https://github.com/ingenerator/cloud-tasks-wrapper",
+                "support": {
+                    "source": "https://github.com/ingenerator/cloud-tasks-wrapper",
+                    "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
+                }
+            },
+            "0.5.x-dev": {
+                "name": "ingenerator/cloud-tasks-wrapper",
+                "version": "0.5.x-dev",
+                "version_normalized": "0.5.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
+                    "reference": "84483bb5043e92cf4c77558893dc803e03b61bbf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/84483bb5043e92cf4c77558893dc803e03b61bbf",
+                    "reference": "84483bb5043e92cf4c77558893dc803e03b61bbf",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-bcmath": "^8.0",
+                    "google/cloud-tasks": "^1.8",
+                    "google/protobuf": "^3.20.0",
+                    "ingenerator/oidc-token-verifier": "^0.3",
+                    "ingenerator/php-utils": "^1.13",
+                    "php": "~8.0.0 || ~8.1.0",
+                    "psr/http-message": "^1.0",
+                    "symfony/polyfill-php80": "^1.20"
+                },
+                "conflict": {
+                    "google/gax": "<1.16"
+                },
+                "require-dev": {
+                    "guzzlehttp/psr7": "^1.7",
+                    "phpunit/phpunit": "^9.5.5"
+                },
+                "time": "2022-10-17T09:36:16+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -4738,6 +4860,65 @@
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
             },
+            "v1.3.0": {
+                "name": "ingenerator/content-snippets",
+                "version": "v1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/content-snippets.git",
+                    "reference": "ed45400ac919b56d8f16000fa5dc16045547a694"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/ed45400ac919b56d8f16000fa5dc16045547a694",
+                    "reference": "ed45400ac919b56d8f16000fa5dc16045547a694",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.9",
+                    "ezyang/htmlpurifier": "^4.15",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^2.0",
+                    "ingenerator/kohana-view": "^4.4",
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "kohana/koharness": "dev-master",
+                    "phpunit/phpunit": "^9.5.5"
+                },
+                "time": "2022-10-17T08:47:54+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ContentSnippets\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
+                "homepage": "https://github.com/ingenerator/content-snippets",
+                "support": {
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v1.3.0",
+                    "issues": "https://github.com/ingenerator/content-snippets/issues"
+                }
+            },
             "1.x-dev": {
                 "name": "ingenerator/content-snippets",
                 "version": "1.x-dev",
@@ -4745,28 +4926,28 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "3f8d9d257cea7b2b8a4ce573a59fc1b071432502"
+                    "reference": "ed45400ac919b56d8f16000fa5dc16045547a694"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/3f8d9d257cea7b2b8a4ce573a59fc1b071432502",
-                    "reference": "3f8d9d257cea7b2b8a4ce573a59fc1b071432502",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/ed45400ac919b56d8f16000fa5dc16045547a694",
+                    "reference": "ed45400ac919b56d8f16000fa5dc16045547a694",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "^1.9",
-                    "ezyang/htmlpurifier": "^4.13",
+                    "ezyang/htmlpurifier": "^4.15",
                     "ingenerator/kohana-core": "^4.7",
                     "ingenerator/kohana-extras": "^2.0",
                     "ingenerator/kohana-view": "^4.4",
-                    "php": "^7.4 || ~8.0.0"
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
                 },
                 "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.0",
+                    "johnkary/phpunit-speedtrap": "^3.3",
                     "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^9.4"
+                    "phpunit/phpunit": "^9.5.5"
                 },
-                "time": "2021-04-20T19:11:22+00:00",
+                "time": "2022-10-17T08:47:54+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -4792,9 +4973,9 @@
                     }
                 ],
                 "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
-                "homepage": "http://github.com/ingenerator/content-snippets",
+                "homepage": "https://github.com/ingenerator/content-snippets",
                 "support": {
-                    "source": "https://github.com/ingenerator/content-snippets/tree/v1.2.1",
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v1.3.0",
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
             }
@@ -5695,6 +5876,66 @@
                     "issues": "https://github.com/ingenerator/form/issues"
                 }
             },
+            "v1.3.0": {
+                "name": "ingenerator/form",
+                "version": "v1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/form.git",
+                    "reference": "ea2ae41c4c4ead499deb8d75834daf50dc204644"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/form/zipball/ea2ae41c4c4ead499deb8d75834daf50dc204644",
+                    "reference": "ea2ae41c4c4ead499deb8d75834daf50dc204644",
+                    "shasum": ""
+                },
+                "require": {
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^2.0",
+                    "ingenerator/php-utils": "^1.6",
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "kohana/koharness": "dev-master",
+                    "phpunit/phpunit": "^9.5.5"
+                },
+                "suggest": {
+                    "ingenerator/showgroup": "javascript support to show/hide form sections based on values"
+                },
+                "time": "2022-10-17T08:20:31+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Form\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "http://ingenerator.com"
+                    }
+                ],
+                "description": "Schema-based form rendering / interaction",
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v1.3.0",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
+            },
             "1.x-dev": {
                 "name": "ingenerator/form",
                 "version": "1.x-dev",
@@ -5702,29 +5943,29 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/form.git",
-                    "reference": "0d9357eabc62b59aad49b9c3c1fefb6663429ac4"
+                    "reference": "ea2ae41c4c4ead499deb8d75834daf50dc204644"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/form/zipball/0d9357eabc62b59aad49b9c3c1fefb6663429ac4",
-                    "reference": "0d9357eabc62b59aad49b9c3c1fefb6663429ac4",
+                    "url": "https://api.github.com/repos/ingenerator/form/zipball/ea2ae41c4c4ead499deb8d75834daf50dc204644",
+                    "reference": "ea2ae41c4c4ead499deb8d75834daf50dc204644",
                     "shasum": ""
                 },
                 "require": {
                     "ingenerator/kohana-core": "^4.7",
                     "ingenerator/kohana-extras": "^2.0",
                     "ingenerator/php-utils": "^1.6",
-                    "php": "^7.4 || ~8.0.0"
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
                 },
                 "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.2",
+                    "johnkary/phpunit-speedtrap": "^3.3",
                     "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^9.4"
+                    "phpunit/phpunit": "^9.5.5"
                 },
                 "suggest": {
                     "ingenerator/showgroup": "javascript support to show/hide form sections based on values"
                 },
-                "time": "2021-04-20T18:57:33+00:00",
+                "time": "2022-10-17T08:20:31+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -5752,67 +5993,7 @@
                 "description": "Schema-based form rendering / interaction",
                 "homepage": "http://github.com/ingenerator/form",
                 "support": {
-                    "source": "https://github.com/ingenerator/form/tree/v1.2.1",
-                    "issues": "https://github.com/ingenerator/form/issues"
-                }
-            },
-            "dev-support-php8.1": {
-                "name": "ingenerator/form",
-                "version": "dev-support-php8.1",
-                "version_normalized": "dev-support-php8.1",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/form.git",
-                    "reference": "26bb3b056e53641222c1e9b3ca6b3f5d7895d4e6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/form/zipball/26bb3b056e53641222c1e9b3ca6b3f5d7895d4e6",
-                    "reference": "26bb3b056e53641222c1e9b3ca6b3f5d7895d4e6",
-                    "shasum": ""
-                },
-                "require": {
-                    "ingenerator/kohana-core": "^4.7",
-                    "ingenerator/kohana-extras": "^2.0",
-                    "ingenerator/php-utils": "^1.6",
-                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
-                },
-                "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.3",
-                    "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^9.5.5"
-                },
-                "suggest": {
-                    "ingenerator/showgroup": "javascript support to show/hide form sections based on values"
-                },
-                "time": "2022-10-17T08:10:44+00:00",
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\Form\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "http://ingenerator.com"
-                    }
-                ],
-                "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form",
-                "support": {
-                    "source": "https://github.com/ingenerator/form/tree/support-php8.1",
+                    "source": "https://github.com/ingenerator/form/tree/v1.3.0",
                     "issues": "https://github.com/ingenerator/form/issues"
                 }
             }
@@ -14824,12 +15005,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-auth.git",
-                    "reference": "76a391bca48149a208e4baced87264b7783cd864"
+                    "reference": "7f73692f21efcc0663ce0594b77d25452eac50ac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/76a391bca48149a208e4baced87264b7783cd864",
-                    "reference": "76a391bca48149a208e4baced87264b7783cd864",
+                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/7f73692f21efcc0663ce0594b77d25452eac50ac",
+                    "reference": "7f73692f21efcc0663ce0594b77d25452eac50ac",
                     "shasum": ""
                 },
                 "require": {
@@ -14840,7 +15021,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^9.5.5"
                 },
-                "time": "2022-10-17T07:24:08+00:00",
+                "time": "2022-10-17T09:42:39+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -16096,6 +16277,62 @@
                     "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
                 }
             },
+            "v1.2.0": {
+                "name": "ingenerator/warden-persistence-doctrine",
+                "version": "v1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
+                    "reference": "8bd79218308b8336199a8b43c270aebd5b0354af"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-persistence-doctrine/zipball/8bd79218308b8336199a8b43c270aebd5b0354af",
+                    "reference": "8bd79218308b8336199a8b43c270aebd5b0354af",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/orm": "^2.13.3",
+                    "ingenerator/warden-core": "^1.2",
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+                    "symfony/cache": "^5.0 || ^6.0"
+                },
+                "conflict": {
+                    "doctrine/dbal": "<3.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5.5"
+                },
+                "time": "2022-10-17T08:24:14+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\Persistence\\Doctrine\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Persistence provider for warden using doctrine2",
+                "homepage": "https://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v1.2.0",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
+            },
             "1.x-dev": {
                 "name": "ingenerator/warden-persistence-doctrine",
                 "version": "1.x-dev",
@@ -16103,23 +16340,27 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
-                    "reference": "8a8ee4020f2015f9676ec93ab72c75a7ddd45c18"
+                    "reference": "8bd79218308b8336199a8b43c270aebd5b0354af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-persistence-doctrine/zipball/8a8ee4020f2015f9676ec93ab72c75a7ddd45c18",
-                    "reference": "8a8ee4020f2015f9676ec93ab72c75a7ddd45c18",
+                    "url": "https://api.github.com/repos/ingenerator/warden-persistence-doctrine/zipball/8bd79218308b8336199a8b43c270aebd5b0354af",
+                    "reference": "8bd79218308b8336199a8b43c270aebd5b0354af",
                     "shasum": ""
                 },
                 "require": {
-                    "doctrine/orm": "^2.7.4",
-                    "ingenerator/warden-core": "^1.1",
-                    "php": "^7.4 || ~8.0.0"
+                    "doctrine/orm": "^2.13.3",
+                    "ingenerator/warden-core": "^1.2",
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+                    "symfony/cache": "^5.0 || ^6.0"
+                },
+                "conflict": {
+                    "doctrine/dbal": "<3.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^9.0"
+                    "phpunit/phpunit": "^9.5.5"
                 },
-                "time": "2021-04-21T12:51:36+00:00",
+                "time": "2022-10-17T08:24:14+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -16143,9 +16384,9 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
+                "homepage": "https://github.com/ingenerator/warden-persistence-doctrine",
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v1.1.1",
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v1.2.0",
                     "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
                 }
             },
@@ -16193,59 +16434,6 @@
                 "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
                 "support": {
                     "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/master",
-                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
-                }
-            },
-            "dev-support-php81": {
-                "name": "ingenerator/warden-persistence-doctrine",
-                "version": "dev-support-php81",
-                "version_normalized": "dev-support-php81",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
-                    "reference": "35e390ab0bca8ca71173a7acddac0aa37e1faa93"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-persistence-doctrine/zipball/35e390ab0bca8ca71173a7acddac0aa37e1faa93",
-                    "reference": "35e390ab0bca8ca71173a7acddac0aa37e1faa93",
-                    "shasum": ""
-                },
-                "require": {
-                    "doctrine/orm": "^2.13.3",
-                    "ingenerator/warden-core": "^1.2",
-                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
-                    "symfony/cache": "^5.0 || ^6.0"
-                },
-                "require-dev": {
-                    "phpunit/phpunit": "^9.5.5"
-                },
-                "time": "2022-10-17T06:49:31+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\Warden\\Persistence\\Doctrine\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    }
-                ],
-                "description": "Persistence provider for warden using doctrine2",
-                "homepage": "https://github.com/ingenerator/warden-persistence-doctrine",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/support-php81",
                     "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
                 }
             }
