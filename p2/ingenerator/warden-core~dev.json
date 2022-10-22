@@ -284,12 +284,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-core.git",
-                    "reference": "a22c945156efc86bd802c51ce256bd67e8d1a953"
+                    "reference": "fef3e52bc77135eb242f1b927e95564bdd49b876"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/a22c945156efc86bd802c51ce256bd67e8d1a953",
-                    "reference": "a22c945156efc86bd802c51ce256bd67e8d1a953",
+                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/fef3e52bc77135eb242f1b927e95564bdd49b876",
+                    "reference": "fef3e52bc77135eb242f1b927e95564bdd49b876",
                     "shasum": ""
                 },
                 "require": {
@@ -301,7 +301,7 @@
                 "suggest": {
                     "ingenerator/warden-validator-symfony": "Default entity / request validation implemenation using symfony validation"
                 },
-                "time": "2022-10-22T15:16:11+00:00",
+                "time": "2022-10-22T15:53:15+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
