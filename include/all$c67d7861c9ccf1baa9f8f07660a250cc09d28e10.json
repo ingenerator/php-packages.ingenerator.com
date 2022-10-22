@@ -4978,6 +4978,65 @@
                     "source": "https://github.com/ingenerator/content-snippets/tree/v1.3.0",
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
+            },
+            "dev-use-safe-cache-keys": {
+                "name": "ingenerator/content-snippets",
+                "version": "dev-use-safe-cache-keys",
+                "version_normalized": "dev-use-safe-cache-keys",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/content-snippets.git",
+                    "reference": "82d53ae2107718fd765ba6bbead94d79175b519f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/82d53ae2107718fd765ba6bbead94d79175b519f",
+                    "reference": "82d53ae2107718fd765ba6bbead94d79175b519f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.9",
+                    "ezyang/htmlpurifier": "^4.15",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^2.0",
+                    "ingenerator/kohana-view": "^4.4",
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "kohana/koharness": "dev-master",
+                    "phpunit/phpunit": "^9.5.5"
+                },
+                "time": "2022-10-22T15:11:00+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ContentSnippets\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
+                "homepage": "https://github.com/ingenerator/content-snippets",
+                "support": {
+                    "source": "https://github.com/ingenerator/content-snippets/tree/use-safe-cache-keys",
+                    "issues": "https://github.com/ingenerator/content-snippets/issues"
+                }
             }
         },
         "ingenerator/form": {
@@ -15831,6 +15890,64 @@
                     "source": "https://github.com/ingenerator/warden-core/tree/v1.2.0",
                     "issues": "https://github.com/ingenerator/warden-core/issues"
                 }
+            },
+            "dev-fix-checkmx-deprecation": {
+                "name": "ingenerator/warden-core",
+                "version": "dev-fix-checkmx-deprecation",
+                "version_normalized": "dev-fix-checkmx-deprecation",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-core.git",
+                    "reference": "a22c945156efc86bd802c51ce256bd67e8d1a953"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/a22c945156efc86bd802c51ce256bd67e8d1a953",
+                    "reference": "a22c945156efc86bd802c51ce256bd67e8d1a953",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5.5"
+                },
+                "suggest": {
+                    "ingenerator/warden-validator-symfony": "Default entity / request validation implemenation using symfony validation"
+                },
+                "time": "2022-10-22T15:16:11+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\Core\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Framework-and-driver-independent authentication and authorization package",
+                "homepage": "https://github.com/ingenerator/warden-core",
+                "keywords": [
+                    "acl",
+                    "auth",
+                    "web"
+                ],
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-core/tree/fix-checkmx-deprecation",
+                    "issues": "https://github.com/ingenerator/warden-core/issues"
+                }
             }
         },
         "ingenerator/warden-persistence-doctrine": {
@@ -18461,6 +18578,63 @@
                 "homepage": "https://github.com/ingenerator/warden-validator-symfony",
                 "support": {
                     "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.2.0",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
+            },
+            "dev-require-email-validator": {
+                "name": "ingenerator/warden-validator-symfony",
+                "version": "dev-require-email-validator",
+                "version_normalized": "dev-require-email-validator",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
+                    "reference": "7c9ba048cdd1da7f3087e96a0aa5bb05517e079b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-validator-symfony/zipball/7c9ba048cdd1da7f3087e96a0aa5bb05517e079b",
+                    "reference": "7c9ba048cdd1da7f3087e96a0aa5bb05517e079b",
+                    "shasum": ""
+                },
+                "require": {
+                    "egulias/email-validator": "^3.2",
+                    "ingenerator/warden-core": "^1.2",
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+                    "symfony/validator": "^5.4 || ^6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5.5",
+                    "symfony/yaml": "^5.4 || ^6.0"
+                },
+                "suggest": {
+                    "doctrine/annotations": "To use the default annotation-based validation in warden-core"
+                },
+                "time": "2022-10-22T15:19:35+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\Validator\\Symfony\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Validation provider for warden based on symfony validation",
+                "homepage": "https://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/require-email-validator",
                     "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
                 }
             }
