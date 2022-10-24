@@ -66,12 +66,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "ed45400ac919b56d8f16000fa5dc16045547a694"
+                    "reference": "d599149a7a8130514469fe8bbb7db2b74d549678"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/ed45400ac919b56d8f16000fa5dc16045547a694",
-                    "reference": "ed45400ac919b56d8f16000fa5dc16045547a694",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/d599149a7a8130514469fe8bbb7db2b74d549678",
+                    "reference": "d599149a7a8130514469fe8bbb7db2b74d549678",
                     "shasum": ""
                 },
                 "require": {
@@ -87,7 +87,7 @@
                     "kohana/koharness": "dev-master",
                     "phpunit/phpunit": "^9.5.5"
                 },
-                "time": "2022-10-17T08:47:54+00:00",
+                "time": "2022-10-24T06:44:25+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -115,66 +115,7 @@
                 "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
                 "homepage": "https://github.com/ingenerator/content-snippets",
                 "support": {
-                    "source": "https://github.com/ingenerator/content-snippets/tree/v1.3.0",
-                    "issues": "https://github.com/ingenerator/content-snippets/issues"
-                }
-            },
-            {
-                "name": "ingenerator/content-snippets",
-                "version": "dev-use-safe-cache-keys",
-                "version_normalized": "dev-use-safe-cache-keys",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "afd46580ce94c175688764f9de63847c39519647"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/afd46580ce94c175688764f9de63847c39519647",
-                    "reference": "afd46580ce94c175688764f9de63847c39519647",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer/installers": "^1.9",
-                    "ezyang/htmlpurifier": "^4.15",
-                    "ingenerator/kohana-core": "^4.7",
-                    "ingenerator/kohana-extras": "^2.0",
-                    "ingenerator/kohana-view": "^4.4",
-                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
-                },
-                "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.3",
-                    "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^9.5.5"
-                },
-                "time": "2022-10-22T16:13:53+00:00",
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\ContentSnippets\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    }
-                ],
-                "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
-                "homepage": "https://github.com/ingenerator/content-snippets",
-                "support": {
-                    "source": "https://github.com/ingenerator/content-snippets/tree/use-safe-cache-keys",
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v1.3.1",
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
             }

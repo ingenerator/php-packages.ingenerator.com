@@ -114,15 +114,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-validator-symfony.git",
-                    "reference": "20ec2c56e2f2d64bea71e86f724855233509b486"
+                    "reference": "d080caac00568adb400427d78be44315d729f393"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-validator-symfony/zipball/20ec2c56e2f2d64bea71e86f724855233509b486",
-                    "reference": "20ec2c56e2f2d64bea71e86f724855233509b486",
+                    "url": "https://api.github.com/repos/ingenerator/warden-validator-symfony/zipball/d080caac00568adb400427d78be44315d729f393",
+                    "reference": "d080caac00568adb400427d78be44315d729f393",
                     "shasum": ""
                 },
                 "require": {
+                    "egulias/email-validator": "^3.2",
                     "ingenerator/warden-core": "^1.2",
                     "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
                     "symfony/validator": "^5.4 || ^6.0"
@@ -134,7 +135,7 @@
                 "suggest": {
                     "doctrine/annotations": "To use the default annotation-based validation in warden-core"
                 },
-                "time": "2022-10-17T07:21:04+00:00",
+                "time": "2022-10-24T06:47:22+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -160,64 +161,7 @@
                 "description": "Validation provider for warden based on symfony validation",
                 "homepage": "https://github.com/ingenerator/warden-validator-symfony",
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.2.0",
-                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
-                }
-            },
-            {
-                "name": "ingenerator/warden-validator-symfony",
-                "version": "dev-require-email-validator",
-                "version_normalized": "dev-require-email-validator",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
-                    "reference": "7c9ba048cdd1da7f3087e96a0aa5bb05517e079b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-validator-symfony/zipball/7c9ba048cdd1da7f3087e96a0aa5bb05517e079b",
-                    "reference": "7c9ba048cdd1da7f3087e96a0aa5bb05517e079b",
-                    "shasum": ""
-                },
-                "require": {
-                    "egulias/email-validator": "^3.2",
-                    "ingenerator/warden-core": "^1.2",
-                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
-                    "symfony/validator": "^5.4 || ^6.0"
-                },
-                "require-dev": {
-                    "phpunit/phpunit": "^9.5.5",
-                    "symfony/yaml": "^5.4 || ^6.0"
-                },
-                "suggest": {
-                    "doctrine/annotations": "To use the default annotation-based validation in warden-core"
-                },
-                "time": "2022-10-22T15:19:35+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\Warden\\Validator\\Symfony\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    }
-                ],
-                "description": "Validation provider for warden based on symfony validation",
-                "homepage": "https://github.com/ingenerator/warden-validator-symfony",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/require-email-validator",
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.2.1",
                     "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
                 }
             }
