@@ -332,6 +332,80 @@
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
+                "version": "1.3.x-dev",
+                "version_normalized": "1.3.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "reference": "4fa7138c134734d21edbb6664102482baaaefa15"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/4fa7138c134734d21edbb6664102482baaaefa15",
+                    "reference": "4fa7138c134734d21edbb6664102482baaaefa15",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.9",
+                    "ext-json": "*",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^2.0",
+                    "ingenerator/kohana-view": "^4.4",
+                    "ingenerator/tokenista": "^1.4",
+                    "ingenerator/warden-core": "^1.1",
+                    "ingenerator/warden-persistence-doctrine": "^1.1",
+                    "ingenerator/warden-validator-symfony": "^1.1",
+                    "php": "^7.4 || ~8.0.0",
+                    "swiftmailer/swiftmailer": "^6.2.3",
+                    "symfony/validator": "^3.0"
+                },
+                "require-dev": {
+                    "egulias/email-validator": "^2.1.16",
+                    "johnkary/phpunit-speedtrap": "^3.0",
+                    "kohana/koharness": "dev-master",
+                    "phpunit/phpunit": "^9.0"
+                },
+                "suggest": {
+                    "zeelot/kohana-dependencies": "Dependency container for kohana"
+                },
+                "time": "2021-04-21T20:20:31+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\UI\\Kohana\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Front-end and kohana application integration for Warden",
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.3.0",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
+            },
+            {
+                "name": "ingenerator/warden-ui-kohana",
                 "version": "1.x-dev",
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
@@ -402,6 +476,78 @@
                 "homepage": "https://github.com/ingenerator/warden-ui-kohana",
                 "support": {
                     "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.4.1",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
+            },
+            {
+                "name": "ingenerator/warden-ui-kohana",
+                "version": "dev-1.3-maint-drop-direct-package-constraints",
+                "version_normalized": "dev-1.3-maint-drop-direct-package-constraints",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "reference": "b635ab982f15d9a2be614ae5c2814ec3bc1211c7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/b635ab982f15d9a2be614ae5c2814ec3bc1211c7",
+                    "reference": "b635ab982f15d9a2be614ae5c2814ec3bc1211c7",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.9",
+                    "ext-json": "*",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^2.0",
+                    "ingenerator/kohana-view": "^4.4",
+                    "ingenerator/tokenista": "^1.4",
+                    "ingenerator/warden-core": "^1.1",
+                    "ingenerator/warden-persistence-doctrine": "^1.1",
+                    "ingenerator/warden-validator-symfony": "^1.1",
+                    "php": "^7.4 || ~8.0.0",
+                    "swiftmailer/swiftmailer": "^6.2.3"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.0",
+                    "kohana/koharness": "dev-master",
+                    "phpunit/phpunit": "^9.0"
+                },
+                "suggest": {
+                    "zeelot/kohana-dependencies": "Dependency container for kohana"
+                },
+                "time": "2022-10-24T13:08:59+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\UI\\Kohana\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Front-end and kohana application integration for Warden",
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/1.3-maint-drop-direct-package-constraints",
                     "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
                 }
             }
