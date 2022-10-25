@@ -4978,19 +4978,19 @@
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
             },
-            "1.x-dev": {
+            "v1.3.2": {
                 "name": "ingenerator/content-snippets",
-                "version": "1.x-dev",
-                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "version": "v1.3.2",
+                "version_normalized": "1.3.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "d599149a7a8130514469fe8bbb7db2b74d549678"
+                    "reference": "96ac74376dd38d07da561ef14df88a9b407712cd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/d599149a7a8130514469fe8bbb7db2b74d549678",
-                    "reference": "d599149a7a8130514469fe8bbb7db2b74d549678",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/96ac74376dd38d07da561ef14df88a9b407712cd",
+                    "reference": "96ac74376dd38d07da561ef14df88a9b407712cd",
                     "shasum": ""
                 },
                 "require": {
@@ -5006,7 +5006,66 @@
                     "kohana/koharness": "dev-master",
                     "phpunit/phpunit": "^9.5.5"
                 },
-                "time": "2022-10-24T06:44:25+00:00",
+                "time": "2022-10-25T09:05:39+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ContentSnippets\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
+                "homepage": "https://github.com/ingenerator/content-snippets",
+                "support": {
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v1.3.2",
+                    "issues": "https://github.com/ingenerator/content-snippets/issues"
+                }
+            },
+            "1.x-dev": {
+                "name": "ingenerator/content-snippets",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/content-snippets.git",
+                    "reference": "96ac74376dd38d07da561ef14df88a9b407712cd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/96ac74376dd38d07da561ef14df88a9b407712cd",
+                    "reference": "96ac74376dd38d07da561ef14df88a9b407712cd",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.9",
+                    "ezyang/htmlpurifier": "^4.15",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^2.0",
+                    "ingenerator/kohana-view": "^4.4",
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "kohana/koharness": "dev-master",
+                    "phpunit/phpunit": "^9.5.5"
+                },
+                "time": "2022-10-25T09:05:39+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -5034,7 +5093,7 @@
                 "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
                 "homepage": "https://github.com/ingenerator/content-snippets",
                 "support": {
-                    "source": "https://github.com/ingenerator/content-snippets/tree/v1.3.1",
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v1.3.2",
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
             }
