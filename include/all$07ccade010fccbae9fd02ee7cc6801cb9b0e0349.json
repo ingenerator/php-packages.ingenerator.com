@@ -16195,6 +16195,64 @@
                     "source": "https://github.com/ingenerator/warden-core/tree/v1.2.1",
                     "issues": "https://github.com/ingenerator/warden-core/issues"
                 }
+            },
+            "dev-bug-compare-null-password": {
+                "name": "ingenerator/warden-core",
+                "version": "dev-bug-compare-null-password",
+                "version_normalized": "dev-bug-compare-null-password",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-core.git",
+                    "reference": "8ad6a790b6ed3abbec2e9d9b7906d79c8adeadec"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/8ad6a790b6ed3abbec2e9d9b7906d79c8adeadec",
+                    "reference": "8ad6a790b6ed3abbec2e9d9b7906d79c8adeadec",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5.5"
+                },
+                "suggest": {
+                    "ingenerator/warden-validator-symfony": "Default entity / request validation implemenation using symfony validation"
+                },
+                "time": "2022-10-27T10:11:46+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\Core\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Framework-and-driver-independent authentication and authorization package",
+                "homepage": "https://github.com/ingenerator/warden-core",
+                "keywords": [
+                    "acl",
+                    "auth",
+                    "web"
+                ],
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-core/tree/bug-compare-null-password",
+                    "issues": "https://github.com/ingenerator/warden-core/issues"
+                }
             }
         },
         "ingenerator/warden-persistence-doctrine": {
