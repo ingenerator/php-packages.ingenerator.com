@@ -586,12 +586,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "9f5d8e4df2d18576f95749f675e89ddeca07c0a1"
+                    "reference": "01b388ca7f85d951c8664fa00580f114e8a74c27"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/9f5d8e4df2d18576f95749f675e89ddeca07c0a1",
-                    "reference": "9f5d8e4df2d18576f95749f675e89ddeca07c0a1",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/01b388ca7f85d951c8664fa00580f114e8a74c27",
+                    "reference": "01b388ca7f85d951c8664fa00580f114e8a74c27",
                     "shasum": ""
                 },
                 "require": {
@@ -615,7 +615,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2022-10-14T19:08:51+00:00",
+                "time": "2022-10-28T12:47:04+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -644,7 +644,7 @@
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
                 "homepage": "http://github.com/ingenerator/kohana-core",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.9.0",
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.9.1",
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             },
@@ -655,12 +655,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "2b0706c72e01b485a6a894a9fd6928b617a81acc"
+                    "reference": "e65830b74e5c1bd699f423753cdf710d2808d70d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/2b0706c72e01b485a6a894a9fd6928b617a81acc",
-                    "reference": "2b0706c72e01b485a6a894a9fd6928b617a81acc",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/e65830b74e5c1bd699f423753cdf710d2808d70d",
+                    "reference": "e65830b74e5c1bd699f423753cdf710d2808d70d",
                     "shasum": ""
                 },
                 "require": {
@@ -684,7 +684,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2022-10-27T09:53:10+00:00",
+                "time": "2022-10-28T12:44:29+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {

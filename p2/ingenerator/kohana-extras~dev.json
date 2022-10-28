@@ -375,12 +375,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "46d863c092cc51fb4d1b35276d75e9bcd00d70e1"
+                    "reference": "de77f61e14bfc278b72e40ca317063cc7b9b62a0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/46d863c092cc51fb4d1b35276d75e9bcd00d70e1",
-                    "reference": "46d863c092cc51fb4d1b35276d75e9bcd00d70e1",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/de77f61e14bfc278b72e40ca317063cc7b9b62a0",
+                    "reference": "de77f61e14bfc278b72e40ca317063cc7b9b62a0",
                     "shasum": ""
                 },
                 "require": {
@@ -402,7 +402,7 @@
                     "maximebf/debugbar": "^1.14 to use the debug bar in development environments",
                     "swiftmailer/swiftmailer": "^6.2.3 to use the SwiftMailer dependency factory"
                 },
-                "time": "2022-10-16T08:15:41+00:00",
+                "time": "2022-10-28T12:46:56+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -435,7 +435,7 @@
                 "description": "Helper and wrapper classes for Kohana",
                 "homepage": "https://github.com/ingenerator/kohana-extras",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.3.0",
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.3.1",
                     "issues": "https://github.com/ingenerator/kohana-extras/issues"
                 }
             }
