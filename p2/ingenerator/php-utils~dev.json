@@ -170,12 +170,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/php-utils.git",
-                    "reference": "4004813236b76904bcae5f5770025aaee23c1fd1"
+                    "reference": "f338cd507e5af257b003a22f644d427c1c42ed69"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/4004813236b76904bcae5f5770025aaee23c1fd1",
-                    "reference": "4004813236b76904bcae5f5770025aaee23c1fd1",
+                    "url": "https://api.github.com/repos/ingenerator/php-utils/zipball/f338cd507e5af257b003a22f644d427c1c42ed69",
+                    "reference": "f338cd507e5af257b003a22f644d427c1c42ed69",
                     "shasum": ""
                 },
                 "require": {
@@ -191,7 +191,7 @@
                     "mikey179/vfsstream": "^1.6.11",
                     "phpunit/phpunit": "^9.5.5"
                 },
-                "time": "2022-10-28T12:45:32+00:00",
+                "time": "2022-10-31T12:56:26+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
