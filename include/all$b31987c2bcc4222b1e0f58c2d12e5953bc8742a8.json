@@ -6301,7 +6301,7 @@
                 "version_normalized": "3.0.12.1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "25a53dc37c131e61f0ba29e648ed2347420d13ce"
                 },
                 "dist": {
@@ -6353,7 +6353,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v3.0.12.1",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "3.0.x-dev": {
                 "name": "ingenerator/kohana-core",
@@ -6361,7 +6365,7 @@
                 "version_normalized": "3.0.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "25a53dc37c131e61f0ba29e648ed2347420d13ce"
                 },
                 "dist": {
@@ -6413,7 +6417,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v3.0.12.1",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "3.2.3.2": {
                 "name": "ingenerator/kohana-core",
@@ -6421,7 +6429,7 @@
                 "version_normalized": "3.2.3.2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "34c3893464fdbb89bccdbff3f71d5c591607e1da"
                 },
                 "dist": {
@@ -6473,7 +6481,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/3.2.3.2",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "3.2.x-dev": {
                 "name": "ingenerator/kohana-core",
@@ -6481,7 +6493,7 @@
                 "version_normalized": "3.2.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "34c3893464fdbb89bccdbff3f71d5c591607e1da"
                 },
                 "dist": {
@@ -6533,7 +6545,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/3.2.3.2",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v3.3.6": {
                 "name": "ingenerator/kohana-core",
@@ -6541,7 +6557,7 @@
                 "version_normalized": "3.3.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "bdbe81afb5a09cee4269d2e2210a0d293265231a"
                 },
                 "dist": {
@@ -6605,7 +6621,7 @@
                 "version_normalized": "3.3.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "6c85ab4df0581ded8b3e3917ea9a53437e93f4e0"
                 },
                 "dist": {
@@ -6651,7 +6667,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/3.3.x",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.0.0": {
                 "name": "ingenerator/kohana-core",
@@ -6659,7 +6679,7 @@
                 "version_normalized": "4.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "29bca74a8efe142180b767d5bcf1bad011fae6d7"
                 },
                 "dist": {
@@ -6711,7 +6731,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.0.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "4.0.x-dev": {
                 "name": "ingenerator/kohana-core",
@@ -6719,7 +6743,7 @@
                 "version_normalized": "4.0.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "29bca74a8efe142180b767d5bcf1bad011fae6d7"
                 },
                 "dist": {
@@ -6771,7 +6795,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.0.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.1.0": {
                 "name": "ingenerator/kohana-core",
@@ -6779,7 +6807,7 @@
                 "version_normalized": "4.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "c1193285e6fb11a3da1c5e92da86575571bc88ee"
                 },
                 "dist": {
@@ -6805,7 +6833,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2018-03-13T17:28:21+00:00",
+                "time": "2018-03-13T17:30:15+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -6831,7 +6859,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.1.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "4.1.x-dev": {
                 "name": "ingenerator/kohana-core",
@@ -6839,7 +6871,7 @@
                 "version_normalized": "4.1.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "c1193285e6fb11a3da1c5e92da86575571bc88ee"
                 },
                 "dist": {
@@ -6865,7 +6897,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2018-03-13T17:28:21+00:00",
+                "time": "2018-03-13T17:30:15+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -6891,7 +6923,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.1.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.10.0": {
                 "name": "ingenerator/kohana-core",
@@ -6899,7 +6935,7 @@
                 "version_normalized": "4.10.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "bdfc6aa4b9d31dfa128c78f98b69edb21a1800e4"
                 },
                 "dist": {
@@ -6955,7 +6991,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.10.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.2.0": {
                 "name": "ingenerator/kohana-core",
@@ -6963,7 +7003,7 @@
                 "version_normalized": "4.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "68b8a53c00d070bf406dc2190f77ddf395df67b3"
                 },
                 "dist": {
@@ -7016,7 +7056,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.2.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.2.1": {
                 "name": "ingenerator/kohana-core",
@@ -7024,7 +7068,7 @@
                 "version_normalized": "4.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "89e0785b0419ca96ca058a50d8c9c9923e0137ec"
                 },
                 "dist": {
@@ -7077,7 +7121,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.2.1",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.2.2": {
                 "name": "ingenerator/kohana-core",
@@ -7085,7 +7133,7 @@
                 "version_normalized": "4.2.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "79c7864dec4aec43cdcfb50d2e87d092040b02f0"
                 },
                 "dist": {
@@ -7138,7 +7186,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.2.2",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.2.3": {
                 "name": "ingenerator/kohana-core",
@@ -7146,7 +7198,7 @@
                 "version_normalized": "4.2.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "2d7e95c5a673635f808084a00105f1ad56467f26"
                 },
                 "dist": {
@@ -7200,7 +7252,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.2.3",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "4.2.x-dev": {
                 "name": "ingenerator/kohana-core",
@@ -7208,7 +7264,7 @@
                 "version_normalized": "4.2.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "2d7e95c5a673635f808084a00105f1ad56467f26"
                 },
                 "dist": {
@@ -7262,7 +7318,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.2.3",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.3.0": {
                 "name": "ingenerator/kohana-core",
@@ -7270,7 +7330,7 @@
                 "version_normalized": "4.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "306815add34fe83e548751d5b1842957e8460913"
                 },
                 "dist": {
@@ -7324,7 +7384,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.3.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.3.1": {
                 "name": "ingenerator/kohana-core",
@@ -7332,7 +7396,7 @@
                 "version_normalized": "4.3.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "f9777d41a395901e2caac56611409dfa40cb5dd4"
                 },
                 "dist": {
@@ -7386,7 +7450,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.3.1",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.3.2": {
                 "name": "ingenerator/kohana-core",
@@ -7394,7 +7462,7 @@
                 "version_normalized": "4.3.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "dc7ad5a854bb8c71dcd96e7a88fba9f3c1f6cbe3"
                 },
                 "dist": {
@@ -7448,7 +7516,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.3.2",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.3.3": {
                 "name": "ingenerator/kohana-core",
@@ -7456,7 +7528,7 @@
                 "version_normalized": "4.3.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "b5b6a72837edc3e19fc25f501db8db10a794212d"
                 },
                 "dist": {
@@ -7510,7 +7582,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.3.3",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "4.3.x-dev": {
                 "name": "ingenerator/kohana-core",
@@ -7518,7 +7594,7 @@
                 "version_normalized": "4.3.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "b5b6a72837edc3e19fc25f501db8db10a794212d"
                 },
                 "dist": {
@@ -7572,7 +7648,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.3.3",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.4.0": {
                 "name": "ingenerator/kohana-core",
@@ -7580,7 +7660,7 @@
                 "version_normalized": "4.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "34bc8d33bc8ac5af83a63abddda932c09460270b"
                 },
                 "dist": {
@@ -7608,7 +7688,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2020-01-30T16:16:19+00:00",
+                "time": "2020-01-30T16:19:12+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -7634,7 +7714,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.4.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "4.4.x-dev": {
                 "name": "ingenerator/kohana-core",
@@ -7642,7 +7726,7 @@
                 "version_normalized": "4.4.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "f3b266191ac2f191cf164a4dfdd28985a9729fcd"
                 },
                 "dist": {
@@ -7696,7 +7780,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.5.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.5.0": {
                 "name": "ingenerator/kohana-core",
@@ -7704,7 +7792,7 @@
                 "version_normalized": "4.5.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "f3b266191ac2f191cf164a4dfdd28985a9729fcd"
                 },
                 "dist": {
@@ -7758,7 +7846,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.5.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "4.5.x-dev": {
                 "name": "ingenerator/kohana-core",
@@ -7766,7 +7858,7 @@
                 "version_normalized": "4.5.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "f3b266191ac2f191cf164a4dfdd28985a9729fcd"
                 },
                 "dist": {
@@ -7820,7 +7912,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.5.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.6.0": {
                 "name": "ingenerator/kohana-core",
@@ -7828,7 +7924,7 @@
                 "version_normalized": "4.6.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "02ec178ad75e85521bdc1d8c11763a1001e699eb"
                 },
                 "dist": {
@@ -7882,7 +7978,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.6.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.7.0": {
                 "name": "ingenerator/kohana-core",
@@ -7890,7 +7990,7 @@
                 "version_normalized": "4.7.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "90b845336971aa24d58a0adcc4d59e9cbf6d9bfb"
                 },
                 "dist": {
@@ -7944,7 +8044,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.7.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.8.0": {
                 "name": "ingenerator/kohana-core",
@@ -7952,7 +8056,7 @@
                 "version_normalized": "4.8.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "c7450e42d4ce26244173999c2abef6ca6082ebca"
                 },
                 "dist": {
@@ -8006,7 +8110,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.8.1": {
                 "name": "ingenerator/kohana-core",
@@ -8014,7 +8122,7 @@
                 "version_normalized": "4.8.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "a9a6a0ddc4e473d67c96f14f53b3b3323fc7d569"
                 },
                 "dist": {
@@ -8068,7 +8176,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.1",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.8.2": {
                 "name": "ingenerator/kohana-core",
@@ -8076,7 +8188,7 @@
                 "version_normalized": "4.8.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "a3c56f548ffcc196b2646d9f461d53757a43121b"
                 },
                 "dist": {
@@ -8130,7 +8242,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.2",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.8.3": {
                 "name": "ingenerator/kohana-core",
@@ -8138,7 +8254,7 @@
                 "version_normalized": "4.8.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "a0bce0c7ba9e40f539d38cd03f03422c9af185b4"
                 },
                 "dist": {
@@ -8192,7 +8308,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.3",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.8.4": {
                 "name": "ingenerator/kohana-core",
@@ -8200,7 +8320,7 @@
                 "version_normalized": "4.8.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "a0bb337da9497fd1e826c7b0bc79d1b46a20377d"
                 },
                 "dist": {
@@ -8254,7 +8374,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.4",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.8.5": {
                 "name": "ingenerator/kohana-core",
@@ -8262,7 +8386,7 @@
                 "version_normalized": "4.8.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "a7a0bea56d3f49990549b42251a0a38468841155"
                 },
                 "dist": {
@@ -8316,7 +8440,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.5",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.8.6": {
                 "name": "ingenerator/kohana-core",
@@ -8324,7 +8452,7 @@
                 "version_normalized": "4.8.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "7faa7dadc857dd049049cf8c5d03999665facc5d"
                 },
                 "dist": {
@@ -8378,7 +8506,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.6",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.8.6.1": {
                 "name": "ingenerator/kohana-core",
@@ -8386,7 +8518,7 @@
                 "version_normalized": "4.8.6.1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "2691672d7b8643f1b76742557d3d21a7c3c46ede"
                 },
                 "dist": {
@@ -8440,7 +8572,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.8.6.1",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.9.0": {
                 "name": "ingenerator/kohana-core",
@@ -8448,7 +8584,7 @@
                 "version_normalized": "4.9.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "9f5d8e4df2d18576f95749f675e89ddeca07c0a1"
                 },
                 "dist": {
@@ -8504,7 +8640,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.9.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "v4.9.1": {
                 "name": "ingenerator/kohana-core",
@@ -8512,7 +8652,7 @@
                 "version_normalized": "4.9.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "01b388ca7f85d951c8664fa00580f114e8a74c27"
                 },
                 "dist": {
@@ -8568,7 +8708,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.9.1",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "4.x-dev": {
                 "name": "ingenerator/kohana-core",
@@ -8576,7 +8720,7 @@
                 "version_normalized": "4.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "bdfc6aa4b9d31dfa128c78f98b69edb21a1800e4"
                 },
                 "dist": {
@@ -8633,7 +8777,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.10.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             },
             "dev-fix-exception-message": {
                 "name": "ingenerator/kohana-core",
@@ -8641,7 +8789,7 @@
                 "version_normalized": "dev-fix-exception-message",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-core.git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
                     "reference": "e65830b74e5c1bd699f423753cdf710d2808d70d"
                 },
                 "dist": {
@@ -8697,7 +8845,11 @@
                     }
                 ],
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
-                "homepage": "http://github.com/ingenerator/kohana-core"
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/fix-exception-message",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
             }
         },
         "ingenerator/kohana-dependencies": {
@@ -9820,7 +9972,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "e6a54bcfa0a7416fff8288231a612fc2ced3f4b1"
                 },
                 "dist": {
@@ -9862,7 +10014,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.1.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v0.1.1": {
                 "name": "ingenerator/kohana-extras",
@@ -9870,7 +10026,7 @@
                 "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "d6e25b6c260039c8ac700db4d8a2954e8c28d9d4"
                 },
                 "dist": {
@@ -9919,7 +10075,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.1.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "0.1.x-dev": {
                 "name": "ingenerator/kohana-extras",
@@ -9927,7 +10087,7 @@
                 "version_normalized": "0.1.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "d6e25b6c260039c8ac700db4d8a2954e8c28d9d4"
                 },
                 "dist": {
@@ -9976,7 +10136,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.1.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v0.2.0": {
                 "name": "ingenerator/kohana-extras",
@@ -9984,7 +10148,7 @@
                 "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "0decc6aff6227f17feb89917c21e9e5f27f73cd6"
                 },
                 "dist": {
@@ -10027,7 +10191,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.2.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v0.2.1": {
                 "name": "ingenerator/kohana-extras",
@@ -10035,7 +10203,7 @@
                 "version_normalized": "0.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "9abe7144a4461566dabf5f87c22f1e9127c61d5e"
                 },
                 "dist": {
@@ -10081,7 +10249,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.2.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v0.2.2": {
                 "name": "ingenerator/kohana-extras",
@@ -10089,7 +10261,7 @@
                 "version_normalized": "0.2.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "0d6788c8b2a3c8cfed5cbb05044907aaa22aa4c9"
                 },
                 "dist": {
@@ -10135,7 +10307,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.2.2",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v0.2.3": {
                 "name": "ingenerator/kohana-extras",
@@ -10143,7 +10319,7 @@
                 "version_normalized": "0.2.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "e903d47463f21a971a1d18fec6485beb9dd9d3f3"
                 },
                 "dist": {
@@ -10189,7 +10365,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.2.3",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "0.2.x-dev": {
                 "name": "ingenerator/kohana-extras",
@@ -10197,7 +10377,7 @@
                 "version_normalized": "0.2.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "e903d47463f21a971a1d18fec6485beb9dd9d3f3"
                 },
                 "dist": {
@@ -10243,7 +10423,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.2.3",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v0.3.0": {
                 "name": "ingenerator/kohana-extras",
@@ -10251,7 +10435,7 @@
                 "version_normalized": "0.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "bdd8d1a762e806b4f1983b0cb62ea803261f4442"
                 },
                 "dist": {
@@ -10298,7 +10482,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.3.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v0.3.1": {
                 "name": "ingenerator/kohana-extras",
@@ -10306,7 +10494,7 @@
                 "version_normalized": "0.3.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "24fba8f7f527aa6f44bc8bbdd0216f5598ba3007"
                 },
                 "dist": {
@@ -10354,7 +10542,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.3.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v0.3.2": {
                 "name": "ingenerator/kohana-extras",
@@ -10362,7 +10554,7 @@
                 "version_normalized": "0.3.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "3f66e68336bd687a00c1e1608b27d1d4a4e81a46"
                 },
                 "dist": {
@@ -10411,7 +10603,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.3.2",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v0.3.3": {
                 "name": "ingenerator/kohana-extras",
@@ -10419,7 +10615,7 @@
                 "version_normalized": "0.3.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "7948ba99bf44170118d5b1b1edeb60ed04cc91e3"
                 },
                 "dist": {
@@ -10468,7 +10664,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.3.3",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v0.3.4": {
                 "name": "ingenerator/kohana-extras",
@@ -10476,7 +10676,7 @@
                 "version_normalized": "0.3.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "9c8209b0a76d7d30674151703538cb9fd42787a9"
                 },
                 "dist": {
@@ -10525,7 +10725,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.3.4",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v0.3.5": {
                 "name": "ingenerator/kohana-extras",
@@ -10533,7 +10737,7 @@
                 "version_normalized": "0.3.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "1c20ab898392cf18dbab93d13d9258c4204d45ea"
                 },
                 "dist": {
@@ -10583,7 +10787,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.3.5",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "0.3.x-dev": {
                 "name": "ingenerator/kohana-extras",
@@ -10591,7 +10799,7 @@
                 "version_normalized": "0.3.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "1c20ab898392cf18dbab93d13d9258c4204d45ea"
                 },
                 "dist": {
@@ -10641,7 +10849,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.3.5",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v0.4.0": {
                 "name": "ingenerator/kohana-extras",
@@ -10649,7 +10861,7 @@
                 "version_normalized": "0.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "75ffa97e87d84a0591753a842f6e757d299980a1"
                 },
                 "dist": {
@@ -10699,7 +10911,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.4.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v0.4.1": {
                 "name": "ingenerator/kohana-extras",
@@ -10707,7 +10923,7 @@
                 "version_normalized": "0.4.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "fa4edf21d9fe9cca218eb6c707cc3ee259f9a465"
                 },
                 "dist": {
@@ -10757,7 +10973,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.4.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "0.4.x-dev": {
                 "name": "ingenerator/kohana-extras",
@@ -10765,7 +10985,7 @@
                 "version_normalized": "0.4.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "fa4edf21d9fe9cca218eb6c707cc3ee259f9a465"
                 },
                 "dist": {
@@ -10815,7 +11035,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v0.4.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v1.0.0": {
                 "name": "ingenerator/kohana-extras",
@@ -10823,7 +11047,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "630b3e6ed2b2597a0141a1a80ab72b786defa442"
                 },
                 "dist": {
@@ -10873,7 +11097,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v1.0.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v1.0.1": {
                 "name": "ingenerator/kohana-extras",
@@ -10881,7 +11109,7 @@
                 "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "8e5431a8695f8842438b328a6f20ce10c804164c"
                 },
                 "dist": {
@@ -10931,7 +11159,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v1.0.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "1.0.x-dev": {
                 "name": "ingenerator/kohana-extras",
@@ -10939,7 +11171,7 @@
                 "version_normalized": "1.0.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "91c484e5e6b215f18de1e960824331bbe91676b0"
                 },
                 "dist": {
@@ -10989,7 +11221,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v1.1.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v1.1.0": {
                 "name": "ingenerator/kohana-extras",
@@ -10997,7 +11233,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "91c484e5e6b215f18de1e960824331bbe91676b0"
                 },
                 "dist": {
@@ -11047,7 +11283,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v1.1.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v1.2.0": {
                 "name": "ingenerator/kohana-extras",
@@ -11055,7 +11295,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "2d40492d3793545d68510ff0d0de69b668c6ba4b"
                 },
                 "dist": {
@@ -11105,7 +11345,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v1.2.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "1.x-dev": {
                 "name": "ingenerator/kohana-extras",
@@ -11113,7 +11357,7 @@
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "5a00c172afa8f73b0564b9c7fcd3956419d24692"
                 },
                 "dist": {
@@ -11163,7 +11407,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/1.x",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v2.0.0": {
                 "name": "ingenerator/kohana-extras",
@@ -11171,7 +11419,7 @@
                 "version_normalized": "2.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "58faa1484b01c2c5ee34d594041c63cd5e0defb8"
                 },
                 "dist": {
@@ -11228,7 +11476,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v2.0.0-beta.1": {
                 "name": "ingenerator/kohana-extras",
@@ -11236,7 +11488,7 @@
                 "version_normalized": "2.0.0.0-beta1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "26f1bd859464672f210f6918bfe25abafef4f1dc"
                 },
                 "dist": {
@@ -11287,7 +11539,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0-beta.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v2.0.0-beta.2": {
                 "name": "ingenerator/kohana-extras",
@@ -11295,7 +11551,7 @@
                 "version_normalized": "2.0.0.0-beta2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "9a1a8b70ee26bc4bdfce10d81c928a269990e8ca"
                 },
                 "dist": {
@@ -11346,7 +11602,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0-beta.2",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v2.0.0-beta.3": {
                 "name": "ingenerator/kohana-extras",
@@ -11354,7 +11614,7 @@
                 "version_normalized": "2.0.0.0-beta3",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "ef906e0599f2cb612f8241064b311d2864486bd5"
                 },
                 "dist": {
@@ -11405,7 +11665,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0-beta.3",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v2.0.0-beta.4": {
                 "name": "ingenerator/kohana-extras",
@@ -11413,7 +11677,7 @@
                 "version_normalized": "2.0.0.0-beta4",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "53208f22560997fb1e7fa55a317f000d2e8d7183"
                 },
                 "dist": {
@@ -11464,7 +11728,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0-beta.4",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v2.0.0-beta.5": {
                 "name": "ingenerator/kohana-extras",
@@ -11472,7 +11740,7 @@
                 "version_normalized": "2.0.0.0-beta5",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "58faa1484b01c2c5ee34d594041c63cd5e0defb8"
                 },
                 "dist": {
@@ -11529,7 +11797,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v2.0.1": {
                 "name": "ingenerator/kohana-extras",
@@ -11537,7 +11809,7 @@
                 "version_normalized": "2.0.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "7b01ca90eeb16800c55e725ba79f0c71ad496465"
                 },
                 "dist": {
@@ -11594,7 +11866,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v2.0.2": {
                 "name": "ingenerator/kohana-extras",
@@ -11602,7 +11878,7 @@
                 "version_normalized": "2.0.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "339a39c63d1fab28f2d7e25ca76779ee74e527e5"
                 },
                 "dist": {
@@ -11660,7 +11936,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.0.2",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v2.1.0": {
                 "name": "ingenerator/kohana-extras",
@@ -11668,7 +11948,7 @@
                 "version_normalized": "2.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "ec22492c7b22924bbccec01eaddbe93c7fac1f06"
                 },
                 "dist": {
@@ -11726,7 +12006,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.1.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v2.2.0": {
                 "name": "ingenerator/kohana-extras",
@@ -11734,7 +12018,7 @@
                 "version_normalized": "2.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "79cd4366740e3ea3253027953474028721553d52"
                 },
                 "dist": {
@@ -11793,7 +12077,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.2.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v2.2.1": {
                 "name": "ingenerator/kohana-extras",
@@ -11801,7 +12089,7 @@
                 "version_normalized": "2.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "7e7e414c7939b1ad1b7586c9ebf5c75ba0e48bee"
                 },
                 "dist": {
@@ -11860,7 +12148,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "http://github.com/ingenerator/kohana-extras"
+                "homepage": "http://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.2.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v2.3.0": {
                 "name": "ingenerator/kohana-extras",
@@ -11868,7 +12160,7 @@
                 "version_normalized": "2.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "46d863c092cc51fb4d1b35276d75e9bcd00d70e1"
                 },
                 "dist": {
@@ -11926,7 +12218,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "https://github.com/ingenerator/kohana-extras"
+                "homepage": "https://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.3.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "v2.3.1": {
                 "name": "ingenerator/kohana-extras",
@@ -11934,7 +12230,7 @@
                 "version_normalized": "2.3.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "de77f61e14bfc278b72e40ca317063cc7b9b62a0"
                 },
                 "dist": {
@@ -11992,7 +12288,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "https://github.com/ingenerator/kohana-extras"
+                "homepage": "https://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.3.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             },
             "2.x-dev": {
                 "name": "ingenerator/kohana-extras",
@@ -12000,7 +12300,7 @@
                 "version_normalized": "2.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/kohana-extras.git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
                     "reference": "de77f61e14bfc278b72e40ca317063cc7b9b62a0"
                 },
                 "dist": {
@@ -12059,7 +12359,11 @@
                     }
                 ],
                 "description": "Helper and wrapper classes for Kohana",
-                "homepage": "https://github.com/ingenerator/kohana-extras"
+                "homepage": "https://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v2.3.1",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
             }
         },
         "ingenerator/no-robloach-component-installer": {
@@ -14984,6 +15288,63 @@
             }
         },
         "ingenerator/warden-auth": {
+            "v0.1.0": {
+                "name": "ingenerator/warden-auth",
+                "version": "v0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-auth.git",
+                    "reference": "784f5fb4151656fd92a673f80eadcf288588e888"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/784f5fb4151656fd92a673f80eadcf288588e888",
+                    "reference": "784f5fb4151656fd92a673f80eadcf288588e888",
+                    "shasum": ""
+                },
+                "require": {
+                    "ingenerator/warden-core": "^0.2",
+                    "php": "^5.5||^7.2",
+                    "psr/log": "^1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^4.8||^6.5"
+                },
+                "time": "2018-09-20T15:38:11+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\Auth\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "http://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "http://ingenerator.com"
+                    }
+                ],
+                "description": "User authorisation layer for warden authentication system",
+                "homepage": "http://github.com/ingenerator/warden-auth",
+                "keywords": [
+                    "acl",
+                    "auth",
+                    "web"
+                ],
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-auth/tree/v0.1.0",
+                    "issues": "https://github.com/ingenerator/warden-auth/issues"
+                }
+            },
             "v0.1.1": {
                 "name": "ingenerator/warden-auth",
                 "version": "v0.1.1",
@@ -16285,7 +16646,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
                     "reference": "149fb06b94bc1f292bde35a9df9f4285a05b7ac1"
                 },
                 "dist": {
@@ -16320,7 +16681,11 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v0.1.0",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
             },
             "v0.1.1": {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -16328,7 +16693,7 @@
                 "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
                     "reference": "dbd896c77e303ad91e2fb266f39906d5eb911270"
                 },
                 "dist": {
@@ -16363,7 +16728,11 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v0.1.1",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
             },
             "0.1.x-dev": {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -16371,7 +16740,7 @@
                 "version_normalized": "0.1.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
                     "reference": "dbd896c77e303ad91e2fb266f39906d5eb911270"
                 },
                 "dist": {
@@ -16406,7 +16775,11 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v0.1.1",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
             },
             "0.2.0": {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -16414,7 +16787,7 @@
                 "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
                     "reference": "31b1dea3ddd3a22f8b3023a695992b62d5330bfa"
                 },
                 "dist": {
@@ -16449,7 +16822,11 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/0.2.0",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
             },
             "0.2.x-dev": {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -16457,7 +16834,7 @@
                 "version_normalized": "0.2.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
                     "reference": "31b1dea3ddd3a22f8b3023a695992b62d5330bfa"
                 },
                 "dist": {
@@ -16492,7 +16869,11 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/0.2.0",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
             },
             "v1.0.0": {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -16500,7 +16881,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
                     "reference": "64c18ca3c2b36750e509320d4cdc426728ede72c"
                 },
                 "dist": {
@@ -16540,7 +16921,11 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v1.0.0",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
             },
             "1.0.x-dev": {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -16548,7 +16933,7 @@
                 "version_normalized": "1.0.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
                     "reference": "b59432ad07cd1ab3b976422bcbd2e11bde6595c8"
                 },
                 "dist": {
@@ -16588,7 +16973,11 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v1.1.0",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
             },
             "v1.1.0": {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -16596,7 +16985,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
                     "reference": "b59432ad07cd1ab3b976422bcbd2e11bde6595c8"
                 },
                 "dist": {
@@ -16636,7 +17025,11 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v1.1.0",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
             },
             "v1.1.1": {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -16644,7 +17037,7 @@
                 "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
                     "reference": "8a8ee4020f2015f9676ec93ab72c75a7ddd45c18"
                 },
                 "dist": {
@@ -16684,7 +17077,11 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v1.1.1",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
             },
             "v1.2.0": {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -16692,7 +17089,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
                     "reference": "8bd79218308b8336199a8b43c270aebd5b0354af"
                 },
                 "dist": {
@@ -16736,7 +17133,11 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "https://github.com/ingenerator/warden-persistence-doctrine"
+                "homepage": "https://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v1.2.0",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
             },
             "1.x-dev": {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -16744,7 +17145,7 @@
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
                     "reference": "8bd79218308b8336199a8b43c270aebd5b0354af"
                 },
                 "dist": {
@@ -16789,7 +17190,11 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "https://github.com/ingenerator/warden-persistence-doctrine"
+                "homepage": "https://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v1.2.0",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
             },
             "dev-master": {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -16797,7 +17202,7 @@
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
                     "reference": "3df548174ea6d85c90209183da8c840c6313f112"
                 },
                 "dist": {
@@ -16832,7 +17237,11 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/master",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
             }
         },
         "ingenerator/warden-ui-kohana": {
@@ -16842,7 +17251,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "94914e5fadc14c33815588d46eeddb2f01ea929b"
                 },
                 "dist": {
@@ -16894,7 +17303,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.1.0",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "0.1.x-dev": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -16902,7 +17315,7 @@
                 "version_normalized": "0.1.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "2c3aa200dd5a2eef3c46476a621bce953b0d04fd"
                 },
                 "dist": {
@@ -16954,7 +17367,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/0.1.x",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v0.2.0": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -16962,7 +17379,7 @@
                 "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "e696c7da66026482f159ab560070d05f90d8bde5"
                 },
                 "dist": {
@@ -17014,7 +17431,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.2.0",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v0.2.1": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17022,7 +17443,7 @@
                 "version_normalized": "0.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "369c59dcdd6a8d72562536c144f488848dfdfda0"
                 },
                 "dist": {
@@ -17074,7 +17495,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.2.1",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "0.2.x-dev": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17082,7 +17507,7 @@
                 "version_normalized": "0.2.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "369c59dcdd6a8d72562536c144f488848dfdfda0"
                 },
                 "dist": {
@@ -17134,7 +17559,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.2.1",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v0.3.0": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17142,7 +17571,7 @@
                 "version_normalized": "0.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "5a091797ef1e697958fb126da7f2f445bbc2b9f0"
                 },
                 "dist": {
@@ -17195,7 +17624,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.3.0",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v0.3.1": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17203,7 +17636,7 @@
                 "version_normalized": "0.3.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "c11678e1413a440941d71c62737dfeb524280d10"
                 },
                 "dist": {
@@ -17256,7 +17689,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.3.1",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v0.3.2": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17264,7 +17701,7 @@
                 "version_normalized": "0.3.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "79f4ad60327285419fed7056c6531027f686f4ec"
                 },
                 "dist": {
@@ -17317,7 +17754,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.3.2",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v0.3.3": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17325,7 +17766,7 @@
                 "version_normalized": "0.3.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "5d3adfd7baa95c0db7afa9f8c2400007aa662c09"
                 },
                 "dist": {
@@ -17378,7 +17819,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.3.3",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v0.3.4": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17386,7 +17831,7 @@
                 "version_normalized": "0.3.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "858735a18327a1f4d4a9b51aea5fa3627e38a40b"
                 },
                 "dist": {
@@ -17439,7 +17884,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.3.4",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "0.3.x-dev": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17447,7 +17896,7 @@
                 "version_normalized": "0.3.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "858735a18327a1f4d4a9b51aea5fa3627e38a40b"
                 },
                 "dist": {
@@ -17500,7 +17949,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.3.4",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "0.4.0": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17508,7 +17961,7 @@
                 "version_normalized": "0.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "5211cbaabb22ba8e26a9b768ba8c94d351bd84f5"
                 },
                 "dist": {
@@ -17561,7 +18014,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/0.4.0",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v0.4.1": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17569,7 +18026,7 @@
                 "version_normalized": "0.4.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "c73773fc031c217e6bef556969b6dea67a74a46c"
                 },
                 "dist": {
@@ -17622,7 +18079,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.4.1",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "0.4.x-dev": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17630,7 +18091,7 @@
                 "version_normalized": "0.4.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "c73773fc031c217e6bef556969b6dea67a74a46c"
                 },
                 "dist": {
@@ -17683,7 +18144,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v0.4.1",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v1.0.0": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17691,7 +18156,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "bd4266ade5ee8927f1b7a54570afa0aefea9904a"
                 },
                 "dist": {
@@ -17750,7 +18215,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.0.0",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v1.1.0": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17758,7 +18227,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "37455c77243955b5e882442310417f63f13199d1"
                 },
                 "dist": {
@@ -17817,7 +18286,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.1.0",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v1.1.0-beta.1": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17825,7 +18298,7 @@
                 "version_normalized": "1.1.0.0-beta1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "28c5d9415f961e5a6d4b78189173d20062ee0ab9"
                 },
                 "dist": {
@@ -17884,7 +18357,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.1.0-beta.1",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "1.1.x-dev": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17892,7 +18369,7 @@
                 "version_normalized": "1.1.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "37455c77243955b5e882442310417f63f13199d1"
                 },
                 "dist": {
@@ -17951,7 +18428,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.1.0",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v1.2.0": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -17959,7 +18440,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "b97940f2371fd93d5c0d20e9627ddb158de5e26c"
                 },
                 "dist": {
@@ -18021,7 +18502,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.2.0",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v1.3.0": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -18029,7 +18514,7 @@
                 "version_normalized": "1.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "4fa7138c134734d21edbb6664102482baaaefa15"
                 },
                 "dist": {
@@ -18091,7 +18576,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.3.0",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v1.3.1": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -18099,7 +18588,7 @@
                 "version_normalized": "1.3.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "01be71e0e2001016354aa9ef37aed64b87571cd0"
                 },
                 "dist": {
@@ -18162,7 +18651,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.3.1",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "1.3.x-dev": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -18170,7 +18663,7 @@
                 "version_normalized": "1.3.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "01be71e0e2001016354aa9ef37aed64b87571cd0"
                 },
                 "dist": {
@@ -18233,7 +18726,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.3.1",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v1.4.0": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -18241,7 +18738,7 @@
                 "version_normalized": "1.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "860a8d7943375c0901464e3f1cd5b19f0c1ec2d7"
                 },
                 "dist": {
@@ -18303,7 +18800,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "https://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "https://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.4.0",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v1.4.1": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -18311,7 +18812,7 @@
                 "version_normalized": "1.4.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "5817cd9e1dc1d7f990122528275b00bb680f198b"
                 },
                 "dist": {
@@ -18373,7 +18874,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "https://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "https://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.4.1",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "v1.4.2": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -18381,7 +18886,7 @@
                 "version_normalized": "1.4.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "ec3afb438d5295bc4aec79d3bd74fc77bb4f5807"
                 },
                 "dist": {
@@ -18444,7 +18949,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "https://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "https://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.4.2",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             "1.x-dev": {
                 "name": "ingenerator/warden-ui-kohana",
@@ -18452,7 +18961,7 @@
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "ec3afb438d5295bc4aec79d3bd74fc77bb4f5807"
                 },
                 "dist": {
@@ -18516,7 +19025,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "https://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "https://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.4.2",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             }
         },
         "ingenerator/warden-validator-symfony": {
@@ -18526,7 +19039,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "103ab5bcd4dd09d41fc96d87704560d0ff127727"
                 },
                 "dist": {
@@ -18564,7 +19077,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v0.1.0",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             "v0.1.1": {
                 "name": "ingenerator/warden-validator-symfony",
@@ -18572,7 +19089,7 @@
                 "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "d28f5890901dec729cc58923d57b1fbbb6dbfaab"
                 },
                 "dist": {
@@ -18610,7 +19127,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v0.1.1",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             "v0.1.2": {
                 "name": "ingenerator/warden-validator-symfony",
@@ -18618,7 +19139,7 @@
                 "version_normalized": "0.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "beec76fb102a1d80a6f127fc82de5cb19b26d2c6"
                 },
                 "dist": {
@@ -18656,7 +19177,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v0.1.2",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             "0.1.x-dev": {
                 "name": "ingenerator/warden-validator-symfony",
@@ -18664,7 +19189,7 @@
                 "version_normalized": "0.1.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "beec76fb102a1d80a6f127fc82de5cb19b26d2c6"
                 },
                 "dist": {
@@ -18702,7 +19227,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v0.1.2",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             "v1.0.0": {
                 "name": "ingenerator/warden-validator-symfony",
@@ -18710,7 +19239,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "2a92a47ae162807ba3fa0d7b40c3ea29f2cd7cc7"
                 },
                 "dist": {
@@ -18754,7 +19283,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.0.0",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             "1.0.x-dev": {
                 "name": "ingenerator/warden-validator-symfony",
@@ -18762,7 +19295,7 @@
                 "version_normalized": "1.0.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "4d163e851f8c7d2eba392d63e6331502d7282cdc"
                 },
                 "dist": {
@@ -18806,7 +19339,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.1.0",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             "v1.1.0": {
                 "name": "ingenerator/warden-validator-symfony",
@@ -18814,7 +19351,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "4d163e851f8c7d2eba392d63e6331502d7282cdc"
                 },
                 "dist": {
@@ -18858,7 +19395,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.1.0",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             "v1.1.1": {
                 "name": "ingenerator/warden-validator-symfony",
@@ -18866,7 +19407,7 @@
                 "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "76347bebe5d3e115f1009d8ec9bf8649ad809409"
                 },
                 "dist": {
@@ -18910,7 +19451,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.1.1",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             "v1.2.0": {
                 "name": "ingenerator/warden-validator-symfony",
@@ -18918,7 +19463,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "20ec2c56e2f2d64bea71e86f724855233509b486"
                 },
                 "dist": {
@@ -18962,7 +19507,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "https://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "https://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.2.0",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             "v1.2.1": {
                 "name": "ingenerator/warden-validator-symfony",
@@ -18970,7 +19519,7 @@
                 "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "d080caac00568adb400427d78be44315d729f393"
                 },
                 "dist": {
@@ -19015,7 +19564,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "https://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "https://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.2.1",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             "1.x-dev": {
                 "name": "ingenerator/warden-validator-symfony",
@@ -19023,7 +19576,7 @@
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "d080caac00568adb400427d78be44315d729f393"
                 },
                 "dist": {
@@ -19069,7 +19622,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "https://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "https://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.2.1",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             }
         },
         "mailcheck/mailcheck": {

@@ -7,7 +7,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "103ab5bcd4dd09d41fc96d87704560d0ff127727"
                 },
                 "dist": {
@@ -45,7 +45,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v0.1.0",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             {
                 "name": "ingenerator/warden-validator-symfony",
@@ -53,7 +57,7 @@
                 "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "d28f5890901dec729cc58923d57b1fbbb6dbfaab"
                 },
                 "dist": {
@@ -91,7 +95,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v0.1.1",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             {
                 "name": "ingenerator/warden-validator-symfony",
@@ -99,7 +107,7 @@
                 "version_normalized": "0.1.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "beec76fb102a1d80a6f127fc82de5cb19b26d2c6"
                 },
                 "dist": {
@@ -137,7 +145,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v0.1.2",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             {
                 "name": "ingenerator/warden-validator-symfony",
@@ -145,7 +157,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "2a92a47ae162807ba3fa0d7b40c3ea29f2cd7cc7"
                 },
                 "dist": {
@@ -189,7 +201,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.0.0",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             {
                 "name": "ingenerator/warden-validator-symfony",
@@ -197,7 +213,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "4d163e851f8c7d2eba392d63e6331502d7282cdc"
                 },
                 "dist": {
@@ -241,7 +257,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.1.0",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             {
                 "name": "ingenerator/warden-validator-symfony",
@@ -249,7 +269,7 @@
                 "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "76347bebe5d3e115f1009d8ec9bf8649ad809409"
                 },
                 "dist": {
@@ -293,7 +313,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "http://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "http://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.1.1",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             {
                 "name": "ingenerator/warden-validator-symfony",
@@ -301,7 +325,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "20ec2c56e2f2d64bea71e86f724855233509b486"
                 },
                 "dist": {
@@ -345,7 +369,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "https://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "https://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.2.0",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             },
             {
                 "name": "ingenerator/warden-validator-symfony",
@@ -353,7 +381,7 @@
                 "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-validator-symfony.git",
+                    "url": "https://github.com/ingenerator/warden-validator-symfony.git",
                     "reference": "d080caac00568adb400427d78be44315d729f393"
                 },
                 "dist": {
@@ -398,7 +426,11 @@
                     }
                 ],
                 "description": "Validation provider for warden based on symfony validation",
-                "homepage": "https://github.com/ingenerator/warden-validator-symfony"
+                "homepage": "https://github.com/ingenerator/warden-validator-symfony",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.2.1",
+                    "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
+                }
             }
         ]
     }
