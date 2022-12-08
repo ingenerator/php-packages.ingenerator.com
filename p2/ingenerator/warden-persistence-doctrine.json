@@ -7,7 +7,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
+                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
                     "reference": "149fb06b94bc1f292bde35a9df9f4285a05b7ac1"
                 },
                 "dist": {
@@ -42,11 +42,7 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v0.1.0",
-                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
             },
             {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -54,7 +50,7 @@
                 "version_normalized": "0.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
+                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
                     "reference": "dbd896c77e303ad91e2fb266f39906d5eb911270"
                 },
                 "dist": {
@@ -89,11 +85,7 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v0.1.1",
-                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
             },
             {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -101,7 +93,7 @@
                 "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
+                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
                     "reference": "31b1dea3ddd3a22f8b3023a695992b62d5330bfa"
                 },
                 "dist": {
@@ -136,11 +128,7 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/0.2.0",
-                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
             },
             {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -148,7 +136,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
+                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
                     "reference": "64c18ca3c2b36750e509320d4cdc426728ede72c"
                 },
                 "dist": {
@@ -188,11 +176,7 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v1.0.0",
-                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
             },
             {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -200,7 +184,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
+                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
                     "reference": "b59432ad07cd1ab3b976422bcbd2e11bde6595c8"
                 },
                 "dist": {
@@ -240,11 +224,7 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v1.1.0",
-                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
             },
             {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -252,7 +232,7 @@
                 "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
+                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
                     "reference": "8a8ee4020f2015f9676ec93ab72c75a7ddd45c18"
                 },
                 "dist": {
@@ -292,11 +272,7 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v1.1.1",
-                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
-                }
+                "homepage": "http://github.com/ingenerator/warden-persistence-doctrine"
             },
             {
                 "name": "ingenerator/warden-persistence-doctrine",
@@ -304,7 +280,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
+                    "url": "git@github.com:ingenerator/warden-persistence-doctrine.git",
                     "reference": "8bd79218308b8336199a8b43c270aebd5b0354af"
                 },
                 "dist": {
@@ -348,11 +324,7 @@
                     }
                 ],
                 "description": "Persistence provider for warden using doctrine2",
-                "homepage": "https://github.com/ingenerator/warden-persistence-doctrine",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v1.2.0",
-                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
-                }
+                "homepage": "https://github.com/ingenerator/warden-persistence-doctrine"
             }
         ]
     }
