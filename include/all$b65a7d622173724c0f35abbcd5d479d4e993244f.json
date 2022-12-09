@@ -6245,12 +6245,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/image-processing.git",
-                    "reference": "78da8203a3278732fdec75f0d5137d84fb7a1593"
+                    "reference": "098ae2f476b6ae95834bf2468001838dace4a8ef"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/78da8203a3278732fdec75f0d5137d84fb7a1593",
-                    "reference": "78da8203a3278732fdec75f0d5137d84fb7a1593",
+                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/098ae2f476b6ae95834bf2468001838dace4a8ef",
+                    "reference": "098ae2f476b6ae95834bf2468001838dace4a8ef",
                     "shasum": ""
                 },
                 "require": {
@@ -6265,7 +6265,7 @@
                     "phpunit/phpunit": "^9.5",
                     "symfony/filesystem": "^5.4"
                 },
-                "time": "2022-12-08T22:12:04+00:00",
+                "time": "2022-12-09T10:52:07+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
