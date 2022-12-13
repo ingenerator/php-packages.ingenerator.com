@@ -6292,6 +6292,60 @@
                     "source": "https://github.com/ingenerator/image-processing/tree/0.x",
                     "issues": "https://github.com/ingenerator/image-processing/issues"
                 }
+            },
+            "dev-mrdepp-2022-12-13-09-01-26": {
+                "name": "ingenerator/image-processing",
+                "version": "dev-mrdepp-2022-12-13-09-01-26",
+                "version_normalized": "dev-mrdepp-2022-12-13-09-01-26",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/image-processing.git",
+                    "reference": "a79d813166e98521bad360da9c6c47dae1899a05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/a79d813166e98521bad360da9c6c47dae1899a05",
+                    "reference": "a79d813166e98521bad360da9c6c47dae1899a05",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ffi": "*",
+                    "ingenerator/php-utils": "^1.17",
+                    "jcupitt/vips": "^2.1",
+                    "php": "~8.0.0 || ~8.1.0",
+                    "symfony/process": "^5.4"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "phpunit/phpunit": "^9.5",
+                    "symfony/filesystem": "^5.4"
+                },
+                "time": "2022-12-13T09:01:26+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ImageProcessing\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\unit\\Ingenerator\\ImageProcessing\\": "test"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "libvips image processing library",
+                "support": {
+                    "source": "https://github.com/ingenerator/image-processing/tree/mrdepp-2022-12-13-09-01-26",
+                    "issues": "https://github.com/ingenerator/image-processing/issues"
+                }
             }
         },
         "ingenerator/kohana-core": {
