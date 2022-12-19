@@ -2,7 +2,6 @@
   "name":      "ingenerator/forks_and_extras",
   "homepage" : "https://php-packages.ingenerator.com",
   "repositories": [
-    {"packagist": false},
     {"type": "vcs", "url":  "https://github.com/craig410/rpage"},
     {"type": "vcs", "url":  "https://github.com/acoulton/kodoctrine"},
     {"type": "vcs", "url":  "https://github.com/acoulton/doctrine1"},
