@@ -1,7 +1,7 @@
 {
   "blueimp/jquery-file-upload": {
     "url": "https://github.com/blueimp/jQuery-File-Upload.git",
-    "minversion": "9.9.3"
+    "minversion": "9.34.0"
   },
   "blueimp/gallery": {
     "url": "https://github.com/blueimp/Gallery",
@@ -17,7 +17,7 @@
   },
   "makeusabrew/bootbox": {
     "url": "https://github.com/makeusabrew/bootbox.git",
-    "minversion": "4.1.0"
+    "minversion": "4.4.0"
   },
   "markgx/jquery-check-all": {
     "url": "https://github.com/markgx/jquery-check-all.git",
@@ -33,7 +33,7 @@
   },
   "rubaxa/sortable" : {
     "url": "https://github.com/RubaXa/Sortable",
-    "minversion": "1.4.0"
+    "minversion": "1.15.0"
   },
   "stefanpenner/es6-promise": {
     "url": "https://github.com/stefanpenner/es6-promise.git",
@@ -41,7 +41,7 @@
   },
   "tristen/tablesort": {
     "url": "https://github.com/tristen/tablesort.git",
-    "minversion": "4.1.0"
+    "minversion": "5.3.0"
   },
   "yapapaya/jquery-cloneya": {
     "url": "https://github.com/yapapaya/jquery-cloneya.git",

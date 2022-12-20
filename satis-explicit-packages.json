@@ -2,7 +2,6 @@
   "name":      "ingenerator/forks_and_extras",
   "homepage" : "https://php-packages.ingenerator.com",
   "repositories": [
-    {"packagist": false},
     {"type": "vcs", "url":  "https://github.com/craig410/rpage"},
     {"type": "vcs", "url":  "https://github.com/acoulton/kodoctrine"},
     {"type": "vcs", "url":  "https://github.com/acoulton/doctrine1"},
@@ -14,7 +13,6 @@
     {"type": "vcs", "url":  "https://github.com/ingenerator/image-processing.git"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/phinx-wrapper.git"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/no-robloach-component-installer"},
-    {"type": "vcs", "url":  "https://github.com/ingenerator/php-utils"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/swiftmailer-transport-ses"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/warden-core"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/warden-auth"},
