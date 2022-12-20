@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$f052af3ed32f465925b89b46bd7b2b14e848e0d1.json": {
-            "sha1": "f052af3ed32f465925b89b46bd7b2b14e848e0d1"
+        "include/all$70180e662abaa91fb16a078e140829d1d800afee.json": {
+            "sha1": "70180e662abaa91fb16a078e140829d1d800afee"
         }
     },
     "metadata-url": "/p2/%package%.json",
@@ -24,7 +24,6 @@
         "ingenerator/kohana-extras",
         "ingenerator/no-robloach-component-installer",
         "ingenerator/phinx-wrapper",
-        "ingenerator/php-utils",
         "ingenerator/swiftmailer-transport-ses",
         "ingenerator/tmp-mink-extension-php-8",
         "ingenerator/warden-auth",
