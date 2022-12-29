@@ -5075,12 +5075,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/form.git",
-                    "reference": "5a50c50eeae7572468d6fe5666456488ce062b1f"
+                    "reference": "6064b6175495ccfa87fcbe97c4ece7c3ca091692"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/form/zipball/5a50c50eeae7572468d6fe5666456488ce062b1f",
-                    "reference": "5a50c50eeae7572468d6fe5666456488ce062b1f",
+                    "url": "https://api.github.com/repos/ingenerator/form/zipball/6064b6175495ccfa87fcbe97c4ece7c3ca091692",
+                    "reference": "6064b6175495ccfa87fcbe97c4ece7c3ca091692",
                     "shasum": ""
                 },
                 "require": {
@@ -5097,7 +5097,7 @@
                 "suggest": {
                     "ingenerator/showgroup": "javascript support to show/hide form sections based on values"
                 },
-                "time": "2022-12-28T17:52:24+00:00",
+                "time": "2022-12-29T01:08:30+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
