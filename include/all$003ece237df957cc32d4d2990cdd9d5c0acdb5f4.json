@@ -5158,7 +5158,6 @@
                     "symfony/filesystem": "^5.4"
                 },
                 "time": "2022-12-15T08:47:52+00:00",
-                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -5267,6 +5266,7 @@
                     "symfony/filesystem": "^5.4"
                 },
                 "time": "2022-12-15T08:47:52+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -5290,6 +5290,60 @@
                 "description": "libvips image processing library",
                 "support": {
                     "source": "https://github.com/ingenerator/image-processing/tree/v1.0.0",
+                    "issues": "https://github.com/ingenerator/image-processing/issues"
+                }
+            },
+            "dev-fix-missing-alpha-channel-pad": {
+                "name": "ingenerator/image-processing",
+                "version": "dev-fix-missing-alpha-channel-pad",
+                "version_normalized": "dev-fix-missing-alpha-channel-pad",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/image-processing.git",
+                    "reference": "330fdd8e120809f214364991984a9e60d8a596ea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/330fdd8e120809f214364991984a9e60d8a596ea",
+                    "reference": "330fdd8e120809f214364991984a9e60d8a596ea",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ffi": "*",
+                    "ingenerator/php-utils": "^1.17",
+                    "jcupitt/vips": "^2.1",
+                    "php": "~8.0.0 || ~8.1.0",
+                    "symfony/process": "^5.4"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "phpunit/phpunit": "^9.5",
+                    "symfony/filesystem": "^5.4"
+                },
+                "time": "2023-03-15T23:39:26+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ImageProcessing\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\unit\\Ingenerator\\ImageProcessing\\": "test"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "libvips image processing library",
+                "support": {
+                    "source": "https://github.com/ingenerator/image-processing/tree/fix-missing-alpha-channel-pad",
                     "issues": "https://github.com/ingenerator/image-processing/issues"
                 }
             }
