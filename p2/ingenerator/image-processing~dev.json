@@ -109,6 +109,60 @@
                     "source": "https://github.com/ingenerator/image-processing/tree/v1.0.1",
                     "issues": "https://github.com/ingenerator/image-processing/issues"
                 }
+            },
+            {
+                "name": "ingenerator/image-processing",
+                "version": "dev-demonstrate-webp-support",
+                "version_normalized": "dev-demonstrate-webp-support",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/image-processing.git",
+                    "reference": "d5d21344466e5c3c71ef0ccb01a08e228eebaeab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/d5d21344466e5c3c71ef0ccb01a08e228eebaeab",
+                    "reference": "d5d21344466e5c3c71ef0ccb01a08e228eebaeab",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ffi": "*",
+                    "ingenerator/php-utils": "^1.17",
+                    "jcupitt/vips": "^2.1",
+                    "php": "~8.0.0 || ~8.1.0",
+                    "symfony/process": "^5.4"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "phpunit/phpunit": "^9.5",
+                    "symfony/filesystem": "^5.4"
+                },
+                "time": "2023-04-18T20:56:36+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ImageProcessing\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\unit\\Ingenerator\\ImageProcessing\\": "test"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "libvips image processing library",
+                "support": {
+                    "source": "https://github.com/ingenerator/image-processing/tree/demonstrate-webp-support",
+                    "issues": "https://github.com/ingenerator/image-processing/issues"
+                }
             }
         ]
     }
