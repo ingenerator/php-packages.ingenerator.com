@@ -109,6 +109,60 @@
                     "source": "https://github.com/ingenerator/image-processing/tree/v1.0.2",
                     "issues": "https://github.com/ingenerator/image-processing/issues"
                 }
+            },
+            {
+                "name": "ingenerator/image-processing",
+                "version": "dev-build-test-8.2",
+                "version_normalized": "dev-build-test-8.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/image-processing.git",
+                    "reference": "1cbe225d8791885631b0a4712ae73d4780cec5fe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/1cbe225d8791885631b0a4712ae73d4780cec5fe",
+                    "reference": "1cbe225d8791885631b0a4712ae73d4780cec5fe",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ffi": "*",
+                    "ingenerator/php-utils": "^1.17",
+                    "jcupitt/vips": "^2.1",
+                    "php": "~8.2.0",
+                    "symfony/process": "^5.4"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "phpunit/phpunit": "^9.5",
+                    "symfony/filesystem": "^5.4"
+                },
+                "time": "2023-07-22T13:16:48+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ImageProcessing\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\unit\\Ingenerator\\ImageProcessing\\": "test"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "libvips image processing library",
+                "support": {
+                    "source": "https://github.com/ingenerator/image-processing/tree/build-test-8.2",
+                    "issues": "https://github.com/ingenerator/image-processing/issues"
+                }
             }
         ]
     }
