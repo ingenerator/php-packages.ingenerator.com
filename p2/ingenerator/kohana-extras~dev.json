@@ -141,12 +141,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "853beb01a32547448e6626d8817e635d23a9bff6"
+                    "reference": "1043cc84abade7dab94339bcf8e7288a9f3d8734"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/853beb01a32547448e6626d8817e635d23a9bff6",
-                    "reference": "853beb01a32547448e6626d8817e635d23a9bff6",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/1043cc84abade7dab94339bcf8e7288a9f3d8734",
+                    "reference": "1043cc84abade7dab94339bcf8e7288a9f3d8734",
                     "shasum": ""
                 },
                 "require": {
@@ -167,9 +167,9 @@
                     "ingenerator/swiftmailer-transport-ses": "^1.0 to use custom SwiftMailer transports",
                     "maximebf/debugbar": "^1.14 to use the debug bar in development environments",
                     "swiftmailer/swiftmailer": "^6.2.3 to use the SwiftMailer dependency factory",
-                    "symfony/mailer": "^5.4 to use the Symfony mailer dependency factory"
+                    "symfony/mailer": "^6.3 to use the Symfony mailer dependency factory"
                 },
-                "time": "2023-07-24T11:25:13+00:00",
+                "time": "2023-07-25T06:14:29+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
