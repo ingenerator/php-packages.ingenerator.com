@@ -11063,12 +11063,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "1043cc84abade7dab94339bcf8e7288a9f3d8734"
+                    "reference": "fafea7da261a159177830acc0974abf21103092f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/1043cc84abade7dab94339bcf8e7288a9f3d8734",
-                    "reference": "1043cc84abade7dab94339bcf8e7288a9f3d8734",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/fafea7da261a159177830acc0974abf21103092f",
+                    "reference": "fafea7da261a159177830acc0974abf21103092f",
                     "shasum": ""
                 },
                 "require": {
@@ -11091,7 +11091,7 @@
                     "swiftmailer/swiftmailer": "^6.2.3 to use the SwiftMailer dependency factory",
                     "symfony/mailer": "^6.3 to use the Symfony mailer dependency factory"
                 },
-                "time": "2023-07-25T06:14:29+00:00",
+                "time": "2023-07-27T08:38:02+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
