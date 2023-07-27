@@ -7,7 +7,7 @@
                 "version_normalized": "0.1.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/phinx-wrapper.git",
+                    "url": "git@github.com:ingenerator/phinx-wrapper.git",
                     "reference": "536f86d52e21b1ca391d474f0904d6725a66e7e0"
                 },
                 "dist": {
