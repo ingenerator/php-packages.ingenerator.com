@@ -7,7 +7,7 @@
                 "version_normalized": "1.3.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "01be71e0e2001016354aa9ef37aed64b87571cd0"
                 },
                 "dist": {
@@ -70,7 +70,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "http://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "http://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.3.1",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
@@ -78,7 +82,7 @@
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "ec3afb438d5295bc4aec79d3bd74fc77bb4f5807"
                 },
                 "dist": {
@@ -142,7 +146,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "https://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "https://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v1.4.2",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             },
             {
                 "name": "ingenerator/warden-ui-kohana",
@@ -150,7 +158,7 @@
                 "version_normalized": "dev-migrate-swiftmailer-symfony-mailer",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-ui-kohana.git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
                     "reference": "c459889224d514c02962a616de812aab71bd63cd"
                 },
                 "dist": {
@@ -214,7 +222,11 @@
                     }
                 ],
                 "description": "Front-end and kohana application integration for Warden",
-                "homepage": "https://github.com/ingenerator/warden-ui-kohana"
+                "homepage": "https://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/migrate-swiftmailer-symfony-mailer",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             }
         ]
     }

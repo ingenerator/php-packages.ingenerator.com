@@ -7,7 +7,7 @@
                 "version_normalized": "dev-my-stable",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:acoulton/doctrine1.git",
+                    "url": "https://github.com/acoulton/doctrine1.git",
                     "reference": "37a680f008153dcb49bba8608684f8bc4d71b443"
                 },
                 "dist": {
@@ -46,7 +46,10 @@
                 "keywords": [
                     "database",
                     "orm"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/acoulton/doctrine1/tree/my-stable"
+                }
             }
         ]
     }

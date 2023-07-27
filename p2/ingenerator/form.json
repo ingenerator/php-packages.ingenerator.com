@@ -7,7 +7,7 @@
                 "version_normalized": "0.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "ca9f9347c17439c856e93485dd9453cf47360fac"
                 },
                 "dist": {
@@ -54,7 +54,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v0.1.0",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -62,7 +66,7 @@
                 "version_normalized": "0.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "82b0e768b693dd06d6af848efa260fb4c28e63ad"
                 },
                 "dist": {
@@ -109,7 +113,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v0.2.0",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -117,7 +125,7 @@
                 "version_normalized": "0.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "caaf487585f5a2567ca62fda3c215a6ab939ac3f"
                 },
                 "dist": {
@@ -164,7 +172,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v0.2.1",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -172,7 +184,7 @@
                 "version_normalized": "0.2.2.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "26e5dc4b2813afcfc02c97a198ac37711336dcf0"
                 },
                 "dist": {
@@ -219,7 +231,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v0.2.2",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -227,7 +243,7 @@
                 "version_normalized": "0.2.3.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "3374f4c870072392a82da8f0077a42d13c67111a"
                 },
                 "dist": {
@@ -275,7 +291,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v0.2.3",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -283,7 +303,7 @@
                 "version_normalized": "0.2.4.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "b7147d3d9163573ebbdb7d77c75746eb478f75a4"
                 },
                 "dist": {
@@ -331,7 +351,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v0.2.4",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -339,7 +363,7 @@
                 "version_normalized": "0.2.5.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "e67f545fc46022aad2c9a2973e31a492a6dfd70e"
                 },
                 "dist": {
@@ -387,7 +411,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v0.2.5",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -395,7 +423,7 @@
                 "version_normalized": "0.2.6.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "f7411aa862e7575dac0f22b41b21a7d91d917f58"
                 },
                 "dist": {
@@ -443,7 +471,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v0.2.6",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -451,7 +483,7 @@
                 "version_normalized": "0.2.7.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "4c64cd76f83daf03ff6e52bfb7267db2e84e6225"
                 },
                 "dist": {
@@ -499,7 +531,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v0.2.7",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -507,7 +543,7 @@
                 "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "55408d71fed19e4bbf217975ba58d42d9066ee86"
                 },
                 "dist": {
@@ -555,7 +591,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v1.0.0",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -563,7 +603,7 @@
                 "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "c3d6e62fad050f181c529377be74eec8ee2c4949"
                 },
                 "dist": {
@@ -611,7 +651,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v1.1.0",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -619,7 +663,7 @@
                 "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "a1b2c948dc13029a6e79539ad74783abdf6cc9dd"
                 },
                 "dist": {
@@ -667,7 +711,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v1.2.0",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -675,7 +723,7 @@
                 "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "0d9357eabc62b59aad49b9c3c1fefb6663429ac4"
                 },
                 "dist": {
@@ -723,7 +771,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v1.2.1",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -731,7 +783,7 @@
                 "version_normalized": "1.3.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "ea2ae41c4c4ead499deb8d75834daf50dc204644"
                 },
                 "dist": {
@@ -779,7 +831,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v1.3.0",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             },
             {
                 "name": "ingenerator/form",
@@ -787,7 +843,7 @@
                 "version_normalized": "1.4.0.0",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "eda44ce200e86eade5f678c1b79a1bf34cc54755"
                 },
                 "dist": {
@@ -835,7 +891,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v1.4.0",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             }
         ]
     }

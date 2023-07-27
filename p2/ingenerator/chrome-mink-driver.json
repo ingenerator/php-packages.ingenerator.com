@@ -7,7 +7,7 @@
                 "version_normalized": "2.7.0.1",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/chrome-mink-driver.git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
                     "reference": "a79d95129496488e8418ec9828c72d753326bcc0"
                 },
                 "dist": {
@@ -54,7 +54,11 @@
                         "email": "craig@ingenerator.com"
                     }
                 ],
-                "description": "Mink driver for controlling chrome without selenium"
+                "description": "Mink driver for controlling chrome without selenium",
+                "support": {
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/2.7.0.1",
+                    "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
+                }
             },
             {
                 "name": "ingenerator/chrome-mink-driver",
@@ -62,7 +66,7 @@
                 "version_normalized": "2.7.0.2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/chrome-mink-driver.git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
                     "reference": "020c5d4ad54186792be6b71e7f6f04cd0c8f73b4"
                 },
                 "dist": {
@@ -109,7 +113,11 @@
                         "email": "craig@ingenerator.com"
                     }
                 ],
-                "description": "Mink driver for controlling chrome without selenium"
+                "description": "Mink driver for controlling chrome without selenium",
+                "support": {
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/2.7.0.2",
+                    "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
+                }
             },
             {
                 "name": "ingenerator/chrome-mink-driver",
@@ -117,7 +125,7 @@
                 "version_normalized": "2.7.0.3",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/chrome-mink-driver.git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
                     "reference": "cdd214953d74c00ae31296e471d83f2f7257553a"
                 },
                 "dist": {
@@ -164,7 +172,11 @@
                         "email": "craig@ingenerator.com"
                     }
                 ],
-                "description": "Mink driver for controlling chrome without selenium"
+                "description": "Mink driver for controlling chrome without selenium",
+                "support": {
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/2.7.0.3",
+                    "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
+                }
             },
             {
                 "name": "ingenerator/chrome-mink-driver",
@@ -172,7 +184,7 @@
                 "version_normalized": "2.7.0.4",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/chrome-mink-driver.git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
                     "reference": "0beece41845bca3fbd66ce3fe9b7cd45a42db2de"
                 },
                 "dist": {
@@ -219,7 +231,11 @@
                         "email": "craig@ingenerator.com"
                     }
                 ],
-                "description": "Mink driver for controlling chrome without selenium"
+                "description": "Mink driver for controlling chrome without selenium",
+                "support": {
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/2.7.0.4",
+                    "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
+                }
             },
             {
                 "name": "ingenerator/chrome-mink-driver",
@@ -227,7 +243,7 @@
                 "version_normalized": "2.7.0.5",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/chrome-mink-driver.git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
                     "reference": "698787d43ef13032ed67ff5f44d81478f3f74546"
                 },
                 "dist": {
@@ -274,7 +290,11 @@
                         "email": "craig@ingenerator.com"
                     }
                 ],
-                "description": "Mink driver for controlling chrome without selenium"
+                "description": "Mink driver for controlling chrome without selenium",
+                "support": {
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/2.7.0.5",
+                    "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
+                }
             },
             {
                 "name": "ingenerator/chrome-mink-driver",
@@ -282,7 +302,7 @@
                 "version_normalized": "2.7.0.6",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/chrome-mink-driver.git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
                     "reference": "a716a7bd401988e5dfef82c364e436877e34973a"
                 },
                 "dist": {
@@ -329,7 +349,11 @@
                         "email": "craig@ingenerator.com"
                     }
                 ],
-                "description": "Mink driver for controlling chrome without selenium"
+                "description": "Mink driver for controlling chrome without selenium",
+                "support": {
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/2.7.0.6",
+                    "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
+                }
             },
             {
                 "name": "ingenerator/chrome-mink-driver",
@@ -337,7 +361,7 @@
                 "version_normalized": "2.7.0.7",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/chrome-mink-driver.git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
                     "reference": "c81213e178aa020ebb59929021304fa70ea898b7"
                 },
                 "dist": {
@@ -385,7 +409,11 @@
                         "email": "craig@ingenerator.com"
                     }
                 ],
-                "description": "Mink driver for controlling chrome without selenium"
+                "description": "Mink driver for controlling chrome without selenium",
+                "support": {
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/v2.7.0.7",
+                    "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
+                }
             }
         ]
     }

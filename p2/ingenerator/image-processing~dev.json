@@ -7,7 +7,7 @@
                 "version_normalized": "0.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/image-processing.git",
+                    "url": "https://github.com/ingenerator/image-processing.git",
                     "reference": "caebb17acfdaf3d28606f3f9b98abf439f8361cb"
                 },
                 "dist": {
@@ -49,7 +49,11 @@
                         "email": "craig@ingenerator.com"
                     }
                 ],
-                "description": "libvips image processing library"
+                "description": "libvips image processing library",
+                "support": {
+                    "source": "https://github.com/ingenerator/image-processing/tree/v1.0.0",
+                    "issues": "https://github.com/ingenerator/image-processing/issues"
+                }
             },
             {
                 "name": "ingenerator/image-processing",
@@ -57,7 +61,7 @@
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/image-processing.git",
+                    "url": "https://github.com/ingenerator/image-processing.git",
                     "reference": "005b0a725e5d760175e29b8d265df1e805510caf"
                 },
                 "dist": {
@@ -100,7 +104,11 @@
                         "email": "craig@ingenerator.com"
                     }
                 ],
-                "description": "libvips image processing library"
+                "description": "libvips image processing library",
+                "support": {
+                    "source": "https://github.com/ingenerator/image-processing/tree/v1.0.2",
+                    "issues": "https://github.com/ingenerator/image-processing/issues"
+                }
             },
             {
                 "name": "ingenerator/image-processing",
@@ -108,7 +116,7 @@
                 "version_normalized": "dev-build-test-8.2",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/image-processing.git",
+                    "url": "https://github.com/ingenerator/image-processing.git",
                     "reference": "1cbe225d8791885631b0a4712ae73d4780cec5fe"
                 },
                 "dist": {
@@ -150,7 +158,11 @@
                         "email": "craig@ingenerator.com"
                     }
                 ],
-                "description": "libvips image processing library"
+                "description": "libvips image processing library",
+                "support": {
+                    "source": "https://github.com/ingenerator/image-processing/tree/build-test-8.2",
+                    "issues": "https://github.com/ingenerator/image-processing/issues"
+                }
             }
         ]
     }
