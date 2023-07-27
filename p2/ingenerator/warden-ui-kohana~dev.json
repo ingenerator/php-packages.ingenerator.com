@@ -159,12 +159,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "a0776c2fdf049a780c1fd921f3992ed44d127600"
+                    "reference": "a92e0464e14ac7d1683a91f8bbee9cbb33d17e2c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/a0776c2fdf049a780c1fd921f3992ed44d127600",
-                    "reference": "a0776c2fdf049a780c1fd921f3992ed44d127600",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/a92e0464e14ac7d1683a91f8bbee9cbb33d17e2c",
+                    "reference": "a92e0464e14ac7d1683a91f8bbee9cbb33d17e2c",
                     "shasum": ""
                 },
                 "require": {
@@ -177,7 +177,7 @@
                     "ingenerator/warden-core": "^1.2",
                     "ingenerator/warden-persistence-doctrine": "^1.2",
                     "ingenerator/warden-validator-symfony": "^1.2",
-                    "php": "~8.0.0 || ~8.1.0",
+                    "php": "~8.1.0 || ~8.2.0",
                     "swiftmailer/swiftmailer": "^6.3",
                     "symfony/mailer": "^6.3"
                 },
@@ -192,7 +192,7 @@
                 "suggest": {
                     "ingenerator/kohana-dependencies": "Dependency container for kohana"
                 },
-                "time": "2023-07-22T15:42:00+00:00",
+                "time": "2023-07-27T15:10:50+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
