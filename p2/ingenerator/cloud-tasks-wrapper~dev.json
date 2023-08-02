@@ -7,7 +7,7 @@
                 "version_normalized": "0.4.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/cloud-tasks-wrapper.git",
+                    "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
                     "reference": "442defa3ca4bc2af7d1bfff74c58ea19f6f2da43"
                 },
                 "dist": {
@@ -66,7 +66,7 @@
                 "version_normalized": "0.5.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/cloud-tasks-wrapper.git",
+                    "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
                     "reference": "c6ac8f4259002ef4c056a80ee00130f397138e32"
                 },
                 "dist": {

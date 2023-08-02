@@ -7,7 +7,7 @@
                 "version_normalized": "0.1.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-auth.git",
+                    "url": "https://github.com/ingenerator/warden-auth.git",
                     "reference": "a7fa88118ccc9a0758f62b6348c4bde457f1d9d8"
                 },
                 "dist": {
@@ -52,7 +52,11 @@
                     "acl",
                     "auth",
                     "web"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-auth/tree/v0.1.1",
+                    "issues": "https://github.com/ingenerator/warden-auth/issues"
+                }
             },
             {
                 "name": "ingenerator/warden-auth",
@@ -60,7 +64,7 @@
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/warden-auth.git",
+                    "url": "https://github.com/ingenerator/warden-auth.git",
                     "reference": "a3391fade1d3ac1fe04accab5358c555153edb10"
                 },
                 "dist": {
@@ -106,7 +110,11 @@
                     "acl",
                     "auth",
                     "web"
-                ]
+                ],
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-auth/tree/v1.2.0",
+                    "issues": "https://github.com/ingenerator/warden-auth/issues"
+                }
             }
         ]
     }

@@ -7,7 +7,7 @@
                 "version_normalized": "1.0.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:craig410/rpage.git",
+                    "url": "https://github.com/craig410/rpage.git",
                     "reference": "99c3d1d0bb832713349bb9c17199a390b67bf475"
                 },
                 "dist": {
@@ -45,7 +45,8 @@
                     "css"
                 ],
                 "support": {
-                    "issues": "https://github.com/auxiliary/rpage/issues"
+                    "issues": "https://github.com/auxiliary/rpage/issues",
+                    "source": "https://github.com/craig410/rpage/tree/1.0"
                 }
             },
             {
@@ -54,7 +55,7 @@
                 "version_normalized": "2.0.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:craig410/rpage.git",
+                    "url": "https://github.com/craig410/rpage.git",
                     "reference": "1b438cf3128280211a671b27e01ffecf940c276d"
                 },
                 "dist": {
@@ -93,7 +94,8 @@
                     "css"
                 ],
                 "support": {
-                    "issues": "https://github.com/auxiliary/rpage/issues"
+                    "issues": "https://github.com/auxiliary/rpage/issues",
+                    "source": "https://github.com/craig410/rpage/tree/2.0"
                 }
             },
             {
@@ -102,7 +104,7 @@
                 "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:craig410/rpage.git",
+                    "url": "https://github.com/craig410/rpage.git",
                     "reference": "b7cb7642e7fc335f4d2ddf64a2b38958b02fbbf2"
                 },
                 "dist": {
@@ -134,7 +136,8 @@
                     "css"
                 ],
                 "support": {
-                    "issues": "https://github.com/auxiliary/rpage/issues"
+                    "issues": "https://github.com/auxiliary/rpage/issues",
+                    "source": "https://github.com/craig410/rpage/tree/master"
                 }
             }
         ]
