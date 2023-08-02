@@ -11135,12 +11135,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "841235ae7908a482afdb20c78b1a9d2ba57e211d"
+                    "reference": "b41914cb28d7553a257fe21e8396eb92b219dcc8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/841235ae7908a482afdb20c78b1a9d2ba57e211d",
-                    "reference": "841235ae7908a482afdb20c78b1a9d2ba57e211d",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/b41914cb28d7553a257fe21e8396eb92b219dcc8",
+                    "reference": "b41914cb28d7553a257fe21e8396eb92b219dcc8",
                     "shasum": ""
                 },
                 "require": {
@@ -11164,7 +11164,7 @@
                     "symfony/amazon-mailer": "^6.3 to use Symfony mailer AWS SES transport",
                     "symfony/mailer": "^6.3 to use the Symfony mailer dependency factory"
                 },
-                "time": "2023-08-02T11:42:55+00:00",
+                "time": "2023-08-02T12:49:50+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
