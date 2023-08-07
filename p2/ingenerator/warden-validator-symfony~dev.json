@@ -114,16 +114,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-validator-symfony.git",
-                    "reference": "d080caac00568adb400427d78be44315d729f393"
+                    "reference": "268cd5d2b39db733b2ca85d983e7212208f099dc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-validator-symfony/zipball/d080caac00568adb400427d78be44315d729f393",
-                    "reference": "d080caac00568adb400427d78be44315d729f393",
+                    "url": "https://api.github.com/repos/ingenerator/warden-validator-symfony/zipball/268cd5d2b39db733b2ca85d983e7212208f099dc",
+                    "reference": "268cd5d2b39db733b2ca85d983e7212208f099dc",
                     "shasum": ""
                 },
                 "require": {
-                    "egulias/email-validator": "^3.2",
+                    "egulias/email-validator": "^3.2 || ^4.0 ",
                     "ingenerator/warden-core": "^1.2",
                     "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
                     "symfony/validator": "^5.4 || ^6.0"
@@ -135,7 +135,7 @@
                 "suggest": {
                     "doctrine/annotations": "To use the default annotation-based validation in warden-core"
                 },
-                "time": "2022-10-24T06:47:22+00:00",
+                "time": "2023-08-07T09:56:23+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -161,7 +161,7 @@
                 "description": "Validation provider for warden based on symfony validation",
                 "homepage": "https://github.com/ingenerator/warden-validator-symfony",
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.2.1",
+                    "source": "https://github.com/ingenerator/warden-validator-symfony/tree/v1.2.2",
                     "issues": "https://github.com/ingenerator/warden-validator-symfony/issues"
                 }
             }
