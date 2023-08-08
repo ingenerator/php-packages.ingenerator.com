@@ -11329,12 +11329,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "ef96f6b2c403bced9c1852cecb9d511260adfa39"
+                    "reference": "4f907b5a300dffe748ada2a51984f83510eb67b8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/ef96f6b2c403bced9c1852cecb9d511260adfa39",
-                    "reference": "ef96f6b2c403bced9c1852cecb9d511260adfa39",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/4f907b5a300dffe748ada2a51984f83510eb67b8",
+                    "reference": "4f907b5a300dffe748ada2a51984f83510eb67b8",
                     "shasum": ""
                 },
                 "require": {
@@ -11359,7 +11359,7 @@
                     "symfony/mailer": "^6.3 to use the Symfony mailer dependency factory",
                     "symfony/sendgrid-mailer": "^6.3 to use Symfony mailer Sendgrid API transport"
                 },
-                "time": "2023-08-07T10:27:57+00:00",
+                "time": "2023-08-08T18:38:48+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
