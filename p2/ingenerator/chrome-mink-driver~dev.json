@@ -125,6 +125,66 @@
             },
             {
                 "name": "ingenerator/chrome-mink-driver",
+                "version": "dev-maint-pick-upstream-changes",
+                "version_normalized": "dev-maint-pick-upstream-changes",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
+                    "reference": "adc2371228ccbad04efae6a2082c50c25e328b96"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/adc2371228ccbad04efae6a2082c50c25e328b96",
+                    "reference": "adc2371228ccbad04efae6a2082c50c25e328b96",
+                    "shasum": ""
+                },
+                "require": {
+                    "behat/mink": "^1.9",
+                    "ext-curl": "*",
+                    "ext-json": "*",
+                    "textalk/websocket": "^1.5.0"
+                },
+                "replace": {
+                    "dmore/chrome-mink-driver": "*"
+                },
+                "require-dev": {
+                    "dms/phpunit-arraysubset-asserts": "^0.4.0",
+                    "mink/driver-testsuite": "dev-master",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2023-08-09T11:36:05+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DMore\\ChromeDriver\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DMore\\ChromeDriverTests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dorian More",
+                        "email": "doriancmore@gmail.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Mink driver for controlling chrome without selenium",
+                "support": {
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/maint-pick-upstream-changes",
+                    "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
+                }
+            },
+            {
+                "name": "ingenerator/chrome-mink-driver",
                 "version": "dev-maint-switch-websocket-lib",
                 "version_normalized": "dev-maint-switch-websocket-lib",
                 "source": {
@@ -299,6 +359,66 @@
                 "description": "Mink driver for controlling chrome without selenium",
                 "support": {
                     "source": "https://github.com/ingenerator/chrome-mink-driver/tree/spike-experimental-reliability-v1",
+                    "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
+                }
+            },
+            {
+                "name": "ingenerator/chrome-mink-driver",
+                "version": "dev-tmp-spike-reliability-merge-up",
+                "version_normalized": "dev-tmp-spike-reliability-merge-up",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
+                    "reference": "14a7ae27e5eb8c18ae54d07b40528babeb42bf3c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/14a7ae27e5eb8c18ae54d07b40528babeb42bf3c",
+                    "reference": "14a7ae27e5eb8c18ae54d07b40528babeb42bf3c",
+                    "shasum": ""
+                },
+                "require": {
+                    "behat/mink": "^1.9",
+                    "ext-curl": "*",
+                    "ext-json": "*",
+                    "textalk/websocket": "^1.5.0"
+                },
+                "replace": {
+                    "dmore/chrome-mink-driver": "*"
+                },
+                "require-dev": {
+                    "dms/phpunit-arraysubset-asserts": "^0.4.0",
+                    "mink/driver-testsuite": "dev-master",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2023-08-09T11:40:39+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DMore\\ChromeDriver\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DMore\\ChromeDriverTests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dorian More",
+                        "email": "doriancmore@gmail.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Mink driver for controlling chrome without selenium",
+                "support": {
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/tmp-spike-reliability-merge-up",
                     "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
                 }
             }
