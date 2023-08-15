@@ -3694,19 +3694,19 @@
                     "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
                 }
             },
-            "0.5.x-dev": {
+            "v0.5.2": {
                 "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "0.5.x-dev",
-                "version_normalized": "0.5.9999999.9999999-dev",
+                "version": "v0.5.2",
+                "version_normalized": "0.5.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "c6ac8f4259002ef4c056a80ee00130f397138e32"
+                    "reference": "c8c950ef99990a0b50880cff93a60bfac15308ca"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/c6ac8f4259002ef4c056a80ee00130f397138e32",
-                    "reference": "c6ac8f4259002ef4c056a80ee00130f397138e32",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/c8c950ef99990a0b50880cff93a60bfac15308ca",
+                    "reference": "c8c950ef99990a0b50880cff93a60bfac15308ca",
                     "shasum": ""
                 },
                 "require": {
@@ -3723,11 +3723,14 @@
                     "google/gax": "<1.16"
                 },
                 "require-dev": {
+                    "google/cloud-core": "^1.14.4",
                     "guzzlehttp/psr7": "^1.7",
                     "phpunit/phpunit": "^9.5.5"
                 },
-                "time": "2023-03-30T09:34:49+00:00",
-                "default-branch": true,
+                "suggest": {
+                    "google/cloud-core": "You need google/cloud-core >1.44.4 to use a cloud tasks emulator with insecure credentials"
+                },
+                "time": "2023-08-15T06:10:13+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -3756,19 +3759,19 @@
                     "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
                 }
             },
-            "dev-use-insecure-credentials-wrapper-for-emulator": {
+            "0.5.x-dev": {
                 "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "dev-use-insecure-credentials-wrapper-for-emulator",
-                "version_normalized": "dev-use-insecure-credentials-wrapper-for-emulator",
+                "version": "0.5.x-dev",
+                "version_normalized": "0.5.9999999.9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "6f3a8e2dcd0f5ff5d9cf25efa274cd8ef699acb3"
+                    "reference": "c8c950ef99990a0b50880cff93a60bfac15308ca"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/6f3a8e2dcd0f5ff5d9cf25efa274cd8ef699acb3",
-                    "reference": "6f3a8e2dcd0f5ff5d9cf25efa274cd8ef699acb3",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/c8c950ef99990a0b50880cff93a60bfac15308ca",
+                    "reference": "c8c950ef99990a0b50880cff93a60bfac15308ca",
                     "shasum": ""
                 },
                 "require": {
@@ -3790,9 +3793,10 @@
                     "phpunit/phpunit": "^9.5.5"
                 },
                 "suggest": {
-                    "google/cloud-core": "^1.14.4"
+                    "google/cloud-core": "You need google/cloud-core >1.44.4 to use a cloud tasks emulator with insecure credentials"
                 },
-                "time": "2023-08-14T15:20:03+00:00",
+                "time": "2023-08-15T06:10:13+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {

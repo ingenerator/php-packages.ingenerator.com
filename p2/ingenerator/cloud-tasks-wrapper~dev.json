@@ -67,74 +67,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "c6ac8f4259002ef4c056a80ee00130f397138e32"
+                    "reference": "c8c950ef99990a0b50880cff93a60bfac15308ca"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/c6ac8f4259002ef4c056a80ee00130f397138e32",
-                    "reference": "c6ac8f4259002ef4c056a80ee00130f397138e32",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-bcmath": "*",
-                    "google/cloud-tasks": "^1.8",
-                    "google/protobuf": "^3.22.0",
-                    "ingenerator/oidc-token-verifier": "^0.3",
-                    "ingenerator/php-utils": "^1.13",
-                    "php": "~8.1.0 || ~8.2.0",
-                    "psr/http-message": "^1.0",
-                    "symfony/polyfill-php80": "^1.20"
-                },
-                "conflict": {
-                    "google/gax": "<1.16"
-                },
-                "require-dev": {
-                    "guzzlehttp/psr7": "^1.7",
-                    "phpunit/phpunit": "^9.5.5"
-                },
-                "time": "2023-03-30T09:34:49+00:00",
-                "default-branch": true,
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\CloudTasksWrapper\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "test\\mock\\Ingenerator\\CloudTasksWrapper\\": "test/mock",
-                        "test\\unit\\Ingenerator\\CloudTasksWrapper\\": "test/unit"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com"
-                    }
-                ],
-                "description": "Library for dispatching and processing Google Cloud Tasks from PHP",
-                "homepage": "https://github.com/ingenerator/cloud-tasks-wrapper",
-                "support": {
-                    "source": "https://github.com/ingenerator/cloud-tasks-wrapper",
-                    "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
-                }
-            },
-            {
-                "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "dev-use-insecure-credentials-wrapper-for-emulator",
-                "version_normalized": "dev-use-insecure-credentials-wrapper-for-emulator",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "6f3a8e2dcd0f5ff5d9cf25efa274cd8ef699acb3"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/6f3a8e2dcd0f5ff5d9cf25efa274cd8ef699acb3",
-                    "reference": "6f3a8e2dcd0f5ff5d9cf25efa274cd8ef699acb3",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/c8c950ef99990a0b50880cff93a60bfac15308ca",
+                    "reference": "c8c950ef99990a0b50880cff93a60bfac15308ca",
                     "shasum": ""
                 },
                 "require": {
@@ -156,9 +94,10 @@
                     "phpunit/phpunit": "^9.5.5"
                 },
                 "suggest": {
-                    "google/cloud-core": "^1.14.4"
+                    "google/cloud-core": "You need google/cloud-core >1.44.4 to use a cloud tasks emulator with insecure credentials"
                 },
-                "time": "2023-08-14T15:20:03+00:00",
+                "time": "2023-08-15T06:10:13+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
