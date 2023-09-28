@@ -3,8 +3,6 @@
   "homepage" : "https://php-packages.ingenerator.com",
   "repositories": [
     {"type": "vcs", "url":  "https://github.com/craig410/rpage"},
-    {"type": "vcs", "url":  "https://github.com/acoulton/kodoctrine"},
-    {"type": "vcs", "url":  "https://github.com/acoulton/doctrine1"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/kohana-dependencies"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/chrome-mink-driver"},
     {"type": "vcs", "url":  "https://github.com/ingenerator/cloud-tasks-wrapper"},
