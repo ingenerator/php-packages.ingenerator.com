@@ -7,7 +7,7 @@
                 "version_normalized": "3.0.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/acoulton/kodoctrine.git",
+                    "url": "git@github.com:acoulton/kodoctrine.git",
                     "reference": "fdf87f32c099de6e70cf2d6c4b4c3e89a9841af3"
                 },
                 "dist": {
@@ -21,7 +21,7 @@
                     "kohana/core": "3.0.*",
                     "php": ">=5.3.3"
                 },
-                "time": "2017-04-26T16:12:25+00:00",
+                "time": "2014-07-03T11:32:18+00:00",
                 "type": "library",
                 "license": [
                     "BSD-3-Clause"
@@ -51,7 +51,7 @@
                 "version_normalized": "3.2.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/acoulton/kodoctrine.git",
+                    "url": "git@github.com:acoulton/kodoctrine.git",
                     "reference": "20b16c42ca5cddf512fca06f875f845ef3b00ccb"
                 },
                 "dist": {
@@ -95,13 +95,13 @@
                 "version_normalized": "dev-3.3/dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/acoulton/kodoctrine.git",
-                    "reference": "6ac05b2dbfca2796571dbb1dbedeb469ede15a4d"
+                    "url": "git@github.com:acoulton/kodoctrine.git",
+                    "reference": "25d3b5dbc7ab5a20bbe7d3c2e34eddd1bd09cfac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/acoulton/kodoctrine/zipball/6ac05b2dbfca2796571dbb1dbedeb469ede15a4d",
-                    "reference": "6ac05b2dbfca2796571dbb1dbedeb469ede15a4d",
+                    "url": "https://api.github.com/repos/acoulton/kodoctrine/zipball/25d3b5dbc7ab5a20bbe7d3c2e34eddd1bd09cfac",
+                    "reference": "25d3b5dbc7ab5a20bbe7d3c2e34eddd1bd09cfac",
                     "shasum": ""
                 },
                 "require": {
@@ -109,7 +109,7 @@
                     "kohana/core": "3.3.*",
                     "php": ">=5.3.3"
                 },
-                "time": "2014-07-03T13:39:05+00:00",
+                "time": "2023-09-28T09:45:10+00:00",
                 "default-branch": true,
                 "type": "library",
                 "license": [
@@ -132,7 +132,8 @@
                 "support": {
                     "issues": "https://github.com/acoulton/kodoctrine/issues",
                     "source": "https://github.com/acoulton/kodoctrine"
-                }
+                },
+                "abandoned": true
             }
         ]
     }
