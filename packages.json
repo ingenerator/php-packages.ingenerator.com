@@ -1,19 +1,17 @@
 {
     "packages": [],
     "includes": {
-        "include/all$824066651fc5b91cd442d164f7a51e5f3996db67.json": {
-            "sha1": "824066651fc5b91cd442d164f7a51e5f3996db67"
+        "include/all$0ac9d496bcfb4ad7325d1ba00c43ed93bbb346c4.json": {
+            "sha1": "0ac9d496bcfb4ad7325d1ba00c43ed93bbb346c4"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
-        "acoulton/kodoctrine",
         "auxiliary/rpage",
         "blueimp/gallery",
         "blueimp/jquery-file-upload",
         "dangrossman/bootstrap-daterangepicker",
         "derek-watson/jsuri",
-        "doctrine/doctrine1",
         "ingenerator/chrome-mink-driver",
         "ingenerator/cloud-tasks-wrapper",
         "ingenerator/content-snippets",
@@ -23,9 +21,6 @@
         "ingenerator/kohana-dependencies",
         "ingenerator/kohana-extras",
         "ingenerator/no-robloach-component-installer",
-        "ingenerator/phinx-wrapper",
-        "ingenerator/swiftmailer-transport-ses",
-        "ingenerator/tmp-mink-extension-php-8",
         "ingenerator/warden-auth",
         "ingenerator/warden-core",
         "ingenerator/warden-persistence-doctrine",
