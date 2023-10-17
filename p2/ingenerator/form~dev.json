@@ -7,7 +7,7 @@
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "git@github.com:ingenerator/form.git",
+                    "url": "https://github.com/ingenerator/form.git",
                     "reference": "eda44ce200e86eade5f678c1b79a1bf34cc54755"
                 },
                 "dist": {
@@ -56,7 +56,11 @@
                     }
                 ],
                 "description": "Schema-based form rendering / interaction",
-                "homepage": "http://github.com/ingenerator/form"
+                "homepage": "http://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/v1.4.0",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
             }
         ]
     }
