@@ -7,7 +7,7 @@
                 "version_normalized": "0.7.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-dependencies.git",
+                    "url": "git@github.com:ingenerator/kohana-dependencies.git",
                     "reference": "b4c6c5615402bdfc6cbb7fa59e7dad1726846df3"
                 },
                 "dist": {
@@ -73,7 +73,7 @@
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/kohana-dependencies.git",
+                    "url": "git@github.com:ingenerator/kohana-dependencies.git",
                     "reference": "5bc5ace66fcbe14130146ed5eb3a5b70f5e89b0b"
                 },
                 "dist": {

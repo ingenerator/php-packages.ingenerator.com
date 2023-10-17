@@ -7,7 +7,7 @@
                 "version_normalized": "1.0.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-core.git",
+                    "url": "git@github.com:ingenerator/warden-core.git",
                     "reference": "d2f6c6a9ec1570445cf658a457a80f3e2d9a4dd8"
                 },
                 "dist": {
@@ -53,11 +53,7 @@
                     "acl",
                     "auth",
                     "web"
-                ],
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-core/tree/v1.1.0",
-                    "issues": "https://github.com/ingenerator/warden-core/issues"
-                }
+                ]
             },
             {
                 "name": "ingenerator/warden-core",
@@ -65,7 +61,7 @@
                 "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/ingenerator/warden-core.git",
+                    "url": "git@github.com:ingenerator/warden-core.git",
                     "reference": "381679faa570b9ca5839ab5f4e3e0a332382767c"
                 },
                 "dist": {
@@ -112,11 +108,7 @@
                     "acl",
                     "auth",
                     "web"
-                ],
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-core/tree/v1.2.2",
-                    "issues": "https://github.com/ingenerator/warden-core/issues"
-                }
+                ]
             }
         ]
     }
