@@ -67,19 +67,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "c8c950ef99990a0b50880cff93a60bfac15308ca"
+                    "reference": "33e4bbbacdfeceffd9f3bda1261509124ea8f7b1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/c8c950ef99990a0b50880cff93a60bfac15308ca",
-                    "reference": "c8c950ef99990a0b50880cff93a60bfac15308ca",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/33e4bbbacdfeceffd9f3bda1261509124ea8f7b1",
+                    "reference": "33e4bbbacdfeceffd9f3bda1261509124ea8f7b1",
                     "shasum": ""
                 },
                 "require": {
                     "ext-bcmath": "*",
                     "google/cloud-tasks": "^1.8",
                     "google/protobuf": "^3.22.0",
-                    "ingenerator/oidc-token-verifier": "^0.3",
+                    "ingenerator/oidc-token-verifier": "^0.3 || ^1.0",
                     "ingenerator/php-utils": "^1.13",
                     "php": "~8.1.0 || ~8.2.0",
                     "psr/http-message": "^1.0",
@@ -96,7 +96,7 @@
                 "suggest": {
                     "google/cloud-core": "You need google/cloud-core >1.44.4 to use a cloud tasks emulator with insecure credentials"
                 },
-                "time": "2023-08-15T06:10:13+00:00",
+                "time": "2023-10-27T06:23:37+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
