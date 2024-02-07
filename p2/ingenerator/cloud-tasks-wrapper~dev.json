@@ -67,78 +67,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "33e4bbbacdfeceffd9f3bda1261509124ea8f7b1"
+                    "reference": "ff204d1f66dcdcac0a74e2c94abf626e73ea8056"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/33e4bbbacdfeceffd9f3bda1261509124ea8f7b1",
-                    "reference": "33e4bbbacdfeceffd9f3bda1261509124ea8f7b1",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-bcmath": "*",
-                    "google/cloud-tasks": "^1.8",
-                    "google/protobuf": "^3.22.0",
-                    "ingenerator/oidc-token-verifier": "^0.3 || ^1.0",
-                    "ingenerator/php-utils": "^1.13",
-                    "php": "~8.1.0 || ~8.2.0",
-                    "psr/http-message": "^1.0",
-                    "symfony/polyfill-php80": "^1.20"
-                },
-                "conflict": {
-                    "google/gax": "<1.16"
-                },
-                "require-dev": {
-                    "google/cloud-core": "^1.14.4",
-                    "guzzlehttp/psr7": "^1.7",
-                    "phpunit/phpunit": "^9.5.5"
-                },
-                "suggest": {
-                    "google/cloud-core": "You need google/cloud-core >1.44.4 to use a cloud tasks emulator with insecure credentials"
-                },
-                "time": "2023-10-27T06:23:37+00:00",
-                "default-branch": true,
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\CloudTasksWrapper\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "test\\mock\\Ingenerator\\CloudTasksWrapper\\": "test/mock",
-                        "test\\unit\\Ingenerator\\CloudTasksWrapper\\": "test/unit"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com"
-                    }
-                ],
-                "description": "Library for dispatching and processing Google Cloud Tasks from PHP",
-                "homepage": "https://github.com/ingenerator/cloud-tasks-wrapper",
-                "support": {
-                    "source": "https://github.com/ingenerator/cloud-tasks-wrapper",
-                    "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
-                }
-            },
-            {
-                "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "dev-bump-deps",
-                "version_normalized": "dev-bump-deps",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "cb7f4cbdfb0048747fd359499f023c1754224c67"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/cb7f4cbdfb0048747fd359499f023c1754224c67",
-                    "reference": "cb7f4cbdfb0048747fd359499f023c1754224c67",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/ff204d1f66dcdcac0a74e2c94abf626e73ea8056",
+                    "reference": "ff204d1f66dcdcac0a74e2c94abf626e73ea8056",
                     "shasum": ""
                 },
                 "require": {
@@ -162,7 +96,8 @@
                 "suggest": {
                     "google/cloud-core": "You need google/cloud-core >1.44.4 to use a cloud tasks emulator with insecure credentials"
                 },
-                "time": "2024-02-07T10:03:35+00:00",
+                "time": "2024-02-07T16:16:31+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
