@@ -15327,6 +15327,83 @@
                     "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v2.1.0",
                     "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
                 }
+            },
+            "dev-test-validation-annotations": {
+                "name": "ingenerator/warden-ui-kohana",
+                "version": "dev-test-validation-annotations",
+                "version_normalized": "dev-test-validation-annotations",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "reference": "4d08da5bf91edd818dd157a5eb8841dddbf223c2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/4d08da5bf91edd818dd157a5eb8841dddbf223c2",
+                    "reference": "4d08da5bf91edd818dd157a5eb8841dddbf223c2",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.9",
+                    "doctrine/annotations": "^1.13",
+                    "ext-json": "*",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^3.1",
+                    "ingenerator/kohana-view": "^4.4",
+                    "ingenerator/tokenista": "^1.4",
+                    "ingenerator/warden-core": "^1.2",
+                    "ingenerator/warden-persistence-doctrine": "^1.2",
+                    "ingenerator/warden-validator-symfony": "^1.2",
+                    "php": "~8.2.0",
+                    "symfony/mailer": "^6.3 || ^7.0"
+                },
+                "conflict": {
+                    "egulias/email-validator": "<3.2.1",
+                    "symfony/validator": "<6.0"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "kohana/koharness": "dev-master",
+                    "phpunit/phpunit": "^9.5.5"
+                },
+                "suggest": {
+                    "ingenerator/kohana-dependencies": "Dependency container for kohana"
+                },
+                "time": "2024-02-13T12:41:14+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\UI\\Kohana\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Front-end and kohana application integration for Warden",
+                "homepage": "https://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/test-validation-annotations",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
             }
         },
         "ingenerator/warden-validator-symfony": {
