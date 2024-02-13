@@ -15335,12 +15335,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "4d08da5bf91edd818dd157a5eb8841dddbf223c2"
+                    "reference": "2a02aee61bd1b3f230604f20e97bafc1d57da7d9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/4d08da5bf91edd818dd157a5eb8841dddbf223c2",
-                    "reference": "4d08da5bf91edd818dd157a5eb8841dddbf223c2",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/2a02aee61bd1b3f230604f20e97bafc1d57da7d9",
+                    "reference": "2a02aee61bd1b3f230604f20e97bafc1d57da7d9",
                     "shasum": ""
                 },
                 "require": {
@@ -15351,15 +15351,14 @@
                     "ingenerator/kohana-extras": "^3.1",
                     "ingenerator/kohana-view": "^4.4",
                     "ingenerator/tokenista": "^1.4",
-                    "ingenerator/warden-core": "^1.2",
+                    "ingenerator/warden-core": "^1.2.1",
                     "ingenerator/warden-persistence-doctrine": "^1.2",
-                    "ingenerator/warden-validator-symfony": "^1.2",
+                    "ingenerator/warden-validator-symfony": "^1.2.1",
                     "php": "~8.2.0",
                     "symfony/mailer": "^6.3 || ^7.0"
                 },
                 "conflict": {
-                    "egulias/email-validator": "<3.2.1",
-                    "symfony/validator": "<6.0"
+                    "egulias/email-validator": "<3.2.1"
                 },
                 "require-dev": {
                     "johnkary/phpunit-speedtrap": "^3.3",
@@ -15369,7 +15368,7 @@
                 "suggest": {
                     "ingenerator/kohana-dependencies": "Dependency container for kohana"
                 },
-                "time": "2024-02-13T12:41:14+00:00",
+                "time": "2024-02-13T18:56:16+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
