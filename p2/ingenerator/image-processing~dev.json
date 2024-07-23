@@ -171,12 +171,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/image-processing.git",
-                    "reference": "fc4e11e98e09532ff24e7e93442f24e20ee50a7d"
+                    "reference": "11ab29cd3e5f5875bfdb163a7f3e614a52bce608"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/fc4e11e98e09532ff24e7e93442f24e20ee50a7d",
-                    "reference": "fc4e11e98e09532ff24e7e93442f24e20ee50a7d",
+                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/11ab29cd3e5f5875bfdb163a7f3e614a52bce608",
+                    "reference": "11ab29cd3e5f5875bfdb163a7f3e614a52bce608",
                     "shasum": ""
                 },
                 "require": {
@@ -191,7 +191,7 @@
                     "phpunit/phpunit": "^11.0",
                     "symfony/filesystem": "^7.0"
                 },
-                "time": "2024-07-23T07:51:23+00:00",
+                "time": "2024-07-23T09:57:23+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -200,7 +200,7 @@
                 },
                 "autoload-dev": {
                     "psr-4": {
-                        "test\\unit\\Ingenerator\\ImageProcessing\\": "test"
+                        "test\\": "test/"
                     }
                 },
                 "license": [
