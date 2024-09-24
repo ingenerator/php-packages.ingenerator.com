@@ -6860,6 +6860,74 @@
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             },
+            "v4.11.0": {
+                "name": "ingenerator/kohana-core",
+                "version": "v4.11.0",
+                "version_normalized": "4.11.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "reference": "e5eaa57f208e180551a887a71b901974b04c3493"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/e5eaa57f208e180551a887a71b901974b04c3493",
+                    "reference": "e5eaa57f208e180551a887a71b901974b04c3493",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-mbstring": "*",
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+                },
+                "conflict": {
+                    "kohana/core": "*"
+                },
+                "replace": {
+                    "kohana/core": "3.3.*",
+                    "kohana/minion": "3.3.*",
+                    "kohana/unittest": "3.3.*"
+                },
+                "require-dev": {
+                    "kohana/koharness": "*@dev",
+                    "phpunit/phpunit": "^9.5.22"
+                },
+                "suggest": {
+                    "ext-curl": "*",
+                    "ext-http": "*"
+                },
+                "time": "2024-09-23T10:56:04+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "role": "hacker & axe-wielder"
+                    },
+                    {
+                        "name": "Kohana Team",
+                        "email": "team@kohanaframework.org",
+                        "homepage": "http://kohanaframework.org/team",
+                        "role": "developer"
+                    }
+                ],
+                "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.11.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
+            },
             "v4.2.0": {
                 "name": "ingenerator/kohana-core",
                 "version": "v4.2.0",
@@ -8584,12 +8652,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "bdfc6aa4b9d31dfa128c78f98b69edb21a1800e4"
+                    "reference": "e5eaa57f208e180551a887a71b901974b04c3493"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/bdfc6aa4b9d31dfa128c78f98b69edb21a1800e4",
-                    "reference": "bdfc6aa4b9d31dfa128c78f98b69edb21a1800e4",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/e5eaa57f208e180551a887a71b901974b04c3493",
+                    "reference": "e5eaa57f208e180551a887a71b901974b04c3493",
                     "shasum": ""
                 },
                 "require": {
@@ -8613,7 +8681,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2022-11-09T11:39:07+00:00",
+                "time": "2024-09-23T10:56:04+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -8642,7 +8710,75 @@
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
                 "homepage": "http://github.com/ingenerator/kohana-core",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.10.0",
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.11.0",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
+            },
+            "dev-support-php-83": {
+                "name": "ingenerator/kohana-core",
+                "version": "dev-support-php-83",
+                "version_normalized": "dev-support-php-83",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "reference": "910ac3eb0ab5dd71ad8f497acd2e5d9f93672327"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/910ac3eb0ab5dd71ad8f497acd2e5d9f93672327",
+                    "reference": "910ac3eb0ab5dd71ad8f497acd2e5d9f93672327",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-mbstring": "*",
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
+                },
+                "conflict": {
+                    "kohana/core": "*"
+                },
+                "replace": {
+                    "kohana/core": "3.3.*",
+                    "kohana/minion": "3.3.*",
+                    "kohana/unittest": "3.3.*"
+                },
+                "require-dev": {
+                    "kohana/koharness": "*@dev",
+                    "phpunit/phpunit": "^9.5.22"
+                },
+                "suggest": {
+                    "ext-curl": "*",
+                    "ext-http": "*"
+                },
+                "time": "2024-09-24T15:44:22+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "role": "hacker & axe-wielder"
+                    },
+                    {
+                        "name": "Kohana Team",
+                        "email": "team@kohanaframework.org",
+                        "homepage": "http://kohanaframework.org/team",
+                        "role": "developer"
+                    }
+                ],
+                "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/support-php-83",
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             }
@@ -16676,11 +16812,11 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/makeusabrew/bootbox.git",
-                    "reference": "a0efdbf2346de82efdeb96e45fa84345abe8b6a4"
+                    "reference": "222147501f368e4b083578c6688af40d81d4bc2a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/a0efdbf2346de82efdeb96e45fa84345abe8b6a4"
+                    "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/222147501f368e4b083578c6688af40d81d4bc2a"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
@@ -17169,6 +17305,22 @@
                 "type": "library",
                 "description": "Autogenerated by satisfy"
             },
+            "2.5.18": {
+                "name": "mohsen1/json-formatter-js",
+                "version": "2.5.18",
+                "version_normalized": "2.5.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mohsen1/json-formatter-js",
+                    "reference": "v2.5.18"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/v2.5.18"
+                },
+                "type": "library",
+                "description": "Autogenerated by satisfy"
+            },
             "2.5.2": {
                 "name": "mohsen1/json-formatter-js",
                 "version": "2.5.2",
@@ -17329,6 +17481,38 @@
                 "type": "library",
                 "description": "Autogenerated by satisfy"
             },
+            "dev-dependabot/npm_and_yarn/express-4.21.0": {
+                "name": "mohsen1/json-formatter-js",
+                "version": "dev-dependabot/npm_and_yarn/express-4.21.0",
+                "version_normalized": "dev-dependabot/npm_and_yarn/express-4.21.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mohsen1/json-formatter-js",
+                    "reference": "68e204ace99bac5a7754528181ce6a99aefc6b14"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/68e204ace99bac5a7754528181ce6a99aefc6b14"
+                },
+                "type": "library",
+                "description": "Autogenerated by satisfy"
+            },
+            "dev-dependabot/npm_and_yarn/rollup-3.29.5": {
+                "name": "mohsen1/json-formatter-js",
+                "version": "dev-dependabot/npm_and_yarn/rollup-3.29.5",
+                "version_normalized": "dev-dependabot/npm_and_yarn/rollup-3.29.5",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mohsen1/json-formatter-js",
+                    "reference": "fbd1bd3459c030a03245411da967eba879f2dbbf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/fbd1bd3459c030a03245411da967eba879f2dbbf"
+                },
+                "type": "library",
+                "description": "Autogenerated by satisfy"
+            },
             "dev-dependabot/npm_and_yarn/semver-5.7.2": {
                 "name": "mohsen1/json-formatter-js",
                 "version": "dev-dependabot/npm_and_yarn/semver-5.7.2",
@@ -17352,11 +17536,11 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mohsen1/json-formatter-js",
-                    "reference": "a8793b82de53adeaf20681c1109e4a8a7845d91d"
+                    "reference": "d213797d64cde0301c489117073948e66a7e795e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/a8793b82de53adeaf20681c1109e4a8a7845d91d"
+                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/d213797d64cde0301c489117073948e66a7e795e"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
@@ -17384,11 +17568,11 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mohsen1/json-formatter-js",
-                    "reference": "3da1a5ab24248fbcb1005c0d6c507da7b94f5dc8"
+                    "reference": "07cf9841d938fd1c50aa67a78523f7b93f2aff47"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/3da1a5ab24248fbcb1005c0d6c507da7b94f5dc8"
+                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/07cf9841d938fd1c50aa67a78523f7b93f2aff47"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
@@ -18320,11 +18504,11 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/tristen/tablesort.git",
-                    "reference": "dd7abaa543bce9edb52efa745f0cb651eeb3696d"
+                    "reference": "0a2b881d4c59222f3ddfbc2d7fcb2731ce00ef93"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/tristen/tablesort/zipball/dd7abaa543bce9edb52efa745f0cb651eeb3696d"
+                    "url": "https://api.github.com/repos/tristen/tablesort/zipball/0a2b881d4c59222f3ddfbc2d7fcb2731ce00ef93"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
