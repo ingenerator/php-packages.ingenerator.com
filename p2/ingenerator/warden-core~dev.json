@@ -84,7 +84,6 @@
                     "ingenerator/warden-validator-symfony": "Default entity / request validation implemenation using symfony validation"
                 },
                 "time": "2022-10-31T10:03:01+00:00",
-                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -120,32 +119,32 @@
             },
             {
                 "name": "ingenerator/warden-core",
-                "version": "dev-include-warden-symfony-validator",
-                "version_normalized": "dev-include-warden-symfony-validator",
+                "version": "2.x-dev",
+                "version_normalized": "2.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-core.git",
-                    "reference": "7ae9009186e0e8886679e620ca6cb1eee48f51df"
+                    "reference": "367ee723b5eceef9effb41de5d2cc3a8d5e3d217"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/7ae9009186e0e8886679e620ca6cb1eee48f51df",
-                    "reference": "7ae9009186e0e8886679e620ca6cb1eee48f51df",
+                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/367ee723b5eceef9effb41de5d2cc3a8d5e3d217",
+                    "reference": "367ee723b5eceef9effb41de5d2cc3a8d5e3d217",
                     "shasum": ""
                 },
                 "require": {
-                    "egulias/email-validator": "^3.2 || ^4.0",
-                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
-                    "symfony/validator": "^5.4 || ^6.0"
+                    "egulias/email-validator": "^4.0",
+                    "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
+                    "symfony/validator": "^6.4"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^9.5.5",
-                    "symfony/yaml": "^5.4 || ^6.0"
+                    "phpunit/phpunit": "^9.5.5"
                 },
                 "suggest": {
                     "ingenerator/warden-validator-symfony": "Default entity / request validation implemenation using symfony validation"
                 },
-                "time": "2024-09-25T09:52:02+00:00",
+                "time": "2024-09-25T15:52:44+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -175,7 +174,7 @@
                     "web"
                 ],
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-core/tree/include-warden-symfony-validator",
+                    "source": "https://github.com/ingenerator/warden-core/tree/v2.0.0",
                     "issues": "https://github.com/ingenerator/warden-core/issues"
                 }
             }
