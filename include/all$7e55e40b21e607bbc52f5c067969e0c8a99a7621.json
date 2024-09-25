@@ -2681,6 +2681,67 @@
                     "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
                 }
             },
+            "dev-support-php8.3": {
+                "name": "ingenerator/chrome-mink-driver",
+                "version": "dev-support-php8.3",
+                "version_normalized": "dev-support-php8.3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
+                    "reference": "b22be2c7a18a4980d89e5a24d5ce5c69793461f1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/b22be2c7a18a4980d89e5a24d5ce5c69793461f1",
+                    "reference": "b22be2c7a18a4980d89e5a24d5ce5c69793461f1",
+                    "shasum": ""
+                },
+                "require": {
+                    "behat/mink": "^1.9",
+                    "ext-curl": "*",
+                    "ext-json": "*",
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0",
+                    "phrity/websocket": "^1.7"
+                },
+                "replace": {
+                    "dmore/chrome-mink-driver": "*"
+                },
+                "require-dev": {
+                    "dms/phpunit-arraysubset-asserts": "^0.4.0",
+                    "mink/driver-testsuite": "dev-master",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2024-09-25T07:39:30+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DMore\\ChromeDriver\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DMore\\ChromeDriverTests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dorian More",
+                        "email": "doriancmore@gmail.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Mink driver for controlling chrome without selenium",
+                "support": {
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/support-php8.3",
+                    "issues": "https://github.com/ingenerator/chrome-mink-driver/issues"
+                }
+            },
             "dev-tmp-spike-reliability-merge-up": {
                 "name": "ingenerator/chrome-mink-driver",
                 "version": "dev-tmp-spike-reliability-merge-up",
