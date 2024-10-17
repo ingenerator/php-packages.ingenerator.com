@@ -116,12 +116,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/image-processing.git",
-                    "reference": "f1bfe9bb7fbbebb0ea913a1bcd704844718f765a"
+                    "reference": "c8a6a2d0878de3447d8d23eac0faed0217381d1a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/f1bfe9bb7fbbebb0ea913a1bcd704844718f765a",
-                    "reference": "f1bfe9bb7fbbebb0ea913a1bcd704844718f765a",
+                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/c8a6a2d0878de3447d8d23eac0faed0217381d1a",
+                    "reference": "c8a6a2d0878de3447d8d23eac0faed0217381d1a",
                     "shasum": ""
                 },
                 "require": {
@@ -136,7 +136,7 @@
                     "phpunit/phpunit": "^11.0",
                     "symfony/filesystem": "^7.0"
                 },
-                "time": "2024-10-01T19:34:13+00:00",
+                "time": "2024-10-17T14:23:41+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -160,7 +160,7 @@
                 ],
                 "description": "libvips image processing library",
                 "support": {
-                    "source": "https://github.com/ingenerator/image-processing/tree/v2.1.0",
+                    "source": "https://github.com/ingenerator/image-processing/tree/v2.2.0",
                     "issues": "https://github.com/ingenerator/image-processing/issues"
                 }
             }
