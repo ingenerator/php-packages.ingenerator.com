@@ -310,12 +310,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "a45a1c77265e4dba8fc3162e8c266431bf206a18"
+                    "reference": "8e71be51ee7ca15c6b9c7ccc04963f5a7f0160ab"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/a45a1c77265e4dba8fc3162e8c266431bf206a18",
-                    "reference": "a45a1c77265e4dba8fc3162e8c266431bf206a18",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/8e71be51ee7ca15c6b9c7ccc04963f5a7f0160ab",
+                    "reference": "8e71be51ee7ca15c6b9c7ccc04963f5a7f0160ab",
                     "shasum": ""
                 },
                 "require": {
@@ -341,7 +341,7 @@
                 "suggest": {
                     "ingenerator/kohana-dependencies": "Dependency container for kohana"
                 },
-                "time": "2024-12-13T14:26:11+00:00",
+                "time": "2024-12-13T14:55:26+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
