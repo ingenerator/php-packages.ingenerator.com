@@ -125,12 +125,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "e2c07cef7f85228e2f9365f2d3993b91553d86dd"
+                    "reference": "f310e0d58492c843d2912c957acf51c01ca2c8df"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/e2c07cef7f85228e2f9365f2d3993b91553d86dd",
-                    "reference": "e2c07cef7f85228e2f9365f2d3993b91553d86dd",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/f310e0d58492c843d2912c957acf51c01ca2c8df",
+                    "reference": "f310e0d58492c843d2912c957acf51c01ca2c8df",
                     "shasum": ""
                 },
                 "require": {
@@ -145,7 +145,7 @@
                     "kohana/koharness": "dev-master",
                     "phpunit/phpunit": "^11"
                 },
-                "time": "2024-12-13T09:44:08+00:00",
+                "time": "2024-12-13T13:15:45+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -173,7 +173,7 @@
                 "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
                 "homepage": "https://github.com/ingenerator/content-snippets",
                 "support": {
-                    "source": "https://github.com/ingenerator/content-snippets/tree/v2.0.0",
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v2.0.1",
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
             }
