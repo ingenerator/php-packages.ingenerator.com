@@ -4400,30 +4400,30 @@
                     "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
                 }
             },
-            "0.5.x-dev": {
+            "v0.5.8": {
                 "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "0.5.x-dev",
-                "version_normalized": "0.5.9999999.9999999-dev",
+                "version": "v0.5.8",
+                "version_normalized": "0.5.8.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "130fa7cbf7859b8656ee782989503dc1a57d8c74"
+                    "reference": "8221bf0a25011e526bc7598c5cc27455478e6b44"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/130fa7cbf7859b8656ee782989503dc1a57d8c74",
-                    "reference": "130fa7cbf7859b8656ee782989503dc1a57d8c74",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/8221bf0a25011e526bc7598c5cc27455478e6b44",
+                    "reference": "8221bf0a25011e526bc7598c5cc27455478e6b44",
                     "shasum": ""
                 },
                 "require": {
                     "ext-bcmath": "*",
                     "google/cloud-tasks": "^1.8",
                     "google/gax": "^1.29.1",
-                    "google/protobuf": "^3.22.0",
-                    "ingenerator/oidc-token-verifier": "^0.3 || ^1.0",
-                    "ingenerator/php-utils": "^1.13 || ^2.0",
-                    "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
-                    "psr/http-message": "^1.0 || ^2.0"
+                    "google/protobuf": "^4.29",
+                    "ingenerator/oidc-token-verifier": "^1.0",
+                    "ingenerator/php-utils": "^2.0",
+                    "php": "~8.2.0 || ~8.3.0",
+                    "psr/http-message": "^2.0"
                 },
                 "require-dev": {
                     "ext-grpc": "*",
@@ -4431,8 +4431,7 @@
                     "guzzlehttp/psr7": "^2.6",
                     "phpunit/phpunit": "^9.5.5"
                 },
-                "time": "2024-10-01T18:57:34+00:00",
-                "default-branch": true,
+                "time": "2024-12-17T10:40:31+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -4461,19 +4460,19 @@
                     "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
                 }
             },
-            "dev-0.5-dependency-support": {
+            "0.5.x-dev": {
                 "name": "ingenerator/cloud-tasks-wrapper",
-                "version": "dev-0.5-dependency-support",
-                "version_normalized": "dev-0.5-dependency-support",
+                "version": "0.5.x-dev",
+                "version_normalized": "0.5.9999999.9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "02b8b8efc1dbcedb96f92e595864dc9dff80f004"
+                    "reference": "8221bf0a25011e526bc7598c5cc27455478e6b44"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/02b8b8efc1dbcedb96f92e595864dc9dff80f004",
-                    "reference": "02b8b8efc1dbcedb96f92e595864dc9dff80f004",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/8221bf0a25011e526bc7598c5cc27455478e6b44",
+                    "reference": "8221bf0a25011e526bc7598c5cc27455478e6b44",
                     "shasum": ""
                 },
                 "require": {
@@ -4492,7 +4491,8 @@
                     "guzzlehttp/psr7": "^2.6",
                     "phpunit/phpunit": "^9.5.5"
                 },
-                "time": "2024-12-17T09:33:25+00:00",
+                "time": "2024-12-17T10:40:31+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
