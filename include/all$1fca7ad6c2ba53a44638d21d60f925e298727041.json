@@ -8165,6 +8165,71 @@
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             },
+            "v4.12.2": {
+                "name": "ingenerator/kohana-core",
+                "version": "v4.12.2",
+                "version_normalized": "4.12.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "reference": "4491ad29d9e715e661d489827858e50407fb3af8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/4491ad29d9e715e661d489827858e50407fb3af8",
+                    "reference": "4491ad29d9e715e661d489827858e50407fb3af8",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-mbstring": "*",
+                    "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
+                },
+                "replace": {
+                    "kohana/core": "3.3.*",
+                    "kohana/minion": "3.3.*",
+                    "kohana/unittest": "3.3.*"
+                },
+                "require-dev": {
+                    "kohana/koharness": "*@dev",
+                    "phpunit/phpunit": "^9.5.22"
+                },
+                "suggest": {
+                    "ext-curl": "*",
+                    "ext-http": "*"
+                },
+                "time": "2025-06-23T10:30:19+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "role": "hacker & axe-wielder"
+                    },
+                    {
+                        "name": "Kohana Team",
+                        "email": "team@kohanaframework.org",
+                        "homepage": "http://kohanaframework.org/team",
+                        "role": "developer"
+                    }
+                ],
+                "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.12.2",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
+            },
             "v4.2.0": {
                 "name": "ingenerator/kohana-core",
                 "version": "v4.2.0",
@@ -9889,21 +9954,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "53e4e750e59801fa3829164e8f2bcc433bb25f57"
+                    "reference": "4491ad29d9e715e661d489827858e50407fb3af8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/53e4e750e59801fa3829164e8f2bcc433bb25f57",
-                    "reference": "53e4e750e59801fa3829164e8f2bcc433bb25f57",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/4491ad29d9e715e661d489827858e50407fb3af8",
+                    "reference": "4491ad29d9e715e661d489827858e50407fb3af8",
                     "shasum": ""
                 },
                 "require": {
                     "ext-ctype": "*",
                     "ext-mbstring": "*",
                     "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0"
-                },
-                "conflict": {
-                    "kohana/core": "*"
                 },
                 "replace": {
                     "kohana/core": "3.3.*",
@@ -9918,7 +9980,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2025-01-16T14:35:59+00:00",
+                "time": "2025-06-23T10:30:19+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -9947,7 +10009,72 @@
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
                 "homepage": "http://github.com/ingenerator/kohana-core",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.12.1",
+                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.12.2",
+                    "issues": "https://github.com/ingenerator/kohana-core/issues"
+                }
+            },
+            "dev-4.x-php84": {
+                "name": "ingenerator/kohana-core",
+                "version": "dev-4.x-php84",
+                "version_normalized": "dev-4.x-php84",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/kohana-core.git",
+                    "reference": "e6a17f3731509a23a45ea56a52e0afc575fbb81d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/e6a17f3731509a23a45ea56a52e0afc575fbb81d",
+                    "reference": "e6a17f3731509a23a45ea56a52e0afc575fbb81d",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-mbstring": "*",
+                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0"
+                },
+                "replace": {
+                    "kohana/core": "3.3.*",
+                    "kohana/minion": "3.3.*",
+                    "kohana/unittest": "3.3.*"
+                },
+                "require-dev": {
+                    "kohana/koharness": "*@dev",
+                    "phpunit/phpunit": "^9.5.22"
+                },
+                "suggest": {
+                    "ext-curl": "*",
+                    "ext-http": "*"
+                },
+                "time": "2025-06-23T11:04:42+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "role": "hacker & axe-wielder"
+                    },
+                    {
+                        "name": "Kohana Team",
+                        "email": "team@kohanaframework.org",
+                        "homepage": "http://kohanaframework.org/team",
+                        "role": "developer"
+                    }
+                ],
+                "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
+                "homepage": "http://github.com/ingenerator/kohana-core",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-core/tree/4.x-php84",
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             }
@@ -15106,26 +15233,26 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-core.git",
-                    "reference": "367ee723b5eceef9effb41de5d2cc3a8d5e3d217"
+                    "reference": "3d85f88e157cc6a345cfa6c3a910579b2a485754"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/367ee723b5eceef9effb41de5d2cc3a8d5e3d217",
-                    "reference": "367ee723b5eceef9effb41de5d2cc3a8d5e3d217",
+                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/3d85f88e157cc6a345cfa6c3a910579b2a485754",
+                    "reference": "3d85f88e157cc6a345cfa6c3a910579b2a485754",
                     "shasum": ""
                 },
                 "require": {
-                    "egulias/email-validator": "^4.0",
-                    "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
-                    "symfony/validator": "^6.4"
+                    "egulias/email-validator": "^4.0.0",
+                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0 ",
+                    "symfony/validator": "^6.4.21 || ^7.4"
+                },
+                "conflict": {
+                    "symfony/translation-contracts": " < 3.5.1"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^9.5.5"
+                    "phpunit/phpunit": "^9.6.23"
                 },
-                "suggest": {
-                    "ingenerator/warden-validator-symfony": "Default entity / request validation implemenation using symfony validation"
-                },
-                "time": "2024-09-25T15:52:44+00:00",
+                "time": "2025-05-15T15:07:11+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -15156,7 +15283,67 @@
                     "web"
                 ],
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-core/tree/v2.0.0",
+                    "source": "https://github.com/ingenerator/warden-core/tree/2.x",
+                    "issues": "https://github.com/ingenerator/warden-core/issues"
+                }
+            },
+            "dev-2.x-feat-login-guard": {
+                "name": "ingenerator/warden-core",
+                "version": "dev-2.x-feat-login-guard",
+                "version_normalized": "dev-2.x-feat-login-guard",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-core.git",
+                    "reference": "07d39fac0c1d81c45409fa77d4b61692f504deb1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/07d39fac0c1d81c45409fa77d4b61692f504deb1",
+                    "reference": "07d39fac0c1d81c45409fa77d4b61692f504deb1",
+                    "shasum": ""
+                },
+                "require": {
+                    "egulias/email-validator": "^4.0.0",
+                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0 ",
+                    "symfony/validator": "^6.4.21 || ^7.4"
+                },
+                "conflict": {
+                    "symfony/translation-contracts": " < 3.5.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.6.23"
+                },
+                "time": "2025-05-16T08:34:24+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\Core\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Framework-and-driver-independent authentication and authorization package",
+                "homepage": "https://github.com/ingenerator/warden-core",
+                "keywords": [
+                    "acl",
+                    "auth",
+                    "web"
+                ],
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-core/tree/2.x-feat-login-guard",
                     "issues": "https://github.com/ingenerator/warden-core/issues"
                 }
             }
@@ -18597,34 +18784,66 @@
                 "type": "library",
                 "description": "Autogenerated by satisfy"
             },
-            "dev-dependabot/npm_and_yarn/multi-456de2e4f1": {
+            "6.0.1": {
                 "name": "makeusabrew/bootbox",
-                "version": "dev-dependabot/npm_and_yarn/multi-456de2e4f1",
-                "version_normalized": "dev-dependabot/npm_and_yarn/multi-456de2e4f1",
+                "version": "6.0.1",
+                "version_normalized": "6.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/makeusabrew/bootbox.git",
-                    "reference": "0a923bff9550cf53b647b5b6b125ae9be269d151"
+                    "reference": "v6.0.1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/0a923bff9550cf53b647b5b6b125ae9be269d151"
+                    "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/v6.0.1"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
             },
-            "dev-fix-required-option": {
+            "6.0.2": {
                 "name": "makeusabrew/bootbox",
-                "version": "dev-fix-required-option",
-                "version_normalized": "dev-fix-required-option",
+                "version": "6.0.2",
+                "version_normalized": "6.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/makeusabrew/bootbox.git",
-                    "reference": "36326c56a2f78e61fc20e80f2689051d576e2f06"
+                    "reference": "v6.0.2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/36326c56a2f78e61fc20e80f2689051d576e2f06"
+                    "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/v6.0.2"
+                },
+                "type": "library",
+                "description": "Autogenerated by satisfy"
+            },
+            "6.0.3": {
+                "name": "makeusabrew/bootbox",
+                "version": "6.0.3",
+                "version_normalized": "6.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/makeusabrew/bootbox.git",
+                    "reference": "v6.0.3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/v6.0.3"
+                },
+                "type": "library",
+                "description": "Autogenerated by satisfy"
+            },
+            "6.0.4": {
+                "name": "makeusabrew/bootbox",
+                "version": "6.0.4",
+                "version_normalized": "6.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/makeusabrew/bootbox.git",
+                    "reference": "v6.0.4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/v6.0.4"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
@@ -18636,11 +18855,11 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/makeusabrew/bootbox.git",
-                    "reference": "3fe769c609e86e24088bc8e6d80f91bbd9b7a56b"
+                    "reference": "3baa2720b524f8f50369a7233cb5ae1df39edbf6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/3fe769c609e86e24088bc8e6d80f91bbd9b7a56b"
+                    "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/3baa2720b524f8f50369a7233cb5ae1df39edbf6"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
@@ -18668,11 +18887,11 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/makeusabrew/bootbox.git",
-                    "reference": "5ba822e367bc63145eaa5e4c66f1f4b43a3110d6"
+                    "reference": "adb6a4560b717b6cba4c8f2c32aca45445c2f634"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/5ba822e367bc63145eaa5e4c66f1f4b43a3110d6"
+                    "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/adb6a4560b717b6cba4c8f2c32aca45445c2f634"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
@@ -18689,6 +18908,22 @@
                 "dist": {
                     "type": "zip",
                     "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/1287912ab0a01716e531d58b77b40bcb3de62443"
+                },
+                "type": "library",
+                "description": "Autogenerated by satisfy"
+            },
+            "dev-prompt-validation-fix": {
+                "name": "makeusabrew/bootbox",
+                "version": "dev-prompt-validation-fix",
+                "version_normalized": "dev-prompt-validation-fix",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/makeusabrew/bootbox.git",
+                    "reference": "b3a2fa2983b6802e0f03b3459ab8fefb756fef53"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/makeusabrew/bootbox/zipball/b3a2fa2983b6802e0f03b3459ab8fefb756fef53"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
@@ -19177,6 +19412,22 @@
                 "type": "library",
                 "description": "Autogenerated by satisfy"
             },
+            "2.5.19": {
+                "name": "mohsen1/json-formatter-js",
+                "version": "2.5.19",
+                "version_normalized": "2.5.19.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mohsen1/json-formatter-js",
+                    "reference": "v2.5.19"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/v2.5.19"
+                },
+                "type": "library",
+                "description": "Autogenerated by satisfy"
+            },
             "2.5.2": {
                 "name": "mohsen1/json-formatter-js",
                 "version": "2.5.2",
@@ -19189,6 +19440,70 @@
                 "dist": {
                     "type": "zip",
                     "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/v2.5.2"
+                },
+                "type": "library",
+                "description": "Autogenerated by satisfy"
+            },
+            "2.5.20": {
+                "name": "mohsen1/json-formatter-js",
+                "version": "2.5.20",
+                "version_normalized": "2.5.20.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mohsen1/json-formatter-js",
+                    "reference": "v2.5.20"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/v2.5.20"
+                },
+                "type": "library",
+                "description": "Autogenerated by satisfy"
+            },
+            "2.5.21": {
+                "name": "mohsen1/json-formatter-js",
+                "version": "2.5.21",
+                "version_normalized": "2.5.21.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mohsen1/json-formatter-js",
+                    "reference": "v2.5.21"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/v2.5.21"
+                },
+                "type": "library",
+                "description": "Autogenerated by satisfy"
+            },
+            "2.5.22": {
+                "name": "mohsen1/json-formatter-js",
+                "version": "2.5.22",
+                "version_normalized": "2.5.22.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mohsen1/json-formatter-js",
+                    "reference": "v2.5.22"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/v2.5.22"
+                },
+                "type": "library",
+                "description": "Autogenerated by satisfy"
+            },
+            "2.5.23": {
+                "name": "mohsen1/json-formatter-js",
+                "version": "2.5.23",
+                "version_normalized": "2.5.23.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mohsen1/json-formatter-js",
+                    "reference": "v2.5.23"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/v2.5.23"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
@@ -19337,86 +19652,6 @@
                 "type": "library",
                 "description": "Autogenerated by satisfy"
             },
-            "dev-dependabot/npm_and_yarn/cross-spawn-7.0.6": {
-                "name": "mohsen1/json-formatter-js",
-                "version": "dev-dependabot/npm_and_yarn/cross-spawn-7.0.6",
-                "version_normalized": "dev-dependabot/npm_and_yarn/cross-spawn-7.0.6",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mohsen1/json-formatter-js",
-                    "reference": "c694079a0d1aa42553c5191e4e84430b616131bf"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/c694079a0d1aa42553c5191e4e84430b616131bf"
-                },
-                "type": "library",
-                "description": "Autogenerated by satisfy"
-            },
-            "dev-dependabot/npm_and_yarn/express-4.21.0": {
-                "name": "mohsen1/json-formatter-js",
-                "version": "dev-dependabot/npm_and_yarn/express-4.21.0",
-                "version_normalized": "dev-dependabot/npm_and_yarn/express-4.21.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mohsen1/json-formatter-js",
-                    "reference": "68e204ace99bac5a7754528181ce6a99aefc6b14"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/68e204ace99bac5a7754528181ce6a99aefc6b14"
-                },
-                "type": "library",
-                "description": "Autogenerated by satisfy"
-            },
-            "dev-dependabot/npm_and_yarn/http-proxy-middleware-2.0.7": {
-                "name": "mohsen1/json-formatter-js",
-                "version": "dev-dependabot/npm_and_yarn/http-proxy-middleware-2.0.7",
-                "version_normalized": "dev-dependabot/npm_and_yarn/http-proxy-middleware-2.0.7",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mohsen1/json-formatter-js",
-                    "reference": "7e04dbec725d77d932c67cdbb76d4904e4cbee93"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/7e04dbec725d77d932c67cdbb76d4904e4cbee93"
-                },
-                "type": "library",
-                "description": "Autogenerated by satisfy"
-            },
-            "dev-dependabot/npm_and_yarn/rollup-2.79.2": {
-                "name": "mohsen1/json-formatter-js",
-                "version": "dev-dependabot/npm_and_yarn/rollup-2.79.2",
-                "version_normalized": "dev-dependabot/npm_and_yarn/rollup-2.79.2",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mohsen1/json-formatter-js",
-                    "reference": "fc9a367d4acaecee9efd6ad37177a3ae3c74df06"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/fc9a367d4acaecee9efd6ad37177a3ae3c74df06"
-                },
-                "type": "library",
-                "description": "Autogenerated by satisfy"
-            },
-            "dev-dependabot/npm_and_yarn/semver-5.7.2": {
-                "name": "mohsen1/json-formatter-js",
-                "version": "dev-dependabot/npm_and_yarn/semver-5.7.2",
-                "version_normalized": "dev-dependabot/npm_and_yarn/semver-5.7.2",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mohsen1/json-formatter-js",
-                    "reference": "334c7f3e6e8db14e500c8a1adaa24fef8006f2ca"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/334c7f3e6e8db14e500c8a1adaa24fef8006f2ca"
-                },
-                "type": "library",
-                "description": "Autogenerated by satisfy"
-            },
             "dev-gh-pages": {
                 "name": "mohsen1/json-formatter-js",
                 "version": "dev-gh-pages",
@@ -19424,11 +19659,11 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mohsen1/json-formatter-js",
-                    "reference": "d213797d64cde0301c489117073948e66a7e795e"
+                    "reference": "0d24c2eb0f9b46a854fc8e67d36e37aea9b88f9b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/d213797d64cde0301c489117073948e66a7e795e"
+                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/0d24c2eb0f9b46a854fc8e67d36e37aea9b88f9b"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
@@ -19456,11 +19691,11 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mohsen1/json-formatter-js",
-                    "reference": "07cf9841d938fd1c50aa67a78523f7b93f2aff47"
+                    "reference": "bd1b1bf983747f83c7747bde99488405f6db15a6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/07cf9841d938fd1c50aa67a78523f7b93f2aff47"
+                    "url": "https://api.github.com/repos/mohsen1/json-formatter-js/zipball/bd1b1bf983747f83c7747bde99488405f6db15a6"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
@@ -20004,11 +20239,11 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/RubaXa/Sortable",
-                    "reference": "63ecb31937d19fcb30aa924e82ee8a769ef34492"
+                    "reference": "3696da44b57c81dbe441aa48af28b0c38f6b11e2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/RubaXa/Sortable/zipball/63ecb31937d19fcb30aa924e82ee8a769ef34492"
+                    "url": "https://api.github.com/repos/RubaXa/Sortable/zipball/3696da44b57c81dbe441aa48af28b0c38f6b11e2"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
@@ -20449,6 +20684,38 @@
                 "type": "library",
                 "description": "Autogenerated by satisfy"
             },
+            "5.5.0": {
+                "name": "tristen/tablesort",
+                "version": "5.5.0",
+                "version_normalized": "5.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tristen/tablesort.git",
+                    "reference": "5.5.0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tristen/tablesort/zipball/5.5.0"
+                },
+                "type": "library",
+                "description": "Autogenerated by satisfy"
+            },
+            "5.6.0": {
+                "name": "tristen/tablesort",
+                "version": "5.6.0",
+                "version_normalized": "5.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tristen/tablesort.git",
+                    "reference": "5.6.0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tristen/tablesort/zipball/5.6.0"
+                },
+                "type": "library",
+                "description": "Autogenerated by satisfy"
+            },
             "dev-master": {
                 "name": "tristen/tablesort",
                 "version": "dev-master",
@@ -20456,11 +20723,11 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/tristen/tablesort.git",
-                    "reference": "0a2b881d4c59222f3ddfbc2d7fcb2731ce00ef93"
+                    "reference": "4ad381a447b8228d9550f8561ff8a6df8ef7dac2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/tristen/tablesort/zipball/0a2b881d4c59222f3ddfbc2d7fcb2731ce00ef93"
+                    "url": "https://api.github.com/repos/tristen/tablesort/zipball/4ad381a447b8228d9550f8561ff8a6df8ef7dac2"
                 },
                 "type": "library",
                 "description": "Autogenerated by satisfy"
