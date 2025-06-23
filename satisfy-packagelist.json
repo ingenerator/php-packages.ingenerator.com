@@ -31,14 +31,6 @@
     "url": "https://github.com/nostalgiaz/bootstrap-switch",
     "minversion": "3.3.2"
   },
-  "rubaxa/sortable" : {
-    "url": "https://github.com/RubaXa/Sortable",
-    "minversion": "1.15.0"
-  },
-  "stefanpenner/es6-promise": {
-    "url": "https://github.com/stefanpenner/es6-promise.git",
-    "minversion": "4.1.1"
-  },
   "tristen/tablesort": {
     "url": "https://github.com/tristen/tablesort.git",
     "minversion": "5.3.0"
