@@ -124,12 +124,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-core.git",
-                    "reference": "3d85f88e157cc6a345cfa6c3a910579b2a485754"
+                    "reference": "96e7ec4e15a72fae57cba6504d9b7fef3b620695"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/3d85f88e157cc6a345cfa6c3a910579b2a485754",
-                    "reference": "3d85f88e157cc6a345cfa6c3a910579b2a485754",
+                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/96e7ec4e15a72fae57cba6504d9b7fef3b620695",
+                    "reference": "96e7ec4e15a72fae57cba6504d9b7fef3b620695",
                     "shasum": ""
                 },
                 "require": {
@@ -143,7 +143,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^9.6.23"
                 },
-                "time": "2025-05-15T15:07:11+00:00",
+                "time": "2025-06-25T14:49:54+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -174,67 +174,7 @@
                     "web"
                 ],
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-core/tree/2.x",
-                    "issues": "https://github.com/ingenerator/warden-core/issues"
-                }
-            },
-            {
-                "name": "ingenerator/warden-core",
-                "version": "dev-2.x-feat-login-guard",
-                "version_normalized": "dev-2.x-feat-login-guard",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/warden-core.git",
-                    "reference": "07d39fac0c1d81c45409fa77d4b61692f504deb1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/07d39fac0c1d81c45409fa77d4b61692f504deb1",
-                    "reference": "07d39fac0c1d81c45409fa77d4b61692f504deb1",
-                    "shasum": ""
-                },
-                "require": {
-                    "egulias/email-validator": "^4.0.0",
-                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0 ",
-                    "symfony/validator": "^6.4.21 || ^7.4"
-                },
-                "conflict": {
-                    "symfony/translation-contracts": " < 3.5.1"
-                },
-                "require-dev": {
-                    "phpunit/phpunit": "^9.6.23"
-                },
-                "time": "2025-05-16T08:34:24+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\Warden\\Core\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    }
-                ],
-                "description": "Framework-and-driver-independent authentication and authorization package",
-                "homepage": "https://github.com/ingenerator/warden-core",
-                "keywords": [
-                    "acl",
-                    "auth",
-                    "web"
-                ],
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-core/tree/2.x-feat-login-guard",
+                    "source": "https://github.com/ingenerator/warden-core/tree/v2.1.0",
                     "issues": "https://github.com/ingenerator/warden-core/issues"
                 }
             }
