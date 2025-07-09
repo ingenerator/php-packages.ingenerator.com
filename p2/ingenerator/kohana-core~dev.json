@@ -652,12 +652,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "f6bac3bb454614e2bc5ce82e370586635dedecc4"
+                    "reference": "81b92e23407b4621b2c6f021d23c2570918f3e7c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/f6bac3bb454614e2bc5ce82e370586635dedecc4",
-                    "reference": "f6bac3bb454614e2bc5ce82e370586635dedecc4",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/81b92e23407b4621b2c6f021d23c2570918f3e7c",
+                    "reference": "81b92e23407b4621b2c6f021d23c2570918f3e7c",
                     "shasum": ""
                 },
                 "require": {
@@ -678,7 +678,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2025-07-09T13:35:14+00:00",
+                "time": "2025-07-09T17:52:01+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
