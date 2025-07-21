@@ -192,17 +192,17 @@
             },
             {
                 "name": "ingenerator/chrome-mink-driver",
-                "version": "dev-ingen-main-2",
-                "version_normalized": "dev-ingen-main-2",
+                "version": "dev-fork-reapply-conn-improvements",
+                "version_normalized": "dev-fork-reapply-conn-improvements",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/chrome-mink-driver.git",
-                    "reference": "0411bf5c8d82753ee78c86ec1d9ecab5c4ec4faa"
+                    "reference": "5d4e81f0b0842836e04774b36cc5e65160512f3d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/0411bf5c8d82753ee78c86ec1d9ecab5c4ec4faa",
-                    "reference": "0411bf5c8d82753ee78c86ec1d9ecab5c4ec4faa",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/5d4e81f0b0842836e04774b36cc5e65160512f3d",
+                    "reference": "5d4e81f0b0842836e04774b36cc5e65160512f3d",
                     "shasum": ""
                 },
                 "require": {
@@ -210,7 +210,7 @@
                     "ext-curl": "*",
                     "ext-json": "*",
                     "ext-mbstring": "*",
-                    "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
+                    "php": "^8.1",
                     "phrity/websocket": "^1.7.0"
                 },
                 "replace": {
@@ -221,7 +221,143 @@
                     "phpunit/phpunit": "^8.5.22 || ^9.5.11",
                     "squizlabs/php_codesniffer": "^3.5"
                 },
-                "time": "2024-10-17T12:06:06+00:00",
+                "time": "2025-07-21T14:41:33+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DMore\\ChromeDriver\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DMore\\ChromeDriverTests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "coverage": [
+                        "XDEBUG_MODE=coverage phpunit --log-junit phpunit-report.xml --coverage-cobertura phpunit-coverage.xml --coverage-text --colors=never"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dorian More",
+                        "email": "doriancmore@gmail.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Mink driver for controlling chrome without selenium",
+                "homepage": "https://gitlab.com/behat-chrome/chrome-mink-driver",
+                "support": {
+                    "issues": "https://gitlab.com/behat-chrome/chrome-mink-driver/-/issues",
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/fork-reapply-conn-improvements"
+                }
+            },
+            {
+                "name": "ingenerator/chrome-mink-driver",
+                "version": "dev-fork-support-php84",
+                "version_normalized": "dev-fork-support-php84",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
+                    "reference": "bd0240be209fbbbda15c8d06333512901c1097f2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/bd0240be209fbbbda15c8d06333512901c1097f2",
+                    "reference": "bd0240be209fbbbda15c8d06333512901c1097f2",
+                    "shasum": ""
+                },
+                "require": {
+                    "behat/mink": "^1.9",
+                    "ext-curl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "php": "^8.1",
+                    "phrity/websocket": "^3.2.0"
+                },
+                "replace": {
+                    "dmore/chrome-mink-driver": "*"
+                },
+                "require-dev": {
+                    "mink/driver-testsuite": "dev-master",
+                    "phpunit/phpunit": "^8.5.22 || ^9.5.11",
+                    "squizlabs/php_codesniffer": "^3.5"
+                },
+                "time": "2025-07-21T15:44:01+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DMore\\ChromeDriver\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DMore\\ChromeDriverTests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "coverage": [
+                        "XDEBUG_MODE=coverage phpunit --log-junit phpunit-report.xml --coverage-cobertura phpunit-coverage.xml --coverage-text --colors=never"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dorian More",
+                        "email": "doriancmore@gmail.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "Mink driver for controlling chrome without selenium",
+                "homepage": "https://gitlab.com/behat-chrome/chrome-mink-driver",
+                "support": {
+                    "issues": "https://gitlab.com/behat-chrome/chrome-mink-driver/-/issues",
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/fork-support-php84"
+                }
+            },
+            {
+                "name": "ingenerator/chrome-mink-driver",
+                "version": "dev-ingen-main-2",
+                "version_normalized": "dev-ingen-main-2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
+                    "reference": "966c6b272057cc7c8c25c4ea9123f9148aef0f55"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/966c6b272057cc7c8c25c4ea9123f9148aef0f55",
+                    "reference": "966c6b272057cc7c8c25c4ea9123f9148aef0f55",
+                    "shasum": ""
+                },
+                "require": {
+                    "behat/mink": "^1.9",
+                    "ext-curl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "php": "^8.1",
+                    "phrity/websocket": "^1.7.0"
+                },
+                "replace": {
+                    "dmore/chrome-mink-driver": "*"
+                },
+                "require-dev": {
+                    "mink/driver-testsuite": "dev-master",
+                    "phpunit/phpunit": "^8.5.22 || ^9.5.11",
+                    "squizlabs/php_codesniffer": "^3.5"
+                },
+                "time": "2025-07-21T14:59:15+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -256,7 +392,67 @@
                 "homepage": "https://gitlab.com/behat-chrome/chrome-mink-driver",
                 "support": {
                     "issues": "https://gitlab.com/behat-chrome/chrome-mink-driver/-/issues",
-                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/v2.9.4.2"
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/ingen-main-2"
+                }
+            },
+            {
+                "name": "ingenerator/chrome-mink-driver",
+                "version": "dev-ingen-main-2.9.4",
+                "version_normalized": "dev-ingen-main-2.9.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
+                    "reference": "dfcfc3b6e496ab55bdef62b465ca5874d7eee9c7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/dfcfc3b6e496ab55bdef62b465ca5874d7eee9c7",
+                    "reference": "dfcfc3b6e496ab55bdef62b465ca5874d7eee9c7",
+                    "shasum": ""
+                },
+                "require": {
+                    "behat/mink": "^1.9",
+                    "ext-curl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "phrity/websocket": "^1.7.0"
+                },
+                "require-dev": {
+                    "mink/driver-testsuite": "dev-master",
+                    "phpunit/phpunit": "^8.5.22 || ^9.5.11",
+                    "squizlabs/php_codesniffer": "^3.5"
+                },
+                "time": "2024-09-13T20:13:17+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DMore\\ChromeDriver\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DMore\\ChromeDriverTests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "coverage": [
+                        "XDEBUG_MODE=coverage phpunit --log-junit phpunit-report.xml --coverage-cobertura phpunit-coverage.xml --coverage-text --colors=never"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dorian More",
+                        "email": "doriancmore@gmail.com"
+                    }
+                ],
+                "description": "Mink driver for controlling chrome without selenium",
+                "homepage": "https://gitlab.com/behat-chrome/chrome-mink-driver",
+                "support": {
+                    "issues": "https://gitlab.com/behat-chrome/chrome-mink-driver/-/issues",
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/ingen-main-2.9.4"
                 }
             },
             {
@@ -322,17 +518,17 @@
             },
             {
                 "name": "ingenerator/chrome-mink-driver",
-                "version": "dev-minor-connection-improvements",
-                "version_normalized": "dev-minor-connection-improvements",
+                "version": "dev-merge-upstream-294-dev",
+                "version_normalized": "dev-merge-upstream-294-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/chrome-mink-driver.git",
-                    "reference": "69658a34463e472fa12ca4c1a5c9020be4724448"
+                    "reference": "dfcfc3b6e496ab55bdef62b465ca5874d7eee9c7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/69658a34463e472fa12ca4c1a5c9020be4724448",
-                    "reference": "69658a34463e472fa12ca4c1a5c9020be4724448",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/dfcfc3b6e496ab55bdef62b465ca5874d7eee9c7",
+                    "reference": "dfcfc3b6e496ab55bdef62b465ca5874d7eee9c7",
                     "shasum": ""
                 },
                 "require": {
@@ -347,7 +543,68 @@
                     "phpunit/phpunit": "^8.5.22 || ^9.5.11",
                     "squizlabs/php_codesniffer": "^3.5"
                 },
-                "time": "2024-10-01T10:18:44+00:00",
+                "time": "2024-09-13T20:13:17+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DMore\\ChromeDriver\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DMore\\ChromeDriverTests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "coverage": [
+                        "XDEBUG_MODE=coverage phpunit --log-junit phpunit-report.xml --coverage-cobertura phpunit-coverage.xml --coverage-text --colors=never"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Dorian More",
+                        "email": "doriancmore@gmail.com"
+                    }
+                ],
+                "description": "Mink driver for controlling chrome without selenium",
+                "homepage": "https://gitlab.com/behat-chrome/chrome-mink-driver",
+                "support": {
+                    "issues": "https://gitlab.com/behat-chrome/chrome-mink-driver/-/issues",
+                    "source": "https://github.com/ingenerator/chrome-mink-driver/tree/ingen-main-2.9.4"
+                }
+            },
+            {
+                "name": "ingenerator/chrome-mink-driver",
+                "version": "dev-minor-connection-improvements",
+                "version_normalized": "dev-minor-connection-improvements",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/chrome-mink-driver.git",
+                    "reference": "81a181a939bafebc27fb70679c4d1c5e4b384ea0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/81a181a939bafebc27fb70679c4d1c5e4b384ea0",
+                    "reference": "81a181a939bafebc27fb70679c4d1c5e4b384ea0",
+                    "shasum": ""
+                },
+                "require": {
+                    "behat/mink": "^1.9",
+                    "ext-curl": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "php": "^8.1",
+                    "phrity/websocket": "^1.7.0"
+                },
+                "require-dev": {
+                    "mink/driver-testsuite": "dev-master",
+                    "phpunit/phpunit": "^8.5.22 || ^9.5.11",
+                    "squizlabs/php_codesniffer": "^3.5"
+                },
+                "time": "2025-07-21T14:49:16+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -630,12 +887,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/chrome-mink-driver.git",
-                    "reference": "dfcfc3b6e496ab55bdef62b465ca5874d7eee9c7"
+                    "reference": "6d7b0a61316e4c80e4c16cf657e38c5f3e664835"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/dfcfc3b6e496ab55bdef62b465ca5874d7eee9c7",
-                    "reference": "dfcfc3b6e496ab55bdef62b465ca5874d7eee9c7",
+                    "url": "https://api.github.com/repos/ingenerator/chrome-mink-driver/zipball/6d7b0a61316e4c80e4c16cf657e38c5f3e664835",
+                    "reference": "6d7b0a61316e4c80e4c16cf657e38c5f3e664835",
                     "shasum": ""
                 },
                 "require": {
@@ -643,6 +900,7 @@
                     "ext-curl": "*",
                     "ext-json": "*",
                     "ext-mbstring": "*",
+                    "php": "^8.1",
                     "phrity/websocket": "^1.7.0"
                 },
                 "require-dev": {
@@ -650,7 +908,7 @@
                     "phpunit/phpunit": "^8.5.22 || ^9.5.11",
                     "squizlabs/php_codesniffer": "^3.5"
                 },
-                "time": "2024-09-13T20:13:17+00:00",
+                "time": "2025-02-05T18:28:53+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
