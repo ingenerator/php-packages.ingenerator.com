@@ -13813,12 +13813,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "c82e46d09d118c665eb93104c6cb4b5c78163f4c"
+                    "reference": "897d3d9a778c31d7cc88d07fb4565f410266b911"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/c82e46d09d118c665eb93104c6cb4b5c78163f4c",
-                    "reference": "c82e46d09d118c665eb93104c6cb4b5c78163f4c",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/897d3d9a778c31d7cc88d07fb4565f410266b911",
+                    "reference": "897d3d9a778c31d7cc88d07fb4565f410266b911",
                     "shasum": ""
                 },
                 "require": {
@@ -13831,7 +13831,7 @@
                 "require-dev": {
                     "fig/log-test": "^1.1",
                     "johnkary/phpunit-speedtrap": "^3.3",
-                    "kohana/koharness": "*@dev",
+                    "kohana/koharness": "dev-master",
                     "mikey179/vfsstream": "^1.6.11",
                     "phpunit/phpunit": "^9.5.5",
                     "symfony/process": "^7.0"
@@ -13842,7 +13842,7 @@
                     "symfony/mailer": "^6.3 to use the Symfony mailer dependency factory",
                     "symfony/sendgrid-mailer": "^6.3 to use Symfony mailer Sendgrid API transport"
                 },
-                "time": "2025-07-09T17:53:42+00:00",
+                "time": "2025-07-21T10:34:11+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
