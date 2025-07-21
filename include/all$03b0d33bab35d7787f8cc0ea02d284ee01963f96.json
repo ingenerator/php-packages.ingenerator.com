@@ -15817,12 +15817,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-core.git",
-                    "reference": "792ae9252207308004afa5acc9e66c9aa287859e"
+                    "reference": "7f445a1363c91345f8a4b17ae6135b634c6d592c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/792ae9252207308004afa5acc9e66c9aa287859e",
-                    "reference": "792ae9252207308004afa5acc9e66c9aa287859e",
+                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/7f445a1363c91345f8a4b17ae6135b634c6d592c",
+                    "reference": "7f445a1363c91345f8a4b17ae6135b634c6d592c",
                     "shasum": ""
                 },
                 "require": {
@@ -15836,7 +15836,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^9.6.23"
                 },
-                "time": "2025-07-21T19:49:54+00:00",
+                "time": "2025-07-21T21:43:03+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
