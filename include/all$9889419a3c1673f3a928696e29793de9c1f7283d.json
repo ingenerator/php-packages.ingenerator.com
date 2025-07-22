@@ -14189,12 +14189,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "897d3d9a778c31d7cc88d07fb4565f410266b911"
+                    "reference": "e24faed95e1ea5edabc10a9b4f9c68d7aa2495bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/897d3d9a778c31d7cc88d07fb4565f410266b911",
-                    "reference": "897d3d9a778c31d7cc88d07fb4565f410266b911",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/e24faed95e1ea5edabc10a9b4f9c68d7aa2495bd",
+                    "reference": "e24faed95e1ea5edabc10a9b4f9c68d7aa2495bd",
                     "shasum": ""
                 },
                 "require": {
@@ -14209,7 +14209,7 @@
                     "johnkary/phpunit-speedtrap": "^3.3",
                     "kohana/koharness": "dev-master",
                     "mikey179/vfsstream": "^1.6.11",
-                    "phpunit/phpunit": "^9.5.5",
+                    "phpunit/phpunit": "^9.6.23",
                     "symfony/process": "^7.0"
                 },
                 "suggest": {
@@ -14218,7 +14218,7 @@
                     "symfony/mailer": "^6.3 to use the Symfony mailer dependency factory",
                     "symfony/sendgrid-mailer": "^6.3 to use Symfony mailer Sendgrid API transport"
                 },
-                "time": "2025-07-21T10:34:11+00:00",
+                "time": "2025-07-22T10:00:22+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -14964,12 +14964,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-auth.git",
-                    "reference": "17569aae9316d2b11b60daa2485149ae01a77e3a"
+                    "reference": "66a30b0c4829780e0f8794f8be50d9b167804e80"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/17569aae9316d2b11b60daa2485149ae01a77e3a",
-                    "reference": "17569aae9316d2b11b60daa2485149ae01a77e3a",
+                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/66a30b0c4829780e0f8794f8be50d9b167804e80",
+                    "reference": "66a30b0c4829780e0f8794f8be50d9b167804e80",
                     "shasum": ""
                 },
                 "require": {
@@ -14980,7 +14980,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^11.5"
                 },
-                "time": "2025-07-21T18:38:37+00:00",
+                "time": "2025-07-22T09:47:41+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
