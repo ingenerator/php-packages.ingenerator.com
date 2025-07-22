@@ -513,6 +513,63 @@
                     "source": "https://github.com/ingenerator/warden-auth/tree/v1.5.0",
                     "issues": "https://github.com/ingenerator/warden-auth/issues"
                 }
+            },
+            {
+                "name": "ingenerator/warden-auth",
+                "version": "v1.6.0",
+                "version_normalized": "1.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-auth.git",
+                    "reference": "07f8a2963c604ac1fe891b769e4192ab7f0b76bf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/07f8a2963c604ac1fe891b769e4192ab7f0b76bf",
+                    "reference": "07f8a2963c604ac1fe891b769e4192ab7f0b76bf",
+                    "shasum": ""
+                },
+                "require": {
+                    "ingenerator/warden-core": "^1.2 || ^2.0",
+                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+                    "psr/log": "^1.0 || ^2.0 || ^3.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.6.23"
+                },
+                "time": "2025-07-22T19:48:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\Auth\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "User authorisation layer for warden authentication system",
+                "homepage": "https://github.com/ingenerator/warden-auth",
+                "keywords": [
+                    "acl",
+                    "auth",
+                    "web"
+                ],
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-auth/tree/v1.6.0",
+                    "issues": "https://github.com/ingenerator/warden-auth/issues"
+                }
             }
         ]
     }

@@ -65,23 +65,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-auth.git",
-                    "reference": "b962fc3cbc020fb5f8c5a115d131c856153cc493"
+                    "reference": "07f8a2963c604ac1fe891b769e4192ab7f0b76bf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/b962fc3cbc020fb5f8c5a115d131c856153cc493",
-                    "reference": "b962fc3cbc020fb5f8c5a115d131c856153cc493",
+                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/07f8a2963c604ac1fe891b769e4192ab7f0b76bf",
+                    "reference": "07f8a2963c604ac1fe891b769e4192ab7f0b76bf",
                     "shasum": ""
                 },
                 "require": {
                     "ingenerator/warden-core": "^1.2 || ^2.0",
-                    "php": "~8.2.0 || ~8.3.0",
+                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
                     "psr/log": "^1.0 || ^2.0 || ^3.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^9.5.5"
+                    "phpunit/phpunit": "^9.6.23"
                 },
-                "time": "2024-09-26T06:07:13+00:00",
+                "time": "2025-07-22T19:48:41+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -112,64 +112,7 @@
                     "web"
                 ],
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-auth/tree/v1.5.0",
-                    "issues": "https://github.com/ingenerator/warden-auth/issues"
-                }
-            },
-            {
-                "name": "ingenerator/warden-auth",
-                "version": "dev-support-php84",
-                "version_normalized": "dev-support-php84",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/warden-auth.git",
-                    "reference": "ca14f64f92f36ae1dddc41cb10cafb3641909c66"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/ca14f64f92f36ae1dddc41cb10cafb3641909c66",
-                    "reference": "ca14f64f92f36ae1dddc41cb10cafb3641909c66",
-                    "shasum": ""
-                },
-                "require": {
-                    "ingenerator/warden-core": "^1.2 || ^2.0",
-                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
-                    "psr/log": "^1.0 || ^2.0 || ^3.0"
-                },
-                "require-dev": {
-                    "phpunit/phpunit": "^9.6.23"
-                },
-                "time": "2025-07-22T18:48:46+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\Warden\\Auth\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    }
-                ],
-                "description": "User authorisation layer for warden authentication system",
-                "homepage": "https://github.com/ingenerator/warden-auth",
-                "keywords": [
-                    "acl",
-                    "auth",
-                    "web"
-                ],
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-auth/tree/support-php84",
+                    "source": "https://github.com/ingenerator/warden-auth/tree/v1.6.0",
                     "issues": "https://github.com/ingenerator/warden-auth/issues"
                 }
             },
