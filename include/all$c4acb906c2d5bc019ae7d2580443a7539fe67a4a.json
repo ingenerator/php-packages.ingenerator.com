@@ -10278,12 +10278,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "81b92e23407b4621b2c6f021d23c2570918f3e7c"
+                    "reference": "de98d32991419c2d18a368f242a616c4d17911f1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/81b92e23407b4621b2c6f021d23c2570918f3e7c",
-                    "reference": "81b92e23407b4621b2c6f021d23c2570918f3e7c",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/de98d32991419c2d18a368f242a616c4d17911f1",
+                    "reference": "de98d32991419c2d18a368f242a616c4d17911f1",
                     "shasum": ""
                 },
                 "require": {
@@ -10297,14 +10297,14 @@
                     "kohana/unittest": "3.3.*"
                 },
                 "require-dev": {
-                    "kohana/koharness": "*@dev",
+                    "kohana/koharness": "dev-master",
                     "phpunit/phpunit": "^9.5.22"
                 },
                 "suggest": {
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2025-07-09T17:52:01+00:00",
+                "time": "2025-07-21T22:15:45+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
