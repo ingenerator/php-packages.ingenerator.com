@@ -124,18 +124,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-core.git",
-                    "reference": "96e7ec4e15a72fae57cba6504d9b7fef3b620695"
+                    "reference": "76867c87b3c3fe70012aafc38cf19a7168e0a751"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/96e7ec4e15a72fae57cba6504d9b7fef3b620695",
-                    "reference": "96e7ec4e15a72fae57cba6504d9b7fef3b620695",
+                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/76867c87b3c3fe70012aafc38cf19a7168e0a751",
+                    "reference": "76867c87b3c3fe70012aafc38cf19a7168e0a751",
                     "shasum": ""
                 },
                 "require": {
                     "egulias/email-validator": "^4.0.0",
                     "php": "~8.2.0 || ~8.3.0 || ~8.4.0 ",
-                    "symfony/validator": "^6.4.21 || ^7.4"
+                    "symfony/validator": "^6.4.21 || ^7.3"
                 },
                 "conflict": {
                     "symfony/translation-contracts": " < 3.5.1"
@@ -143,7 +143,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^9.6.23"
                 },
-                "time": "2025-06-25T14:49:54+00:00",
+                "time": "2025-07-22T17:17:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -174,67 +174,7 @@
                     "web"
                 ],
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-core/tree/v2.1.0",
-                    "issues": "https://github.com/ingenerator/warden-core/issues"
-                }
-            },
-            {
-                "name": "ingenerator/warden-core",
-                "version": "dev-remove-error-strict-const",
-                "version_normalized": "dev-remove-error-strict-const",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/warden-core.git",
-                    "reference": "7f445a1363c91345f8a4b17ae6135b634c6d592c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/7f445a1363c91345f8a4b17ae6135b634c6d592c",
-                    "reference": "7f445a1363c91345f8a4b17ae6135b634c6d592c",
-                    "shasum": ""
-                },
-                "require": {
-                    "egulias/email-validator": "^4.0.0",
-                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0 ",
-                    "symfony/validator": "^6.4.21 || ^7.4"
-                },
-                "conflict": {
-                    "symfony/translation-contracts": " < 3.5.1"
-                },
-                "require-dev": {
-                    "phpunit/phpunit": "^9.6.23"
-                },
-                "time": "2025-07-21T21:43:03+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\Warden\\Core\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    }
-                ],
-                "description": "Framework-and-driver-independent authentication and authorization package",
-                "homepage": "https://github.com/ingenerator/warden-core",
-                "keywords": [
-                    "acl",
-                    "auth",
-                    "web"
-                ],
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-core/tree/remove-error-strict-const",
+                    "source": "https://github.com/ingenerator/warden-core/tree/v2.1.1",
                     "issues": "https://github.com/ingenerator/warden-core/issues"
                 }
             }

@@ -309,23 +309,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "843a87196e39a5409b9c4473ee642c2f9e7bcdad"
+                    "reference": "8cecc6750a280908664043c03f174a05fa9a7c86"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/843a87196e39a5409b9c4473ee642c2f9e7bcdad",
-                    "reference": "843a87196e39a5409b9c4473ee642c2f9e7bcdad",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/8cecc6750a280908664043c03f174a05fa9a7c86",
+                    "reference": "8cecc6750a280908664043c03f174a05fa9a7c86",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "^1.9",
                     "ext-json": "*",
-                    "ingenerator/kohana-core": "dev-4.x-php84 as dev-4.13.0@dev",
-                    "ingenerator/kohana-extras": "dev-support-php84@dev",
-                    "ingenerator/kohana-view": "dev-support-php84@dev",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^3.1",
+                    "ingenerator/kohana-view": "^4.4",
                     "ingenerator/tokenista": "^1.4",
-                    "ingenerator/warden-core": "dev-remove-error-strict-const@dev as v2.2.0",
-                    "ingenerator/warden-persistence-doctrine": "dev-support-php84@dev",
+                    "ingenerator/warden-core": "^2.0",
+                    "ingenerator/warden-persistence-doctrine": "^2.0",
                     "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
                     "symfony/mailer": "^7.2"
                 },
@@ -340,7 +340,7 @@
                 "suggest": {
                     "ingenerator/kohana-dependencies": "Dependency container for kohana"
                 },
-                "time": "2025-07-21T20:23:22+00:00",
+                "time": "2025-07-22T17:39:03+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
