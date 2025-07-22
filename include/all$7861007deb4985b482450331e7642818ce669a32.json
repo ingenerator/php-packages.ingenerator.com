@@ -10396,12 +10396,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "de98d32991419c2d18a368f242a616c4d17911f1"
+                    "reference": "ec3eb161f633a1cf525451ded9ad876c0a55e285"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/de98d32991419c2d18a368f242a616c4d17911f1",
-                    "reference": "de98d32991419c2d18a368f242a616c4d17911f1",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/ec3eb161f633a1cf525451ded9ad876c0a55e285",
+                    "reference": "ec3eb161f633a1cf525451ded9ad876c0a55e285",
                     "shasum": ""
                 },
                 "require": {
@@ -10422,7 +10422,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2025-07-21T22:15:45+00:00",
+                "time": "2025-07-22T11:40:27+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -14189,12 +14189,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "e24faed95e1ea5edabc10a9b4f9c68d7aa2495bd"
+                    "reference": "e715f2c11658117a6f8f6d028f2095a2b4bb9bdb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/e24faed95e1ea5edabc10a9b4f9c68d7aa2495bd",
-                    "reference": "e24faed95e1ea5edabc10a9b4f9c68d7aa2495bd",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/e715f2c11658117a6f8f6d028f2095a2b4bb9bdb",
+                    "reference": "e715f2c11658117a6f8f6d028f2095a2b4bb9bdb",
                     "shasum": ""
                 },
                 "require": {
@@ -14208,9 +14208,9 @@
                     "fig/log-test": "^1.1",
                     "johnkary/phpunit-speedtrap": "^3.3",
                     "kohana/koharness": "dev-master",
-                    "mikey179/vfsstream": "^1.6.11",
+                    "mikey179/vfsstream": "^1.6.12",
                     "phpunit/phpunit": "^9.6.23",
-                    "symfony/process": "^7.0"
+                    "symfony/process": "^7.1"
                 },
                 "suggest": {
                     "maximebf/debugbar": "^1.14 to use the debug bar in development environments",
@@ -14218,7 +14218,7 @@
                     "symfony/mailer": "^6.3 to use the Symfony mailer dependency factory",
                     "symfony/sendgrid-mailer": "^6.3 to use Symfony mailer Sendgrid API transport"
                 },
-                "time": "2025-07-22T10:00:22+00:00",
+                "time": "2025-07-22T10:33:48+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -16455,6 +16455,62 @@
                     "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
                 }
             },
+            "v2.1.0": {
+                "name": "ingenerator/warden-persistence-doctrine",
+                "version": "v2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
+                    "reference": "f217b37d114969d0c4234aa3e2d10a5e2fc06d9a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-persistence-doctrine/zipball/f217b37d114969d0c4234aa3e2d10a5e2fc06d9a",
+                    "reference": "f217b37d114969d0c4234aa3e2d10a5e2fc06d9a",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/orm": "^2.13.3",
+                    "ingenerator/warden-core": "^2.0",
+                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+                    "symfony/cache": "^7.3"
+                },
+                "conflict": {
+                    "doctrine/dbal": "<3.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.6.23"
+                },
+                "time": "2025-07-22T12:42:31+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\Persistence\\Doctrine\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Persistence provider for warden using doctrine2",
+                "homepage": "https://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v2.1.0",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
+            },
             "2.x-dev": {
                 "name": "ingenerator/warden-persistence-doctrine",
                 "version": "2.x-dev",
@@ -16462,27 +16518,27 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
-                    "reference": "8461f9328c65e3d8edebb3e19363e910944fb719"
+                    "reference": "f217b37d114969d0c4234aa3e2d10a5e2fc06d9a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-persistence-doctrine/zipball/8461f9328c65e3d8edebb3e19363e910944fb719",
-                    "reference": "8461f9328c65e3d8edebb3e19363e910944fb719",
+                    "url": "https://api.github.com/repos/ingenerator/warden-persistence-doctrine/zipball/f217b37d114969d0c4234aa3e2d10a5e2fc06d9a",
+                    "reference": "f217b37d114969d0c4234aa3e2d10a5e2fc06d9a",
                     "shasum": ""
                 },
                 "require": {
                     "doctrine/orm": "^2.13.3",
                     "ingenerator/warden-core": "^2.0",
-                    "php": "~8.2.0 || ~8.3.0",
-                    "symfony/cache": "^5.0 || ^6.0"
+                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+                    "symfony/cache": "^7.3"
                 },
                 "conflict": {
                     "doctrine/dbal": "<3.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^9.5.5"
+                    "phpunit/phpunit": "^9.6.23"
                 },
-                "time": "2024-09-25T16:10:23+00:00",
+                "time": "2025-07-22T12:42:31+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -16508,63 +16564,7 @@
                 "description": "Persistence provider for warden using doctrine2",
                 "homepage": "https://github.com/ingenerator/warden-persistence-doctrine",
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v2.0.0",
-                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
-                }
-            },
-            "dev-support-php84": {
-                "name": "ingenerator/warden-persistence-doctrine",
-                "version": "dev-support-php84",
-                "version_normalized": "dev-support-php84",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
-                    "reference": "ab5cec71bc3be73f649670250fc65a5129f734a5"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-persistence-doctrine/zipball/ab5cec71bc3be73f649670250fc65a5129f734a5",
-                    "reference": "ab5cec71bc3be73f649670250fc65a5129f734a5",
-                    "shasum": ""
-                },
-                "require": {
-                    "doctrine/orm": "^2.13.3",
-                    "ingenerator/warden-core": "^2.0",
-                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
-                    "symfony/cache": "^7.3"
-                },
-                "conflict": {
-                    "doctrine/dbal": "<3.0"
-                },
-                "require-dev": {
-                    "phpunit/phpunit": "^9.6.23"
-                },
-                "time": "2025-07-10T09:33:07+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\Warden\\Persistence\\Doctrine\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    }
-                ],
-                "description": "Persistence provider for warden using doctrine2",
-                "homepage": "https://github.com/ingenerator/warden-persistence-doctrine",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/support-php84",
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v2.1.0",
                     "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
                 }
             }

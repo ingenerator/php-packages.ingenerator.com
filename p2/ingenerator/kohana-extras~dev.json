@@ -216,12 +216,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "e24faed95e1ea5edabc10a9b4f9c68d7aa2495bd"
+                    "reference": "e715f2c11658117a6f8f6d028f2095a2b4bb9bdb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/e24faed95e1ea5edabc10a9b4f9c68d7aa2495bd",
-                    "reference": "e24faed95e1ea5edabc10a9b4f9c68d7aa2495bd",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/e715f2c11658117a6f8f6d028f2095a2b4bb9bdb",
+                    "reference": "e715f2c11658117a6f8f6d028f2095a2b4bb9bdb",
                     "shasum": ""
                 },
                 "require": {
@@ -235,9 +235,9 @@
                     "fig/log-test": "^1.1",
                     "johnkary/phpunit-speedtrap": "^3.3",
                     "kohana/koharness": "dev-master",
-                    "mikey179/vfsstream": "^1.6.11",
+                    "mikey179/vfsstream": "^1.6.12",
                     "phpunit/phpunit": "^9.6.23",
-                    "symfony/process": "^7.0"
+                    "symfony/process": "^7.1"
                 },
                 "suggest": {
                     "maximebf/debugbar": "^1.14 to use the debug bar in development environments",
@@ -245,7 +245,7 @@
                     "symfony/mailer": "^6.3 to use the Symfony mailer dependency factory",
                     "symfony/sendgrid-mailer": "^6.3 to use Symfony mailer Sendgrid API transport"
                 },
-                "time": "2025-07-22T10:00:22+00:00",
+                "time": "2025-07-22T10:33:48+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
