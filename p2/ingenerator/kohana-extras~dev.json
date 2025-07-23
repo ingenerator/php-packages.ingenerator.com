@@ -143,12 +143,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "d01ad6e4b6ce109cfb5b70a1a475eb21400aa958"
+                    "reference": "a8792314fb71de89ed3d02afe02219632ba799d2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/d01ad6e4b6ce109cfb5b70a1a475eb21400aa958",
-                    "reference": "d01ad6e4b6ce109cfb5b70a1a475eb21400aa958",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/a8792314fb71de89ed3d02afe02219632ba799d2",
+                    "reference": "a8792314fb71de89ed3d02afe02219632ba799d2",
                     "shasum": ""
                 },
                 "require": {
@@ -172,7 +172,7 @@
                     "symfony/mailer": "^6.3 to use the Symfony mailer dependency factory",
                     "symfony/sendgrid-mailer": "^6.3 to use Symfony mailer Sendgrid API transport"
                 },
-                "time": "2025-07-22T15:55:11+00:00",
+                "time": "2025-07-23T11:06:39+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -205,7 +205,7 @@
                 "description": "Helper and wrapper classes for Kohana",
                 "homepage": "https://github.com/ingenerator/kohana-extras",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-extras/tree/v3.3.0",
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v3.3.1",
                     "issues": "https://github.com/ingenerator/kohana-extras/issues"
                 }
             }
