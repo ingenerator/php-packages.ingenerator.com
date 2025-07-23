@@ -116,19 +116,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/image-processing.git",
-                    "reference": "7f8927db2be5d1b93b71725eb0a9cf75e6974e27"
+                    "reference": "a0ef2011154432d1f5d09a1632bd104277874896"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/7f8927db2be5d1b93b71725eb0a9cf75e6974e27",
-                    "reference": "7f8927db2be5d1b93b71725eb0a9cf75e6974e27",
+                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/a0ef2011154432d1f5d09a1632bd104277874896",
+                    "reference": "a0ef2011154432d1f5d09a1632bd104277874896",
                     "shasum": ""
                 },
                 "require": {
                     "ext-ffi": "*",
                     "ingenerator/php-utils": "^1.17 || ^2.0",
                     "jcupitt/vips": "^2.1",
-                    "php": "~8.3.0",
+                    "php": "~8.4.0",
                     "symfony/process": "^7.0"
                 },
                 "require-dev": {
@@ -136,7 +136,7 @@
                     "phpunit/phpunit": "^11.0",
                     "symfony/filesystem": "^7.0"
                 },
-                "time": "2024-12-18T10:55:21+00:00",
+                "time": "2025-07-23T08:51:15+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -160,61 +160,7 @@
                 ],
                 "description": "libvips image processing library",
                 "support": {
-                    "source": "https://github.com/ingenerator/image-processing/tree/2.x",
-                    "issues": "https://github.com/ingenerator/image-processing/issues"
-                }
-            },
-            {
-                "name": "ingenerator/image-processing",
-                "version": "dev-support-php84",
-                "version_normalized": "dev-support-php84",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/image-processing.git",
-                    "reference": "e9f276b9295e9a2f443285921907ed4369b79aa7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/e9f276b9295e9a2f443285921907ed4369b79aa7",
-                    "reference": "e9f276b9295e9a2f443285921907ed4369b79aa7",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ffi": "*",
-                    "ingenerator/php-utils": "^1.17 || ^2.0",
-                    "jcupitt/vips": "^2.1",
-                    "php": "~8.4.0",
-                    "symfony/process": "^7.0"
-                },
-                "require-dev": {
-                    "ergebnis/phpunit-slow-test-detector": "^2.6",
-                    "phpunit/phpunit": "^11.0",
-                    "symfony/filesystem": "^7.0"
-                },
-                "time": "2025-07-23T07:35:25+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\ImageProcessing\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "test\\": "test/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com"
-                    }
-                ],
-                "description": "libvips image processing library",
-                "support": {
-                    "source": "https://github.com/ingenerator/image-processing/tree/support-php84",
+                    "source": "https://github.com/ingenerator/image-processing/tree/v2.3.0",
                     "issues": "https://github.com/ingenerator/image-processing/issues"
                 }
             }
