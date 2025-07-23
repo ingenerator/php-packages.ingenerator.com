@@ -4839,6 +4839,66 @@
                     "source": "https://github.com/ingenerator/cloud-tasks-wrapper",
                     "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
                 }
+            },
+            "dev-support-php84": {
+                "name": "ingenerator/cloud-tasks-wrapper",
+                "version": "dev-support-php84",
+                "version_normalized": "dev-support-php84",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
+                    "reference": "ea13add3dd59991a690923345583184a0ed4c71e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/ea13add3dd59991a690923345583184a0ed4c71e",
+                    "reference": "ea13add3dd59991a690923345583184a0ed4c71e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-bcmath": "*",
+                    "google/cloud-tasks": "^1.15.2",
+                    "google/gax": "^1.29.1",
+                    "google/protobuf": "^4.29",
+                    "ingenerator/oidc-token-verifier": "dev-support-php84@dev",
+                    "ingenerator/php-utils": "^2.0",
+                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+                    "psr/http-message": "^2.0"
+                },
+                "require-dev": {
+                    "ext-grpc": "*",
+                    "fig/log-test": "^1.1",
+                    "guzzlehttp/psr7": "^2.6",
+                    "phpunit/phpunit": "^9.6.23"
+                },
+                "time": "2025-07-23T07:29:05+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\CloudTasksWrapper\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\mock\\Ingenerator\\CloudTasksWrapper\\": "test/mock",
+                        "test\\unit\\Ingenerator\\CloudTasksWrapper\\": "test/unit"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com"
+                    }
+                ],
+                "description": "Library for dispatching and processing Google Cloud Tasks from PHP",
+                "homepage": "https://github.com/ingenerator/cloud-tasks-wrapper",
+                "support": {
+                    "source": "https://github.com/ingenerator/cloud-tasks-wrapper",
+                    "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
+                }
             }
         },
         "ingenerator/content-snippets": {
@@ -7630,6 +7690,60 @@
                 "description": "libvips image processing library",
                 "support": {
                     "source": "https://github.com/ingenerator/image-processing/tree/2.x",
+                    "issues": "https://github.com/ingenerator/image-processing/issues"
+                }
+            },
+            "dev-support-php84": {
+                "name": "ingenerator/image-processing",
+                "version": "dev-support-php84",
+                "version_normalized": "dev-support-php84",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/image-processing.git",
+                    "reference": "e9f276b9295e9a2f443285921907ed4369b79aa7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/e9f276b9295e9a2f443285921907ed4369b79aa7",
+                    "reference": "e9f276b9295e9a2f443285921907ed4369b79aa7",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ffi": "*",
+                    "ingenerator/php-utils": "^1.17 || ^2.0",
+                    "jcupitt/vips": "^2.1",
+                    "php": "~8.4.0",
+                    "symfony/process": "^7.0"
+                },
+                "require-dev": {
+                    "ergebnis/phpunit-slow-test-detector": "^2.6",
+                    "phpunit/phpunit": "^11.0",
+                    "symfony/filesystem": "^7.0"
+                },
+                "time": "2025-07-23T07:35:25+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ImageProcessing\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\": "test/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "libvips image processing library",
+                "support": {
+                    "source": "https://github.com/ingenerator/image-processing/tree/support-php84",
                     "issues": "https://github.com/ingenerator/image-processing/issues"
                 }
             }
@@ -15026,12 +15140,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-auth.git",
-                    "reference": "4c821a122f262076717dc6ee8491d44306fd099a"
+                    "reference": "fa45fe49727e56a27a7886c26eba4960504428f3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/4c821a122f262076717dc6ee8491d44306fd099a",
-                    "reference": "4c821a122f262076717dc6ee8491d44306fd099a",
+                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/fa45fe49727e56a27a7886c26eba4960504428f3",
+                    "reference": "fa45fe49727e56a27a7886c26eba4960504428f3",
                     "shasum": ""
                 },
                 "require": {
@@ -15042,7 +15156,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^11.5"
                 },
-                "time": "2025-07-22T18:39:51+00:00",
+                "time": "2025-07-23T07:35:56+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {

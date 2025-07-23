@@ -123,12 +123,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-auth.git",
-                    "reference": "4c821a122f262076717dc6ee8491d44306fd099a"
+                    "reference": "fa45fe49727e56a27a7886c26eba4960504428f3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/4c821a122f262076717dc6ee8491d44306fd099a",
-                    "reference": "4c821a122f262076717dc6ee8491d44306fd099a",
+                    "url": "https://api.github.com/repos/ingenerator/warden-auth/zipball/fa45fe49727e56a27a7886c26eba4960504428f3",
+                    "reference": "fa45fe49727e56a27a7886c26eba4960504428f3",
                     "shasum": ""
                 },
                 "require": {
@@ -139,7 +139,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "^11.5"
                 },
-                "time": "2025-07-22T18:39:51+00:00",
+                "time": "2025-07-23T07:35:56+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
