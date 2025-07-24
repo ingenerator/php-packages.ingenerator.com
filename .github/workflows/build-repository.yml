@@ -56,9 +56,9 @@ jobs:
           # Or as github actions if this was a dispatch or a scheduled action
           if [ $GITHUB_EVENT_NAME == 'push' ]
           then
-            echo "::set-output name=author::$GITHUB_ACTOR"
+            echo "author=$GITHUB_ACTOR" >> $GITHUB_OUTPUT
           else
-            echo "::set-output name=author::github-actions[bot]"
+            echo "author=github-actions[bot]" >> $GITHUB_OUTPUT
           fi
 
       - name: Publish to github pages
