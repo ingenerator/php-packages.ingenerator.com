@@ -11549,23 +11549,23 @@
                     "source": "https://github.com/ingenerator/kohana-dependencies"
                 }
             },
-            "1.x-dev": {
+            "v1.5.1": {
                 "name": "ingenerator/kohana-dependencies",
-                "version": "1.x-dev",
-                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "version": "v1.5.1",
+                "version_normalized": "1.5.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-dependencies.git",
-                    "reference": "aeca3f9e331abd11d5b302463e8643b5c24a3f49"
+                    "reference": "9e3f5e3043467852bbd61cf4360320c9f72906db"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/aeca3f9e331abd11d5b302463e8643b5c24a3f49",
-                    "reference": "aeca3f9e331abd11d5b302463e8643b5c24a3f49",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/9e3f5e3043467852bbd61cf4360320c9f72906db",
+                    "reference": "9e3f5e3043467852bbd61cf4360320c9f72906db",
                     "shasum": ""
                 },
                 "require": {
-                    "composer/installers": "~1.0",
+                    "composer/installers": "^1.12 || ^2.0",
                     "ingenerator/kohana-core": "^4.7",
                     "php": "~8.2.0 || ~8.3.0 || ~8.4.0"
                 },
@@ -11577,8 +11577,7 @@
                     "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^9.5.5"
                 },
-                "time": "2025-07-22T15:27:12+00:00",
-                "default-branch": true,
+                "time": "2025-07-25T08:49:11+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -11626,19 +11625,19 @@
                     "source": "https://github.com/ingenerator/kohana-dependencies"
                 }
             },
-            "dev-bump-composer-installers": {
+            "1.x-dev": {
                 "name": "ingenerator/kohana-dependencies",
-                "version": "dev-bump-composer-installers",
-                "version_normalized": "dev-bump-composer-installers",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-dependencies.git",
-                    "reference": "5b3a7c27fa59fcb55d59f1879f0bb2f40436479a"
+                    "reference": "9e3f5e3043467852bbd61cf4360320c9f72906db"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/5b3a7c27fa59fcb55d59f1879f0bb2f40436479a",
-                    "reference": "5b3a7c27fa59fcb55d59f1879f0bb2f40436479a",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/9e3f5e3043467852bbd61cf4360320c9f72906db",
+                    "reference": "9e3f5e3043467852bbd61cf4360320c9f72906db",
                     "shasum": ""
                 },
                 "require": {
@@ -11654,7 +11653,8 @@
                     "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^9.5.5"
                 },
-                "time": "2025-07-24T10:47:59+00:00",
+                "time": "2025-07-25T08:49:11+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-0": {
