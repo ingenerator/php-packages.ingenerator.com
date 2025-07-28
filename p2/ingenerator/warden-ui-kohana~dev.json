@@ -234,16 +234,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "65aebe6d5d6e7378f57eddcff784518e7cef8244"
+                    "reference": "ca1eb38eeef527be123cb36047850113e7dee6e6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/65aebe6d5d6e7378f57eddcff784518e7cef8244",
-                    "reference": "65aebe6d5d6e7378f57eddcff784518e7cef8244",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/ca1eb38eeef527be123cb36047850113e7dee6e6",
+                    "reference": "ca1eb38eeef527be123cb36047850113e7dee6e6",
                     "shasum": ""
                 },
                 "require": {
-                    "composer/installers": "^1.9",
+                    "composer/installers": "^1.9 || ^2.0",
                     "ext-json": "*",
                     "ingenerator/kohana-core": "^4.7",
                     "ingenerator/kohana-extras": "^3.1",
@@ -265,7 +265,7 @@
                 "suggest": {
                     "ingenerator/kohana-dependencies": "Dependency container for kohana"
                 },
-                "time": "2025-07-22T18:46:35+00:00",
+                "time": "2025-07-28T09:33:57+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -298,7 +298,7 @@
                 "description": "Front-end and kohana application integration for Warden",
                 "homepage": "https://github.com/ingenerator/warden-ui-kohana",
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v3.3.0",
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v3.3.1",
                     "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
                 }
             }
