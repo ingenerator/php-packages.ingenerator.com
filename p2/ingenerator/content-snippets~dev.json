@@ -125,16 +125,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "92f67c8e1e7468c2b6ab2ae438ad6d4529386bf6"
+                    "reference": "729891a35f577b7949abb882aedce7e20d06cfc3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/92f67c8e1e7468c2b6ab2ae438ad6d4529386bf6",
-                    "reference": "92f67c8e1e7468c2b6ab2ae438ad6d4529386bf6",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/729891a35f577b7949abb882aedce7e20d06cfc3",
+                    "reference": "729891a35f577b7949abb882aedce7e20d06cfc3",
                     "shasum": ""
                 },
                 "require": {
-                    "composer/installers": "^1.9",
+                    "composer/installers": "^1.12 || ^2",
                     "ezyang/htmlpurifier": "^4.15",
                     "ingenerator/kohana-core": "^4.7",
                     "ingenerator/kohana-extras": "^2.0 || ^3.0",
@@ -145,7 +145,7 @@
                     "kohana/koharness": "dev-master",
                     "phpunit/phpunit": "^11.5"
                 },
-                "time": "2025-07-22T17:07:09+00:00",
+                "time": "2025-07-29T09:56:24+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -173,7 +173,7 @@
                 "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
                 "homepage": "https://github.com/ingenerator/content-snippets",
                 "support": {
-                    "source": "https://github.com/ingenerator/content-snippets/tree/v2.1.0",
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v2.1.1",
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
             }
