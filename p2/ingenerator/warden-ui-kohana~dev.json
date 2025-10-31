@@ -309,12 +309,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "9c98ffe99a6c4f8310399c337229b6caf4dd1441"
+                    "reference": "2a0a918b458c600bb10a0bfcccc66930c5048583"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/9c98ffe99a6c4f8310399c337229b6caf4dd1441",
-                    "reference": "9c98ffe99a6c4f8310399c337229b6caf4dd1441",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/2a0a918b458c600bb10a0bfcccc66930c5048583",
+                    "reference": "2a0a918b458c600bb10a0bfcccc66930c5048583",
                     "shasum": ""
                 },
                 "require": {
@@ -322,11 +322,11 @@
                     "ext-json": "*",
                     "ingenerator/kohana-core": "^4.7",
                     "ingenerator/kohana-extras": "^3.1",
-                    "ingenerator/kohana-view": "dev-5.x-feat-native-model-properties-impl@dev",
+                    "ingenerator/kohana-view": "5.x-dev@dev",
                     "ingenerator/tokenista": "^1.4",
                     "ingenerator/warden-core": "^2.1.1",
                     "ingenerator/warden-persistence-doctrine": "^2.0",
-                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+                    "php": ">=8.4 <8.5",
                     "symfony/mailer": "^7.2"
                 },
                 "conflict": {
@@ -340,7 +340,7 @@
                 "suggest": {
                     "ingenerator/kohana-dependencies": "Dependency container for kohana"
                 },
-                "time": "2025-10-28T17:55:55+00:00",
+                "time": "2025-10-31T13:26:42+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {

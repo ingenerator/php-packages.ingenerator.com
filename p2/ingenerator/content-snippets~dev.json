@@ -176,6 +176,66 @@
                     "source": "https://github.com/ingenerator/content-snippets/tree/v2.1.1",
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
+            },
+            {
+                "name": "ingenerator/content-snippets",
+                "version": "dev-feat-kohana-view-5",
+                "version_normalized": "dev-feat-kohana-view-5",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/content-snippets.git",
+                    "reference": "725c5ee3150d53f42d3a8d6bbd0540a0f1bac35e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/725c5ee3150d53f42d3a8d6bbd0540a0f1bac35e",
+                    "reference": "725c5ee3150d53f42d3a8d6bbd0540a0f1bac35e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.12 || ^2",
+                    "ezyang/htmlpurifier": "^4.15",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^2.0 || ^3.0",
+                    "ingenerator/kohana-view": "5.x-dev@dev",
+                    "php": ">=8.4 <8.5"
+                },
+                "require-dev": {
+                    "ingenerator/kohana-view-v5-migration-tool": "*@dev",
+                    "kohana/koharness": "dev-master",
+                    "phpunit/phpunit": "^11.5",
+                    "rector/rector": "^2.2"
+                },
+                "time": "2025-10-31T13:30:59+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ContentSnippets\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
+                "homepage": "https://github.com/ingenerator/content-snippets",
+                "support": {
+                    "source": "https://github.com/ingenerator/content-snippets/tree/feat-kohana-view-5",
+                    "issues": "https://github.com/ingenerator/content-snippets/issues"
+                }
             }
         ]
     }
