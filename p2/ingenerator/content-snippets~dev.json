@@ -146,7 +146,6 @@
                     "phpunit/phpunit": "^11.5"
                 },
                 "time": "2025-07-29T09:56:24+00:00",
-                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -184,70 +183,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "729891a35f577b7949abb882aedce7e20d06cfc3"
+                    "reference": "5f9c6f69bb751a78e12390f4b35e7e907748c0e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/729891a35f577b7949abb882aedce7e20d06cfc3",
-                    "reference": "729891a35f577b7949abb882aedce7e20d06cfc3",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer/installers": "^1.12 || ^2",
-                    "ezyang/htmlpurifier": "^4.15",
-                    "ingenerator/kohana-core": "^4.7",
-                    "ingenerator/kohana-extras": "^2.0 || ^3.0",
-                    "ingenerator/kohana-view": "^4.4",
-                    "php": "~8.3.0 || ~8.4.0"
-                },
-                "require-dev": {
-                    "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^11.5"
-                },
-                "time": "2025-07-29T09:56:24+00:00",
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\ContentSnippets\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    }
-                ],
-                "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
-                "homepage": "https://github.com/ingenerator/content-snippets",
-                "support": {
-                    "source": "https://github.com/ingenerator/content-snippets/tree/v2.1.1",
-                    "issues": "https://github.com/ingenerator/content-snippets/issues"
-                }
-            },
-            {
-                "name": "ingenerator/content-snippets",
-                "version": "dev-feat-kohana-view-5",
-                "version_normalized": "dev-feat-kohana-view-5",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "7ec06e2557baf36ac101b7c1f88d40d35702dbeb"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/7ec06e2557baf36ac101b7c1f88d40d35702dbeb",
-                    "reference": "7ec06e2557baf36ac101b7c1f88d40d35702dbeb",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/5f9c6f69bb751a78e12390f4b35e7e907748c0e9",
+                    "reference": "5f9c6f69bb751a78e12390f4b35e7e907748c0e9",
                     "shasum": ""
                 },
                 "require": {
@@ -262,7 +203,8 @@
                     "kohana/koharness": "dev-master",
                     "phpunit/phpunit": "^11.5"
                 },
-                "time": "2025-11-03T14:49:54+00:00",
+                "time": "2025-11-04T09:37:02+00:00",
+                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -289,7 +231,7 @@
                 "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
                 "homepage": "https://github.com/ingenerator/content-snippets",
                 "support": {
-                    "source": "https://github.com/ingenerator/content-snippets/tree/feat-kohana-view-5",
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v3.0.0-ALPHA",
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
             }

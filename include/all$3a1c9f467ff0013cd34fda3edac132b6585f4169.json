@@ -5924,6 +5924,122 @@
                     "phpunit/phpunit": "^11.5"
                 },
                 "time": "2025-07-29T09:56:24+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ContentSnippets\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
+                "homepage": "https://github.com/ingenerator/content-snippets",
+                "support": {
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v2.1.1",
+                    "issues": "https://github.com/ingenerator/content-snippets/issues"
+                }
+            },
+            "v3.0.0-ALPHA": {
+                "name": "ingenerator/content-snippets",
+                "version": "v3.0.0-ALPHA",
+                "version_normalized": "3.0.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/content-snippets.git",
+                    "reference": "5f9c6f69bb751a78e12390f4b35e7e907748c0e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/5f9c6f69bb751a78e12390f4b35e7e907748c0e9",
+                    "reference": "5f9c6f69bb751a78e12390f4b35e7e907748c0e9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.12 || ^2",
+                    "ezyang/htmlpurifier": "^4.15",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^2.0 || ^3.0",
+                    "ingenerator/kohana-view": "^5.0@alpha",
+                    "php": ">=8.4 <8.5"
+                },
+                "require-dev": {
+                    "kohana/koharness": "dev-master",
+                    "phpunit/phpunit": "^11.5"
+                },
+                "time": "2025-11-04T09:37:02+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ContentSnippets\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
+                "homepage": "https://github.com/ingenerator/content-snippets",
+                "support": {
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v3.0.0-ALPHA",
+                    "issues": "https://github.com/ingenerator/content-snippets/issues"
+                }
+            },
+            "3.x-dev": {
+                "name": "ingenerator/content-snippets",
+                "version": "3.x-dev",
+                "version_normalized": "3.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/content-snippets.git",
+                    "reference": "5f9c6f69bb751a78e12390f4b35e7e907748c0e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/5f9c6f69bb751a78e12390f4b35e7e907748c0e9",
+                    "reference": "5f9c6f69bb751a78e12390f4b35e7e907748c0e9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.12 || ^2",
+                    "ezyang/htmlpurifier": "^4.15",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^2.0 || ^3.0",
+                    "ingenerator/kohana-view": "^5.0@alpha",
+                    "php": ">=8.4 <8.5"
+                },
+                "require-dev": {
+                    "kohana/koharness": "dev-master",
+                    "phpunit/phpunit": "^11.5"
+                },
+                "time": "2025-11-04T09:37:02+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -5951,123 +6067,7 @@
                 "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
                 "homepage": "https://github.com/ingenerator/content-snippets",
                 "support": {
-                    "source": "https://github.com/ingenerator/content-snippets/tree/v2.1.1",
-                    "issues": "https://github.com/ingenerator/content-snippets/issues"
-                }
-            },
-            "3.x-dev": {
-                "name": "ingenerator/content-snippets",
-                "version": "3.x-dev",
-                "version_normalized": "3.9999999.9999999.9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "729891a35f577b7949abb882aedce7e20d06cfc3"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/729891a35f577b7949abb882aedce7e20d06cfc3",
-                    "reference": "729891a35f577b7949abb882aedce7e20d06cfc3",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer/installers": "^1.12 || ^2",
-                    "ezyang/htmlpurifier": "^4.15",
-                    "ingenerator/kohana-core": "^4.7",
-                    "ingenerator/kohana-extras": "^2.0 || ^3.0",
-                    "ingenerator/kohana-view": "^4.4",
-                    "php": "~8.3.0 || ~8.4.0"
-                },
-                "require-dev": {
-                    "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^11.5"
-                },
-                "time": "2025-07-29T09:56:24+00:00",
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\ContentSnippets\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    }
-                ],
-                "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
-                "homepage": "https://github.com/ingenerator/content-snippets",
-                "support": {
-                    "source": "https://github.com/ingenerator/content-snippets/tree/v2.1.1",
-                    "issues": "https://github.com/ingenerator/content-snippets/issues"
-                }
-            },
-            "dev-feat-kohana-view-5": {
-                "name": "ingenerator/content-snippets",
-                "version": "dev-feat-kohana-view-5",
-                "version_normalized": "dev-feat-kohana-view-5",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "7ec06e2557baf36ac101b7c1f88d40d35702dbeb"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/7ec06e2557baf36ac101b7c1f88d40d35702dbeb",
-                    "reference": "7ec06e2557baf36ac101b7c1f88d40d35702dbeb",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer/installers": "^1.12 || ^2",
-                    "ezyang/htmlpurifier": "^4.15",
-                    "ingenerator/kohana-core": "^4.7",
-                    "ingenerator/kohana-extras": "^2.0 || ^3.0",
-                    "ingenerator/kohana-view": "^5.0@alpha",
-                    "php": ">=8.4 <8.5"
-                },
-                "require-dev": {
-                    "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^11.5"
-                },
-                "time": "2025-11-03T14:49:54+00:00",
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\ContentSnippets\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    }
-                ],
-                "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
-                "homepage": "https://github.com/ingenerator/content-snippets",
-                "support": {
-                    "source": "https://github.com/ingenerator/content-snippets/tree/feat-kohana-view-5",
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v3.0.0-ALPHA",
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
             }
@@ -19236,6 +19236,154 @@
                     "ingenerator/kohana-dependencies": "Dependency container for kohana"
                 },
                 "time": "2025-07-28T09:33:57+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\UI\\Kohana\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Front-end and kohana application integration for Warden",
+                "homepage": "https://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v3.3.1",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
+            },
+            "v4.0.0-ALPHA": {
+                "name": "ingenerator/warden-ui-kohana",
+                "version": "v4.0.0-ALPHA",
+                "version_normalized": "4.0.0.0-alpha",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "reference": "ba0a1bceb0b8b1e185903d09146a58e81ecb972c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/ba0a1bceb0b8b1e185903d09146a58e81ecb972c",
+                    "reference": "ba0a1bceb0b8b1e185903d09146a58e81ecb972c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.9 || ^2.0",
+                    "ext-json": "*",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^3.1",
+                    "ingenerator/kohana-view": "5.x-dev@dev",
+                    "ingenerator/tokenista": "^1.4",
+                    "ingenerator/warden-core": "^2.1.1",
+                    "ingenerator/warden-persistence-doctrine": "^2.0",
+                    "php": ">=8.4 <8.5",
+                    "symfony/mailer": "^7.2"
+                },
+                "conflict": {
+                    "egulias/email-validator": "<3.2.1"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "kohana/koharness": "dev-master",
+                    "phpunit/phpunit": "^9.6.23"
+                },
+                "suggest": {
+                    "ingenerator/kohana-dependencies": "Dependency container for kohana"
+                },
+                "time": "2025-11-04T09:33:53+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\UI\\Kohana\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Front-end and kohana application integration for Warden",
+                "homepage": "https://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v4.0.0-ALPHA",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
+            },
+            "4.x-dev": {
+                "name": "ingenerator/warden-ui-kohana",
+                "version": "4.x-dev",
+                "version_normalized": "4.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "reference": "ba0a1bceb0b8b1e185903d09146a58e81ecb972c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/ba0a1bceb0b8b1e185903d09146a58e81ecb972c",
+                    "reference": "ba0a1bceb0b8b1e185903d09146a58e81ecb972c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.9 || ^2.0",
+                    "ext-json": "*",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^3.1",
+                    "ingenerator/kohana-view": "5.x-dev@dev",
+                    "ingenerator/tokenista": "^1.4",
+                    "ingenerator/warden-core": "^2.1.1",
+                    "ingenerator/warden-persistence-doctrine": "^2.0",
+                    "php": ">=8.4 <8.5",
+                    "symfony/mailer": "^7.2"
+                },
+                "conflict": {
+                    "egulias/email-validator": "<3.2.1"
+                },
+                "require-dev": {
+                    "johnkary/phpunit-speedtrap": "^3.3",
+                    "kohana/koharness": "dev-master",
+                    "phpunit/phpunit": "^9.6.23"
+                },
+                "suggest": {
+                    "ingenerator/kohana-dependencies": "Dependency container for kohana"
+                },
+                "time": "2025-11-04T09:33:53+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -19268,155 +19416,7 @@
                 "description": "Front-end and kohana application integration for Warden",
                 "homepage": "https://github.com/ingenerator/warden-ui-kohana",
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v3.3.1",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
-            },
-            "4.x-dev": {
-                "name": "ingenerator/warden-ui-kohana",
-                "version": "4.x-dev",
-                "version_normalized": "4.9999999.9999999.9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "ca1eb38eeef527be123cb36047850113e7dee6e6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/ca1eb38eeef527be123cb36047850113e7dee6e6",
-                    "reference": "ca1eb38eeef527be123cb36047850113e7dee6e6",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer/installers": "^1.9 || ^2.0",
-                    "ext-json": "*",
-                    "ingenerator/kohana-core": "^4.7",
-                    "ingenerator/kohana-extras": "^3.1",
-                    "ingenerator/kohana-view": "^4.4",
-                    "ingenerator/tokenista": "^1.4",
-                    "ingenerator/warden-core": "^2.1.1",
-                    "ingenerator/warden-persistence-doctrine": "^2.0",
-                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
-                    "symfony/mailer": "^7.2"
-                },
-                "conflict": {
-                    "egulias/email-validator": "<3.2.1"
-                },
-                "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.3",
-                    "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^9.6.23"
-                },
-                "suggest": {
-                    "ingenerator/kohana-dependencies": "Dependency container for kohana"
-                },
-                "time": "2025-07-28T09:33:57+00:00",
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\Warden\\UI\\Kohana\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    }
-                ],
-                "description": "Front-end and kohana application integration for Warden",
-                "homepage": "https://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v3.3.1",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
-            },
-            "dev-3.x-feat-kohana-view-5": {
-                "name": "ingenerator/warden-ui-kohana",
-                "version": "dev-3.x-feat-kohana-view-5",
-                "version_normalized": "dev-3.x-feat-kohana-view-5",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "33d30c85446b5e4cc43bf7b45123ae99386ad43c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/33d30c85446b5e4cc43bf7b45123ae99386ad43c",
-                    "reference": "33d30c85446b5e4cc43bf7b45123ae99386ad43c",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer/installers": "^1.9 || ^2.0",
-                    "ext-json": "*",
-                    "ingenerator/kohana-core": "^4.7",
-                    "ingenerator/kohana-extras": "^3.1",
-                    "ingenerator/kohana-view": "5.x-dev@dev",
-                    "ingenerator/tokenista": "^1.4",
-                    "ingenerator/warden-core": "^2.1.1",
-                    "ingenerator/warden-persistence-doctrine": "^2.0",
-                    "php": ">=8.4 <8.5",
-                    "symfony/mailer": "^7.2"
-                },
-                "conflict": {
-                    "egulias/email-validator": "<3.2.1"
-                },
-                "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.3",
-                    "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^9.6.23"
-                },
-                "suggest": {
-                    "ingenerator/kohana-dependencies": "Dependency container for kohana"
-                },
-                "time": "2025-11-03T14:42:06+00:00",
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\Warden\\UI\\Kohana\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    }
-                ],
-                "description": "Front-end and kohana application integration for Warden",
-                "homepage": "https://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/3.x-feat-kohana-view-5",
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v4.0.0-ALPHA",
                     "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
                 }
             }
