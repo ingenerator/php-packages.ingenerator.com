@@ -1,13 +1,14 @@
 {
     "packages": [],
     "includes": {
-        "include/all$e9549345bb38f1d90a0e5e1c17a178a69743c56e.json": {
-            "sha1": "e9549345bb38f1d90a0e5e1c17a178a69743c56e"
+        "include/all$0867d7750bcbd267b96c96724dade3d8c5654b08.json": {
+            "sha1": "0867d7750bcbd267b96c96724dade3d8c5654b08"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
         "auxiliary/rpage",
+        "blueimp/gallery",
         "blueimp/jquery-file-upload",
         "dangrossman/bootstrap-daterangepicker",
         "derek-watson/jsuri",
@@ -26,7 +27,11 @@
         "ingenerator/warden-ui-kohana",
         "ingenerator/warden-validator-symfony",
         "mailcheck/mailcheck",
+        "makeusabrew/bootbox",
         "markgx/jquery-check-all",
-        "tristen/tablesort"
+        "mohsen1/json-formatter-js",
+        "nostalgiaz/bootstrap-switch",
+        "tristen/tablesort",
+        "yapapaya/jquery-cloneya"
     ]
 }
