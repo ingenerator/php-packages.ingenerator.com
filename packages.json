@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$30ed300db7b9d3219910c1afc81fd0386c38617d.json": {
-            "sha1": "30ed300db7b9d3219910c1afc81fd0386c38617d"
+        "include/all$69dca7483f550575c5047c39ca2a8f6c4f3c952e.json": {
+            "sha1": "69dca7483f550575c5047c39ca2a8f6c4f3c952e"
         }
     },
     "metadata-url": "/p2/%package%.json",
@@ -29,8 +29,6 @@
         "mailcheck/mailcheck",
         "makeusabrew/bootbox",
         "markgx/jquery-check-all",
-        "mohsen1/json-formatter-js",
-        "nostalgiaz/bootstrap-switch",
         "tristen/tablesort",
         "yapapaya/jquery-cloneya"
     ]
