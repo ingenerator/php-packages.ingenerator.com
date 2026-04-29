@@ -1,14 +1,12 @@
 {
     "packages": [],
     "includes": {
-        "include/all$30ed300db7b9d3219910c1afc81fd0386c38617d.json": {
-            "sha1": "30ed300db7b9d3219910c1afc81fd0386c38617d"
+        "include/all$99b1199ed9bfe9b3e607b4837c32a4ab3c30ebaa.json": {
+            "sha1": "99b1199ed9bfe9b3e607b4837c32a4ab3c30ebaa"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
-        "auxiliary/rpage",
-        "blueimp/gallery",
         "blueimp/jquery-file-upload",
         "dangrossman/bootstrap-daterangepicker",
         "derek-watson/jsuri",
@@ -25,7 +23,6 @@
         "ingenerator/warden-core",
         "ingenerator/warden-persistence-doctrine",
         "ingenerator/warden-ui-kohana",
-        "ingenerator/warden-validator-symfony",
         "mailcheck/mailcheck",
         "makeusabrew/bootbox",
         "markgx/jquery-check-all",
