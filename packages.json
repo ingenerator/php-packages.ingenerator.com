@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$ae4b85192e33075489d1ad1f891c2a45bd98ddea.json": {
-            "sha1": "ae4b85192e33075489d1ad1f891c2a45bd98ddea"
+        "include/all$0b003775490fa7da423e951062fd2d5a044da01f.json": {
+            "sha1": "0b003775490fa7da423e951062fd2d5a044da01f"
         }
     },
     "metadata-url": "/p2/%package%.json",
@@ -29,7 +29,6 @@
         "mohsen1/json-formatter-js",
         "nostalgiaz/bootstrap-switch",
         "tristen/tablesort",
-        "yapapaya/jquery-cloneya",
-        "zeelot/kohana-dependencies"
+        "yapapaya/jquery-cloneya"
     ]
 }
