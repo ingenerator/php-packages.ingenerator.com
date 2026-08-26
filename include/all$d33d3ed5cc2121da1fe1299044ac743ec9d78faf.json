@@ -7378,19 +7378,19 @@
                     "issues": "https://github.com/ingenerator/image-processing/issues"
                 }
             },
-            "dev-test-build-84-update": {
+            "dev-update-asserted-images": {
                 "name": "ingenerator/image-processing",
-                "version": "dev-test-build-84-update",
-                "version_normalized": "dev-test-build-84-update",
+                "version": "dev-update-asserted-images",
+                "version_normalized": "dev-update-asserted-images",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/image-processing.git",
-                    "reference": "072f37584e13ef9ae2e677e401d3a7927517106e"
+                    "reference": "c5d7d27d8ee32d6d1036ca93c869a09f1a7da764"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/072f37584e13ef9ae2e677e401d3a7927517106e",
-                    "reference": "072f37584e13ef9ae2e677e401d3a7927517106e",
+                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/c5d7d27d8ee32d6d1036ca93c869a09f1a7da764",
+                    "reference": "c5d7d27d8ee32d6d1036ca93c869a09f1a7da764",
                     "shasum": ""
                 },
                 "require": {
@@ -7405,7 +7405,7 @@
                     "phpunit/phpunit": "^11.0",
                     "symfony/filesystem": "^7.0"
                 },
-                "time": "2026-08-26T12:37:55+00:00",
+                "time": "2026-08-26T17:08:04+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -7428,7 +7428,7 @@
                 ],
                 "description": "libvips image processing library",
                 "support": {
-                    "source": "https://github.com/ingenerator/image-processing/tree/test-build-84-update",
+                    "source": "https://github.com/ingenerator/image-processing/tree/update-asserted-images",
                     "issues": "https://github.com/ingenerator/image-processing/issues"
                 }
             }
