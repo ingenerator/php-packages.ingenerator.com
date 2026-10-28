@@ -10194,18 +10194,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "00efeaaa66cb5fc0bdf65fe955ec7af61d55a343"
+                    "reference": "ad9369160c5eb8cc0fc53e6d47a4df015c2a36bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/00efeaaa66cb5fc0bdf65fe955ec7af61d55a343",
-                    "reference": "00efeaaa66cb5fc0bdf65fe955ec7af61d55a343",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/ad9369160c5eb8cc0fc53e6d47a4df015c2a36bd",
+                    "reference": "ad9369160c5eb8cc0fc53e6d47a4df015c2a36bd",
                     "shasum": ""
                 },
                 "require": {
                     "ext-ctype": "*",
                     "ext-mbstring": "*",
-                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0"
+                    "php": "~8.4.0 || ~8.5.0 || ~8.6.0"
                 },
                 "replace": {
                     "kohana/core": "3.3.*",
@@ -10219,7 +10219,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2026-10-28T13:51:16+00:00",
+                "time": "2026-10-28T16:33:50+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -10257,19 +10257,19 @@
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             },
-            "dev-support-85": {
+            "dev-bump-phpunit": {
                 "name": "ingenerator/kohana-core",
-                "version": "dev-support-85",
-                "version_normalized": "dev-support-85",
+                "version": "dev-bump-phpunit",
+                "version_normalized": "dev-bump-phpunit",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "11d17a251ffb8d971ca3143b81ff22f79d1b4583"
+                    "reference": "1cda3f30fd37f9c34284aaa1ddbae85ca9a946bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/11d17a251ffb8d971ca3143b81ff22f79d1b4583",
-                    "reference": "11d17a251ffb8d971ca3143b81ff22f79d1b4583",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/1cda3f30fd37f9c34284aaa1ddbae85ca9a946bd",
+                    "reference": "1cda3f30fd37f9c34284aaa1ddbae85ca9a946bd",
                     "shasum": ""
                 },
                 "require": {
@@ -10283,20 +10283,24 @@
                     "kohana/unittest": "3.3.*"
                 },
                 "require-dev": {
-                    "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^11.5"
+                    "phpunit/phpunit": "^13.4"
                 },
                 "suggest": {
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2026-10-27T10:58:35+00:00",
+                "time": "2026-10-28T18:10:24+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
                         "vendor/{$vendor}/{$name}": [
                             "type:kohana-module"
                         ]
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "tests\\Kohana\\Support\\": "tests/support/"
                     }
                 },
                 "license": [
@@ -10318,7 +10322,7 @@
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
                 "homepage": "http://github.com/ingenerator/kohana-core",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/support-85",
+                    "source": "https://github.com/ingenerator/kohana-core/tree/bump-phpunit",
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             }
@@ -11409,6 +11413,158 @@
                 },
                 "time": "2025-07-25T08:49:11+00:00",
                 "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Dependency_": "classes/",
+                        "Kohana_Dependency_": "classes/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\unit\\Ingenerator\\KohanaDependencies\\": "test"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "http://www.ingenerator.com",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Lorenzo Pisani",
+                        "email": "zeelot3k@gmail.com",
+                        "homepage": "http://zeelot3k.com",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Jeremy Lindblom",
+                        "email": "jeremeamia@gmail.com",
+                        "homepage": "https://github.com/jeremeamia",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A Dependency Injection Container Module for Kohana 3.x",
+                "homepage": "https://github.com/ingenerator/kohana-dependencies",
+                "keywords": [
+                    "dependencies",
+                    "dependency",
+                    "kohana"
+                ],
+                "support": {
+                    "issues": "https://github.com/ingenerator/kohana-dependencies/issues",
+                    "source": "https://github.com/ingenerator/kohana-dependencies"
+                }
+            },
+            "dev-improve-performance": {
+                "name": "ingenerator/kohana-dependencies",
+                "version": "dev-improve-performance",
+                "version_normalized": "dev-improve-performance",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/kohana-dependencies.git",
+                    "reference": "880a31aab3f50182ff5488f3588c6cebc219dd2a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/880a31aab3f50182ff5488f3588c6cebc219dd2a",
+                    "reference": "880a31aab3f50182ff5488f3588c6cebc219dd2a",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.12 || ^2.0",
+                    "ingenerator/kohana-core": "dev-support-85",
+                    "php": "~8.4.0 || ~8.5.0 || ~8.6.0"
+                },
+                "replace": {
+                    "zeelot/kohana-dependencies": "self.version"
+                },
+                "require-dev": {
+                    "ext-mbstring": "*",
+                    "mikey179/vfsstream": "^1.6.8",
+                    "phpunit/phpunit": "^11.5"
+                },
+                "time": "2026-10-28T19:00:29+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Dependency_": "classes/",
+                        "Kohana_Dependency_": "classes/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\unit\\Ingenerator\\KohanaDependencies\\": "test"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "http://www.ingenerator.com",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Lorenzo Pisani",
+                        "email": "zeelot3k@gmail.com",
+                        "homepage": "http://zeelot3k.com",
+                        "role": "developer"
+                    },
+                    {
+                        "name": "Jeremy Lindblom",
+                        "email": "jeremeamia@gmail.com",
+                        "homepage": "https://github.com/jeremeamia",
+                        "role": "developer"
+                    }
+                ],
+                "description": "A Dependency Injection Container Module for Kohana 3.x",
+                "homepage": "https://github.com/ingenerator/kohana-dependencies",
+                "keywords": [
+                    "dependencies",
+                    "dependency",
+                    "kohana"
+                ],
+                "support": {
+                    "issues": "https://github.com/ingenerator/kohana-dependencies/issues",
+                    "source": "https://github.com/ingenerator/kohana-dependencies"
+                }
+            },
+            "dev-support-php85": {
+                "name": "ingenerator/kohana-dependencies",
+                "version": "dev-support-php85",
+                "version_normalized": "dev-support-php85",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/kohana-dependencies.git",
+                    "reference": "6c26446ff0df0629bc84a358e44ef826aeb224af"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/6c26446ff0df0629bc84a358e44ef826aeb224af",
+                    "reference": "6c26446ff0df0629bc84a358e44ef826aeb224af",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.12 || ^2.0",
+                    "ingenerator/kohana-core": "dev-support-85",
+                    "php": "~8.4.0 || ~8.5.0 || ~8.6.0"
+                },
+                "replace": {
+                    "zeelot/kohana-dependencies": "self.version"
+                },
+                "require-dev": {
+                    "ext-mbstring": "*",
+                    "mikey179/vfsstream": "^1.6.8",
+                    "phpunit/phpunit": "^11.5"
+                },
+                "time": "2026-10-28T18:51:29+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {

@@ -586,18 +586,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "00efeaaa66cb5fc0bdf65fe955ec7af61d55a343"
+                    "reference": "ad9369160c5eb8cc0fc53e6d47a4df015c2a36bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/00efeaaa66cb5fc0bdf65fe955ec7af61d55a343",
-                    "reference": "00efeaaa66cb5fc0bdf65fe955ec7af61d55a343",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/ad9369160c5eb8cc0fc53e6d47a4df015c2a36bd",
+                    "reference": "ad9369160c5eb8cc0fc53e6d47a4df015c2a36bd",
                     "shasum": ""
                 },
                 "require": {
                     "ext-ctype": "*",
                     "ext-mbstring": "*",
-                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0"
+                    "php": "~8.4.0 || ~8.5.0 || ~8.6.0"
                 },
                 "replace": {
                     "kohana/core": "3.3.*",
@@ -611,7 +611,7 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2026-10-28T13:51:16+00:00",
+                "time": "2026-10-28T16:33:50+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -651,17 +651,17 @@
             },
             {
                 "name": "ingenerator/kohana-core",
-                "version": "dev-support-85",
-                "version_normalized": "dev-support-85",
+                "version": "dev-bump-phpunit",
+                "version_normalized": "dev-bump-phpunit",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "11d17a251ffb8d971ca3143b81ff22f79d1b4583"
+                    "reference": "1cda3f30fd37f9c34284aaa1ddbae85ca9a946bd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/11d17a251ffb8d971ca3143b81ff22f79d1b4583",
-                    "reference": "11d17a251ffb8d971ca3143b81ff22f79d1b4583",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/1cda3f30fd37f9c34284aaa1ddbae85ca9a946bd",
+                    "reference": "1cda3f30fd37f9c34284aaa1ddbae85ca9a946bd",
                     "shasum": ""
                 },
                 "require": {
@@ -675,20 +675,24 @@
                     "kohana/unittest": "3.3.*"
                 },
                 "require-dev": {
-                    "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^11.5"
+                    "phpunit/phpunit": "^13.4"
                 },
                 "suggest": {
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2026-10-27T10:58:35+00:00",
+                "time": "2026-10-28T18:10:24+00:00",
                 "type": "library",
                 "extra": {
                     "installer-paths": {
                         "vendor/{$vendor}/{$name}": [
                             "type:kohana-module"
                         ]
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "tests\\Kohana\\Support\\": "tests/support/"
                     }
                 },
                 "license": [
@@ -710,7 +714,7 @@
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
                 "homepage": "http://github.com/ingenerator/kohana-core",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/support-85",
+                    "source": "https://github.com/ingenerator/kohana-core/tree/bump-phpunit",
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             }
