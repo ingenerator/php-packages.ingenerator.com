@@ -10194,12 +10194,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "fc7b0bedf2eb61b8348f46c37e906459b864c1fc"
+                    "reference": "00efeaaa66cb5fc0bdf65fe955ec7af61d55a343"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/fc7b0bedf2eb61b8348f46c37e906459b864c1fc",
-                    "reference": "fc7b0bedf2eb61b8348f46c37e906459b864c1fc",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/00efeaaa66cb5fc0bdf65fe955ec7af61d55a343",
+                    "reference": "00efeaaa66cb5fc0bdf65fe955ec7af61d55a343",
                     "shasum": ""
                 },
                 "require": {
@@ -10213,14 +10213,13 @@
                     "kohana/unittest": "3.3.*"
                 },
                 "require-dev": {
-                    "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^9.5.22"
+                    "phpunit/phpunit": "^11.5.57"
                 },
                 "suggest": {
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2025-07-22T15:18:32+00:00",
+                "time": "2026-10-28T13:51:16+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -10228,6 +10227,11 @@
                         "vendor/{$vendor}/{$name}": [
                             "type:kohana-module"
                         ]
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "tests\\Kohana\\Support\\": "tests/support/"
                     }
                 },
                 "license": [
@@ -10249,7 +10253,7 @@
                 "description": "NOT backwards compatible fork of kohana/core for use internally at inGenerator as part of our migration away",
                 "homepage": "http://github.com/ingenerator/kohana-core",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-core/tree/v4.13.0",
+                    "source": "https://github.com/ingenerator/kohana-core/tree/4.x",
                     "issues": "https://github.com/ingenerator/kohana-core/issues"
                 }
             },
