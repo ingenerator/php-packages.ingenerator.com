@@ -11467,28 +11467,29 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-dependencies.git",
-                    "reference": "880a31aab3f50182ff5488f3588c6cebc219dd2a"
+                    "reference": "cd0f1ec066cd5675f164e4e9445eccc03e162c9d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/880a31aab3f50182ff5488f3588c6cebc219dd2a",
-                    "reference": "880a31aab3f50182ff5488f3588c6cebc219dd2a",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/cd0f1ec066cd5675f164e4e9445eccc03e162c9d",
+                    "reference": "cd0f1ec066cd5675f164e4e9445eccc03e162c9d",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "^1.12 || ^2.0",
-                    "ingenerator/kohana-core": "dev-support-85",
+                    "ingenerator/kohana-core": "4.x-dev",
                     "php": "~8.4.0 || ~8.5.0 || ~8.6.0"
                 },
                 "replace": {
                     "zeelot/kohana-dependencies": "self.version"
                 },
                 "require-dev": {
+                    "cweagans/composer-patches": "~2.0",
                     "ext-mbstring": "*",
                     "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^11.5"
                 },
-                "time": "2026-10-28T19:00:29+00:00",
+                "time": "2026-10-28T21:02:26+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -11543,28 +11544,29 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-dependencies.git",
-                    "reference": "6c26446ff0df0629bc84a358e44ef826aeb224af"
+                    "reference": "64f8bedb40943bd0fc0435389ff5733e8b8bfed4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/6c26446ff0df0629bc84a358e44ef826aeb224af",
-                    "reference": "6c26446ff0df0629bc84a358e44ef826aeb224af",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/64f8bedb40943bd0fc0435389ff5733e8b8bfed4",
+                    "reference": "64f8bedb40943bd0fc0435389ff5733e8b8bfed4",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "^1.12 || ^2.0",
-                    "ingenerator/kohana-core": "dev-support-85",
+                    "ingenerator/kohana-core": "4.x-dev",
                     "php": "~8.4.0 || ~8.5.0 || ~8.6.0"
                 },
                 "replace": {
                     "zeelot/kohana-dependencies": "self.version"
                 },
                 "require-dev": {
+                    "cweagans/composer-patches": "~2.0",
                     "ext-mbstring": "*",
                     "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^11.5"
                 },
-                "time": "2026-10-28T18:51:29+00:00",
+                "time": "2026-10-28T20:58:30+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
