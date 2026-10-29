@@ -228,17 +228,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-dependencies.git",
-                    "reference": "64f8bedb40943bd0fc0435389ff5733e8b8bfed4"
+                    "reference": "366bc37f927cfc92fc01fa91cda9cf94fda8daf1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/64f8bedb40943bd0fc0435389ff5733e8b8bfed4",
-                    "reference": "64f8bedb40943bd0fc0435389ff5733e8b8bfed4",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/366bc37f927cfc92fc01fa91cda9cf94fda8daf1",
+                    "reference": "366bc37f927cfc92fc01fa91cda9cf94fda8daf1",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "^1.12 || ^2.0",
-                    "ingenerator/kohana-core": "4.x-dev",
+                    "ingenerator/kohana-core": "^4.7",
                     "php": "~8.4.0 || ~8.5.0 || ~8.6.0"
                 },
                 "replace": {
@@ -250,7 +250,7 @@
                     "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^11.5"
                 },
-                "time": "2026-10-28T20:58:30+00:00",
+                "time": "2026-10-29T19:42:13+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
