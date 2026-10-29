@@ -656,12 +656,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-core.git",
-                    "reference": "1cda3f30fd37f9c34284aaa1ddbae85ca9a946bd"
+                    "reference": "d8243cb3c6f84d5ddc0a85d12e74e03c576072ff"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/1cda3f30fd37f9c34284aaa1ddbae85ca9a946bd",
-                    "reference": "1cda3f30fd37f9c34284aaa1ddbae85ca9a946bd",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-core/zipball/d8243cb3c6f84d5ddc0a85d12e74e03c576072ff",
+                    "reference": "d8243cb3c6f84d5ddc0a85d12e74e03c576072ff",
                     "shasum": ""
                 },
                 "require": {
@@ -681,15 +681,8 @@
                     "ext-curl": "*",
                     "ext-http": "*"
                 },
-                "time": "2026-10-28T18:10:24+00:00",
+                "time": "2026-10-29T10:15:50+00:00",
                 "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
                 "autoload-dev": {
                     "psr-4": {
                         "tests\\Kohana\\Support\\": "tests/support/"
