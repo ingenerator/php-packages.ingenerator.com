@@ -11530,16 +11530,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-dependencies.git",
-                    "reference": "366bc37f927cfc92fc01fa91cda9cf94fda8daf1"
+                    "reference": "731c67bf158032481204ae017af7467f2950b1e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/366bc37f927cfc92fc01fa91cda9cf94fda8daf1",
-                    "reference": "366bc37f927cfc92fc01fa91cda9cf94fda8daf1",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-dependencies/zipball/731c67bf158032481204ae017af7467f2950b1e9",
+                    "reference": "731c67bf158032481204ae017af7467f2950b1e9",
                     "shasum": ""
                 },
                 "require": {
-                    "composer/installers": "^1.12 || ^2.0",
                     "ingenerator/kohana-core": "^4.7",
                     "php": "~8.4.0 || ~8.5.0 || ~8.6.0"
                 },
@@ -11552,7 +11551,7 @@
                     "mikey179/vfsstream": "^1.6.8",
                     "phpunit/phpunit": "^11.5"
                 },
-                "time": "2026-10-29T19:42:13+00:00",
+                "time": "2026-10-30T08:26:34+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -11572,7 +11571,7 @@
                     {
                         "name": "Andrew Coulton",
                         "email": "andrew@ingenerator.com",
-                        "homepage": "http://www.ingenerator.com",
+                        "homepage": "https://www.ingenerator.com",
                         "role": "developer"
                     },
                     {
