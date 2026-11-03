@@ -14425,27 +14425,29 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "1dcea4187191d2e6ea517b671edb08ab210565f6"
+                    "reference": "2d4edea1320f24de761012e52cd914f012cc3745"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/1dcea4187191d2e6ea517b671edb08ab210565f6",
-                    "reference": "1dcea4187191d2e6ea517b671edb08ab210565f6",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/2d4edea1320f24de761012e52cd914f012cc3745",
+                    "reference": "2d4edea1320f24de761012e52cd914f012cc3745",
                     "shasum": ""
                 },
                 "require": {
                     "ingenerator/kohana-core": "^4.9",
-                    "ingenerator/kohana-dependencies": "^1.2",
-                    "ingenerator/php-utils": "^1.9.0 || ^2.0",
-                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+                    "ingenerator/kohana-dependencies": "^1.6",
+                    "ingenerator/php-utils": "^1.9.0 || ^2.0 || ^3.0",
+                    "php": "~8.4.0 || ~8.5.0 || ~8.6.0",
                     "psr/log": "^1.0 || ^2.0 || ^3.0"
                 },
                 "require-dev": {
+                    "cweagans/composer-patches": "~2.0",
+                    "ergebnis/phpunit-slow-test-detector": "^2.15",
                     "ext-mbstring": "*",
                     "fig/log-test": "^1.1",
-                    "johnkary/phpunit-speedtrap": "^3.3",
                     "mikey179/vfsstream": "^1.6.12",
-                    "phpunit/phpunit": "^9.6.23",
+                    "phpunit/phpunit": "^13.0",
+                    "rector/rector": "^2.8",
                     "symfony/process": "^7.1"
                 },
                 "suggest": {
@@ -14454,19 +14456,20 @@
                     "symfony/mailer": "^6.3 to use the Symfony mailer dependency factory",
                     "symfony/sendgrid-mailer": "^6.3 to use Symfony mailer Sendgrid API transport"
                 },
-                "time": "2026-10-29T08:38:29+00:00",
+                "time": "2026-11-03T14:17:52+00:00",
                 "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
                 "autoload": {
                     "psr-4": {
                         "Ingenerator\\KohanaExtras\\": "src/"
                     }
+                },
+                "scripts": {
+                    "rector": [
+                        "rector --dry-run"
+                    ],
+                    "rector-fix": [
+                        "rector"
+                    ]
                 },
                 "license": [
                     "BSD-3-Clause"
