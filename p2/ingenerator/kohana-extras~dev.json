@@ -173,7 +173,6 @@
                     "symfony/sendgrid-mailer": "^6.3 to use Symfony mailer Sendgrid API transport"
                 },
                 "time": "2025-07-23T11:06:39+00:00",
-                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -211,17 +210,17 @@
             },
             {
                 "name": "ingenerator/kohana-extras",
-                "version": "dev-support-php85",
-                "version_normalized": "dev-support-php85",
+                "version": "4.x-dev",
+                "version_normalized": "4.9999999.9999999.9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "ccdebb907a89faeb2cd70b9eb24e95cbbfdc6318"
+                    "reference": "43977f447f79052880a5718fa691e03a2face277"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/ccdebb907a89faeb2cd70b9eb24e95cbbfdc6318",
-                    "reference": "ccdebb907a89faeb2cd70b9eb24e95cbbfdc6318",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/43977f447f79052880a5718fa691e03a2face277",
+                    "reference": "43977f447f79052880a5718fa691e03a2face277",
                     "shasum": ""
                 },
                 "require": {
@@ -247,7 +246,8 @@
                     "symfony/mailer": "^6.3 to use the Symfony mailer dependency factory",
                     "symfony/sendgrid-mailer": "^6.3 to use Symfony mailer Sendgrid API transport"
                 },
-                "time": "2026-11-03T19:12:13+00:00",
+                "time": "2026-11-05T12:04:26+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -280,7 +280,7 @@
                 "description": "Helper and wrapper classes for Kohana",
                 "homepage": "https://github.com/ingenerator/kohana-extras",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-extras/tree/support-php85",
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v4.0.0",
                     "issues": "https://github.com/ingenerator/kohana-extras/issues"
                 }
             }

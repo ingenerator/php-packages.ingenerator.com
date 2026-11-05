@@ -14442,7 +14442,6 @@
                     "symfony/sendgrid-mailer": "^6.3 to use Symfony mailer Sendgrid API transport"
                 },
                 "time": "2025-07-23T11:06:39+00:00",
-                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -14478,19 +14477,19 @@
                     "issues": "https://github.com/ingenerator/kohana-extras/issues"
                 }
             },
-            "dev-support-php85": {
+            "v4.0.0": {
                 "name": "ingenerator/kohana-extras",
-                "version": "dev-support-php85",
-                "version_normalized": "dev-support-php85",
+                "version": "v4.0.0",
+                "version_normalized": "4.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/kohana-extras.git",
-                    "reference": "ccdebb907a89faeb2cd70b9eb24e95cbbfdc6318"
+                    "reference": "43977f447f79052880a5718fa691e03a2face277"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/ccdebb907a89faeb2cd70b9eb24e95cbbfdc6318",
-                    "reference": "ccdebb907a89faeb2cd70b9eb24e95cbbfdc6318",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/43977f447f79052880a5718fa691e03a2face277",
+                    "reference": "43977f447f79052880a5718fa691e03a2face277",
                     "shasum": ""
                 },
                 "require": {
@@ -14516,7 +14515,7 @@
                     "symfony/mailer": "^6.3 to use the Symfony mailer dependency factory",
                     "symfony/sendgrid-mailer": "^6.3 to use Symfony mailer Sendgrid API transport"
                 },
-                "time": "2026-11-03T19:12:13+00:00",
+                "time": "2026-11-05T12:04:26+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -14549,7 +14548,83 @@
                 "description": "Helper and wrapper classes for Kohana",
                 "homepage": "https://github.com/ingenerator/kohana-extras",
                 "support": {
-                    "source": "https://github.com/ingenerator/kohana-extras/tree/support-php85",
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v4.0.0",
+                    "issues": "https://github.com/ingenerator/kohana-extras/issues"
+                }
+            },
+            "4.x-dev": {
+                "name": "ingenerator/kohana-extras",
+                "version": "4.x-dev",
+                "version_normalized": "4.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/kohana-extras.git",
+                    "reference": "43977f447f79052880a5718fa691e03a2face277"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/kohana-extras/zipball/43977f447f79052880a5718fa691e03a2face277",
+                    "reference": "43977f447f79052880a5718fa691e03a2face277",
+                    "shasum": ""
+                },
+                "require": {
+                    "ingenerator/kohana-core": "^4.9",
+                    "ingenerator/kohana-dependencies": "^1.6",
+                    "ingenerator/php-utils": "^1.9.0 || ^2.0 || ^3.0",
+                    "php": "~8.4.0 || ~8.5.0 || ~8.6.0",
+                    "psr/log": "^1.0 || ^2.0 || ^3.0"
+                },
+                "require-dev": {
+                    "cweagans/composer-patches": "~2.0",
+                    "ergebnis/phpunit-slow-test-detector": "^2.15",
+                    "ext-mbstring": "*",
+                    "fig/log-test": "^1.1",
+                    "mikey179/vfsstream": "^1.6.12",
+                    "phpunit/phpunit": "^13.0",
+                    "rector/rector": "^2.8",
+                    "symfony/process": "^7.1"
+                },
+                "suggest": {
+                    "maximebf/debugbar": "^1.14 to use the debug bar in development environments",
+                    "symfony/amazon-mailer": "^6.3 to use Symfony mailer AWS SES transport",
+                    "symfony/mailer": "^6.3 to use the Symfony mailer dependency factory",
+                    "symfony/sendgrid-mailer": "^6.3 to use Symfony mailer Sendgrid API transport"
+                },
+                "time": "2026-11-05T12:04:26+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\KohanaExtras\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "rector": [
+                        "rector --dry-run"
+                    ],
+                    "rector-fix": [
+                        "rector"
+                    ]
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Helper and wrapper classes for Kohana",
+                "homepage": "https://github.com/ingenerator/kohana-extras",
+                "support": {
+                    "source": "https://github.com/ingenerator/kohana-extras/tree/v4.0.0",
                     "issues": "https://github.com/ingenerator/kohana-extras/issues"
                 }
             }
@@ -16283,6 +16358,66 @@
                     "issues": "https://github.com/ingenerator/warden-core/issues"
                 }
             },
+            "v2.2.0": {
+                "name": "ingenerator/warden-core",
+                "version": "v2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-core.git",
+                    "reference": "86a8ee553b5c80006514b2fb3ab017121ca0c367"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/86a8ee553b5c80006514b2fb3ab017121ca0c367",
+                    "reference": "86a8ee553b5c80006514b2fb3ab017121ca0c367",
+                    "shasum": ""
+                },
+                "require": {
+                    "egulias/email-validator": "^4.0.0",
+                    "php": "~8.4.0 || ~8.5.0 || ~8.6.0",
+                    "symfony/validator": "^6.4.21 || ^7.3 || ^8.1"
+                },
+                "conflict": {
+                    "symfony/translation-contracts": " < 3.5.1"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^13.4"
+                },
+                "time": "2026-11-05T16:17:45+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\Core\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Framework-and-driver-independent authentication and authorization package",
+                "homepage": "https://github.com/ingenerator/warden-core",
+                "keywords": [
+                    "acl",
+                    "auth",
+                    "web"
+                ],
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-core/tree/v2.2.0",
+                    "issues": "https://github.com/ingenerator/warden-core/issues"
+                }
+            },
             "2.x-dev": {
                 "name": "ingenerator/warden-core",
                 "version": "2.x-dev",
@@ -16290,26 +16425,26 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-core.git",
-                    "reference": "76867c87b3c3fe70012aafc38cf19a7168e0a751"
+                    "reference": "86a8ee553b5c80006514b2fb3ab017121ca0c367"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/76867c87b3c3fe70012aafc38cf19a7168e0a751",
-                    "reference": "76867c87b3c3fe70012aafc38cf19a7168e0a751",
+                    "url": "https://api.github.com/repos/ingenerator/warden-core/zipball/86a8ee553b5c80006514b2fb3ab017121ca0c367",
+                    "reference": "86a8ee553b5c80006514b2fb3ab017121ca0c367",
                     "shasum": ""
                 },
                 "require": {
                     "egulias/email-validator": "^4.0.0",
-                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0 ",
-                    "symfony/validator": "^6.4.21 || ^7.3"
+                    "php": "~8.4.0 || ~8.5.0 || ~8.6.0",
+                    "symfony/validator": "^6.4.21 || ^7.3 || ^8.1"
                 },
                 "conflict": {
                     "symfony/translation-contracts": " < 3.5.1"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^9.6.23"
+                    "phpunit/phpunit": "^13.4"
                 },
-                "time": "2025-07-22T17:17:40+00:00",
+                "time": "2026-11-05T16:17:45+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -16340,7 +16475,7 @@
                     "web"
                 ],
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-core/tree/v2.1.1",
+                    "source": "https://github.com/ingenerator/warden-core/tree/v2.2.0",
                     "issues": "https://github.com/ingenerator/warden-core/issues"
                 }
             }
@@ -16921,6 +17056,62 @@
                 "homepage": "https://github.com/ingenerator/warden-persistence-doctrine",
                 "support": {
                     "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/v2.1.0",
+                    "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
+                }
+            },
+            "dev-support-php85": {
+                "name": "ingenerator/warden-persistence-doctrine",
+                "version": "dev-support-php85",
+                "version_normalized": "dev-support-php85",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
+                    "reference": "134adc8c4247232620806197ae5c483328dd0da4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-persistence-doctrine/zipball/134adc8c4247232620806197ae5c483328dd0da4",
+                    "reference": "134adc8c4247232620806197ae5c483328dd0da4",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/orm": "^2.13.3",
+                    "ingenerator/warden-core": "^2.0",
+                    "php": "~8.4.0 || ~8.5.0 || ~8.6.0",
+                    "symfony/cache": "^7.3"
+                },
+                "conflict": {
+                    "doctrine/dbal": "<3.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^13.4"
+                },
+                "time": "2026-11-05T18:36:07+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\Persistence\\Doctrine\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Persistence provider for warden using doctrine2",
+                "homepage": "https://github.com/ingenerator/warden-persistence-doctrine",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-persistence-doctrine/tree/support-php85",
                     "issues": "https://github.com/ingenerator/warden-persistence-doctrine/issues"
                 }
             }
