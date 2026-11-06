@@ -121,27 +121,29 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-persistence-doctrine.git",
-                    "reference": "134adc8c4247232620806197ae5c483328dd0da4"
+                    "reference": "791476eb3ca20c20a8b1c530cef6ab7e5df63dec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-persistence-doctrine/zipball/134adc8c4247232620806197ae5c483328dd0da4",
-                    "reference": "134adc8c4247232620806197ae5c483328dd0da4",
+                    "url": "https://api.github.com/repos/ingenerator/warden-persistence-doctrine/zipball/791476eb3ca20c20a8b1c530cef6ab7e5df63dec",
+                    "reference": "791476eb3ca20c20a8b1c530cef6ab7e5df63dec",
                     "shasum": ""
                 },
                 "require": {
-                    "doctrine/orm": "^2.13.3",
+                    "doctrine/orm": "^2.20.14",
                     "ingenerator/warden-core": "^2.0",
                     "php": "~8.4.0 || ~8.5.0 || ~8.6.0",
-                    "symfony/cache": "^7.3"
+                    "symfony/cache": "^7.3 || ^8.1"
                 },
                 "conflict": {
-                    "doctrine/dbal": "<3.0"
+                    "doctrine/dbal": "<3.0",
+                    "doctrine/event-manager": "<2.1.1",
+                    "doctrine/persistence": "<3.4.5"
                 },
                 "require-dev": {
                     "phpunit/phpunit": "^13.4"
                 },
-                "time": "2026-11-05T18:36:07+00:00",
+                "time": "2026-11-06T15:10:14+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
