@@ -128,12 +128,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "a3f052b337c5684873c7b725f1a9d8694f10f413"
+                    "reference": "29c6dfd18017694ae3c1cc1d4867575e2777e882"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/a3f052b337c5684873c7b725f1a9d8694f10f413",
-                    "reference": "a3f052b337c5684873c7b725f1a9d8694f10f413",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/29c6dfd18017694ae3c1cc1d4867575e2777e882",
+                    "reference": "29c6dfd18017694ae3c1cc1d4867575e2777e882",
                     "shasum": ""
                 },
                 "require": {
@@ -141,7 +141,7 @@
                     "google/cloud-tasks": "^1.15.2",
                     "google/gax": "^1.29.1",
                     "google/protobuf": "^4.29",
-                    "ingenerator/oidc-token-verifier": "^1.0",
+                    "ingenerator/oidc-token-verifier": "^1.6",
                     "ingenerator/php-utils": "^2.0",
                     "php": "~8.4.0",
                     "psr/http-message": "^2.0"
@@ -152,7 +152,7 @@
                     "guzzlehttp/psr7": "^2.6",
                     "phpunit/phpunit": "^13.4"
                 },
-                "time": "2026-11-11T10:30:43+00:00",
+                "time": "2026-11-15T10:45:58+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
