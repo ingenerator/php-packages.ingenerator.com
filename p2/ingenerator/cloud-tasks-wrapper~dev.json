@@ -128,31 +128,91 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "29c6dfd18017694ae3c1cc1d4867575e2777e882"
+                    "reference": "0f8cfcd8adc84ee95ffb891f7e9840cb19089e99"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/29c6dfd18017694ae3c1cc1d4867575e2777e882",
-                    "reference": "29c6dfd18017694ae3c1cc1d4867575e2777e882",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/0f8cfcd8adc84ee95ffb891f7e9840cb19089e99",
+                    "reference": "0f8cfcd8adc84ee95ffb891f7e9840cb19089e99",
                     "shasum": ""
                 },
                 "require": {
                     "ext-bcmath": "*",
                     "google/cloud-tasks": "^1.15.2",
-                    "google/gax": "^1.29.1",
+                    "google/gax": "^1.51.2",
                     "google/protobuf": "^4.29",
                     "ingenerator/oidc-token-verifier": "^1.6",
-                    "ingenerator/php-utils": "^2.0",
-                    "php": "~8.4.0",
+                    "ingenerator/php-utils": "^2.0 || ^3.0",
+                    "php": "~8.4.0 || ~8.5.0 || ~8.6.0",
                     "psr/http-message": "^2.0"
                 },
                 "require-dev": {
                     "ext-grpc": "*",
                     "fig/log-test": "^1.1",
                     "guzzlehttp/psr7": "^2.6",
-                    "phpunit/phpunit": "^13.4"
+                    "phpunit/phpunit": "^13.4.7"
                 },
-                "time": "2026-11-15T10:45:58+00:00",
+                "time": "2026-11-17T16:34:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\CloudTasksWrapper\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\mock\\Ingenerator\\CloudTasksWrapper\\": "test/mock",
+                        "test\\unit\\Ingenerator\\CloudTasksWrapper\\": "test/unit"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com"
+                    }
+                ],
+                "description": "Library for dispatching and processing Google Cloud Tasks from PHP",
+                "homepage": "https://github.com/ingenerator/cloud-tasks-wrapper",
+                "support": {
+                    "source": "https://github.com/ingenerator/cloud-tasks-wrapper",
+                    "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
+                }
+            },
+            {
+                "name": "ingenerator/cloud-tasks-wrapper",
+                "version": "dev-update-client-v2",
+                "version_normalized": "dev-update-client-v2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
+                    "reference": "5fe9826168377721c9427406fc7e8eb93ffcd4a6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/5fe9826168377721c9427406fc7e8eb93ffcd4a6",
+                    "reference": "5fe9826168377721c9427406fc7e8eb93ffcd4a6",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-bcmath": "*",
+                    "google/cloud-tasks": "^2.4",
+                    "google/gax": "^1.51.2",
+                    "google/protobuf": "^5.36",
+                    "ingenerator/oidc-token-verifier": "^1.6",
+                    "ingenerator/php-utils": "^2.0 || ^3.0",
+                    "php": "~8.4.0 || ~8.5.0 || ~8.6.0",
+                    "psr/http-message": "^2.0"
+                },
+                "require-dev": {
+                    "ext-grpc": "*",
+                    "fig/log-test": "^1.1",
+                    "guzzlehttp/psr7": "^2.6",
+                    "phpunit/phpunit": "^13.4.7"
+                },
+                "time": "2026-11-17T16:53:31+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {

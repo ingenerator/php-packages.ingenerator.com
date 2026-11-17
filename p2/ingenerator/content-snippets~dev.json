@@ -234,6 +234,64 @@
                     "source": "https://github.com/ingenerator/content-snippets/tree/v3.0.0-ALPHA",
                     "issues": "https://github.com/ingenerator/content-snippets/issues"
                 }
+            },
+            {
+                "name": "ingenerator/content-snippets",
+                "version": "dev-support-php85",
+                "version_normalized": "dev-support-php85",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/content-snippets.git",
+                    "reference": "cc29ce29eb58e22d7557a12ebf9d5093ce9c66df"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/cc29ce29eb58e22d7557a12ebf9d5093ce9c66df",
+                    "reference": "cc29ce29eb58e22d7557a12ebf9d5093ce9c66df",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "^1.12 || ^2",
+                    "ezyang/htmlpurifier": "^4.15",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^2.0 || ^3.0",
+                    "ingenerator/kohana-view": "^5.0@alpha",
+                    "php": ">=8.4 <8.5"
+                },
+                "require-dev": {
+                    "ext-mbstring": "*",
+                    "phpunit/phpunit": "^13.4"
+                },
+                "time": "2026-11-17T09:31:03+00:00",
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ContentSnippets\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
+                "homepage": "https://github.com/ingenerator/content-snippets",
+                "support": {
+                    "source": "https://github.com/ingenerator/content-snippets/tree/support-php85",
+                    "issues": "https://github.com/ingenerator/content-snippets/issues"
+                }
             }
         ]
     }
