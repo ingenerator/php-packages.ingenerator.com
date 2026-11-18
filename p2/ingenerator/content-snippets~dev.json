@@ -242,35 +242,28 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "cc29ce29eb58e22d7557a12ebf9d5093ce9c66df"
+                    "reference": "ded74bac03900d3a736f88a5502795bc1f7a84a9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/cc29ce29eb58e22d7557a12ebf9d5093ce9c66df",
-                    "reference": "cc29ce29eb58e22d7557a12ebf9d5093ce9c66df",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/ded74bac03900d3a736f88a5502795bc1f7a84a9",
+                    "reference": "ded74bac03900d3a736f88a5502795bc1f7a84a9",
                     "shasum": ""
                 },
                 "require": {
-                    "composer/installers": "^1.12 || ^2",
-                    "ezyang/htmlpurifier": "^4.15",
-                    "ingenerator/kohana-core": "^4.7",
-                    "ingenerator/kohana-extras": "^2.0 || ^3.0",
-                    "ingenerator/kohana-view": "^5.0@alpha",
-                    "php": ">=8.4 <8.5"
+                    "doctrine/orm": "^2.20 || ^3.0",
+                    "ezyang/htmlpurifier": "^4.19.1",
+                    "ingenerator/kohana-core": "^4.14",
+                    "ingenerator/kohana-extras": "^4.0",
+                    "ingenerator/kohana-view": "^5.0",
+                    "php": ">=8.4 <8.6"
                 },
                 "require-dev": {
                     "ext-mbstring": "*",
                     "phpunit/phpunit": "^13.4"
                 },
-                "time": "2026-11-17T09:31:03+00:00",
+                "time": "2026-11-18T14:20:36+00:00",
                 "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
                 "autoload": {
                     "psr-4": {
                         "Ingenerator\\ContentSnippets\\": "src/"

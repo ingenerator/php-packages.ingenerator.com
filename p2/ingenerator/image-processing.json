@@ -486,6 +486,60 @@
                     "source": "https://github.com/ingenerator/image-processing/tree/v2.3.0",
                     "issues": "https://github.com/ingenerator/image-processing/issues"
                 }
+            },
+            {
+                "name": "ingenerator/image-processing",
+                "version": "v2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/image-processing.git",
+                    "reference": "040de7060677038aeb78ba0eb3253325f632f66f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/040de7060677038aeb78ba0eb3253325f632f66f",
+                    "reference": "040de7060677038aeb78ba0eb3253325f632f66f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ffi": "*",
+                    "ingenerator/php-utils": "^1.17 || ^2.0 || ^3.0",
+                    "jcupitt/vips": "^2.1",
+                    "php": "~8.5.0",
+                    "symfony/process": "^7.0 || ^8.0"
+                },
+                "require-dev": {
+                    "ergebnis/phpunit-slow-test-detector": "^2.6",
+                    "phpunit/phpunit": "^13.4",
+                    "symfony/filesystem": "^7.0 || ^8.0"
+                },
+                "time": "2026-11-18T15:47:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ImageProcessing\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\": "test/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "libvips image processing library",
+                "support": {
+                    "source": "https://github.com/ingenerator/image-processing/tree/v2.4.0",
+                    "issues": "https://github.com/ingenerator/image-processing/issues"
+                }
             }
         ]
     }

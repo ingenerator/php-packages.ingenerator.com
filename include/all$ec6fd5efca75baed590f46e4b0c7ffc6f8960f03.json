@@ -4360,6 +4360,66 @@
                     "phpunit/phpunit": "^9.6.23"
                 },
                 "time": "2025-07-23T08:23:57+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\CloudTasksWrapper\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\mock\\Ingenerator\\CloudTasksWrapper\\": "test/mock",
+                        "test\\unit\\Ingenerator\\CloudTasksWrapper\\": "test/unit"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com"
+                    }
+                ],
+                "description": "Library for dispatching and processing Google Cloud Tasks from PHP",
+                "homepage": "https://github.com/ingenerator/cloud-tasks-wrapper",
+                "support": {
+                    "source": "https://github.com/ingenerator/cloud-tasks-wrapper",
+                    "issues": "https://github.com/ingenerator/cloud-tasks-wrapper/issues"
+                }
+            },
+            "1.x-dev": {
+                "name": "ingenerator/cloud-tasks-wrapper",
+                "version": "1.x-dev",
+                "version_normalized": "1.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
+                    "reference": "143cda04bf4fd4fd3b7806e1d5ec1282864b6577"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/143cda04bf4fd4fd3b7806e1d5ec1282864b6577",
+                    "reference": "143cda04bf4fd4fd3b7806e1d5ec1282864b6577",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-bcmath": "*",
+                    "google/cloud-tasks": "^1.15.2",
+                    "google/gax": "^1.29.1",
+                    "google/protobuf": "^4.29",
+                    "ingenerator/oidc-token-verifier": "^1.0",
+                    "ingenerator/php-utils": "^2.0",
+                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+                    "psr/http-message": "^2.0"
+                },
+                "require-dev": {
+                    "ext-grpc": "*",
+                    "fig/log-test": "^1.1",
+                    "guzzlehttp/psr7": "^2.6",
+                    "phpunit/phpunit": "^9.6.23"
+                },
+                "time": "2025-07-23T08:23:57+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -4456,19 +4516,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/cloud-tasks-wrapper.git",
-                    "reference": "5fe9826168377721c9427406fc7e8eb93ffcd4a6"
+                    "reference": "0ebe0df79094333ba1e55b5be82eeffa30ce0880"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/5fe9826168377721c9427406fc7e8eb93ffcd4a6",
-                    "reference": "5fe9826168377721c9427406fc7e8eb93ffcd4a6",
+                    "url": "https://api.github.com/repos/ingenerator/cloud-tasks-wrapper/zipball/0ebe0df79094333ba1e55b5be82eeffa30ce0880",
+                    "reference": "0ebe0df79094333ba1e55b5be82eeffa30ce0880",
                     "shasum": ""
                 },
                 "require": {
                     "ext-bcmath": "*",
-                    "google/cloud-tasks": "^2.4",
-                    "google/gax": "^1.51.2",
-                    "google/protobuf": "^5.36",
+                    "google/cloud-tasks": "^1.15.2",
+                    "google/gax": "^1.29.1",
+                    "google/protobuf": "^v5.34",
                     "ingenerator/oidc-token-verifier": "^1.6",
                     "ingenerator/php-utils": "^2.0 || ^3.0",
                     "php": "~8.4.0 || ~8.5.0 || ~8.6.0",
@@ -4478,9 +4538,9 @@
                     "ext-grpc": "*",
                     "fig/log-test": "^1.1",
                     "guzzlehttp/psr7": "^2.6",
-                    "phpunit/phpunit": "^13.4.7"
+                    "phpunit/phpunit": "^13.4"
                 },
-                "time": "2026-11-17T16:53:31+00:00",
+                "time": "2026-11-18T15:54:51+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -5687,35 +5747,28 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/content-snippets.git",
-                    "reference": "cc29ce29eb58e22d7557a12ebf9d5093ce9c66df"
+                    "reference": "ded74bac03900d3a736f88a5502795bc1f7a84a9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/cc29ce29eb58e22d7557a12ebf9d5093ce9c66df",
-                    "reference": "cc29ce29eb58e22d7557a12ebf9d5093ce9c66df",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/ded74bac03900d3a736f88a5502795bc1f7a84a9",
+                    "reference": "ded74bac03900d3a736f88a5502795bc1f7a84a9",
                     "shasum": ""
                 },
                 "require": {
-                    "composer/installers": "^1.12 || ^2",
-                    "ezyang/htmlpurifier": "^4.15",
-                    "ingenerator/kohana-core": "^4.7",
-                    "ingenerator/kohana-extras": "^2.0 || ^3.0",
-                    "ingenerator/kohana-view": "^5.0@alpha",
-                    "php": ">=8.4 <8.5"
+                    "doctrine/orm": "^2.20 || ^3.0",
+                    "ezyang/htmlpurifier": "^4.19.1",
+                    "ingenerator/kohana-core": "^4.14",
+                    "ingenerator/kohana-extras": "^4.0",
+                    "ingenerator/kohana-view": "^5.0",
+                    "php": ">=8.4 <8.6"
                 },
                 "require-dev": {
                     "ext-mbstring": "*",
                     "phpunit/phpunit": "^13.4"
                 },
-                "time": "2026-11-17T09:31:03+00:00",
+                "time": "2026-11-18T14:20:36+00:00",
                 "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
                 "autoload": {
                     "psr-4": {
                         "Ingenerator\\ContentSnippets\\": "src/"
@@ -7593,6 +7646,60 @@
                     "issues": "https://github.com/ingenerator/image-processing/issues"
                 }
             },
+            "v2.4.0": {
+                "name": "ingenerator/image-processing",
+                "version": "v2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/image-processing.git",
+                    "reference": "040de7060677038aeb78ba0eb3253325f632f66f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/040de7060677038aeb78ba0eb3253325f632f66f",
+                    "reference": "040de7060677038aeb78ba0eb3253325f632f66f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-ffi": "*",
+                    "ingenerator/php-utils": "^1.17 || ^2.0 || ^3.0",
+                    "jcupitt/vips": "^2.1",
+                    "php": "~8.5.0",
+                    "symfony/process": "^7.0 || ^8.0"
+                },
+                "require-dev": {
+                    "ergebnis/phpunit-slow-test-detector": "^2.6",
+                    "phpunit/phpunit": "^13.4",
+                    "symfony/filesystem": "^7.0 || ^8.0"
+                },
+                "time": "2026-11-18T15:47:00+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ImageProcessing\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "test\\": "test/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com"
+                    }
+                ],
+                "description": "libvips image processing library",
+                "support": {
+                    "source": "https://github.com/ingenerator/image-processing/tree/v2.4.0",
+                    "issues": "https://github.com/ingenerator/image-processing/issues"
+                }
+            },
             "2.x-dev": {
                 "name": "ingenerator/image-processing",
                 "version": "2.x-dev",
@@ -7600,27 +7707,27 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/image-processing.git",
-                    "reference": "a0ef2011154432d1f5d09a1632bd104277874896"
+                    "reference": "040de7060677038aeb78ba0eb3253325f632f66f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/a0ef2011154432d1f5d09a1632bd104277874896",
-                    "reference": "a0ef2011154432d1f5d09a1632bd104277874896",
+                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/040de7060677038aeb78ba0eb3253325f632f66f",
+                    "reference": "040de7060677038aeb78ba0eb3253325f632f66f",
                     "shasum": ""
                 },
                 "require": {
                     "ext-ffi": "*",
-                    "ingenerator/php-utils": "^1.17 || ^2.0",
+                    "ingenerator/php-utils": "^1.17 || ^2.0 || ^3.0",
                     "jcupitt/vips": "^2.1",
-                    "php": "~8.4.0",
-                    "symfony/process": "^7.0"
+                    "php": "~8.5.0",
+                    "symfony/process": "^7.0 || ^8.0"
                 },
                 "require-dev": {
                     "ergebnis/phpunit-slow-test-detector": "^2.6",
-                    "phpunit/phpunit": "^11.0",
-                    "symfony/filesystem": "^7.0"
+                    "phpunit/phpunit": "^13.4",
+                    "symfony/filesystem": "^7.0 || ^8.0"
                 },
-                "time": "2025-07-23T08:51:15+00:00",
+                "time": "2026-11-18T15:47:00+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -7644,61 +7751,7 @@
                 ],
                 "description": "libvips image processing library",
                 "support": {
-                    "source": "https://github.com/ingenerator/image-processing/tree/v2.3.0",
-                    "issues": "https://github.com/ingenerator/image-processing/issues"
-                }
-            },
-            "dev-update-asserted-images": {
-                "name": "ingenerator/image-processing",
-                "version": "dev-update-asserted-images",
-                "version_normalized": "dev-update-asserted-images",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/image-processing.git",
-                    "reference": "c5d7d27d8ee32d6d1036ca93c869a09f1a7da764"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/image-processing/zipball/c5d7d27d8ee32d6d1036ca93c869a09f1a7da764",
-                    "reference": "c5d7d27d8ee32d6d1036ca93c869a09f1a7da764",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ffi": "*",
-                    "ingenerator/php-utils": "^1.17 || ^2.0",
-                    "jcupitt/vips": "^2.1",
-                    "php": "~8.4.0",
-                    "symfony/process": "^7.0"
-                },
-                "require-dev": {
-                    "ergebnis/phpunit-slow-test-detector": "^2.6",
-                    "phpunit/phpunit": "^11.0",
-                    "symfony/filesystem": "^7.0"
-                },
-                "time": "2026-08-26T17:08:04+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\ImageProcessing\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "test\\": "test/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com"
-                    }
-                ],
-                "description": "libvips image processing library",
-                "support": {
-                    "source": "https://github.com/ingenerator/image-processing/tree/update-asserted-images",
+                    "source": "https://github.com/ingenerator/image-processing/tree/v2.4.0",
                     "issues": "https://github.com/ingenerator/image-processing/issues"
                 }
             }
@@ -19591,6 +19644,72 @@
                     "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
                 }
             },
+            "v4.0.0": {
+                "name": "ingenerator/warden-ui-kohana",
+                "version": "v4.0.0",
+                "version_normalized": "4.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
+                    "reference": "6c07b3bb1efbc0f531c23a6198c6ab46d9c38c73"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/6c07b3bb1efbc0f531c23a6198c6ab46d9c38c73",
+                    "reference": "6c07b3bb1efbc0f531c23a6198c6ab46d9c38c73",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^4.0",
+                    "ingenerator/kohana-view": "^5.0",
+                    "ingenerator/pigeonhole": "^1.5",
+                    "ingenerator/tokenista": "^1.4",
+                    "ingenerator/warden-core": "^2.1.1",
+                    "ingenerator/warden-persistence-doctrine": "^2.0",
+                    "php": ">=8.4 <8.7",
+                    "symfony/mailer": "^7.2 || ^8.1"
+                },
+                "conflict": {
+                    "egulias/email-validator": "<3.2.1"
+                },
+                "require-dev": {
+                    "ergebnis/phpunit-slow-test-detector": "^2.15",
+                    "phpunit/phpunit": "^13.4"
+                },
+                "suggest": {
+                    "ingenerator/kohana-dependencies": "Dependency container for kohana"
+                },
+                "time": "2026-11-18T13:30:05+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Warden\\UI\\Kohana\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    },
+                    {
+                        "name": "Craig Gosman",
+                        "email": "craig@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Front-end and kohana application integration for Warden",
+                "homepage": "https://github.com/ingenerator/warden-ui-kohana",
+                "support": {
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v4.0.0",
+                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
+                }
+            },
             "v4.0.0-ALPHA": {
                 "name": "ingenerator/warden-ui-kohana",
                 "version": "v4.0.0-ALPHA",
@@ -19746,87 +19865,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "74412140af74f1ff48153c5ded22446a219ffda7"
+                    "reference": "6c07b3bb1efbc0f531c23a6198c6ab46d9c38c73"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/74412140af74f1ff48153c5ded22446a219ffda7",
-                    "reference": "74412140af74f1ff48153c5ded22446a219ffda7",
-                    "shasum": ""
-                },
-                "require": {
-                    "composer/installers": "^1.9 || ^2.0",
-                    "ext-json": "*",
-                    "ingenerator/kohana-core": "^4.7",
-                    "ingenerator/kohana-extras": "^3.1",
-                    "ingenerator/kohana-view": "^5.0@alpha",
-                    "ingenerator/tokenista": "^1.4",
-                    "ingenerator/warden-core": "^2.1.1",
-                    "ingenerator/warden-persistence-doctrine": "^2.0",
-                    "php": ">=8.4 <8.5",
-                    "symfony/mailer": "^7.2"
-                },
-                "conflict": {
-                    "egulias/email-validator": "<3.2.1"
-                },
-                "require-dev": {
-                    "johnkary/phpunit-speedtrap": "^3.3",
-                    "kohana/koharness": "dev-master",
-                    "phpunit/phpunit": "^9.6.23"
-                },
-                "suggest": {
-                    "ingenerator/kohana-dependencies": "Dependency container for kohana"
-                },
-                "time": "2025-11-04T13:35:24+00:00",
-                "default-branch": true,
-                "type": "library",
-                "extra": {
-                    "installer-paths": {
-                        "vendor/{$vendor}/{$name}": [
-                            "type:kohana-module"
-                        ]
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Ingenerator\\Warden\\UI\\Kohana\\": "src/"
-                    }
-                },
-                "license": [
-                    "BSD-3-Clause"
-                ],
-                "authors": [
-                    {
-                        "name": "Andrew Coulton",
-                        "email": "andrew@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    },
-                    {
-                        "name": "Craig Gosman",
-                        "email": "craig@ingenerator.com",
-                        "homepage": "https://ingenerator.com"
-                    }
-                ],
-                "description": "Front-end and kohana application integration for Warden",
-                "homepage": "https://github.com/ingenerator/warden-ui-kohana",
-                "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v4.0.0-ALPHA2",
-                    "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
-                }
-            },
-            "dev-support-php85": {
-                "name": "ingenerator/warden-ui-kohana",
-                "version": "dev-support-php85",
-                "version_normalized": "dev-support-php85",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/ingenerator/warden-ui-kohana.git",
-                    "reference": "2387eb5dfb87b72148c60deed474eb28b769e4b6"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/2387eb5dfb87b72148c60deed474eb28b769e4b6",
-                    "reference": "2387eb5dfb87b72148c60deed474eb28b769e4b6",
+                    "url": "https://api.github.com/repos/ingenerator/warden-ui-kohana/zipball/6c07b3bb1efbc0f531c23a6198c6ab46d9c38c73",
+                    "reference": "6c07b3bb1efbc0f531c23a6198c6ab46d9c38c73",
                     "shasum": ""
                 },
                 "require": {
@@ -19834,6 +19878,7 @@
                     "ingenerator/kohana-core": "^4.7",
                     "ingenerator/kohana-extras": "^4.0",
                     "ingenerator/kohana-view": "^5.0",
+                    "ingenerator/pigeonhole": "^1.5",
                     "ingenerator/tokenista": "^1.4",
                     "ingenerator/warden-core": "^2.1.1",
                     "ingenerator/warden-persistence-doctrine": "^2.0",
@@ -19850,7 +19895,8 @@
                 "suggest": {
                     "ingenerator/kohana-dependencies": "Dependency container for kohana"
                 },
-                "time": "2026-11-11T09:57:32+00:00",
+                "time": "2026-11-18T13:30:05+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -19875,7 +19921,7 @@
                 "description": "Front-end and kohana application integration for Warden",
                 "homepage": "https://github.com/ingenerator/warden-ui-kohana",
                 "support": {
-                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/support-php85",
+                    "source": "https://github.com/ingenerator/warden-ui-kohana/tree/v4.0.0",
                     "issues": "https://github.com/ingenerator/warden-ui-kohana/issues"
                 }
             }
