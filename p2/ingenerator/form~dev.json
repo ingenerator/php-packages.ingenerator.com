@@ -91,7 +91,6 @@
                     "ingenerator/showgroup": "javascript support to show/hide form sections based on values"
                 },
                 "time": "2025-07-22T17:09:27+00:00",
-                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "installer-paths": {
@@ -119,6 +118,67 @@
                 "homepage": "https://github.com/ingenerator/form",
                 "support": {
                     "source": "https://github.com/ingenerator/form/tree/v2.1.0",
+                    "issues": "https://github.com/ingenerator/form/issues"
+                }
+            },
+            {
+                "name": "ingenerator/form",
+                "version": "3.x-dev",
+                "version_normalized": "3.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/form.git",
+                    "reference": "5c0a0e1c3c8a19e1ce9fbf87c24fc17356db1bd4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/form/zipball/5c0a0e1c3c8a19e1ce9fbf87c24fc17356db1bd4",
+                    "reference": "5c0a0e1c3c8a19e1ce9fbf87c24fc17356db1bd4",
+                    "shasum": ""
+                },
+                "require": {
+                    "ingenerator/kohana-core": "^4.7",
+                    "ingenerator/kohana-extras": "^2.0 || ^3.0",
+                    "ingenerator/php-utils": "^2.0",
+                    "php": "~8.2.0 || ~8.3.0 || ~8.4.0"
+                },
+                "require-dev": {
+                    "ergebnis/phpunit-slow-test-detector": "^2.15",
+                    "kohana/koharness": "dev-master",
+                    "phpunit/phpunit": "^11.5"
+                },
+                "suggest": {
+                    "ingenerator/showgroup": "javascript support to show/hide form sections based on values"
+                },
+                "time": "2026-11-19T16:32:43+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "installer-paths": {
+                        "vendor/{$vendor}/{$name}": [
+                            "type:kohana-module"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\Form\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Schema-based form rendering / interaction",
+                "homepage": "https://github.com/ingenerator/form",
+                "support": {
+                    "source": "https://github.com/ingenerator/form/tree/3.x",
                     "issues": "https://github.com/ingenerator/form/issues"
                 }
             },

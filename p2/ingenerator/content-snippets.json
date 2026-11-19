@@ -880,6 +880,57 @@
             },
             {
                 "name": "ingenerator/content-snippets",
+                "version": "v3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ingenerator/content-snippets.git",
+                    "reference": "d0407939251e7203c08683d862a1e850866d0b8c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/ingenerator/content-snippets/zipball/d0407939251e7203c08683d862a1e850866d0b8c",
+                    "reference": "d0407939251e7203c08683d862a1e850866d0b8c",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/orm": "^2.20 || ^3.0",
+                    "ezyang/htmlpurifier": "^4.19.1",
+                    "ingenerator/kohana-core": "^4.14",
+                    "ingenerator/kohana-extras": "^4.0",
+                    "ingenerator/kohana-view": "^5.0",
+                    "php": ">=8.4 <8.6"
+                },
+                "require-dev": {
+                    "ext-mbstring": "*",
+                    "phpunit/phpunit": "^13.4"
+                },
+                "time": "2026-11-19T16:33:26+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Ingenerator\\ContentSnippets\\": "src/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Andrew Coulton",
+                        "email": "andrew@ingenerator.com",
+                        "homepage": "https://ingenerator.com"
+                    }
+                ],
+                "description": "Entities and management interface for pre-defined editable content snippets to display in the app",
+                "homepage": "https://github.com/ingenerator/content-snippets",
+                "support": {
+                    "source": "https://github.com/ingenerator/content-snippets/tree/v3.0.0",
+                    "issues": "https://github.com/ingenerator/content-snippets/issues"
+                }
+            },
+            {
+                "name": "ingenerator/content-snippets",
                 "version": "v3.0.0-ALPHA",
                 "version_normalized": "3.0.0.0-alpha",
                 "source": {
